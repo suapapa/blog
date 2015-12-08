@@ -1,9 +1,12 @@
 baseurl = "http://suapapa.github.io/blog/"
 languageCode = "en-us"
 title = "Homin Lee's blog"
+theme = "heather-hugo"
 
 [taxonomies]
   tag = "tags"
 
 [params]
   description = "Hacking logs"
+  GoogleAnalyticsUserID = "UA-65909718-2"
+

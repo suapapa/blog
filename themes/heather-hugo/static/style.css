@@ -15,7 +15,6 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
   display: block;
 }
 
-
 body {
   color: #333;
   font-size: 100%;
@@ -47,6 +46,13 @@ small, .small { font-size: 16px; }
 a { color: #09c; text-decoration: none; }
 a:hover { color: #069; }
 h1 a { color: #333;}
+
+footer {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 32px 5% 64px 5%;
+}
 
 .wrap {
   width: 90%;

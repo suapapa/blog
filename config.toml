@@ -1,3 +1,9 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://suapapa.github.io/blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Homin Lee's blog"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  description = "Hacking logs"

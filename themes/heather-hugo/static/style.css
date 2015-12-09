@@ -1,5 +1,10 @@
 /* Styles for Heather - A Hyperminimal Jekyll Theme */
 
+/* Fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css); */
+
 /* BASSCSS Reset - http://jxnblk.github.io/basscss */
 body, h1, h2, h3, h4, h5, h6, dl, ol, ul, p,
 button, input, select, textarea {
@@ -19,7 +24,7 @@ body {
   color: #333;
   font-size: 100%;
   line-height: 1.75;
-  font-family: 'Merriweather', serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 h1, h2, h3, h4, h5, h6 { line-height: 1.25; }

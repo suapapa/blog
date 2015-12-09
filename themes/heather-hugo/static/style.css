@@ -35,7 +35,7 @@ p, .p {
   font-size: 18px;
   margin-bottom: 32px;
 }
-ul, .ul { margin-bottom: 24px; }
+ul, .ul { margin-bottom: 32px; }
 small, .small { font-size: 16px; }
 
 @media screen and (min-width: 640px) {

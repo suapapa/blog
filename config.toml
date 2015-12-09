@@ -7,6 +7,6 @@ theme = "heather-hugo"
   tag = "tags"
 
 [params]
-  description = "Arbitary hacking logs"
+  description = "Arbitrary hacking logs"
   GoogleAnalyticsUserID = "UA-65909718-2"
 

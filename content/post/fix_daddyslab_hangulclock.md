@@ -30,7 +30,7 @@ title = "대디스랩 한글시계 시간 맞추기"
 
 예를 들어 14시 31분으로 설정하시려면
 
-    #S141300
+    #S143100
 
 을 써 주시면 됩니다. 제대로 되었다면 시리얼 터미널에 `OK`가 떨어질 겁니다.
 
@@ -47,7 +47,7 @@ title = "대디스랩 한글시계 시간 맞추기"
 <iframe width="420" height="315" src="https://www.youtube.com/embed/vwLqCZjPDmA" frameborder="0" allowfullscreen></iframe>
 
 해 보니 시리얼 라이브러리가 cgo에 엮여 있어서 리눅스에서 맥 용으로 크로스컴파일이
-안됩니다. 대시 고 개발환경을 설치하시고,
+안 되네요. -바이너리 배포는 물건너 가고,- 대신 고 개발환경을 설치하시고,
 
     go get github.com/suapapa/tools/blob/master/hcc
 

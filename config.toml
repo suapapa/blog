@@ -1,7 +1,7 @@
 baseurl = "http://suapapa.github.io/blog/"
 languageCode = "en-us"
 title = "Homin Lee's blog"
-theme = "heather-hugo"
+theme = "blueberry-detox"
 
 [taxonomies]
   tag = "tags"

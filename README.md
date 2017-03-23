@@ -41,14 +41,22 @@ Run Hugo server:
 
 ## ngnix
 
-Run static site:
+Generate static htmls with Hugo.
 
     $ hugo -b http://127.0.0.1
-    $ docker run --name suapapablog \
-        -p 80:80 \
-        -v $PWD/public:/usr/share/nginx/html:ro \
-        -d \
-        nginx:alpine
+
+Run static site:
+
+    $ docker rmi suapapa/blog
+    $ docker build -t suapapa/blog .
+    $ docker run -it --rm -p 80:80 suapapa/blog
+
+Tag and push:
+
+    $ docker tag suapapa/blog suapapa/blog:20170323
+    $ docker login
+    ...
+    $ docker push suapapa/blog
 
 
 # Reference

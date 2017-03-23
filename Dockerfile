@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
-# add built html for static access
-ADD public/* /usr/share/nginx/html/
+# copy built html for static access
+COPY ./public/ /usr/share/nginx/html/
 
 EXPOSE 80
 

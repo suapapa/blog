@@ -1,4 +1,4 @@
-baseurl = "http://suapapa.github.io/blog/"
+baseurl = "http://blog.suapapa.net/"
 languageCode = "en-us"
 title = "Homin Lee's blog"
 theme = "blueberry-detox"

@@ -58,6 +58,30 @@ Tag and push:
     ...
     $ docker push suapapa/blog
 
+## deploy in GKE
+
+Build image and push it to dockerhub
+
+    $ docker build -t suapapa/blog:20170406v2 .
+    $ docker push suapapa/blog:20170406v2
+
+Login into gcloud:
+
+    $ gcloud auth application-default login
+
+Creage new deployment:
+
+    $ kubectl run blog --image=suapapa/blog:20170406v2 --port=80
+
+Allow external traffic
+
+    $ kubectl expose deployment blog --type=LoadBalancer
+
+Upgrade image on deployment:
+
+    $ kubectl set image deployment/blog blog=suapapa/blog:20170406v2
+    deployment "blog" image updated
+
 
 # Reference
 

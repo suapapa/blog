@@ -79,9 +79,8 @@ Allow external traffic
 
 Upgrade image on deployment:
 
-    $ kubectl set image deployment/blog blog=suapapa/blog:20170406v2
-    deployment "blog" image updated
-
+    $ kubectl set image deployment/blog \
+          blog=suapapa/blog:20170406v2
 
 # Reference
 

@@ -5,6 +5,8 @@ draft = true
 
 +++
 
+https://www.crowdsupply.com/soniktech/e-paper-shield-kit
+
 라즈베리 파이에 커널을 컴파일 해서 집어 넣는 과정을 해 보겠습니다.
 우선 라즈베리 파이의 커널을 받습니다.
 

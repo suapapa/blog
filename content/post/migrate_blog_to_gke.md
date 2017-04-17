@@ -14,6 +14,7 @@ title = "블로그 구글컨테이너엔진(GKE)으로 이전"
 대상은 도커에 어느정도 익숙하고, 오케스트레이션은 익숙하지 않은 분들 입니다. (제 상태)
 
 다음 두 문서를 참조하였습니다:
+
 * [Quicksart for Google Container Engine](https://cloud.google.com/container-engine/docs/quickstart)
 * [Running WordPress with a Single Pod](https://cloud.google.com/container-engine/docs/tutorials/hello-wordpress)
 
@@ -168,3 +169,11 @@ gcloud와 연결이 끊어진 것 같으면 아래 명령어를 사용해 생성
     $ kubectl get service blog
     NAME      CLUSTER-IP      EXTERNAL-IP     PORT(S)        AGE
     blog      10.67.253.110   146.148.50.52   80:30278/TCP   11d
+
+# 결론
+
+물리적인 서버를 관리할 필요가 없다는 점과 언제든지 다른 브랜드의 컨테이너 서비스로 옮길 수
+있다는 것이 장점이긴 하나, 매번 이렇게 이미지를 빌드해서 올리는 건 잘못된 best practice
+인 것 같네요.
+
+다음에는 volume을 써서 어떻게 좀 해 봐야 겠습니다.

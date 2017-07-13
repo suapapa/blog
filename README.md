@@ -20,6 +20,14 @@ Deploy to gh-pages:
     $ git init . && git add . && git commit -m "update at 20161122"
     $ git push -f https://github.com/suapapa/blog master:gh-pages
 
+# Using digital ocean
+
+    $ hugo 
+    $ scp -r public/ blog.suapapa.net:~/
+
+> TODO: rsync over ssh
+
+
 # Using docker
 
 ## jojomi/hugo
@@ -58,7 +66,7 @@ Tag and push:
     ...
     $ docker push suapapa/blog
 
-## deploy in GKE
+## deploy to GKE
 
 Build image and push it to dockerhub
 

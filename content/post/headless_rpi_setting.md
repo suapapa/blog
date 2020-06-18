@@ -11,7 +11,7 @@ RaspberryPi 사이트에는 모니터와 키보드 다 붙여서 개인용 컴�
 
 ## 준비물
 
-![rpi2](/img/rpi2_1024.jpg)
+![rpi2](/blog/img/rpi2_1024.jpg)
 
 * RaspberryPi
 * USB Wifi 모듈 (Rpi2 이하인 경우에만)
@@ -38,7 +38,7 @@ dd로 이미지를 밀어 넣습니다. `sync` 빼먹지 말고 실행해 줍니
     $ sync
 
 이 과정을 거치면 다음과 같이 MBR, FAT 파일시스템의 부트 영역, EXT4 파일시스템의 루트 영역으로 파티션이 나뉘어 집니다.
-![rpi fused disk](/img/rpi_fused_disk_1024.jpg)
+![rpi fused disk](/blog/img/rpi_fused_disk_1024.jpg)
 
 > 루트 영역은 첫 부팅시 SD카드의 크기에 맞게 자동으로 늘어납니다.
 

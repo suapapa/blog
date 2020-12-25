@@ -53,7 +53,6 @@ dd로 이미지를 밀어 넣습니다. `sync` 빼먹지 말고 실행해 줍니
 GUI 데스크탑 환경을 쓰지 않을 것이기 때문에 더 많은 메모리를 CPU에서 사용할 수
 있게 됩니다.
 
-
 ### wifi 설정
 
 다음 링크, [SETTING WIFI UP VIA THE COMMAND LINE](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)를 참조해 루트영역의 `etc/wpa_supplicant/wpa_supplicant.conf` 파일의
@@ -89,7 +88,7 @@ pi 계정의 기본 패스워드는 `raspberry`
 
 > 이거 최근부터 문제가 되고 있는데, 왜 그런지는 안 찾아 봤어요.
 
-# Go 컴파일러 설치
+## Go 컴파일러 설치
 
 > 최근부터 [공식홈](https://golang.org)에서 ARMv6용 컴파일러 바이너리를
 > 제공합니다. 핵편함.

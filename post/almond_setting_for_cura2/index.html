@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+        <meta name="keywords" content="awesome, definitely">
+	
+        <meta property="og:site_name" content="Homin Lee&#39;s blog">
+        <meta property="og:title" content="Homin Lee&#39;s blog">
+        <meta property="og:url" content="http://blog.suapapa.net/post/almond_setting_for_cura2/">
+        <meta property="og:description" content="Arbitrary hacking logs">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="" />
+        <meta property="og:article:published_time" content="2017-04-24T10:24:34&#43;09:00" />
+    
+        <meta name="generator" content="Hugo 0.72.0" />
+        <title>3D 프린터 알몬드를 위한 CURA2 설정 &middot; Homin Lee&#39;s blog </title>
+        <link rel="icon" href="http://blog.suapapa.net/favicon.png" />
+        <link rel="canonical" href="http://blog.suapapa.net/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type='text/css' href="http://blog.suapapa.net/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="http://blog.suapapa.net/" alt="Homin Lee&#39;s blog"><h1 class="blog-title heading">Homin Lee&#39;s blog</h1></a>
+            <p class="blog-description">Arbitrary hacking logs</p>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+		<article class="post">
+	<header class="post-header">
+        <h3 class="p-post-title">3D 프린터 알몬드를 위한 CURA2 설정</h3>
+    </header>
+
+    <section class="post-content">
+        <p>3D 모델을 프린팅 하려면 슬라이서 프로그램을 통해 <code>.stl</code>파일을
+<code>.gcode</code>파일로 변형하는 작업(CAM?)이 필요합니다.</p>
+<p>이런 슬라이서중에 가장 유명한 것이
+<a href="https://ultimaker.com/en/products/cura-software">Cura</a>로
+무료 소프트웨어이고, 멀티 플렛폼을 지원하지만(심지어 리눅스도),</p>
+<p>오픈크리에이터스의 3D 프린턴 ALMOND는 국내에 꽤나 보급이 되어 있는
+3D 프린터 입니다.</p>
+<p>ALMOND에 맞게 설정하려면 3D 프린터의 정보를 넣어 machine을 등록할 필요가 있습니다.
+오픈크리에이터스에서는 자사 제품을 등록한 Cura를 제공하고 있지만,
+리눅스에서 안 되고, Cura 2.x 버젼은 제공하지 않고 있습니다.</p>
+<p>그래서 한 번 해 봤습니다.</p>
+<hr>
+<p><a href="https://ultimaker.com/en/products/cura-software">Cura 다운로드페이지</a>
+최신 버젼을 다운 받습니다.</p>
+<blockquote>
+<p>이 포스팅을 작성할 당시 2.5</p>
+</blockquote>
+<h1 id="프린터-추가">프린터 추가</h1>
+<p>Cura2에서는 Almond 설정이 기본 내제되어 있지 않기 때문에 <em>Custom FDM printer</em> 를
+추가해 줍니다. 제 경우 <code>OPC Almond</code> 라는 이름으로 추가하였습니다.</p>
+<p><img src="/blog/img/cura2_add_printer_01.png" alt="cura2_add_printer_01"></p>
+<p>프린팅 가능 면적및 프린터 헤드 사이즈 설정, start/end gcode 수정:</p>
+<p><img src="/blog/img/cura2_add_printer_02.png" alt="cura2_add_printer_02"></p>
+<h1 id="필라멘트에-따른-프로파일-설정">필라멘트에 따른 프로파일 설정</h1>
+<p>필라멘트 재료에 따른 설정을 해 줍니다.</p>
+<p><img src="/blog/img/cura2_custom_setting.jpg" alt="cura2_custom_setting"></p>
+<p>국내에선 1.75mm 필라멘트를 주로 사용하므로 이와 함께 온도등을 설정해
+프로파일로 미리 저장해 둡니다.</p>
+<p><img src="/blog/img/cura2_profile.png" alt="cura2_profile"></p>
+<h1 id="마침">마침</h1>
+<p>각 설정 값은 국립과천과학관, 무한상상실에 구비되어 있는 슬라이스 전용 노트북에서
+Almond의 프로파일로 저장된 값을 가져와 적용했습니다.</p>
+<p>3D 프린트 업체들이 자사 프린터의 파라미터를 내제한 소프트웨어를 제공하는 것도
+편리하고 좋은 방법이지만, 제 경우(리눅서) 처럼 범용 프로그램만을 경우를 대비해
+어떤 설정이 필요한지도 알려주면 좋을 것 같아요.</p>
+<p>그럼 20000.</p>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            
+            <p class="f-post-time"><time datetime="2017-04-24T10:24:34&#43;09:00">April 24, 2017</time></p>
+        </section>
+                        
+        <section class="f-2">
+            <section class="share">
+                <span>Share:
+                <a class="icon-twitter" href="http://twitter.com/share?text=3D%20%ed%94%84%eb%a6%b0%ed%84%b0%20%ec%95%8c%eb%aa%ac%eb%93%9c%eb%a5%bc%20%ec%9c%84%ed%95%9c%20CURA2%20%ec%84%a4%ec%a0%95&url=http%3a%2f%2fblog.suapapa.net%2fpost%2falmond_setting_for_cura2%2f"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.suapapa.net%2fpost%2falmond_setting_for_cura2%2f"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2fblog.suapapa.net%2fpost%2falmond_setting_for_cura2%2f"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                </span>
+            </section>
+
+            
+        </section>
+                
+        <section id="comments">
+            <div id="disqus_thread" class="post-comments"></div>
+            <script type="text/javascript">
+              if (window.location.hostname != "localhost") {
+                var disqus_shortname = 'hominleesblog';
+                (function() {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              }
+            </script>
+            <noscript>
+              Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+        </section>
+                
+    </footer>
+</article>
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <a href="http://blog.suapapa.net/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="http://blog.suapapa.net/"></a> 2015-2016 | Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved</section>
+            <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://blog.suapapa.net/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+    <script>
+        var _gaq=[['_setAccount','UA-65909718-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+        <meta name="keywords" content="awesome, definitely">
+	
+        <meta property="og:site_name" content="Homin Lee&#39;s blog">
+        <meta property="og:title" content="Homin Lee&#39;s blog">
+        <meta property="og:url" content="http://blog.suapapa.net/post/kosscon2016_golang_iot_tutorial/">
+        <meta property="og:description" content="Arbitrary hacking logs">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="" />
+        <meta property="og:article:published_time" content="2016-11-10T13:20:18&#43;09:00" />
+    
+        <meta name="generator" content="Hugo 0.72.0" />
+        <title>KOSSCON2016: Go IoT programming &middot; Homin Lee&#39;s blog </title>
+        <link rel="icon" href="http://blog.suapapa.net/favicon.png" />
+        <link rel="canonical" href="http://blog.suapapa.net/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type='text/css' href="http://blog.suapapa.net/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="http://blog.suapapa.net/" alt="Homin Lee&#39;s blog"><h1 class="blog-title heading">Homin Lee&#39;s blog</h1></a>
+            <p class="blog-description">Arbitrary hacking logs</p>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+		<article class="post">
+	<header class="post-header">
+        <h3 class="p-post-title">KOSSCON2016: Go IoT programming</h3>
+    </header>
+
+    <section class="post-content">
+        <h2 id="goal">Goal</h2>
+<p>Learn how to make a program in Go
+which display RaspberryPi&rsquo;s IP to an OLED display on boot.</p>
+<p>You need:</p>
+<ul>
+<li>Linux host</li>
+<li>RaspberryPi board (and USB-wifi module)</li>
+<li>2 LEDs</li>
+<li>I2C OLED module</li>
+</ul>
+<h2 id="setup-go-development-environment">Setup Go development environment</h2>
+<h3 id="install-go-compiler">Install Go compiler</h3>
+<ul>
+<li><a href="https://golang.org/dl/">Download Go</a></li>
+</ul>
+<p>Setup path to <code>GOROOT</code> and <code>GOPATH</code></p>
+<pre><code>export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+</code></pre>
+<p>Add following to your <code>.bashrc</code></p>
+<pre><code>export PATH=$GOROOT/bin:$PATH
+export PATH=$GOPATH/bin:$PATH
+export CDPATH=.:$GOPATH/src/github.com/
+</code></pre>
+<h3 id="install-atom-editor">Install Atom editor</h3>
+<ul>
+<li><a href="https://atom.io/">Install Atom editor</a></li>
+</ul>
+<p>Install atom packages <a href="https://atom.io/packages/go-plus">go-plus</a>:</p>
+<pre><code>$ apm install go-plus
+</code></pre>
+<h3 id="hello-world">Hello world</h3>
+<pre><code>$ mkdir hello
+$ atom main.go
+...
+$ go build
+$ ./hello
+</code></pre>
+<p><code>src/hello.go</code></p>
+<h3 id="download-and-run-a-go-program">Download and run a Go program</h3>
+<pre><code>$ go get -u github.com/suapapa/tools/myip
+$ myip
+IP: 192.168.0.181
+</code></pre>
+<p>Where is the executable:</p>
+<pre><code>$ which myip
+$GOPATH/bin/myip
+</code></pre>
+<p>Where is the source:</p>
+<pre><code>$ cd $GOPATH/src/github.com/suapapa/tools/myip
+</code></pre>
+<h2 id="install-raspbian-to-raspberrypi">Install raspbian to RaspberryPi</h2>
+<ul>
+<li><a href="https://www.raspberrypi.org/downloads/raspbian/">Download raspbian</a></li>
+</ul>
+<p>Setup wifi:</p>
+<pre><code>$ sudo vi etc/wpa_supplicant/wpa_supplicant.conf
+...
+network={
+    ssid=&quot;IPA1&quot;
+    psk=&quot;ipa56789&quot;
+}
+
+$ sudo ifdown wlan0; sudo ifup wlan0
+</code></pre>
+<p>Send IP to server. replace <code>192.168.0.181</code> to your host IP</p>
+<pre><code>$ sudo vi etc/rc.local
+...
+if [ &quot;$_IP&quot; ]; then
+  printf &quot;My IP address is %s\n&quot; &quot;$_IP&quot;
+  echo &quot;My IP address is $_IP&quot; | nc 192.168.0.181 8081
+fi
+</code></pre>
+<h2 id="cross-compile-go-program">Cross compile Go program</h2>
+<h3 id="download-a-go-program">Download a Go program</h3>
+<p>Compile it for host OS and Architecture:</p>
+<pre><code>$ cd $GOPATH/src/github.com/suapapa/tools/myip
+$ go build
+$ file myip
+myip: ELF 64-bit LSB executable, x86-64, version 1 (SYSV)...
+</code></pre>
+<h3 id="cross-compile-it">Cross compile it</h3>
+<p>Cross compile it for target OS and Architecture by setting <code>GOARCH</code> and <code>GOOS</code>:</p>
+<pre><code>$ GOARCH=arm GOOS=linux go build
+$ file myip
+myip: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV)...
+</code></pre>
+<p>Install the executable to the target:</p>
+<pre><code>$ scp myip pi@192.168.0.179:~/
+$ ssh pi@192.168.0.179
+</code></pre>
+<p>Run it from target:</p>
+<pre><code>$ ./myip
+IP: 192.168.0.181
+</code></pre>
+<h2 id="blinking-leds">Blinking LEDs</h2>
+<p><img src="/blog/img/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png" alt="Rpi Pinout"></p>
+<p>Wiring a LED to pin 13 and GND</p>
+<p><img src="/blog/img/grnled_01.jpg" alt="grnled_01">
+<img src="/blog/img/grnled_02.jpg" alt="grnled_02"></p>
+<h3 id="write-a-program-to-blink-a-led">Write a program to blink a LED</h3>
+<pre><code>$ go get github.com/davecheney/gpio
+$ go doc github.com/davecheney/gpio
+</code></pre>
+<p><code>example/blink/main.go</code></p>
+<pre><code>package main
+
+import (
+    &quot;time&quot;
+
+    &quot;github.com/davecheney/gpio&quot;
+)
+
+func main() {
+    grn, _ := gpio.OpenPin(13, gpio.ModeOutput)
+    defer grn.Close()
+
+    // workaround for bug on initial mode
+    grn.SetMode(gpio.ModeInput)
+    grn.SetMode(gpio.ModeOutput)
+
+    for i := 0; i &lt; 5; i++ {
+        grn.Set()
+        time.Sleep(1 * time.Second)
+        grn.Clear()
+        time.Sleep(1 * time.Second)
+    }
+}
+</code></pre>
+<p>Compile it on host:</p>
+<pre><code>$ GOOS=linux GOARCH=arm go build
+$ scp blink pi@192.168.0.179:~/
+$ ssh pi@192.168.0.179
+</code></pre>
+<p>Run it on the target:</p>
+<pre><code>$ sudo ./blink
+</code></pre>
+<h3 id="write-a-program-to-blink-two-leds-in-diffrent-interval">Write a program to blink two LEDs in diffrent interval</h3>
+<p><em>TODO:</em> <a href="https://www.youtube.com/watch?v=LrtdyKPryhg">video</a></p>
+<p><code>example/blink2/main.go</code></p>
+<h2 id="display-over-the-i2c">Display over the I2C</h2>
+<p>We will use <a href="http://www.waveshare.com/wiki/1.3inch_OLED_(B)">Waveshare - 1.3inch OLED (B)</a>
+module which have <a href="https://www.elecrow.com/download/SH1106%20datasheet.pdf">SH1106 driver</a></p>
+<p>This module support SPI and I2C. Set the module to use I2C.</p>
+<h3 id="enable-i2c-devfs-on-raspberrypi">Enable I2C devfs on RaspberryPi</h3>
+<pre><code>$ sudo raspi-config$ raspi-config
+</code></pre>
+<p>select <code>9 Advanced Options -&gt; A7 I2C -&gt; YES</code></p>
+<pre><code>$ lsmod | grep i2c
+i2c_bcm2708             5740  0
+i2c_dev                 6578  0
+$ ls /dev/i2c-1
+/dev/i2c-1
+</code></pre>
+<h3 id="wiring-oled-display">Wiring OLED Display</h3>
+<pre><code>OLED - RaspberryPi
+VCC  - 3V3
+GND  - GND
+DIN  - SDA
+CLK  - SCL
+RES  - 3V3
+</code></pre>
+<p><img src="/blog/img/oled_01.jpg" alt="oled_01">
+<img src="/blog/img/oled_02.jpg" alt="oled_02"></p>
+<p>Check the connection</p>
+<pre><code>$ sudo apt-get install i2c-tools
+$ i2cdetect 1
+WARNING! This program can confuse your I2C bus, cause data loss and worse!
+I will probe file /dev/i2c-1.
+I will probe address range 0x03-0x77.
+Continue? [Y/n]
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- --
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+30: -- -- -- -- -- -- -- -- -- -- -- -- 3c -- -- --
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+70: -- -- -- -- -- -- -- --
+</code></pre>
+<h3 id="write-a-program-to-display-a-gopher-on-the-display">Write a program to display a Gopher on the Display</h3>
+<p><img src="/blog/img/oled_03.jpg" alt="oled_03"></p>
+<p>Install depecdency packages:</p>
+<pre><code>$ go get -u github.com/suapapa/go_devices/sh1106
+</code></pre>
+<p>Write <code>example/oled_gopher/main.go</code>:</p>
+<pre><code>package main
+
+import (
+    &quot;image&quot;
+    &quot;image/png&quot;
+    &quot;os&quot;
+
+    &quot;github.com/suapapa/go_devices/sh1106&quot;
+    &quot;golang.org/x/exp/io/i2c&quot;
+)
+
+func main() {
+    l, err := sh1106.OpenI2C(&amp;i2c.Devfs{Dev: &quot;/dev/i2c-1&quot;}, 0x3C, nil)
+    if err != nil {
+        panic(err)
+    }
+    defer l.Close()
+
+    img, err := openPNG(&quot;gopher-side_128x64.png&quot;)
+    if err != nil {
+        panic(err)
+    }
+
+    l.DrawImage(img)
+    l.Display()
+}
+
+func openPNG(filename string) (image.Image, error) {
+    f, err := os.Open(filename)
+    if err != nil {
+        return nil, err
+    }
+    defer f.Close()
+
+    img, err := png.Decode(f)
+    if err != nil {
+        return nil, err
+    }
+
+    return img, nil
+}
+</code></pre>
+<p>Build and install:</p>
+<pre><code>$ GOOS=linux GOARCH=arm go build
+$ scp oled_gopher pi@192.168.0.179:~/
+$ scp gopher-side_128x64.png pi@192.168.0.179:~/
+</code></pre>
+<blockquote>
+<p>gopher image came from <a href="https://github.com/golang-samples/gopher-vector">https://github.com/golang-samples/gopher-vector</a></p>
+</blockquote>
+<h3 id="write-a-program-to-display-ip-on-the-display">Write a program to display IP on the Display</h3>
+<p><em>TODO:</em> <code>example/oled_ip/main.go</code></p>
+<pre><code>$ go get -u github.com/pbnjay/pixfont
+$ go doc pixfont
+</code></pre>
+<h2 id="contribute-to-an-go-packages">Contribute to an Go packages</h2>
+<p>Assume contribute to <code>github.com/origid/packagename</code>.</p>
+<blockquote>
+<p>Replace yourid to your id on github.
+Replace packagename to the actual package name.</p>
+</blockquote>
+<p>Fork it from Github to yourid&rsquo;s repository
+Add remote for user repository</p>
+<pre><code>$ cd $GOPATH/src/github.com/origid/packagename
+$ git remote add yourid https://github.com/yourid/packagename
+</code></pre>
+<p>Make some changes and commit it.
+And, push it to your repository.</p>
+<pre><code>$ git push yourid master:master
+</code></pre>
+<p>Make a pull request to original repository on github.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://golang.org/">Go</a></li>
+<li><a href="http://go-talks.appspot.com/github.com/rakyll/talks/pio/pio.slide">A Proposal: Peripheral I/O for Go</a></li>
+<li><a href="https://www.raspberrypi.org/">RaspberryPi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/I%C2%B2C">I2C</a></li>
+</ul>
+<p>Frameworks for Go IoT</p>
+<ul>
+<li><a href="https://gobot.io/">gobot</a></li>
+<li><a href="http://embd.kidoman.io/">embd</a></li>
+</ul>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            
+            <p class="f-post-time"><time datetime="2016-11-10T13:20:18&#43;09:00">November 10, 2016</time></p>
+        </section>
+                        
+        <section class="f-2">
+            <section class="share">
+                <span>Share:
+                <a class="icon-twitter" href="http://twitter.com/share?text=KOSSCON2016%3a%20Go%20IoT%20programming&url=http%3a%2f%2fblog.suapapa.net%2fpost%2fkosscon2016_golang_iot_tutorial%2f"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.suapapa.net%2fpost%2fkosscon2016_golang_iot_tutorial%2f"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2fblog.suapapa.net%2fpost%2fkosscon2016_golang_iot_tutorial%2f"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                </span>
+            </section>
+
+            
+        </section>
+                
+        <section id="comments">
+            <div id="disqus_thread" class="post-comments"></div>
+            <script type="text/javascript">
+              if (window.location.hostname != "localhost") {
+                var disqus_shortname = 'hominleesblog';
+                (function() {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              }
+            </script>
+            <noscript>
+              Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+        </section>
+                
+    </footer>
+</article>
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <a href="http://blog.suapapa.net/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="http://blog.suapapa.net/"></a> 2015-2016 | Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved</section>
+            <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://blog.suapapa.net/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+    <script>
+        var _gaq=[['_setAccount','UA-65909718-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+
+</body>
+</html>

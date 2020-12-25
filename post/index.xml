@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Homin Lee&#39;s blog</title>
+    <link>http://blog.suapapa.net/post/</link>
+    <description>Recent content in Posts on Homin Lee&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Dec 2020 12:25:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://blog.suapapa.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CKAD, 쿠버네티스 어플리케이션 개발자 자격증 합격 후기</title>
+      <link>http://blog.suapapa.net/post/journey_toward_ckad/</link>
+      <pubDate>Fri, 25 Dec 2020 12:25:00 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/journey_toward_ckad/</guid>
+      <description>2020년 3월 23일에 본 시험을 보고 -산타할아버지가 준 선물 처럼- 크리스마스 새벽에 합격 통지를 받았습니다.
+ CKAD: Certified Kubernetes Application Developer   CKAD 자격증은?  Certified Kubernetes Application Developer (CKAD)  쿠버네티스를 사용하는 -백앤드- 어플리케이션 개발자를 위한 자격증입니다.
+사전지식 제 경우 임베디드 개발자라 리눅스 환경에 익숙하고. 도커는 주로 개발환경 구축하는데 써 봤습니다.
+ 커맨드라인명령어들과 vim, tmux를 어느정도 쓸 줄 암 도커 명령어들에 어느정도 익숙함. 필요한 경우 Dockerfile을 만들어 본 경험도 있음.</description>
+    </item>
+    
+    <item>
+      <title>라즈베리파이로 KHAiii 크로스컴파일 하기</title>
+      <link>http://blog.suapapa.net/post/20200629_crosscompile_khaiii_for_rpi/</link>
+      <pubDate>Mon, 29 Jun 2020 21:56:40 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/20200629_crosscompile_khaiii_for_rpi/</guid>
+      <description>KHAiii 소스 다운로드;
+$ git clone https://github.com/kakao/khaiii $ cd khaiii  abhiTronix가 미리 빌드해 둔 툴체인을 사용합니다. 저는 라즈베리파이2 buster용 10.1.0 툴체인을 다운받아 ~/.local 밑에 풀었습니다.
+컴파일을 위해 build 디렉터리 생성;
+$ mkdir build &amp;amp;&amp;amp; cd $_  다음과 같이 다운받은 크로스툴체인을 가리키도록 파일을 생성:
+$ cat toolchain_rpi.arm.cmake SET(CMAKE_C_COMPILER /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-gcc) SET(CMAKE_CXX_COMPILER /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-g++) SET(CMAKE_LINKER /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-ld) SET(CMAKE_NM /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-nm) SET(CMAKE_OBJCOPY /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-objcopy) SET(CMAKE_OBJDUMP /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-objdump) SET(CMAKE_RANLIB /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-ranlib)  cmake를 실행해 Makefile 생성:
+$ cmake -E env CXXFLAGS=&amp;quot;-w&amp;quot; \ cmake \ -DCMAKE_TOOLCHAIN_FILE=.</description>
+    </item>
+    
+    <item>
+      <title>mosquitto로 MQTT 맛 보기</title>
+      <link>http://blog.suapapa.net/post/run_mosquitto/</link>
+      <pubDate>Thu, 01 Jun 2017 19:30:35 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/run_mosquitto/</guid>
+      <description>Mosquitto를 이용해 MQTT 프로토콜을 사용해 보겠습니다. 우분투 기준으로 다음의 두 패키지를 설치 합니다.
+$ sudo apt install mosquitto mosquitto-clienets  MQTT서버(또는 데몬)가 뜨고, 클라이언트(mosquitto_sub and mosquitto_pub)가 설치됩니다.
+기본적인 MQTT 통신: 터미널을 열어 home이라는 주제로 구독(subscribe)를 등록 합니다.
+$ mosquitto_sub -h 127.0.0.1 -t home  터미널을 새로 열고, home이라는 같은 주제로 발행(publish)을 하면;
+$ mosquitto_pub -h 127.0.0.1 -t home -m &amp;quot;temp 25&#39;C&amp;quot; $ mosquitto_pub -h 127.0.0.1 -t home -m &amp;quot;door open&amp;quot;  다음과 같이 첫 번 째 터미널에 발행한 메세지가 도착함을 알 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>라즈베리파이용 리눅스 커널 컴파일</title>
+      <link>http://blog.suapapa.net/post/compile_linux_for_rpi/</link>
+      <pubDate>Wed, 24 May 2017 10:23:08 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/compile_linux_for_rpi/</guid>
+      <description>이 문서에서는 디바이스 드라이버 추가 등 커널 커스텀을 위해 현재 사용중인 라즈베리파이 이미지에 맞는 커널을 골라 빌드 하는 방법을 다룹니다.
+ Upstream에서 Fork 하기 raspberrypi 의 커널은 https://github.com/raspberrtpy/linux 에 있습니다. 이 링크를 웹 브라우져로 접근해서, &amp;ldquo;Folk&amp;rdquo; 버튼을 누릅니다.
+그러면 https://github.com/YOURID/linux 라는 저장소가 생깁니다.
+ YOURID 대신 자신의 github ID를 입력합니다. 이 문서에서는 제 github ID인 suapapa를 사용하겠습니다.
+ 그리고, 거기서 부터 clone 합니다.
+$ mkdir -p ws/rpi &amp;amp;&amp;amp; cd $_ $ git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>3D 프린터 알몬드를 위한 CURA2 설정</title>
+      <link>http://blog.suapapa.net/post/almond_setting_for_cura2/</link>
+      <pubDate>Mon, 24 Apr 2017 10:24:34 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/almond_setting_for_cura2/</guid>
+      <description>3D 모델을 프린팅 하려면 슬라이서 프로그램을 통해 .stl파일을 .gcode파일로 변형하는 작업(CAM?)이 필요합니다.
+이런 슬라이서중에 가장 유명한 것이 Cura로 무료 소프트웨어이고, 멀티 플렛폼을 지원하지만(심지어 리눅스도),
+오픈크리에이터스의 3D 프린턴 ALMOND는 국내에 꽤나 보급이 되어 있는 3D 프린터 입니다.
+ALMOND에 맞게 설정하려면 3D 프린터의 정보를 넣어 machine을 등록할 필요가 있습니다. 오픈크리에이터스에서는 자사 제품을 등록한 Cura를 제공하고 있지만, 리눅스에서 안 되고, Cura 2.x 버젼은 제공하지 않고 있습니다.
+그래서 한 번 해 봤습니다.
+ Cura 다운로드페이지 최신 버젼을 다운 받습니다.</description>
+    </item>
+    
+    <item>
+      <title>라즈베리파이 설정과 고 컴파일러 설치</title>
+      <link>http://blog.suapapa.net/post/headless_rpi_setting/</link>
+      <pubDate>Wed, 19 Apr 2017 13:54:04 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/headless_rpi_setting/</guid>
+      <description>RaspberryPi 사이트에는 모니터와 키보드 다 붙여서 개인용 컴퓨터로 쓰는 용례가 주 지만, 착한 가격과 충분한 컴퓨팅 파워 덕에 모니터 없이(headless) IoT thing의 용도로도 종종 쓰입니다.
+이 포스팅에서는 모니터 없는 구성을 설정하는 방법을 남깁니다.
+준비물  RaspberryPi USB Wifi 모듈 (Rpi2 이하인 경우에만) Micro SD 카드  이미지 선택 (라즈베리 + 데비안 = ) RASPBIAN lite 버젼을 다운받습니다.
+ RASPBIAN download page  압축된 용량은 300MB 미만이며 압축 해제 후에는 1.3GB 정도로, 데스트탑 환경이 제외된 필수 패키지만 존재하는 버젼입니다.</description>
+    </item>
+    
+    <item>
+      <title>블로그 구글컨테이너엔진(GKE)으로 이전</title>
+      <link>http://blog.suapapa.net/post/migrate_blog_to_gke/</link>
+      <pubDate>Sun, 16 Apr 2017 15:24:31 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/migrate_blog_to_gke/</guid>
+      <description>도커 컨테이너는 클라우드 서비스 업체를 막론하고 사용할 수 있기에 사용자가 갑인 서비스 생태계를 만들어 주는 기술입니다.
+본 블로그는 Hugo를 사용한 정적 페이지만으로 운영되어 gh-page 로도 운영될 수 있지만, 미묘하게 baseURL 관련 문제로 사진들을 표시하려면 불편하여 도커 컨테이너를 지원하는 GKE로 이전을 해 보았습니다.
+대상은 도커에 어느정도 익숙하고, 오케스트레이션은 익숙하지 않은 분들 입니다. (제 상태)
+다음 두 문서를 참조하였습니다:
+ Quicksart for Google Container Engine Running WordPress with a Single Pod  두 문서는 거의 같은 시나리오로 양쪽에서 잘 설명되지 않은 부분을 교차 확인하는데 좋습니다.</description>
+    </item>
+    
+    <item>
+      <title>Digispark 보드로 ESC 페달 만들기</title>
+      <link>http://blog.suapapa.net/post/arduino_digispark_to_escpedal/</link>
+      <pubDate>Thu, 06 Apr 2017 15:17:30 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/arduino_digispark_to_escpedal/</guid>
+      <description>&amp;lsquo;Digispark USB Development Board&amp;rsquo;는 Attiny85칩을 기반으로 한 아두이노 호환 보드 입니다.
+ 공식 홈 링크  OSHW 이기 때문에 Aliexpress에서 호환 보드를 쉽고 싸게 구할 수 있다는 장점이 있습니다. 개 당 $1.5 미만!!
+보통의 아두이노 처럼 USB가 있긴 하지만 USB2Serial 기반이 아니라 스케치를 업로드 하기 전에 리셋을 하지 않으며, 보드를 뺀 상태로 업로드를 시작하고 보드를 연결하는 방법을 사용합니다.
+ USB3.0 포트와 궁합이 잘 맞지 않거나 하는 등의 문제가 있어서 잘 안되면 다른 허브의 포트를 써 보는 등의 작업이 필요합니다.</description>
+    </item>
+    
+    <item>
+      <title>고 언어에서 로컬 인코딩 cp949 처리하기</title>
+      <link>http://blog.suapapa.net/post/handling_cp949_in_go/</link>
+      <pubDate>Thu, 06 Apr 2017 11:56:53 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/handling_cp949_in_go/</guid>
+      <description>전에 보아두었던 Gophercon2016에서의 text처리(i18n, l10n) 패키지로 EUCKR 인/디코딩을 해 보았습니다.
+해당 슬라이드는 아래 링크입니다:
+ Handling Text from Around the World in Go  패키지 설치는 다음과 같이 하시고:
+$ go get -u golang.org/x/text/...  아래 코드처럼 utf8 -&amp;gt; euckr 로 변환 시 사용하실 수 있습니다:
+package main import ( &amp;quot;log&amp;quot; &amp;quot;golang.org/x/text/encoding/korean&amp;quot; &amp;quot;golang.org/x/text/transform&amp;quot; ) func main() { src := &amp;quot;아름다운 우리말&amp;quot; exp := &amp;quot;\xbe\xc6\xb8\xa7\xb4\xd9\xbf\xee \xbf\xec\xb8\xae\xb8\xbb&amp;quot; got, n, err := transform.String(korean.EUCKR.NewEncoder(), src) if err !</description>
+    </item>
+    
+    <item>
+      <title>KOSSCON2016: Go IoT programming</title>
+      <link>http://blog.suapapa.net/post/kosscon2016_golang_iot_tutorial/</link>
+      <pubDate>Thu, 10 Nov 2016 13:20:18 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/kosscon2016_golang_iot_tutorial/</guid>
+      <description>Goal Learn how to make a program in Go which display RaspberryPi&amp;rsquo;s IP to an OLED display on boot.
+You need:
+ Linux host RaspberryPi board (and USB-wifi module) 2 LEDs I2C OLED module  Setup Go development environment Install Go compiler  Download Go  Setup path to GOROOT and GOPATH
+export GOROOT=/usr/local/go export GOPATH=$HOME/go  Add following to your .bashrc
+export PATH=$GOROOT/bin:$PATH export PATH=$GOPATH/bin:$PATH export CDPATH=.:$GOPATH/src/github.com/  Install Atom editor  Install Atom editor  Install atom packages go-plus:</description>
+    </item>
+    
+    <item>
+      <title>라즈베리파이에서 전자잉크 패널 사용하기 (part 1)</title>
+      <link>http://blog.suapapa.net/post/eink_with_rpi_part1/</link>
+      <pubDate>Mon, 04 Jan 2016 20:31:56 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/eink_with_rpi_part1/</guid>
+      <description>최근 $5 라즈베리파이가 나오면서 다시 라즈베리파이에 대한 관심이 높아졌던 적이 있습니다. 가격만으로 보면 아두이노같은 마이컴을 쓰는 대신 라즈베리파이를 쓰는게 더 좋지 않냐는 질문도 종종 보입니다.
+하지만 라즈베리파이는 아두이노처럼 작고 쉬운 컴퓨터가 아닙니다. 되려 데스크탑PC 급의 강력한 컴퓨터에 가깝습니다. 해서, 라즈베리파이로 개발을 하려면 뭔가 좀 복잡합니다.
+제 경우 라즈베리파이의 쉘을 보기 위해 -시리얼 포트가 있긴 하지만- 디스플레이가 있으면 좋겠다는 생각이 들더군요.
+ 가장 쉬운 방법은 HDMI로 연결하는 것이지만 HDMI모니터라는 것들이 대게 대형이기 때문에 좀 번거롭습니다.</description>
+    </item>
+    
+    <item>
+      <title>대디스랩 한글시계 시간 맞추기</title>
+      <link>http://blog.suapapa.net/post/fix_daddyslab_hangulclock/</link>
+      <pubDate>Fri, 11 Dec 2015 22:45:52 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/fix_daddyslab_hangulclock/</guid>
+      <description>대디스랩 한글시계는 아래의 사이트들에서 구입하실 수 있습니다.
+ 펀샵 디바이스마트 대디스랩샾  제가 몇 대를 귀하신 분들께 드렸는데 시간이 안 맞는다는 피드백을 받았습니다. 제 자식인데 애물단지가 되면 마음이 아파서 조사를 좀 해 봤습니다.
+ 대디스랩 한글 시계는 제 한글시계를 기반으로 RTC, 설정버튼 등의 기능을 추가로 구현하였습니다. 네이버 까페에 공개한 내용을 제 저장소에 topic-daddyslab 브랜치에 머지해 두었으니, 아두이노에 익숙하신 분들을 새 스캐치를 빌드해 올려 보실 수도 있습니다.
+ 자동으로 시간을 맞추려면 시리얼(USB) 통신을 통해 한글시계에 현재 시간을 알려주면 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>New blog with HUGO</title>
+      <link>http://blog.suapapa.net/post/open_new_blog/</link>
+      <pubDate>Tue, 08 Dec 2015 21:30:15 +0900</pubDate>
+      
+      <guid>http://blog.suapapa.net/post/open_new_blog/</guid>
+      <description>블로그 다시 시작 합니다.
+ 이전 블로그는 여기에서 보실 수 있어요. suapapa&amp;rsquo;s blog
+ 기존 블로그를 접었던 이유는;
+ 홈 서버 호스팅이 공(비용)이 많이 듦 Wordpress, Linux, PHP, MySQL 버젼업을 다 따라가기 벅참 Markdown 쓰고 싶은데 잘 안됨 (별도 플러그인 필요)  이었는데, 사실은 그냥 귀찮아져서 였습니다.
+각설하고 새 블로그는 다음과 같이 구성되었습니다;
+ Github Pages HUGO  같은 구성으로 유명한 Jekyll이 있는데, 사용하려면 루비 개발 환경을 설치해야 하는 불편함이 있습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

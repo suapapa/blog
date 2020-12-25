@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Arbitrary hacking logs">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+        <meta name="keywords" content="awesome, definitely">
+	
+        <meta property="og:site_name" content="Homin Lee&#39;s blog">
+        <meta property="og:title" content="Homin Lee&#39;s blog">
+        <meta property="og:url" content="http://blog.suapapa.net/">
+        <meta property="og:description" content="Arbitrary hacking logs">
+    
+        <meta property="og:type" content="website" />
+    
+        <meta name="generator" content="Hugo 0.72.0" />
+        <title>Homin Lee&#39;s blog &middot; Homin Lee&#39;s blog </title>
+        <link rel="icon" href="http://blog.suapapa.net/favicon.png" />
+        <link rel="canonical" href="http://blog.suapapa.net/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.suapapa.net/index.xml">
+        <link rel="stylesheet" type='text/css' href="http://blog.suapapa.net/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="http://blog.suapapa.net/" alt="Homin Lee&#39;s blog"><h1 class="blog-title heading">Homin Lee&#39;s blog</h1></a>
+            <p class="blog-description">Arbitrary hacking logs</p>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/eink_with_rpi_part1/">라즈베리파이에서 전자잉크 패널 사용하기 (part 1)</a></h3>
+        <p class="post-time"><time datetime="2016-01-04T20:31:56&#43;09:00">January 4, 2016</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>최근 $5 라즈베리파이가 나오면서 다시 라즈베리파이에 대한 관심이 높아졌던 적이 있습니다. 가격만으로 보면 아두이노같은 마이컴을 쓰는 대신 라즈베리파이를 쓰는게 더 좋지 않냐는 질문도 종종 보입니다.
+하지만 라즈베리파이는 아두이노처럼 작고 쉬운 컴퓨터가 아닙니다. 되려 데스크탑PC 급의 강력한 컴퓨터에 가깝습니다. 해서, 라즈베리파이로 개발을 하려면 뭔가 좀 복잡합니다.
+제 경우 라즈베리파이의 쉘을 보기 위해 -시리얼 포트가 있긴 하지만- 디스플레이가 있으면 좋겠다는 생각이 들더군요.
+ 가장 쉬운 방법은 HDMI로 연결하는 것이지만 HDMI모니터라는 것들이 대게 대형이기 때문에 좀 번거롭습니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/eink_with_rpi_part1/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/fix_daddyslab_hangulclock/">대디스랩 한글시계 시간 맞추기</a></h3>
+        <p class="post-time"><time datetime="2015-12-11T22:45:52&#43;09:00">December 11, 2015</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>대디스랩 한글시계는 아래의 사이트들에서 구입하실 수 있습니다.
+ 펀샵 디바이스마트 대디스랩샾  제가 몇 대를 귀하신 분들께 드렸는데 시간이 안 맞는다는 피드백을 받았습니다. 제 자식인데 애물단지가 되면 마음이 아파서 조사를 좀 해 봤습니다.
+ 대디스랩 한글 시계는 제 한글시계를 기반으로 RTC, 설정버튼 등의 기능을 추가로 구현하였습니다. 네이버 까페에 공개한 내용을 제 저장소에 topic-daddyslab 브랜치에 머지해 두었으니, 아두이노에 익숙하신 분들을 새 스캐치를 빌드해 올려 보실 수도 있습니다.
+ 자동으로 시간을 맞추려면 시리얼(USB) 통신을 통해 한글시계에 현재 시간을 알려주면 됩니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/fix_daddyslab_hangulclock/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/open_new_blog/">New blog with HUGO</a></h3>
+        <p class="post-time"><time datetime="2015-12-08T21:30:15&#43;09:00">December 8, 2015</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>블로그 다시 시작 합니다.
+ 이전 블로그는 여기에서 보실 수 있어요. suapapa&rsquo;s blog
+ 기존 블로그를 접었던 이유는;
+ 홈 서버 호스팅이 공(비용)이 많이 듦 Wordpress, Linux, PHP, MySQL 버젼업을 다 따라가기 벅참 Markdown 쓰고 싶은데 잘 안됨 (별도 플러그인 필요)  이었는데, 사실은 그냥 귀찮아져서 였습니다.
+각설하고 새 블로그는 다음과 같이 구성되었습니다;
+ Github Pages HUGO  같은 구성으로 유명한 Jekyll이 있는데, 사용하려면 루비 개발 환경을 설치해야 하는 불편함이 있습니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/open_new_blog/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+	
+<nav role="pagination" class="pagination">
+  
+  <a href="/" class="newer-posts">
+    <i class="fa fa-angle-double-left"></i>&nbsp;Newer&nbsp;
+  </a>
+  
+	<span class="post-list-pagination-item post-list-pagination-item-current">Page 2 of 2</span>
+
+</nav>
+
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <a href="http://blog.suapapa.net/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="http://blog.suapapa.net/"></a> 2015-2016 | Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved</section>
+            <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://blog.suapapa.net/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+    <script>
+        var _gaq=[['_setAccount','UA-65909718-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+</body>
+</html>

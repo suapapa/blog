@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+        <meta name="keywords" content="awesome, definitely">
+	
+        <meta property="og:site_name" content="Homin Lee&#39;s blog">
+        <meta property="og:title" content="Homin Lee&#39;s blog">
+        <meta property="og:url" content="http://blog.suapapa.net/post/run_mosquitto/">
+        <meta property="og:description" content="Arbitrary hacking logs">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="" />
+        <meta property="og:article:published_time" content="2017-06-01T19:30:35&#43;09:00" />
+    
+        <meta name="generator" content="Hugo 0.72.0" />
+        <title>mosquitto로 MQTT 맛 보기 &middot; Homin Lee&#39;s blog </title>
+        <link rel="icon" href="http://blog.suapapa.net/favicon.png" />
+        <link rel="canonical" href="http://blog.suapapa.net/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type='text/css' href="http://blog.suapapa.net/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="http://blog.suapapa.net/" alt="Homin Lee&#39;s blog"><h1 class="blog-title heading">Homin Lee&#39;s blog</h1></a>
+            <p class="blog-description">Arbitrary hacking logs</p>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+		<article class="post">
+	<header class="post-header">
+        <h3 class="p-post-title">mosquitto로 MQTT 맛 보기</h3>
+    </header>
+
+    <section class="post-content">
+        <p><a href="https://mosquitto.org/">Mosquitto</a>를 이용해 <code>MQTT</code> 프로토콜을
+사용해 보겠습니다. 우분투 기준으로 다음의 두 패키지를 설치 합니다.</p>
+<pre><code>$ sudo apt install mosquitto mosquitto-clienets
+</code></pre>
+<p>MQTT서버(또는 데몬)가 뜨고,
+클라이언트(mosquitto_sub and mosquitto_pub)가 설치됩니다.</p>
+<h2 id="기본적인-mqtt-통신">기본적인 MQTT 통신:</h2>
+<p>터미널을 열어 <code>home</code>이라는 주제로 구독(subscribe)를 등록 합니다.</p>
+<pre><code>$ mosquitto_sub -h 127.0.0.1 -t home
+</code></pre>
+<p>터미널을 새로 열고, <code>home</code>이라는 같은 주제로 발행(publish)을 하면;</p>
+<pre><code>$ mosquitto_pub -h 127.0.0.1 -t home -m &quot;temp 25'C&quot;
+$ mosquitto_pub -h 127.0.0.1 -t home -m &quot;door open&quot;
+</code></pre>
+<p>다음과 같이 첫 번 째 터미널에 발행한 메세지가 도착함을 알 수 있습니다.</p>
+<pre><code>temp 25'C
+door open
+</code></pre>
+<h2 id="와일드-카드">와일드 카드</h2>
+<p>파일시스템에서 흔히 쓰이는 <code>*</code>와 달리 다음의 두 종류의 와일드 카드를 지원 합니다.</p>
+<ul>
+<li>
+<p><code>+</code> can be used as a wildcard for a single level of hierarchy.</p>
+</li>
+<li>
+<p><code>#</code> can be used as a wildcard for all remaining levels of hierarchy.</p>
+<p>$ mosquitto_pub -h 127.0.0.1 -t home/switch -m &ldquo;on&rdquo;
+$ mosquitto_pub -h 127.0.0.1 -t home/sensor -m &ldquo;25&rsquo;C&rdquo;</p>
+</li>
+</ul>
+<p>먼저 실행해 둔 subscribe 클라이언트에서는 다음과 같이 읽힌다.</p>
+<pre><code>$ mosquitto_sub -h 127.0.0.1 -t home/+
+...
+on
+35'C
+</code></pre>
+<blockquote>
+<p>!! 이건안됨 !! sub 하는 입장에서 와일드 카드를 쓰면 와일드 카드 부분에
+어떤 토픽이 매칭 되었는지 알 수 있는 방법이 있는가?</p>
+</blockquote>
+<p>반대로 publish 할 때는 와일드 카드를 쓸 수 없다.</p>
+<pre><code>$ mosquitto_pub -h 127.0.0.1 -t home/# -m &quot;on&quot;
+Error: Invalid publish topic 'world/#', does it contain '+' or '#'?
+
+Use 'mosquitto_pub --help' to see usage.
+</code></pre>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            
+            <p class="f-post-time"><time datetime="2017-06-01T19:30:35&#43;09:00">June 1, 2017</time></p>
+        </section>
+                        
+        <section class="f-2">
+            <section class="share">
+                <span>Share:
+                <a class="icon-twitter" href="http://twitter.com/share?text=mosquitto%eb%a1%9c%20MQTT%20%eb%a7%9b%20%eb%b3%b4%ea%b8%b0&url=http%3a%2f%2fblog.suapapa.net%2fpost%2frun_mosquitto%2f"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.suapapa.net%2fpost%2frun_mosquitto%2f"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2fblog.suapapa.net%2fpost%2frun_mosquitto%2f"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                </span>
+            </section>
+
+            
+        </section>
+                
+        <section id="comments">
+            <div id="disqus_thread" class="post-comments"></div>
+            <script type="text/javascript">
+              if (window.location.hostname != "localhost") {
+                var disqus_shortname = 'hominleesblog';
+                (function() {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              }
+            </script>
+            <noscript>
+              Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+        </section>
+                
+    </footer>
+</article>
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <a href="http://blog.suapapa.net/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="http://blog.suapapa.net/"></a> 2015-2016 | Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved</section>
+            <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://blog.suapapa.net/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+    <script>
+        var _gaq=[['_setAccount','UA-65909718-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+
+</body>
+</html>

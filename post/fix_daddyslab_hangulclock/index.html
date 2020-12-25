@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+        <meta name="keywords" content="awesome, definitely">
+	
+        <meta property="og:site_name" content="Homin Lee&#39;s blog">
+        <meta property="og:title" content="Homin Lee&#39;s blog">
+        <meta property="og:url" content="http://blog.suapapa.net/post/fix_daddyslab_hangulclock/">
+        <meta property="og:description" content="Arbitrary hacking logs">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="" />
+        <meta property="og:article:published_time" content="2015-12-11T22:45:52&#43;09:00" />
+    
+        <meta name="generator" content="Hugo 0.72.0" />
+        <title>대디스랩 한글시계 시간 맞추기 &middot; Homin Lee&#39;s blog </title>
+        <link rel="icon" href="http://blog.suapapa.net/favicon.png" />
+        <link rel="canonical" href="http://blog.suapapa.net/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="">
+        <link rel="stylesheet" type='text/css' href="http://blog.suapapa.net/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="http://blog.suapapa.net/" alt="Homin Lee&#39;s blog"><h1 class="blog-title heading">Homin Lee&#39;s blog</h1></a>
+            <p class="blog-description">Arbitrary hacking logs</p>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+		<article class="post">
+	<header class="post-header">
+        <h3 class="p-post-title">대디스랩 한글시계 시간 맞추기</h3>
+    </header>
+
+    <section class="post-content">
+        <p>대디스랩 한글시계는 아래의 사이트들에서 구입하실 수 있습니다.</p>
+<ul>
+<li><a href="http://www.funshop.co.kr/goods/detail/35070?t=s">펀샵</a></li>
+<li><a href="http://www.devicemart.co.kr/1272649">디바이스마트</a></li>
+<li><a href="http://shop.daddyslab.com/?product=kclock_standard">대디스랩샾</a></li>
+</ul>
+<p>제가 몇 대를 귀하신 분들께 드렸는데 시간이 안 맞는다는 피드백을 받았습니다.
+제 자식인데 애물단지가 되면 마음이 아파서 조사를 좀 해 봤습니다.</p>
+<blockquote>
+<p>대디스랩 한글 시계는 <a href="https://github.com/suapapa/HangulClock">제 한글시계</a>를
+기반으로 RTC, 설정버튼 등의 기능을 추가로 구현하였습니다. 네이버 까페에 공개한
+내용을 제 저장소에 <code>topic-daddyslab</code> 브랜치에 머지해 두었으니, 아두이노에
+익숙하신 분들을 새 스캐치를 빌드해 올려 보실 수도 있습니다.</p>
+</blockquote>
+<p>자동으로 시간을 맞추려면 시리얼(USB) 통신을 통해 한글시계에
+현재 시간을 알려주면 됩니다.</p>
+<pre><code>Set tiem : #S&lt;hh&gt;&lt;mm&gt;&lt;ss&gt;
+Get time : #G
+</code></pre>
+<p>리눅스에서는 <code>moserial</code>이라는 어플을 추천해 드리고,
+맥과 윈도우에서는 -제가 뭐가 있는지 모르니까- 아두이노의 시리얼 모니터를
+사용하셔도 됩니다.</p>
+<p>예를 들어 14시 31분으로 설정하시려면</p>
+<pre><code>#S143100
+</code></pre>
+<p>을 써 주시면 됩니다. 제대로 되었다면 시리얼 터미널에 <code>OK</code>가 떨어질 겁니다.</p>
+<hr>
+<p>자동으로 현재시각으로 시간을 맞추기 위해 go언어로 작은 프로그램을 짜 봤습니다.
+저장소에 원래 파이썬으로 짠 스크립트가 있는데 그걸 사용하시라고 하려면
+파이썬이 인터프리터가 설치되어 있어야 하니까&hellip; 고 언어로 짜서 바이너리를
+배포할 목적으로&hellip;</p>
+<p>다음 비디오는 <a href="http://livecoding.tv/suapapa">livecoding.tv</a>에서
+코딩과정을 녹화한 내용 입니다.</p>
+<!-- raw HTML omitted -->
+<p>해 보니 시리얼 라이브러리가 cgo에 엮여 있어서 리눅스에서 맥 용으로 크로스컴파일이
+안 되네요. -바이너리 배포는 물건너 가고,- 대신 고 개발환경을 설치하시고,</p>
+<pre><code>go get github.com/suapapa/tools/blob/master/hcc
+</code></pre>
+<p>하시면 hcc 툴을 받으실 수 있고 다음과 같이 실행하시면 됩니다.</p>
+<pre><code>hcc /dev/ttyUSB0
+</code></pre>
+<p>에효 이럴거면 파이썬 스크립트로 배포하는 것과 다를 바가 없어졌네요.</p>
+<p>새로 시간을 맞춘 상태에서 몇 일 지켜봤는데 아직은 시간이 맞고 있습니다만&hellip;
+원래의 버그, &lsquo;가만히 뒀는데 시간이 안맞아요&rsquo;를 해결한 건 아니니
+찜찜합니다. <strong>얼마나</strong> 오래 가만히 둬야 시간이 틀어지는 걸까요?</p>
+<ul>
+<li>한 줄 요약: 한글시계 가지고 절 만나면 시간 맞춰 드립니다. ㅠ_ㅠ</li>
+</ul>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            
+            <p class="f-post-time"><time datetime="2015-12-11T22:45:52&#43;09:00">December 11, 2015</time></p>
+        </section>
+                        
+        <section class="f-2">
+            <section class="share">
+                <span>Share:
+                <a class="icon-twitter" href="http://twitter.com/share?text=%eb%8c%80%eb%94%94%ec%8a%a4%eb%9e%a9%20%ed%95%9c%ea%b8%80%ec%8b%9c%ea%b3%84%20%ec%8b%9c%ea%b0%84%20%eb%a7%9e%ec%b6%94%ea%b8%b0&url=http%3a%2f%2fblog.suapapa.net%2fpost%2ffix_daddyslab_hangulclock%2f"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.suapapa.net%2fpost%2ffix_daddyslab_hangulclock%2f"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2fblog.suapapa.net%2fpost%2ffix_daddyslab_hangulclock%2f"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                </span>
+            </section>
+
+            
+        </section>
+                
+        <section id="comments">
+            <div id="disqus_thread" class="post-comments"></div>
+            <script type="text/javascript">
+              if (window.location.hostname != "localhost") {
+                var disqus_shortname = 'hominleesblog';
+                (function() {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              }
+            </script>
+            <noscript>
+              Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+        </section>
+                
+    </footer>
+</article>
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <a href="http://blog.suapapa.net/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="http://blog.suapapa.net/"></a> 2015-2016 | Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved</section>
+            <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://blog.suapapa.net/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+    <script>
+        var _gaq=[['_setAccount','UA-65909718-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+
+</body>
+</html>

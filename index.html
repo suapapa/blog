@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Arbitrary hacking logs">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+        <meta name="keywords" content="awesome, definitely">
+	
+        <meta property="og:site_name" content="Homin Lee&#39;s blog">
+        <meta property="og:title" content="Homin Lee&#39;s blog">
+        <meta property="og:url" content="http://blog.suapapa.net/">
+        <meta property="og:description" content="Arbitrary hacking logs">
+    
+        <meta property="og:type" content="website" />
+    
+        <meta name="generator" content="Hugo 0.72.0" />
+        <title>Homin Lee&#39;s blog &middot; Homin Lee&#39;s blog </title>
+        <link rel="icon" href="http://blog.suapapa.net/favicon.png" />
+        <link rel="canonical" href="http://blog.suapapa.net/" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.suapapa.net/index.xml">
+        <link rel="stylesheet" type='text/css' href="http://blog.suapapa.net/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+        <div class="container">
+            <a href="http://blog.suapapa.net/" alt="Homin Lee&#39;s blog"><h1 class="blog-title heading">Homin Lee&#39;s blog</h1></a>
+            <p class="blog-description">Arbitrary hacking logs</p>
+        </div>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/journey_toward_ckad/">CKAD, 쿠버네티스 어플리케이션 개발자 자격증 합격 후기</a></h3>
+        <p class="post-time"><time datetime="2020-12-25T12:25:00&#43;09:00">December 25, 2020</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>2020년 3월 23일에 본 시험을 보고 -산타할아버지가 준 선물 처럼- 크리스마스 새벽에 합격 통지를 받았습니다.
+ CKAD: Certified Kubernetes Application Developer   CKAD 자격증은?  Certified Kubernetes Application Developer (CKAD)  쿠버네티스를 사용하는 -백앤드- 어플리케이션 개발자를 위한 자격증입니다.
+사전지식 제 경우 임베디드 개발자라 리눅스 환경에 익숙하고. 도커는 주로 개발환경 구축하는데 써 봤습니다.
+ 커맨드라인명령어들과 vim, tmux를 어느정도 쓸 줄 암 도커 명령어들에 어느정도 익숙함. 필요한 경우 Dockerfile을 만들어 본 경험도 있음.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/journey_toward_ckad/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/20200629_crosscompile_khaiii_for_rpi/">라즈베리파이로 KHAiii 크로스컴파일 하기</a></h3>
+        <p class="post-time"><time datetime="2020-06-29T21:56:40&#43;09:00">June 29, 2020</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>KHAiii 소스 다운로드;
+$ git clone https://github.com/kakao/khaiii $ cd khaiii  abhiTronix가 미리 빌드해 둔 툴체인을 사용합니다. 저는 라즈베리파이2 buster용 10.1.0 툴체인을 다운받아 ~/.local 밑에 풀었습니다.
+컴파일을 위해 build 디렉터리 생성;
+$ mkdir build &amp;&amp; cd $_  다음과 같이 다운받은 크로스툴체인을 가리키도록 파일을 생성:
+$ cat toolchain_rpi.arm.cmake SET(CMAKE_C_COMPILER /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-gcc) SET(CMAKE_CXX_COMPILER /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-g++) SET(CMAKE_LINKER /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-ld) SET(CMAKE_NM /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-nm) SET(CMAKE_OBJCOPY /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-objcopy) SET(CMAKE_OBJDUMP /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-objdump) SET(CMAKE_RANLIB /home/suapapa/.local/cross-pi-gcc-10.1.0-1/bin/arm-linux-gnueabihf-ranlib)  cmake를 실행해 Makefile 생성:
+$ cmake -E env CXXFLAGS=&quot;-w&quot; \ cmake \ -DCMAKE_TOOLCHAIN_FILE=.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/20200629_crosscompile_khaiii_for_rpi/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/run_mosquitto/">mosquitto로 MQTT 맛 보기</a></h3>
+        <p class="post-time"><time datetime="2017-06-01T19:30:35&#43;09:00">June 1, 2017</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>Mosquitto를 이용해 MQTT 프로토콜을 사용해 보겠습니다. 우분투 기준으로 다음의 두 패키지를 설치 합니다.
+$ sudo apt install mosquitto mosquitto-clienets  MQTT서버(또는 데몬)가 뜨고, 클라이언트(mosquitto_sub and mosquitto_pub)가 설치됩니다.
+기본적인 MQTT 통신: 터미널을 열어 home이라는 주제로 구독(subscribe)를 등록 합니다.
+$ mosquitto_sub -h 127.0.0.1 -t home  터미널을 새로 열고, home이라는 같은 주제로 발행(publish)을 하면;
+$ mosquitto_pub -h 127.0.0.1 -t home -m &quot;temp 25'C&quot; $ mosquitto_pub -h 127.0.0.1 -t home -m &quot;door open&quot;  다음과 같이 첫 번 째 터미널에 발행한 메세지가 도착함을 알 수 있습니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/run_mosquitto/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/compile_linux_for_rpi/">라즈베리파이용 리눅스 커널 컴파일</a></h3>
+        <p class="post-time"><time datetime="2017-05-24T10:23:08&#43;09:00">May 24, 2017</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>이 문서에서는 디바이스 드라이버 추가 등 커널 커스텀을 위해 현재 사용중인 라즈베리파이 이미지에 맞는 커널을 골라 빌드 하는 방법을 다룹니다.
+ Upstream에서 Fork 하기 raspberrypi 의 커널은 https://github.com/raspberrtpy/linux 에 있습니다. 이 링크를 웹 브라우져로 접근해서, &ldquo;Folk&rdquo; 버튼을 누릅니다.
+그러면 https://github.com/YOURID/linux 라는 저장소가 생깁니다.
+ YOURID 대신 자신의 github ID를 입력합니다. 이 문서에서는 제 github ID인 suapapa를 사용하겠습니다.
+ 그리고, 거기서 부터 clone 합니다.
+$ mkdir -p ws/rpi &amp;&amp; cd $_ $ git clone https://github.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/compile_linux_for_rpi/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/almond_setting_for_cura2/">3D 프린터 알몬드를 위한 CURA2 설정</a></h3>
+        <p class="post-time"><time datetime="2017-04-24T10:24:34&#43;09:00">April 24, 2017</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>3D 모델을 프린팅 하려면 슬라이서 프로그램을 통해 .stl파일을 .gcode파일로 변형하는 작업(CAM?)이 필요합니다.
+이런 슬라이서중에 가장 유명한 것이 Cura로 무료 소프트웨어이고, 멀티 플렛폼을 지원하지만(심지어 리눅스도),
+오픈크리에이터스의 3D 프린턴 ALMOND는 국내에 꽤나 보급이 되어 있는 3D 프린터 입니다.
+ALMOND에 맞게 설정하려면 3D 프린터의 정보를 넣어 machine을 등록할 필요가 있습니다. 오픈크리에이터스에서는 자사 제품을 등록한 Cura를 제공하고 있지만, 리눅스에서 안 되고, Cura 2.x 버젼은 제공하지 않고 있습니다.
+그래서 한 번 해 봤습니다.
+ Cura 다운로드페이지 최신 버젼을 다운 받습니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/almond_setting_for_cura2/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/headless_rpi_setting/">라즈베리파이 설정과 고 컴파일러 설치</a></h3>
+        <p class="post-time"><time datetime="2017-04-19T13:54:04&#43;09:00">April 19, 2017</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>RaspberryPi 사이트에는 모니터와 키보드 다 붙여서 개인용 컴퓨터로 쓰는 용례가 주 지만, 착한 가격과 충분한 컴퓨팅 파워 덕에 모니터 없이(headless) IoT thing의 용도로도 종종 쓰입니다.
+이 포스팅에서는 모니터 없는 구성을 설정하는 방법을 남깁니다.
+준비물  RaspberryPi USB Wifi 모듈 (Rpi2 이하인 경우에만) Micro SD 카드  이미지 선택 (라즈베리 + 데비안 = ) RASPBIAN lite 버젼을 다운받습니다.
+ RASPBIAN download page  압축된 용량은 300MB 미만이며 압축 해제 후에는 1.3GB 정도로, 데스트탑 환경이 제외된 필수 패키지만 존재하는 버젼입니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/headless_rpi_setting/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/migrate_blog_to_gke/">블로그 구글컨테이너엔진(GKE)으로 이전</a></h3>
+        <p class="post-time"><time datetime="2017-04-16T15:24:31&#43;09:00">April 16, 2017</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>도커 컨테이너는 클라우드 서비스 업체를 막론하고 사용할 수 있기에 사용자가 갑인 서비스 생태계를 만들어 주는 기술입니다.
+본 블로그는 Hugo를 사용한 정적 페이지만으로 운영되어 gh-page 로도 운영될 수 있지만, 미묘하게 baseURL 관련 문제로 사진들을 표시하려면 불편하여 도커 컨테이너를 지원하는 GKE로 이전을 해 보았습니다.
+대상은 도커에 어느정도 익숙하고, 오케스트레이션은 익숙하지 않은 분들 입니다. (제 상태)
+다음 두 문서를 참조하였습니다:
+ Quicksart for Google Container Engine Running WordPress with a Single Pod  두 문서는 거의 같은 시나리오로 양쪽에서 잘 설명되지 않은 부분을 교차 확인하는데 좋습니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/migrate_blog_to_gke/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/arduino_digispark_to_escpedal/">Digispark 보드로 ESC 페달 만들기</a></h3>
+        <p class="post-time"><time datetime="2017-04-06T15:17:30&#43;09:00">April 6, 2017</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>&lsquo;Digispark USB Development Board&rsquo;는 Attiny85칩을 기반으로 한 아두이노 호환 보드 입니다.
+ 공식 홈 링크  OSHW 이기 때문에 Aliexpress에서 호환 보드를 쉽고 싸게 구할 수 있다는 장점이 있습니다. 개 당 $1.5 미만!!
+보통의 아두이노 처럼 USB가 있긴 하지만 USB2Serial 기반이 아니라 스케치를 업로드 하기 전에 리셋을 하지 않으며, 보드를 뺀 상태로 업로드를 시작하고 보드를 연결하는 방법을 사용합니다.
+ USB3.0 포트와 궁합이 잘 맞지 않거나 하는 등의 문제가 있어서 잘 안되면 다른 허브의 포트를 써 보는 등의 작업이 필요합니다.</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/arduino_digispark_to_escpedal/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/handling_cp949_in_go/">고 언어에서 로컬 인코딩 cp949 처리하기</a></h3>
+        <p class="post-time"><time datetime="2017-04-06T11:56:53&#43;09:00">April 6, 2017</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>전에 보아두었던 Gophercon2016에서의 text처리(i18n, l10n) 패키지로 EUCKR 인/디코딩을 해 보았습니다.
+해당 슬라이드는 아래 링크입니다:
+ Handling Text from Around the World in Go  패키지 설치는 다음과 같이 하시고:
+$ go get -u golang.org/x/text/...  아래 코드처럼 utf8 -&gt; euckr 로 변환 시 사용하실 수 있습니다:
+package main import ( &quot;log&quot; &quot;golang.org/x/text/encoding/korean&quot; &quot;golang.org/x/text/transform&quot; ) func main() { src := &quot;아름다운 우리말&quot; exp := &quot;\xbe\xc6\xb8\xa7\xb4\xd9\xbf\xee \xbf\xec\xb8\xae\xb8\xbb&quot; got, n, err := transform.String(korean.EUCKR.NewEncoder(), src) if err !</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/handling_cp949_in_go/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+		<article class="post">
+    <header class="post-header">
+        <h3 class="post-title"><a href="http://blog.suapapa.net/post/kosscon2016_golang_iot_tutorial/">KOSSCON2016: Go IoT programming</a></h3>
+        <p class="post-time"><time datetime="2016-11-10T13:20:18&#43;09:00">November 10, 2016</time></p>
+    </header>
+    
+    <section class="post-excerpt">
+        <p>Goal Learn how to make a program in Go which display RaspberryPi&rsquo;s IP to an OLED display on boot.
+You need:
+ Linux host RaspberryPi board (and USB-wifi module) 2 LEDs I2C OLED module  Setup Go development environment Install Go compiler  Download Go  Setup path to GOROOT and GOPATH
+export GOROOT=/usr/local/go export GOPATH=$HOME/go  Add following to your .bashrc
+export PATH=$GOROOT/bin:$PATH export PATH=$GOPATH/bin:$PATH export CDPATH=.:$GOPATH/src/github.com/  Install Atom editor  Install Atom editor  Install atom packages go-plus:</p>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            
+            <a href="http://blog.suapapa.net/post/kosscon2016_golang_iot_tutorial/#comments"><i class="fa fa-comment"></i> Comments</a>
+            
+            
+        </span>
+    </footer>
+</article>
+	
+	
+<nav role="pagination" class="pagination">
+  
+	<span class="post-list-pagination-item post-list-pagination-item-current">Page 1 of 2</span>
+
+  <a href="/page/2/" class="older-posts">
+    &nbsp;Older&nbsp;<i class="fa fa-angle-double-right"></i>
+  </a>
+
+</nav>
+
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <a href="http://blog.suapapa.net/index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="http://blog.suapapa.net/"></a> 2015-2016 | Homin Lee &lt;homin.lee@suapapa.net&gt; All rights reserved</section>
+            <section>Theme by <a href="http://www.jrdnbwmn.com">Jordan Bowman</a>. Generated with <a href="http://gohugo.io/">Hugo</a>.</section>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://blog.suapapa.net/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+    <script>
+        var _gaq=[['_setAccount','UA-65909718-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+</body>
+</html>

@@ -3,7 +3,9 @@ FROM klakegg/hugo as builder
 COPY . /src
 RUN hugo build
 
-FROM nginx:alpine
-COPY --from=builder /src/public/ /usr/share/nginx/html/
+FROM halverneus/static-file-server:latest
+COPY --from=builder /src/public/ /public/
 
-EXPOSE 80
+ENV FOLDER=/public
+
+EXPOSE 8080

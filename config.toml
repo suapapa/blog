@@ -1,6 +1,7 @@
-baseurl = "https://homin.dev/blog/"
-relativeURLs=true
-canonifyURLs=true
+baseurl = "http://suapapa.github.io/blog/"
+relativeURLs = true
+canonifyURLs = true
+
 languageCode = "en-us"
 title = "Homin Lee's blog"
 theme = "PaperMod"

@@ -123,12 +123,12 @@ Run it from target:
 
 ## Blinking LEDs
 
-![Rpi Pinout](/blog/img/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png)
+![Rpi Pinout](/img/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png)
 
 Wiring a LED to pin 13 and GND
 
-![grnled_01](/blog/img/grnled_01.jpg)
-![grnled_02](/blog/img/grnled_02.jpg)
+![grnled_01](/img/grnled_01.jpg)
+![grnled_02](/img/grnled_02.jpg)
 
 ### Write a program to blink a LED
 
@@ -207,8 +207,8 @@ select `9 Advanced Options -> A7 I2C -> YES`
     CLK  - SCL
     RES  - 3V3
 
-![oled_01](/blog/img/oled_01.jpg)
-![oled_02](/blog/img/oled_02.jpg)
+![oled_01](/img/oled_01.jpg)
+![oled_02](/img/oled_02.jpg)
 
 Check the connection
 
@@ -229,7 +229,7 @@ Check the connection
     70: -- -- -- -- -- -- -- --
 
 ### Write a program to display a Gopher on the Display
-![oled_03](/blog/img/oled_03.jpg)
+![oled_03](/img/oled_03.jpg)
 
 Install depecdency packages:
 

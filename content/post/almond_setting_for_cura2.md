@@ -32,22 +32,22 @@ ALMOND에 맞게 설정하려면 3D 프린터의 정보를 넣어 machine을 등
 Cura2에서는 Almond 설정이 기본 내제되어 있지 않기 때문에 *Custom FDM printer* 를
 추가해 줍니다. 제 경우 `OPC Almond` 라는 이름으로 추가하였습니다.
 
-![cura2_add_printer_01](/blog/img/cura2_add_printer_01.png)
+![cura2_add_printer_01](/img/cura2_add_printer_01.png)
 
 프린팅 가능 면적및 프린터 헤드 사이즈 설정, start/end gcode 수정:
 
-![cura2_add_printer_02](/blog/img/cura2_add_printer_02.png)
+![cura2_add_printer_02](/img/cura2_add_printer_02.png)
 
 # 필라멘트에 따른 프로파일 설정
 
 필라멘트 재료에 따른 설정을 해 줍니다.
 
-![cura2_custom_setting](/blog/img/cura2_custom_setting.jpg)
+![cura2_custom_setting](/img/cura2_custom_setting.jpg)
 
 국내에선 1.75mm 필라멘트를 주로 사용하므로 이와 함께 온도등을 설정해
 프로파일로 미리 저장해 둡니다.
 
-![cura2_profile](/blog/img/cura2_profile.png)
+![cura2_profile](/img/cura2_profile.png)
 
 # 마침
 

@@ -1,7 +1,12 @@
-FROM nginx:alpine
+FROM klakegg/hugo as builder
 
+COPY . /build
+WORKDIR /build
+RUN hugo
+
+FROM nginx:alpine
 # copy built html for static access
-COPY ./public/ /usr/share/nginx/html/
+COPY --from=builder /build/public/ /usr/share/nginx/html/
 
 EXPOSE 80
 

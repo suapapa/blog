@@ -1,7 +1,7 @@
-baseurl = "http://blog.suapapa.net/"
+baseurl = "https://homin.dev/"
 languageCode = "en-us"
 title = "Homin Lee's blog"
-theme = "blueberry-detox"
+theme = "PaperMod"
 
 [taxonomies]
   tag = "tags"

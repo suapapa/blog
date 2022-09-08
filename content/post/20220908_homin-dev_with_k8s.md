@@ -3,7 +3,7 @@ title: "Re: 제로부터 구축한 새 홈페이지, homin.dev"
 date: 2022-09-08T10:45:59+09:00
 ---
 
-![homin-dev](img/homin-dev.png)
+![homin-dev](/img/homin-dev.png)
 
 ## 배경
 

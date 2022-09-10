@@ -3,6 +3,8 @@ title: MQTT를 활용한 실시간 방명록 출력 시스템
 date: 2022-09-10T12:58:50+09:00
 ---
 
+{{< youtube kJGh1Xtq8RE >}}
+
 ## 배경
 
 당근마켓에서 영수증프린터를 사서 고로 사진을 찍어 보고([동영상](https://youtu.be/sQ_J_80lhCM)),
@@ -111,13 +113,11 @@ docker run \
 - `--restart unless-stopped` :RPi가 꺼졌다 켜저도 다시 컨테이너가 실행되게 함.
 - `--device /dev/usb/lp0` :호스트의 장치파일을 도커내부에서 쓸 수 있게 해 줌.
 
-## 전체 구성 및 데모
+## 전체 구성
 
 지금까지 설명한 걸 모두 그려보면 다음과 같습니다:
 
 ![live-gb-print-system](/img/live-gb-print-system.jpg)
-
-{{< youtube kJGh1Xtq8RE >}}
 
 ---
 

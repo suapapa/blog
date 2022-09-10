@@ -1,23 +1,30 @@
-Live at [here](http://suapapa.github.io/blog/)
+Live > [here](http://suapapa.github.io/blog/) <
 
 # Cheat sheet
 
+```bash
+alias hugo "docker run --rm -v `pwd`:/src  klakegg/hugo:latest"
+```
+
 Create new post:
 
-    $ hugo new post/new_topic_title.md
+```bash
+hugo new post/new_topic_title.md
+```
 
 Test run:
 
-    $ hugo serve \
-        --buildDrafts \
-        --watch
+```bash
+hugo serve \
+    --buildDrafts \
+    --watch
+```
 
 Deploy to gh-pages:
 
-    $ hugo
-    $ cd public
-    $ git init . && git add . && git commit -m "update at 20161122"
-    $ git push -f https://github.com/suapapa/blog master:gh-pages
+```
+./deploy_gh-pages.sh
+```
 
 # Reference
 

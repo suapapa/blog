@@ -1,0 +1,56 @@
+---
+title: 오픈 소스 H/W – Arduino 소개
+author: suapapa
+type: post
+date: 2008-05-23T09:51:23+00:00
+url: /p=68
+translations:
+  - 'a:1:{i:0;s:5256:"YToxOntzOjI6ImtvIjthOjM6e3M6MTE6InBvc3RfZXhjZXB0IjtzOjA6IiI7czoxMjoicG9zdF9jb250ZW50IjtzOjM4MDM6IjxwPuy1nOq3vCDtjIzqs6Ag7J6I64qUIEFyZHVpbm8o7JWE66W065GQ7J2064W4KeyXkCDrjIDtlbQg7Y+s7Iqk7YyFIO2VqeuLiOuLpC4g66y07JeH7JeQIOyTsOuKlCDrrLzqsbQh7J247KeAIOq2geq4iO2VmOyLoCDrtoTrk6TsnYQg7JyE7ZW0IDxhIGhyZWY9JnF1b3Q7aHR0cDovL2FyZHVpbm8uY2MmcXVvdDs+6rO17IudIOyCrOydtO2KuDwvYT7snZgg7ISk66qF7J2EIOuyiOyXre2VtCDrs7TrqbQg64uk7J2M6rO8IOqwmeyKteuLiOuLpC48L3A+CjxibG9ja3F1b3RlPgo8cD7slYTrpbTrkZDsnbTrhbjripQg7Jik7ZSIIOyGjOyKpCDsoITsnpAg7ZSE66Gc7Yag7YOA7J6FIO2UjOugm+2PvOycvOuhnCwg7Jyg7Jew7ZWY6rOgIOyCrOyaqe2VmOq4sCDsiazsmrQg7ZWY65Oc7Juo7Ja07JmAIOyGjO2UhO2KuOybqOyWtOyXkCDquLDrsJjtlZjqs6Ag7J6I64ukLiDslYTrpbTrkZDsnbTrhbjripQg7JiI7Iig6rCALCDrlJTsnpDsnbTrhIgsIOy3qOuvuOqwgOuTpOydhCDtj6ztlajtlbQg7ISc66GcIOuwmOydke2VmOuKlChpbnRlcmFjdGl2ZSkg66y87LK07JmAIO2ZmOqyveydhCDrp4zrk5zripTrjbAg6rSA7Ius7J2EIOqwgOyngOqzoCDsnojripQg7IKs656M65Ok7J2EIOychO2VnCDqsoPsnbTri6QuPC9wPgo8L2Jsb2NrcXVvdGU+CjxwPuyVhOultOuRkOydtOuFuOuKlCBBVlIg66eI7J207YGs66GcJm5ic3A77ZSE66Gc7IS47ISc66W8IOyCrOyaqe2VnCDsnpHsnYAg7Lu07ZOo7YSw66GcIC3quLDsobTsnZggQVZSIOy7tO2TqO2EsOuTpOydtCDsnpHsnYAg7J287J2EIOyLuOqyjCDtlaAg7IiYIOyeiOyXiOuNmOuNsCDruYTtlbQtIOyVhOultOuRkOydtOuFuOuKlCDsnpHqs6Ag7Iu46rOgIDxzdHJvbmc+7Im96rKMPC9zdHJvbmc+IO2VoCDsiJgg7J6I7Iq164uI64ukLjwvcD4KPHA+PCEtLW1vcmUtLT48L3A+CjxwPuyehOuyoOuUlOuTnOqwgCBQQ+yXkCDruYTtlbQg7YSx7JeG7J20IOuLqOyInO2VmOyngOunjCwg7J6E67Kg65SU65Oc66GcIOutmCDtlZzri6TripTqsbQg6re466CH6rKMJm5ic3A766eM66eM7ZWcIOydvOydtCDslYTri5nri4jri6QuPC9wPgo8cD7tmLjsiqTtirjsl5DshJwg7Lu07YyM7J287ZWcIOuwlOydtOuEiOumrOulvCDtg4Dqsp8g67O065Oc7JeQIOyLrOyWtOyVvCDrkJjripTrjbAsIO2PieyGjOyXkCDsnpgmbmJzcDvsoJHtlbTrs7Tsp4AmbmJzcDvslYrripQg7YGs66Gc7IqkIOy7tO2MjOydvOufrOulvCDshKTsuZgv7IKs7Jqp7ZWc64uk64qU6rKMIOq5jOuLpOuhreqzoCwg64uk7Jq066Gc65Oc66W8IOychO2VtCBJU1DrnbzripQg7LaU6rCAIOyepey5mOqwgCDsnojslrTslbwg65Cc64uk64qUIOqyg+ydtCDrsojqsbDroa3so6AuPC9wPgo8cD7slYTrpbTrkZDsnbTrhbjqsIAg7Yq567OE7ZWcIOydtOycoOuKlCZuYnNwO+y7tO2MjOydvOqzvCDri6TsmrTroZzrk5zqsIAg7Yis66qF7ZWY64uk64qU642w7JeQIOyeiOyKteuLiOuLpC4gPHN0cmlrZT7slYTrpbTrkZDsnbTripQg7JWI7JeQ64qUICZxdW90O+yKpOy8gOy5mCZxdW90O+udvOuKlCDrtoDtirjroZzrjZTqsIAg7Ius7Ja07KC4IO2MkOunpOuQmOqzoCDsgqzsnbTtirjrpbwg7Ya17ZW0IOuLpOyatOuwm+ydhCDsiJgg7J6I64qUIOyVhOultOuRkOydtOuFuCBTL1cg7Ya17ZW0IOyekeyEse2VnCDsvZTrk5woQ+yZgCDtjIzsnbTsjazsnZgg7KSR6rCE7K+k7J2YIOusuOuyleydhCDqsIDsp4Qg6rKD7Jy866GcIOuztOyeheuLiOuLpCnrpbwg7JWE66W065GQ7J2064W4IEgvV+yXkCDsl7DqsrDrkJwg7Iuc66as7Ja8IOy8gOydtOu4lOydhCDthrXtlbQmbmJzcDvsm5DtgbTrpq3snLzroZwg7ISk7LmY7ZWgIOyImCDsnojsirXri4jri6QuPC9zdHJpa2U+PC9wPgo8YmxvY2txdW90ZT4KPHA+PHN0cmlrZT5IL1fsmYAgUy9X66W8IOuqqOuRkCAt6rCB6rCBLSDslYTrpbTrkZDsnbTrhbjrnbzqs6Ag67aA66W06rOgIOyeiOyKteuLiOuLpC48L3N0cmlrZT48L3A+CjwvYmxvY2txdW90ZT4KPHA+PHN0cmlrZT5TL1fripQg7Jik7ZSIIOyGjOyKpOuhnCDsnpDrsJTroZwg66eM65Ok7Ja07KC4IO2UjOugm+2PvOyXkCDsg4HqtIDsl4bsnbQg6rCZ7J2AIOyduO2EsO2OmOydtOyKpOuhnCDsgqzsmqkg6rCA64ql7ZWp64uI64ukLiZuYnNwO+yekOuwlOqwgCDrp5jsl5Ag7JWI65Oc7Iuc64qUIOu2hC3soIAg6rCZ7J2AIO2MjOydtOyNrCDruaDrj4zsnbTrpbwg7Y+s7ZWoLeydhCDsnITtlZwmbmJzcDvtjIzsnbTsjawt7JWE66W065GQ7J2064W4IO2UhOuhnOygne2KuOuPhCDsnojsirXri4jri6QuPC9zdHJpa2U+PC9wPgo8YmxvY2txdW90ZT4KPHA+Uy9X7JeQIOuMgO2VnCDrgrTsmqnsnYAg7KCc6rCAIOyemOuquyDslYzqs6Ag7J6I7JeI64Sk7JqULiDri6Trpbgg7Y+s7Iqk7Yq47JeQ7IScJm5ic3A765Sw66GcIFMvV+yXkCDrjIDtlZwg7ISk66qF7J2EIO2VmOqyoOyKteuLiOuLpC48L3A+CjwvYmxvY2txdW90ZT4KPHA+7ZWc64usIOyghOunjCDtlbTrj4Qg7JWE66W065GQ7J2064W4IEgvV+ulvCDqta3rgrTsl5DshJwg6rWs7ZWY64qU6rKMIOyJveyngCDslYrslZjsp4Drp4wsIOydtOygnCA8YSBocmVmPSZxdW90O2h0dHA6Ly93d3cuYXZybWFsbC5jb20vJnF1b3Q7PmF2cm1hbGw8L2E+6rCZ7J2AIOq1reuCtOydmCDsoITsnpAg7Ie87ZWR66qw7JeQ7ISc64+EIO2MkOunpO2VmOqzoCDsnojsirXri4jri6QuIOqwgOqyqeydgCA166eM7JuQIOuvuOunjC48L3A+CjxwPu2VmOyngOunjCwgJnF1b3Q7PHN0cm9uZz7smKTtlIgg7IaM7IqkIEgvVzwvc3Ryb25nPiZxdW90OyDsoJzrqqnsnbQg66y07IOJ7ZWY7KeAIOyViuqyjCDsgqzsnbTtirjsl5DripQmbmJzcDtIL1fsnZgg7ZqM66Gc64+E7JmAIFBDQiDshKTqs4Trj4Qg6rmM7KeAIOqzteqwnOuQmOyWtCDsnojsirXri4jri6QuIDxzdHJvbmc+66mL7KeA64uk64qlIC1fLWI8L3N0cm9uZz48L3A+CjxwPlBDQuulvCDsp4HsoJEg66eM65OkIOyImCDsnojri6TripQg6rG4IOyVjOqzoCDsnojsl4jquLDsl5Ag6raB6riI7ZW07IScIO2VtOuztOyngCDslYrsnYQg7IiYIOyXhuyXiOyKteuLiOuLpC4g44WLPC9wPgo8YmxvY2txdW90ZT4KPHA+66CI7J207KC4IO2UhOumsO2EsOuhnCBQQ0Lrj4TrqbTsnYQgMTox66GcIOu9keyVhCDrj5ntjJDsl5Ag65GQ6rOgLCDri6Trpqzrr7jroZwg64iM65+sIOykjeuLiOuLpC48L3A+CjwvYmxvY2txdW90ZT4KPHA+PGltZyBoZWlnaHQ9JnF1b3Q7MjgwJnF1b3Q7IHdpZHRoPSZxdW90OzQyMCZxdW90OyBjbGFzcz0mcXVvdDtpbWFnZWZyYW1lJnF1b3Q7IGFsdD0mcXVvdDtpbWdwMDAwNC5qcGcmcXVvdDsgc3JjPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDUvaW1ncDAwMDQuanBnJnF1b3Q7IC8+PC9wPgo8YmxvY2txdW90ZT4KPHA+7Iuk7YyoIC1fLTs8L3A+CjwvYmxvY2txdW90ZT4KPHA+PGltZyBoZWlnaHQ9JnF1b3Q7MjgwJnF1b3Q7IHdpZHRoPSZxdW90OzQyMCZxdW90OyBjbGFzcz0mcXVvdDtpbWFnZWZyYW1lJnF1b3Q7IGFsdD0mcXVvdDtpbWdwMDAwOC5qcGcmcXVvdDsgc3JjPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDUvaW1ncDAwMDguanBnJnF1b3Q7IC8+PC9wPgo8cD7jhY7jhY4uIOyymOydjCDtlbTrs7TripQg6rGw6528IOyemCDslYjrkJjrhKTsmpQuIOydtOuvuCDslrTroKTsmrQg6ri466GcIOqwgOugpOqzoCDrtoDtkojrj4Qg64ukIOykgOu5hO2VtCDrkoDsnLzrr4DroZwg7Jes6riw67aA7YSw64qUIC3shLHqs7XtlZjrqbQtIOuUsOuhnCDtj6zsiqTtjIXtlbQg67O064+E66GdIO2VmOqyoOyKteuLiOuLpC4gOik8L3A+IjtzOjEwOiJwb3N0X3RpdGxlIjtzOjM0OiLsmKTtlIgg7IaM7IqkIEgvVyAtIEFyZHVpbm8g7IaM6rCcIjt9fQ==";}'
+openid_comments:
+  - 'a:1:{i:0;i:1335;}'
+dsq_thread_id:
+  - 722489838
+categories:
+  - Arduino
+tags:
+  - PCB
+
+---
+최근 파고 있는 Arduino(아르두이노)에 대해 포스팅 합니다. 무엇에 쓰는 물건!인지 궁금하신 분들을 위해 [공식 사이트][1]의 설명을 번역해 보면 다음과 같습니다.
+
+> 아르두이노는 오픈 소스 전자 프로토타입 플렛폼으로, 유연하고 사용하기 쉬운 하드웨어와 소프트웨어에 기반하고 있다. 아르두이노는 예술가, 디자이너, 취미가들을 포함해 서로 반응하는(interactive) 물체와 환경을 만드는데 관심을 가지고 있는 사람들을 위한 것이다.
+
+아르두이노는 AVR 마이크로&nbsp;프로세서를 사용한 작은 컴퓨터로 -기존의 AVR 컴퓨터들이 작은 일을 싸게 할 수 있었던데 비해- 아르두이노는 작고 싸고 **쉽게** 할 수 있습니다.
+
+<!--more-->
+
+임베디드가 PC에 비해 턱없이 단순하지만, 임베디드로 뭘 한다는건 그렇게&nbsp;만만한 일이 아닙니다.
+
+호스트에서 컴파일한 바이너리를 타겟 보드에 심어야 되는데, 평소에 잘&nbsp;접해보지&nbsp;않는 크로스 컴파일러를 설치/사용한다는게 까다롭고, 다운로드를 위해 ISP라는 추가 장치가 있어야 된다는 것이 번거롭죠.
+
+아르두이노가 특별한 이유는&nbsp;컴파일과 다운로드가 투명하다는데에 있습니다. <strike>아르두이는 안에는 "스케치"라는 부트로더가 심어져 판매되고 사이트를 통해 다운받을 수 있는 아르두이노 S/W 통해 작성한 코드(C와 파이썬의 중간쯤의 문법을 가진 것으로 보입니다)를 아르두이노 H/W에 연결된 시리얼 케이블을 통해&nbsp;원클릭으로 설치할 수 있습니다.</strike>
+
+> <strike>H/W와 S/W를 모두 -각각- 아르두이노라고 부르고 있습니다.</strike>
+
+<strike>S/W는 오픈 소스로 자바로 만들어져 플렛폼에 상관없이 같은 인터페이스로 사용 가능합니다.&nbsp;자바가 맘에 안드시는 분-저 같은 파이썬 빠돌이를 포함-을 위한&nbsp;파이썬-아르두이노 프로젝트도 있습니다.</strike>
+
+> S/W에 대한 내용은 제가 잘못 알고 있었네요. 다른 포스트에서&nbsp;따로 S/W에 대한 설명을 하겠습니다.
+
+한달 전만 해도 아르두이노 H/W를 국내에서 구하는게 쉽지 않았지만, 이제 [avrmall][2]같은 국내의 전자 쇼핑몰에서도 판매하고 있습니다. 가격은 5만원 미만.
+
+하지만, "**오픈 소스 H/W**" 제목이 무색하지 않게 사이트에는&nbsp;H/W의 회로도와 PCB 설계도 까지 공개되어 있습니다. **멋지다능 -_-b**
+
+PCB를 직접 만들 수 있다는 걸 알고 있었기에 궁금해서 해보지 않을 수 없었습니다. ㅋ
+
+> 레이져 프린터로 PCB도면을 1:1로 뽑아 동판에 두고, 다리미로 눌러 줍니다.
+
+<img loading="lazy" height="280" width="420" class="imageframe" alt="imgp0004.jpg" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/imgp0004.jpg" /> 
+
+> 실패 -_-;
+
+<img loading="lazy" height="280" width="420" class="imageframe" alt="imgp0008.jpg" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/imgp0008.jpg" /> 
+
+ㅎㅎ. 처음 해보는 거라 잘 안되네요. 이미 어려운 길로 가려고 부품도 다 준비해 뒀으므로 여기부터는 -성공하면- 따로 포스팅해 보도록 하겠습니다. 🙂
+
+ [1]: http://arduino.cc
+ [2]: http://www.avrmall.com/

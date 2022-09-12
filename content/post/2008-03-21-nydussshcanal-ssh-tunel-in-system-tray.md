@@ -1,0 +1,105 @@
+---
+title: NydusSshCanal – ssh tunel in system tray
+author: suapapa
+type: post
+date: 2008-03-21T00:58:14+00:00
+url: /p=40
+translations:
+  - 'a:1:{i:0;s:6668:"YToxOntzOjI6ImtvIjthOjM6e3M6MTE6InBvc3RfZXhjZXB0IjtzOjA6IiI7czoxMjoicG9zdF9jb250ZW50IjtzOjQ4NTc6IuyggOuKlCDsmKTtlIgg7IaM7IqkIO2UhOuhnOygne2KuOyXkCDssLjsl6wg7ZWY6rOgIOyeiOyKteuLiOuLpC4g7Jik7ZSIIOyGjOyKpCDqsJzrsJzsnpDripQsIOyggOyymOufvCwg64uk7J2M6rO8IOqwmeydtCDrkJjsi6Qg7IiYIOyeiOyKteuLiOuLpC4KPGJsb2NrcXVvdGU+7KeB7KCRIO2UhOuhnOygne2KuOulvCDsi5zsnpHtlZjsl6wsIOyYpO2UiC48L2Jsb2NrcXVvdGU+CuusvOuhoCDrp47snYAg7IKs656M7J20IOywuOyXrO2VmOuKlCwg7JeE7LKt64KcIOq4sOyIoOydtCDrk6TslrTqsIDripQg7J6Q656R7Iqk65+s7Jq0IO2UhOuhnOygne2KuOydmCDsnbzsm5DsnbQg65CY64qUIOqyg+ydgCDrs4TqsJzsnZgg7J28IOyeheuLiOuLpC4KCuq3uOuemOuPhCwg67iU66Gc6re46rCAIOyDneq4sOuLiCDsoJwg7ZSE66Gc7KCd7Yq465Ok7J2EIOyVjOumtCDsiJgg7J6I6rWw7JqUIQoK6re4ICDsi5zsnpHsnLzroZwgPHN0cm9uZz5OeWR1c1NzaENhbmFsPC9zdHJvbmc+7J2EIOyGjOqwnO2VqeuLiOuLpC4KCjxpbWcgc3JjPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDMvbnlkdXNjYW5hbC5wbmcmcXVvdDsgYWx0PSZxdW90O255ZHVzY2FuYWwucG5nJnF1b3Q7IGNsYXNzPSZxdW90O2ltYWdlZnJhbWUgaW1nYWxpZ25sZWZ0JnF1b3Q7IHdpZHRoPSZxdW90OzcwJnF1b3Q7IGhlaWdodD0mcXVvdDs3MCZxdW90OyAvPgoKPCEtLW1vcmUtLT4KPGgzPjxzdHJvbmc+TnlkdXNTc2hDYW5hbCAtIOyLnOyKpO2FnCDtirjroIjsl5AgIHNzaCDthLDrhJDrp4HsnYQhCjwvc3Ryb25nPjwvaDM+CjxzdHJvbmc+MS4gc3NoIO2EsOuEkOungT88L3N0cm9uZz4KCnNzaCDthLDrhJDrp4HsnYAg7JWI7KCE7ZWY6rOgLCDsl6zrn6wg66qo66GcIOyTuOuqqCDsnojripQg6riw64ql7J6F64uI64ukLiDrjIDspJHsoIHsnbTqs6AsIOyLpOyaqeyggeyduCDrqbTsl5DshJzrnbzrqbQg67mFIOu4jOudvOuNlOydmCDriIjsnYQg7ZS87ZWY6riwIOychO2VtCDrp47snbQg7IKs7Jqp65CY64qUIOqyg+ycvOuhnCDslYzqs6Ag7J6I7Iq164uI64ukLgoK7JyI64+E7ZmY6rK97JeQ7ISgICBwdXR0eeulvOyCrOyaqe2VtCBzc2ggdHVubmVs7J2EIO2VoCDsiJgg7J6I7Iq164uI64ukLgoKPHN0cm9uZz4yLiAg7JmcLCDslrTrlrvqsowg66eM65Ok7JeI64KYPzwvc3Ryb25nPgoKcHV0dHnroZwg7YSw64SQ66eB7J2EIO2VmOugpOuptCDthLDrr7jrhJAg7LC97J2EIOqzhOyGjSDsl7TslrQg65GQ7Ja07JW8IO2VmOuKlOuNsCwg7LWc7IaM7ZmUIO2VnCBwdXR0eeywveydtOqxuOumrOyggSDqsbDrpqzqs6AsIOyLpOyImOuhnCDsooXro4wg7ZWY64qU7J287J20IOyekOyjvCDrsJzsg50g7ZW0IOunjOuTpOyXiOyKteuLiOuLpC4KCnd4UHl0aG9u7J2EIOyCrOyaqe2VnCDsi5zsiqTthZwg7Yq466CI7J20IOyVhOydtOy9mCDsmIjsoJzsmYAsICBwYXJhbWlrb+2MqO2CpOyngCDslYjsnZggc3NoLXR1bm5lbGluZyAg7JiI7KCc66W8IOyCrOyaqe2VtCDrmp3rlLHrmp3rlLEg66eM65Ok7JeI7Iq164uI64ukLiA6KQoK7JWE656Y7JeQ7IScIOuLpOyatCDrsJvsnLzsi6Qg7IiYIOyeiOyKteuLiOuLpC4KCjxhIGhyZWY9JnF1b3Q7aHR0cDovL3dlYi5zdWFwYXBhLm5ldDo4MDgwL3N2bi9OeWR1c1NzaENhbmFsLyZxdW90Oz5OeWR1c1NzaENhbmFs7J2YIFNWTiDsoIDsnqXshow8L2E+Cgo8c3Ryb25nPjMuICDshKTsoJU8L3N0cm9uZz4KCuyVhOuemOydmCDtmZjqsr3snYQg66i87KCAIOyEpOy5mO2VmOyFlOyVvCDtlanri4jri6QuCjx1bD4KCTxsaT7tjIzsnbTsjawgKOuyhOygvCAyLjTsnbTsg4Hsl5DshJwg64+Z7J6RIO2ZleyduCk8L2xpPgoJPGxpPu2MjOydtOyNrCDrnbzsnbTruIzrn6zrpqwgd3hQeXRob24sIDxhIGhyZWY9JnF1b3Q7aHR0cDovL3dlYi5zdWFwYXBhLm5ldDo4MDgwL3dpa2kvUGFyYW1pa28mcXVvdDsgdGFyZ2V0PSZxdW90O19ibGFuayZxdW90Oz5wYXJhbWlrbzwvYT48L2xpPgoJPGxpPnB1dHR5PC9saT4KPC91bD4KcGFyYW1pa2/rpbwg7KCc7Jm47ZWcIOuLpOuluCDtlITroZzqt7jrnqjrk6TsnYAg6rWs6riA66eB7J2EIO2Gte2VtCDsnIjrj4Qg67CU7J2064SI66as66W8IOyJveqyjCDrsJvsnLzsi6Qg7IiYIOyeiOqzoCwgcGFyYW1pa2/ripQg7JyE7J2YIOunge2BrOyXkCDrsJTsnbTrhIjrpqwg67mM65OcIOuwqeuyleydhCDsoJXrpqwg7ZW0IOuRkOyXiOyKteuLiOuLpC4KCk55ZHVzU3NoQ2FuYWzsnYAg7Jm467aAIOyEpOyglSDtjIzsnbzsnbQg7JeG6riwIOuVjOusuOyXkCDsp4HsoJEgIE55ZHVzU3NoQ2FuYWwucHntjIzsnbzsnYQg7Je07Ja0ICDthLDrhJDrp4HsnYQg7ZWgIHNzaOyjvOyGjOyZgCDqs4TsoJUsIOuhnOy7rCDtj6ztirjrpbwg7ISk7KCVIO2VmOyFlOyVvCDtlanri4jri6QuCjxwcmUgbGFuZz0mcXVvdDtQeXRob24mcXVvdDs+Cl9zc2hGb3dhcmRMaXN0ID0gW1xcCiMoc3JjUG9ydCwgc3NoSG9zdCwgZGVzdFBvcnQsIHNzaFVzZXIsIHNzaFBvcnQpLAooNTAwMSwgXCdzdWFwYXBhLm5ldFwnLCA4MDgwLCBcJ2FkbWluXCcsIDIyKQpdPC9wcmU+CuychOydmCDshKTsoJXsnYAgc3VhcGFwYS5uZXQ6ODA4MCDsnITsuZjsmYAgMTI3LjAuMC4xOjUwMDHsnYQgc3VhcGFwYeudvOuKlCBzc2jqs4TsoJXsnYQg7Ya17ZW0IOyXsOqysO2VmOuKlCDshKTsoJUg7J6F64uI64ukLiDqsIDsp4Dqs6Ag6rOE7IugIHNzaCDqs4TsoJXqs7wg7KO87IaMLCDsl7DqsrDtlaAg66Gc7LusIO2PrO2KuOuhnCDrsJTqv5TshJwg7KCA7J6l7ZWY7IS47JqULgoKPHN0cm9uZz40LiAg7Iuk7ZaJPC9zdHJvbmc+CjxvbD4KCTxsaT5zc2jsl7DqsrDsnYAg67CY65Oc7IucIO2CpOulvCDsgqzsmqntlanri4jri6QuICBwYWdlbnTsl5Ag7YKk66W8IOudhOybjOuRoeuLiOuLpC48L2xpPgoJPGxpPk55ZHVzU3NoQ2FuYWwucHkgIOyLpO2WiTwvbGk+Cgk8bGk+7Yq466CI7J207JeQIOuCmOydtOuNlOyKpCDsu6TrhJDsnbQg7IOd6rmAPC9saT4KCTxsaT5odHRwOi8vMTI3LjAuMC4xOjUwMDEg66GcIGh0dHA6Ly9zdWFwYXBhLm5ldDo4MDgwIOydtCDsoJHsho3rkJjripTsp4Ag7ZmV7J24LjwvbGk+Cjwvb2w+CuyngOq4iOq5jOyngCDsnIjrj4Trpbwg6riw7KSA7Jy866GcIOyEpOuqheuTnOuguOyngOunjCBQeXRob24sIHd4UHl0aG9uLCBwYXJhbWlrb+qwgCDrqqjrkZAg7YGs66Gc7IqkIO2UjOugm+2PvOydhCDsp4Dsm5DtlZjquLAg65WM66y47JeQIOqwmeydgCDshozsiqTsmYAg67Cp67KV7Jy866GcIOumrOuIheyKpOyXkOyEnOuPhCDsnpgg64+M7JWE6rCR64uI64ukISAg7JmA7JqwISEo66as64iF7Iqk7JeQ7ISc64qUIHBhZ2VudCDrjIDsi6Agc3NoLWFkZOuqheugueyWtOulvCDsgqzsmqntlbQg7YKk66W8IOuTseuhne2VmOuptCDrkKnri4jri6QuKQoK7JWE656Y64qUIOyasOu2hO2IrOyXkOyEnOydmCDsiqTtgazrprAg7IO3IOyeheuLiOuLpC4KCjxpbWcgc3JjPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDMvc2NyZWVuc2hvdC5wbmcmcXVvdDsgYWx0PSZxdW90O3NjcmVlbnNob3QucG5nJnF1b3Q7IGNsYXNzPSZxdW90O2ltYWdlZnJhbWUgaW1nYWxpZ25sZWZ0JnF1b3Q7IHdpZHRoPSZxdW90OzQwMCZxdW90OyBoZWlnaHQ9JnF1b3Q7MTY1JnF1b3Q7IC8+CgrsnbTsoJwg67mF67iM6528642UIOuqsOuemCA8c3RyaWtlPuyggOq3uOungeuWvOulvC4uPC9zdHJpa2U+IOuvuOyngOydmCDshLjsg4HsnLzroZwg64KY6rCIIOykgOu5hOqwgCDsmYTro4zrkJjsl4jsirXri4jri6QuIOOEseOEseOFhX4KCjxzdHJvbmc+NS4gVG9kbzwvc3Ryb25nPgoK6rCc7J247KCB7J24IOyaqeuPhOuhnCDrp4zrk6Ag64WA7ISd7J206riwIOuVjOusuOyXkCDtmITsnqwg7IS47IS47ZWcIOu2gOu2hOydtCDrp47snbQg6rWs7ZiE65CY7Ja0IOyeiOyngCDslYrsirXri4jri6QuIOyVnuycvOuhnCDstpTqsIAg65CY7JeI7Jy866m0IO2VmOuKlCDrgrTsmqnrk6TsnYAg64uk7J2M6rO8IOqwmeyKteuLiOuLpC4KPHVsPgoJPGxpPu2KuOugiOydtCAg66mU64m066W8IO2Gte2VtCAg7Jew6rKwIOyEpOyglSDstpTqsIAv7IKt7KCcPC9saT4KCTxsaT7sl7DqsrDsnbQg7JWIIOuQnOqyveyasCDslYTsnbTsvZgg67KE66Gc7JqwPC9saT4KCTxsaT7rpqzriIXsiqQt6re464aI7ZmY6rK97JeQ7IScICZxdW90O+2CpCDrqqjsnYwg6rSA66as7J6QJnF1b3Q766GcIHNzaO2CpCDsoJHqt7w8L2xpPgo8L3VsPgrtlZjsp4Drp4wsIOuLpO2Wie2eiOuPhC/rtojtlontnojrj4Qg7KCA64qUIOu5heu4jOudvOuNlOydmCDsgrzsl4TtlZwg6rCQ7Iuc6rCAIOyXhuuKlCDtmZjqsr3snbTrnbwgVG9kb+ydmCDsoIHsmqnsnYAg7JqU7JuQ7ZWp64uI64ukLiDjhYsKCjxzdHJvbmc+Ni4g65287J207IS87IqkPC9zdHJvbmc+CgpOeWR1c1NzaENhbmFs7J2AIEdQTCDrnbzsnbTshLzsiqTrpbwg65Sw66aF64uI64ukLgoK6rCZ7J20IOyyqOu2gOuQnCBsaWNlbnNlLnR4dCDtjIzsnbzsl5Ag7J6Q7IS47ZWcIOuCtOyaqeydtCDsnojripTrjbAsIOyalOyVve2VmOuptCwg67mF67iM6528642U7ZWc7YWMIOqxuOugpOyEnCDtmozsgqzsl5Ag7Kek66Ck64+EIOuMgSDsgqzsoJUg7J2065286rOgIOuQmOyWtCDsnojsirXri4jri6QuIC1fLTsKCuyii+ydgCDsmqnrj4Tsl5Ag7J6s67CM6rKMIOyCrOyaqe2VmOyLnOqzoCwg7L2U65Oc7JeQIOuMgO2VnCDrrLjsnZjrgpgg7KCc7JWI7J20IOyeiOycvOuptCA8YSBocmVmPSZxdW90O2h0dHA6Ly93ZWIuc3VhcGFwYS5uZXQ6ODA4MC93b3JkcHJlc3MvP3BhZ2VfaWQ9MiZxdW90OyB0YXJnZXQ9JnF1b3Q7X2JsYW5rJnF1b3Q7PuyVjOugpOyjvOyLnOq4sDwvYT4g67CU656N64uI64ukLiA6KSI7czoxMDoicG9zdF90aXRsZSI7czo0MDoiTnlkdXNTc2hDYW5hbCAtIHNzaCB0dW5lbCBpbiBzeXN0ZW0gdHJheSI7fX0=";}'
+dsq_thread_id:
+  - 722489667
+categories:
+  - MyProject
+tags:
+  - ssh
+  - 뚝딱뚝딱
+  - 보안
+  - 파이썬
+
+---
+저는 오픈 소스 프로젝트에 참여 하고 있습니다. 오픈 소스 개발자는, 저처럼, 다음과 같이 되실 수 있습니다.
+
+> 직접 프로젝트를 시작하여, 오픈.
+
+물론 많은 사람이 참여하는, 엄청난 기술이 들어가는 자랑스러운 프로젝트의 일원이 되는 것은 별개의 일 입니다.
+
+그래도, 블로그가 생기니 제 프로젝트들을 알릴 수 있군요!
+
+그 시작으로 **NydusSshCanal**을 소개합니다.
+
+<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/nyduscanal.png" alt="nyduscanal.png" class="imageframe imgalignleft" width="70" height="70" /> 
+
+<!--more-->
+
+### **NydusSshCanal &#8211; 시스템 트레에 ssh 터널링을!  
+** 
+
+**1. ssh 터널링?**
+
+ssh 터널링은 안전하고, 여러 모로 쓸모 있는 기능입니다. 대중적이고, 실용적인 면에서라면 빅 브라더의 눈을 피하기 위해 많이 사용되는 것으로 알고 있습니다.
+
+윈도환경에선 putty를사용해 ssh tunnel을 할 수 있습니다.
+
+**2. 왜, 어떻게 만들었나?**
+
+putty로 터널링을 하려면 터미널 창을 계속 열어 두어야 하는데, 최소화 한 putty창이걸리적 거리고, 실수로 종료 하는일이 자주 발생 해 만들었습니다.
+
+wxPython을 사용한 시스템 트레이 아이콘 예제와, paramiko패키지 안의 ssh-tunneling 예제를 사용해 뚝딱뚝딱 만들었습니다. 🙂
+
+아래에서 다운 받으실 수 있습니다.
+
+[NydusSshCanal의 SVN 저장소][1]
+
+**3. 설정**
+
+아래의 환경을 먼저 설치하셔야 합니다.
+
+  * 파이썬 (버젼 2.4이상에서 동작 확인)
+  * 파이썬 라이브러리 wxPython, <a href="https://homin.dev/wiki/Paramiko" target="_blank" rel="noopener">paramiko</a>
+  * putty
+
+paramiko를 제외한 다른 프로그램들은 구글링을 통해 윈도 바이너리를 쉽게 받으실 수 있고, paramiko는 위의 링크에 바이너리 빌드 방법을 정리 해 두었습니다.
+
+NydusSshCanal은 외부 설정 파일이 없기 때문에 직접 NydusSshCanal.py파일을 열어 터널링을 할 ssh주소와 계정, 로컬 포트를 설정 하셔야 합니다.
+
+<pre lang="Python">_sshFowardList = [\
+#(srcPort, sshHost, destPort, sshUser, sshPort),
+(5001, 'suapapa.net', 8080, 'admin', 22)
+]</pre>
+
+위의 설정은 suapapa.net:8080 위치와 127.0.0.1:5001을 suapapa라는 ssh계정을 통해 연결하는 설정 입니다. 가지고 계신 ssh 계정과 주소, 연결할 로컬 포트로 바꿔서 저장하세요.
+
+**4. 실행**
+
+  1. ssh연결은 반드시 키를 사용합니다. pagent에 키를 띄워둡니다.
+  2. NydusSshCanal.py 실행
+  3. 트레이에 나이더스 커널이 생김
+  4. http://127.0.0.1:5001 로 http://suapapa.net:8080 이 접속되는지 확인.
+
+지금까지 윈도를 기준으로 설명드렸지만 Python, wxPython, paramiko가 모두 크로스 플렛폼을 지원하기 때문에 같은 소스와 방법으로 리눅스에서도 잘 돌아갑니다! 와우!!(리눅스에서는 pagent 대신 ssh-add명령어를 사용해 키를 등록하면 됩니다.)
+
+아래는 우분투에서의 스크린 샷 입니다.
+
+<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/screenshot.png" alt="screenshot.png" class="imageframe imgalignleft" width="400" height="165" /> 
+
+이제 빅브라더 몰래 <strike>저그링떼를..</strike> 미지의 세상으로 나갈 준비가 완료되었습니다. ㄱㄱㅅ~
+
+**5. Todo**
+
+개인적인 용도로 만든 녀석이기 때문에 현재 세세한 부분이 많이 구현되어 있지 않습니다. 앞으로 추가 되었으면 하는 내용들은 다음과 같습니다.
+
+  * 트레이 메뉴를 통해 연결 설정 추가/삭제
+  * 연결이 안 된경우 아이콘 버로우
+  * 리눅스-그놈환경에서 &#8220;키 모음 관리자&#8221;로 ssh키 접근
+
+하지만, 다행히도/불행히도 저는 빅브라더의 삼엄한 감시가 없는 환경이라 Todo의 적용은 요원합니다. ㅋ
+
+**6. 라이센스**
+
+NydusSshCanal은 GPL 라이센스를 따릅니다.
+
+같이 첨부된 license.txt 파일에 자세한 내용이 있는데, 요약하면, 빅브라더한테 걸려서 회사에 짤려도 댁 사정 이라고 되어 있습니다. -_-;
+
+좋은 용도에 재밌게 사용하시고, 코드에 대한 문의나 제안이 있으면 <a href="https://homin.dev/wp/?page_id=2" target="_blank" rel="noopener">알려주시기</a> 바랍니다. 🙂
+
+ [1]: https://homin.dev/svn/NydusSshCanal/

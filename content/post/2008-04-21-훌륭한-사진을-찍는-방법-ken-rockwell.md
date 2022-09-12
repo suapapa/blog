@@ -1,0 +1,68 @@
+---
+title: 훌륭한 사진을 찍는 방법 – Ken Rockwell
+author: suapapa
+type: post
+date: 2008-04-21T11:48:30+00:00
+url: /p=54
+translations:
+  - 'a:1:{i:0;s:5952:"YToxOntzOjI6ImtvIjthOjM6e3M6MTE6InBvc3RfZXhjZXB0IjtzOjA6IiI7czoxMjoicG9zdF9jb250ZW50IjtzOjQzMTE6IktlbiBSb2Nrd2VsbOydmCDtmYjtjpjsnbTsp4DsmYAg6re47J2YICZxdW90O+2bjOulre2VnCDsgqzsp4TsnYQg7LCN64qUIOuwqeuylSZxdW90O+ydhCDshozqsJztlanri4jri6QuCjxibG9ja3F1b3RlPuy6kOuFvCBENDUwIOu9kOu/jOyXkCDqs6DthrXrsJvripQg7Lmc6rWs7JeQ6rKMIOuwlOy5qeuLiOuLpC48L2Jsb2NrcXVvdGU+CuyggOuKlCA8YSBocmVmPSZxdW90O2h0dHA6Ly93ZWIuc3VhcGFwYS5uZXQ6ODA4MC9nYWxsZXJ5Mi9tYWluLnBocD9nMl9pdGVtSWQ9MTkwNyZxdW90Oz7siJjslYTqsIAg7J6Q652864qUIOuqqOyKtTwvYT7snYQg64u06riwIOychO2VtCBEU0xS66W8IOq1rOyehe2WiOyKteuLiOuLpC4g6rOnIOuNlCDsg4HsnIQg6riw7KKF7J20IOy2nOyLnOuQmOyXiOuKlOuNsCwg7J207IOB7ZWY6rKMIOqylOufrOumrOyXkOyEnCDrp4jsnYzsl5Ag65Oc64qUIOyCrOynhOuTpOydmCBFeGlm66W8IOuztOuptCDsmKTrnpjrkJwg6riw7KKF7Jy866GcIOy0rOyYgeuQnCDqsr3smrDqsIAg66eO7JWY7Iq164uI64ukLiDrjZTsmrHsnbQg7KCV66eQIOupi+ynhCDsgqzsp4Trk6TsnYAg64yA67aA67aEIDIwfjMw64WEIOuQnCDtlYTrpoQg7Lm066mU65287J2YIOyCrOynhOuTpCDsnbTsl4jsirXri4jri6QuCjxibG9ja3F1b3RlPlwn7J20662l66+4LiBLMTAwRCDsmKTrgpjsoIQg7LqQ7JWI7Iq1ISFcJzwvYmxvY2txdW90ZT4K67CA66Ck7Jik64qUIOu9kOu/jOulvCDsnbQg7JWMIOyImCDsl4bripQg66+47Iqk7YWM66as7JmALCDsiJjslYTrp5jsnZgg6rKs7KCc66GcIOywuOyVhOuCtOqzoCDsnojrjZgg7KSRLiA8c3RyaWtlPuq3uOu2hOydtCDsmKTshajsirXri4jri6QuPC9zdHJpa2U+IOyCrOynhOqwgCBLZW4gUm9ja3dlbGzsnZgg7ZmI7Y6Y7J207KeA66W8IOyVjOqyjCDrkJjsl4jsirXri4jri6QuCgo8IS0tbW9yZS0tPgoKPGEgaHJlZj0mcXVvdDtodHRwOi8va2Vucm9ja3dlbGwuY29tLyZxdW90OyB0YXJnZXQ9JnF1b3Q7X2JsYW5rJnF1b3Q7PjxpbWcgc3JjPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDQva2Vucm9ja3dlbGxfc2l0ZS5qcGcmcXVvdDsgYWx0PSZxdW90O2tlbnJvY2t3ZWxsX3NpdGUuanBnJnF1b3Q7IGNsYXNzPSZxdW90O2ltYWdlZnJhbWUmcXVvdDsgaGVpZ2h0PSZxdW90OzMyNCZxdW90OyB3aWR0aD0mcXVvdDs0MjAmcXVvdDsgLz48L2E+CjxibG9ja3F1b3RlPu2UjOugiOyJrOuCmCBBSkFY6rCAIOyXhuydtOuPhCDrqYvsp4QgLeq3uOumrOqzoCDsnKDsvoztlZwhLSDqtazrj4Trpbwg6rCA7KeEIO2ZiO2OmOydtOyngCDsnoXri4jri6QuIOychOydmCDsgqzsp4TsnYQg7YG066at7ZWY66m0IOq3uOydmCDtmYjtjpjsnbTsp4DroZwg7J2064+ZIO2VqeuLiOuLpC48L2Jsb2NrcXVvdGU+Cu2ZiO2OmOydtOyngOydmCDsmrAg7IOB64uo7JeQIOyeiOuKlCBFdmVyeXRoaW5nIEkgS25vdyBBYm91dCBNYWtpbmcgUGljdHVyZeyXkCDsnojripQg6rCV7KKM65Ok7J2EIOyCtO2OtCDrs7TshLjsmpQuIOydvOu2gCDquIDrk6TsnYAg7ZWc6riA66Gc64+EIOuyiOyXrSDrkJjslrQg7J6I7Iq164uI64ukLiDqt7gg7KSRIOqwgOyepSDsnKDrqoXtlZwg6riA7J2YIOunge2BrOulvCDrlrwg7JmU7Iq164uI64ukLiDqvK0g7ZWc67KIIOydveyWtOuztOyEuOyalC4KPHVsPgoJPGxpPjxhIGhyZWY9JnF1b3Q7aHR0cDovL2tlbnJvY2t3ZWxsLmNvbS90ZWNoL2hvd3Rvay5odG1sJnF1b3Q7IHRhcmdldD0mcXVvdDtfYmxhbmsmcXVvdDs+PHN0cm9uZz7tm4zrpa3tlZwg7IKs7KeE7J2EIOywjeuKlCDrsKnrspUo7ZWc6riAKTwvc3Ryb25nPjwvYT48L2xpPgo8L3VsPgrqt7jripQgPHN0cm9uZz4mcXVvdDvslYTsp4Eg7JWE66y06rKD64+EIOyCrOyngCDrp4jsi63si5zsmKQmcXVvdDs8L3N0cm9uZz4g652864qUIOunkOuhnCDqsJXsoozrpbwg7Iuc7J6R7ZWp64uI64ukLiDslYTrnpjsl5Ag6re46rCAIO2VmOqzoOyekCDtlZjripQg66eQ7J2EIOuNlCDrqoXtmZXtnojtlZwg66y46rWs66W8IOyduOyaqe2VmOqyoOyKteuLiOuLpC4KPGJsb2NrcXVvdGU+JnF1b3Q77KCA64qUIOyLuOq1rOugpCDrmJHrlLHsnbQg7Lm066mU652866Gc64+EIOyii+ydgCDsgqzsp4TsnYQg7LCN7Iq164uI64ukLiZxdW90OzwvYmxvY2txdW90ZT4KPHN0cmlrZT7qt7jrnpgg64uIIOuYpSDqtbXri6QuPC9zdHJpa2U+IO2ZleyLpO2eiCDqt7jsnZgg7ZmI7Y6Y7J207KeA7JeQ7IScIOywvuydgCDrmJHrlLHsnbQg7IKs7KeE7J2AIOygnCDsgqzsp4Trs7Tri6Qg7KKL7Iq164uI64ukLiBULVQg7Ja065a76rKMIO2VmOuptCDtm4zrpa3tlZwg7IKs7KeE7J2EIOywjeydhCDsiJgg7J6I7J2E6rmM7JqUPwo8YmxvY2txdW90ZT48Zm9udCBmYWNlPSZxdW90O0dlb3JnaWEsIFRpbWVzIE5ldyBSb21hbiwgVGltZXMsIHNlcmlmJnF1b3Q7PiZxdW90O+yCrOynhOydgCDsp4Tsp5wg7Zi46riw7Ius7J2EIOuKkOuBvOuKlCDtlLzsgqzssrTsl5Ag64us66Ck7J6I7Iq164uI64ukLiDsgqzsp4TsnYQg67O064qUIOyCrOuejOuTpOydmCDqtIDsi6zsnYQg64GM7J6Q66m0LCDtlLzsgqzssrTqsIAg7IKs7KeE7J2EIOywjeuKlCDsgqzrnozsnZgg6rSA7Ius7J2EIOuBjOyWtOyVvCDtlanri4jri6QuJnF1b3Q7PC9mb250PjwvYmxvY2txdW90ZT4KPGJsb2NrcXVvdGU+CjxwIGFsaWduPSZxdW90O2xlZnQmcXVvdDs+JnF1b3Q77J6Q6riwIOyekOyLoOydhCDssL7snLzsi63si5zsmKQuIOuLpOuluOyCrOuejOydmCDsl7TsoJXsnYQg65Sw65287ZWY66Ck6rOgIOyVoOyTsOyngCDrp5Dqs6Ag7Iqk7Iqk66Gc7J2YIOyXtOygleydhCDrs7Tsl6zso7zsi63si5zsmKQuJnF1b3Q7PC9wPgo8L2Jsb2NrcXVvdGU+CjxwIGFsaWduPSZxdW90O2xlZnQmcXVvdDs+6re466CH6rWw7JqUISDsubTrqZTrnbzsmYDripQg7IOB6rSA7J20IOyXhuq1sOyalCEg7J207KCcIOyigCDslYwg6rKDIOqwmeyKteuLiOuLpC4g7J207KCcIO2bl+uCoOyXkOuKlCA8c3Ryb25nPuyhtOqyveuwm+uKlCDsgqzsp4TsnpHqsIA8L3N0cm9uZz7rj4Qg65CgIOyImCDsnojsnYQg6rKDIOqwmeydgCDquLDrtoTsnoXri4jri6QuPC9wPgoKPGJsb2NrcXVvdGU+JnF1b3Q77KCc6rCAIOyhtOqyve2VmOuKlCDsgqzsp4TsnpHqsIDripQg64yA67aA67aEIOyYiOyghOyXkCDtmZTqsIDsmIDqsbDrgpgg7KCB7Ja064+EIOyYiOyIoOydhCDsoITqs7XtlZwg7IKs656M65Ok7J6F64uI64ukLiDsu7Ttk6jthLAsIOqzte2VmSwg6rO87ZWZ7J2064KYIOyCrOynhCDquLDsiKAg7ZWZ7JyE66W8IOqwgOynhCDsgqzrnozrk6TsnbQg7JWE64uZ64uI64ukLiZxdW90OzwvYmxvY2txdW90ZT4K64SkLiDsoIDripQg7IKs7KeEIOq4sOyIoOyXkCDqtIDsi6zsnbQg66eO7J2AIOy7tO2TqO2EsCDqs7XtlZkg7KCE6rO17J6QIOyeheuLiOuLpC4gLV8tOwoK7JqV7IusIOu2gOumrOyngCDrp5Dqs6AsIOyngOq4iOyymOufvCDrp5jrjIDroZwg7LCN6rOgLCDsgqzsp4Qg6riw7Iig7J2EIOuwsOyasOqzoC/slYzrpqzrqbTshJwg7IK07JWE7JW8IOqyoOyKteuLiOuLpC4g7J2065+wIOydvOuTpCjsgqzsp4Qg6riw7IigKeydgCDsoIDsl5DqsozripQg7J6s66+47J6I64qUIOydvCDsnbTri4jquYzsmpQuCgrqsJXsoozsnZgg7ZuE67CY67aA64qUIC3soIDsl5Dqsowg7J6s66+47J6I64qULSDquLDsiKDsoIHsnbgg7YyB65Ok66GcIOydtOujqOyWtOyguCDsnojsirXri4jri6QuIOyYiOyghOyXkCDtlZzrsogg7J297JeI642YIOqygyDqsJnsnYDrjbAg64uk7IucIOydveyWtOuPhCDrsLDsmrgg7KCQ7J20IOunjuuEpOyalC4g7Yq57Z6IIOyhtCDsi5zsiqTthZzsnZgg6rCV7KKM64qUIC3slYTsp4Eg67KI7Jet65CY7KeAIOyViuyVmOycvOuvgOuhnC0g67KI7Jet7ZW0IOu0kOyVvCDqsqDsirXri4jri6QuCgrsnbTsoJwg6re47J2YIO2ZiO2OmOydtOyngOyXkCDssL7slYTqsIDshJwg64KY66i47KeAIOqwleyijOuTpOqzvCDqt7jsnZgg7IKs7KeE65Ok7J2EIOyCtO2OtCDrs7TshLjsmpQuIOyggOuKlCDtirntnogg7JWE67mg64u57J24IEtlbiBSb2Nrd2VsbOydtCDssI3snYAg7JWE6riwIOyCrOynhOuTpCjqs7wg7IKs7KeEIOygnOuqqeuTpCnsnYQg7KKL7JWE7ZWp64uI64ukLgo8dWw+Cgk8bGk+PGEgaHJlZj0mcXVvdDtodHRwOi8va2Vucm9ja3dlbGwuY29tL3J5YW4vaW5kZXguaHRtJnF1b3Q7IHRhcmdldD0mcXVvdDtfYmxhbmsmcXVvdDs+QmFieSBSeWFuIFJvY2t3ZWxsPC9hPjwvbGk+CjwvdWw+CnBzLiDqt7jsnZgg7LWc6re8IOyVhOq4sCDsgqzsp4Trk6TsnYAg64uI7L2YIEQzIHdpdGggODUuNCA9MyI7czoxMDoicG9zdF90aXRsZSI7czo0ODoi7ZuM66Wt7ZWcIOyCrOynhOydhCDssI3ripQg67Cp67KVIC0gS2VuIFJvY2t3ZWxsIjt9fQ==";}'
+dsq_thread_id:
+  - 723345736
+categories:
+  - Camera
+  - Life
+tags:
+  - 사진작가
+
+---
+Ken Rockwell의 홈페이지와 그의 &#8220;훌륭한 사진을 찍는 방법&#8221;을 소개합니다.
+
+> 캐논 D450 뽐뿌에 고통받는 친구에게 바칩니다.
+
+저는 [수아가 자라는 모습][1]을 담기 위해 DSLR를 구입했습니다. 곧 더 상위 기종이 출시되었는데, 이상하게 겔러리에서 마음에 드는 사진들의 Exif를 보면 오래된 기종으로 촬영된 경우가 많았습니다. 더욱이 정말 멋진 사진들은 대부분 20~30년 된 필름 카메라의 사진들 이었습니다.
+
+> &#8216;이뭥미. K100D 오나전 캐안습!!&#8217;
+
+밀려오는 뽐뿌를 이 알 수 없는 미스테리와, 수아맘의 견제로 참아내고 있던 중. <strike>그분이 오셨습니다.</strike> 사진가 Ken Rockwell의 홈페이지를 알게 되었습니다.
+
+<!--more-->
+
+<a href="http://kenrockwell.com/" target="_blank" rel="noopener"><img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/04/kenrockwell_site.jpg" alt="kenrockwell_site.jpg" class="imageframe" height="324" width="420" /></a>
+
+> 플레쉬나 AJAX가 없이도 멋진 -그리고 유쾌한!- 구도를 가진 홈페이지 입니다. 위의 사진을 클릭하면 그의 홈페이지로 이동 합니다.
+
+홈페이지의 우 상단에 있는 Everything I Know About Making Picture에 있는 강좌들을 살펴 보세요. 일부 글들은 한글로도 번역 되어 있습니다. 그 중 가장 유명한 글의 링크를 떼 왔습니다. 꼭 한번 읽어보세요.
+
+  * <a href="http://kenrockwell.com/tech/howtok.html" target="_blank" rel="noopener"><strong>훌륭한 사진을 찍는 방법(한글)</strong></a>
+
+그는 **&#8220;아직 아무것도 사지 마십시오&#8221;** 라는 말로 강좌를 시작합니다. 아래에 그가 하고자 하는 말을 더 명확히한 문구를 인용하겠습니다.
+
+> &#8220;저는 싸구려 똑딱이 카메라로도 좋은 사진을 찍습니다.&#8221;
+
+<strike>그래 니 똥 굵다.</strike> 확실히 그의 홈페이지에서 찾은 똑딱이 사진은 제 사진보다 좋습니다. T-T 어떻게 하면 훌륭한 사진을 찍을 수 있을까요?
+
+> <font face="Georgia, Times New Roman, Times, serif">&#8220;사진은 진짜 호기심을 느끼는 피사체에 달려있습니다. 사진을 보는 사람들의 관심을 끌자면, 피사체가 사진을 찍는 사람의 관심을 끌어야 합니다.&#8221;</font>
+
+> <p align="left">
+>   &#8220;자기 자신을 찾으십시오. 다른사람의 열정을 따라하려고 애쓰지 말고 스스로의 열정을 보여주십시오.&#8221;
+> </p>
+
+<p align="left">
+  그렇군요! 카메라와는 상관이 없군요! 이제 좀 알 것 같습니다. 이제 훗날에는 <strong>존경받는 사진작가</strong>도 될 수 있을 것 같은 기분입니다.
+</p>
+
+> &#8220;제가 존경하는 사진작가는 대부분 예전에 화가였거나 적어도 예술을 전공한 사람들입니다. 컴퓨터, 공학, 과학이나 사진 기술 학위를 가진 사람들이 아닙니다.&#8221;
+
+네. 저는 사진 기술에 관심이 많은 컴퓨터 공학 전공자 입니다. -_-;
+
+욕심 부리지 말고, 지금처럼 맘대로 찍고, 사진 기술을 배우고/알리면서 살아야 겠습니다. 이런 일들(사진 기술)은 저에게는 재미있는 일 이니까요.
+
+강좌의 후반부는 -저에게 재미있는- 기술적인 팁들로 이루어져 있습니다. 예전에 한번 읽었던 것 같은데 다시 읽어도 배울 점이 많네요. 특히 존 시스템의 강좌는 -아직 번역되지 않았으므로- 번역해 봐야 겠습니다.
+
+이제 그의 홈페이지에 찾아가서 나머지 강좌들과 그의 사진들을 살펴 보세요. 저는 특히 아빠당인 Ken Rockwell이 찍은 아기 사진들(과 사진 제목들)을 좋아합니다.
+
+  * <a href="http://kenrockwell.com/ryan/index.htm" target="_blank" rel="noopener">Baby Ryan Rockwell</a>
+
+ps. 그의 최근 아기 사진들은 니콘 D3 with 85.4 =3
+
+ [1]: https://homin.dev/gallery2/main.php?g2_itemId=1907

@@ -1,0 +1,50 @@
+---
+title: 윈도에서도 ko-po-check 하기
+author: suapapa
+type: post
+date: 2008-03-24T07:55:39+00:00
+url: /p=41
+translations:
+  - 'a:1:{i:0;s:4308:"YToxOntzOjI6ImtvIjthOjM6e3M6MTE6InBvc3RfZXhjZXB0IjtzOjA6IiI7czoxMjoicG9zdF9jb250ZW50IjtzOjMwOTM6IjxwPjxpbWcgd2lkdGg9XFwmcXVvdDs0MjBcXCZxdW90OyBoZWlnaHQ9XFwmcXVvdDsyMjJcXCZxdW90OyBzcmM9XFwmcXVvdDsvd29yZHByZXNzL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDA4LzAzL2tvX3BvX2NoZWNrX2luX3dpbnhwLmpwZ1xcJnF1b3Q7IGFsdD1cXCZxdW90O2tvX3BvX2NoZWNrX2luX3dpbnhwLmpwZ1xcJnF1b3Q7IGNsYXNzPVxcJnF1b3Q7aW1hZ2VmcmFtZSBpbWdhbGlnbmxlZnRcXCZxdW90OyAvPjwvcD4NCjxwPjxhIGhyZWY9XFwmcXVvdDtodHRwOi8va2xkcC5uZXQvcHJvamVjdHMva28tcG8tY2hlY2tcXCZxdW90Oz5rby1wby1jaGVjazwvYT7ripQg66WY7LC97Jqw64uY7J20IOunjOuTnOyLoCwg7ZWc6riAIOuplOyEuOyngCDtjIzsnbwoa28ucG8p7JeQ7IScIOu5iOuyiO2eiCDsnbzslrTrgpjripQg7Iuk7IiY66W8IOyVjOugpOyjvOuKlCDtlITroZzqt7jrnqjsnoXri4jri6QuPC9wPg0KPGJsb2NrcXVvdGU+DQo8cD7rgrTsmqnstpTqsIAgKDIwMDktMDctMTApPC9wPg0KPHA+a28tcG8tY2hlY2sgMC45MC54IOuyhOygvOu2gO2EsOuKlCDslYTrnpjsnZgg64K07Jqp7J20IO2VhOyalCDsl4bqsowg7IiY7KCV65CY7Ja0IOyeiOyKteuLiOuLpC4g66WY7LC97JqwIOuLmOq7mCDqsJDsgqzrk5zrpr3ri4jri6QuPC9wPg0KPC9ibG9ja3F1b3RlPg0KPHA+7Jyg64uJ7IqkKOumrOuIheyKpCkg7ZmY6rK97JeQ7IScIOyVhOuemOyZgCDqsJnsnbQg7Iuk7ZaJ7ZWY66m0IOqygOyCrOulvCDsiJjtlontlZjrqbAsPC9wPg0KPGJsb2NrcXVvdGU+DQo8cD4kIGtvLXBvLWNoZWNrIGtvLnBvPC9wPg0KPC9ibG9ja3F1b3RlPg0KPHA+67KE7KC8L+uyhOyghCwg7IOd7ISxL+unjOuTpOq4sCZuYnNwO+yVhOumrOyGoe2VnCDrsojsl63sl5DsnZgg7KeA7LmoKOuSpOyXkCDqsowg66ee7J2MKSwg66ee7Lak67KVIOqygOyCrOuTsSDsnKDsmqntlZwg6rKA7IKs66W8IOyImO2Wie2VtCDspI3ri4jri6QuPC9wPg0KPHA+PGEgdGFyZ2V0PVxcJnF1b3Q7X2JsYW5rXFwmcXVvdDsgaHJlZj1cXCZxdW90O2h0dHA6Ly9sMTBuLmdub21lLm9yZy90ZWFtcy9rb1xcJnF1b3Q7Puq3uOuGiCDtlZzqta3slrQg67KI7Jet7YyAPC9hPuqwmeydtCDsl6zrn6wg7IKs656M7J20IOuyiOyXre2VmOuKlCDsu6Tri6TrnoAg7ZSE66Gc7KCd7Yq47JeQ64+EIOyCrOyaqeuQmOqzoCwgXFxcJ+ydtOugh+qyjCDrsojsl63tlbTslbwg65Cg6rmM7JqUIOyggOugh+qyjCDrsojsl63tlbTslbwg65Cg6rmM7JqUP1xcXCfrnbzripQg7KeI66y47J2YIOuLteycvOuhnOuPhCDrp47snbQg7Ja46riJIOuQqeuLiOuLpC48L3A+DQo8cD7tlZjsp4Drp4wg7Jyg64uJ7Iqk7ZmY6rK97JeQ7ISc66eMJm5ic3A77ISk7LmY6rCAIOqwgOuKpe2VmOqyjCDrkJjslrQg7J6I7Ja07IScLCDsoIDsspjrn7wg7JyI64+E7JmAIOumrOuIheyKpOulvCDrqqjrkZAg7IKs7Jqp7ZWY64qUIOqyveyasC0g7JyI64+E7JeQ7IScIOyCrOyaqe2VoCDsiJgg7JeG64qUIOygkOydtCDrtojtjrjtlZjrjZTqtbDsmpQuPC9wPg0KPHA+PCEtLW1vcmUtLT48L3A+DQo8cD7ri6Ttlontnogg7YyM7J207I2s7J20IO2BrOuhnOyKpCDtlIzroJvtj7zsnYQg7J6YIOyngOybkO2VmOqzoCwg6riw7KG07J2YIGtvLXBvLWNoZWNr7J2YIOq1rOyhsOqwgCDsnpgg7Kec7JesIOyeiOyWtOyEnCwg7Im96rKMLCDsobDquIgg7IiY7KCV7ZW07IScIOyciOuPhOyXkOyEnOuPhCDrj4zslYTqsIDrj4TroZ0g66eM65Ok7JeI7Iq164uI64ukLjwvcD4NCjxwPjxhIHRhcmdldD1cXCZxdW90O19ibGFua1xcJnF1b3Q7IGhyZWY9XFwmcXVvdDtodHRwOi8va2xkcC5uZXQvZnJzLz9ncm91cF9pZD0yMyZhbXA7cmVsZWFzZV9pZD0yNDQ4XFwmcXVvdDs+a28tcG8tY2hlY2vsnZgg64uk7Jq066Gc65OcIO2OmOydtOyngDwvYT7sl5DshJwg7LWc7IugICjsnbQg6riA7J2EIOyTsOuKlCDsi5zsoJDsl5DshJzripQgMC45KSDrsoTsoLzsnYQg64uk7Jq0IOuwm+yVhCDsoIHri7ntlZwg7JyE7LmY7JeQIOyVley2lSDtkbjsi5zqs6AsIOyVley2lSDtkbwg65SU66CJ7Yag66asKFJFQURNRSwgVE9ETyDrk7HsnbQg7J6I64qUIOuUlOugie2GoOumrCnsl5Ag7JWE656Y7J2YIOyyqOu2gO2MjOydvOydhCDstpTqsIDtlZjshLjsmpQuPC9wPg0KPHVsPg0KICAgIDxsaT48YSBocmVmPVxcJnF1b3Q7L3dvcmRwcmVzcy93cC1jb250ZW50L3VwbG9hZHMvMjAwOC8wMy9rby1wby1jaGVjay56aXBcXCZxdW90OyB0aXRsZT1cXCZxdW90O2tvLXBvLWNoZWNrLnppcFxcJnF1b3Q7PjxzdHJvbmc+a28tcG8tY2hlY2suemlwPC9zdHJvbmc+PC9hPjxzdHJvbmc+Jm5ic3A7PC9zdHJvbmc+PC9saT4NCjwvdWw+DQo8cD7ssqjrtoDtjIzsnbzsnYAgJnF1b3Q7c2NyaXB0c2tvLXBvLWNoZWNrLmluJnF1b3Q7IO2MjOydvOydhCDrs7XsgqztlZjsl6wsIEBWRVJTSU9OQOqzvCDqsJnsnYAgbWFrZeqwgCDsoITsspjrpqztlbTshJwg67CU6r+U7KO864qUIOu2gOu2hOydhCDsl4bslaDqs6AsIOyciOuPhOyXkOyEnCDsgqzsmqntlZjsp4Ag7JWK64qUIO2VqOyImCDtmLjstpzsnYQg66eJ7J2AIOqyjCDsoITrtoAg7J6F64uI64ukLjwvcD4NCjxwPuyLpO2WiSDqsrDqs7zripQg7LWcIOyDgeychOydmCDsiqTtgazrprAg7IO37JeQ7IScIO2ZleyduO2VmOyLpCDsiJgg7J6I7Iq164uI64ukLiDsnKDri4nsiqQg7ZmY6rK97LKY65+8IOyLnOyKpO2FnOydmCDquLDrs7ggcGF0aOyXkCDrk6TslrTqsIDqsowg7ISk7LmY6rCAIOuQmOyngOuKlCDslYrsp4Drp4wg7YGwIOu2iO2OuOyXhuydtCDsgqzsmqntlZjsi6Qg7IiYIOyeiOyKteuLiOuLpC48L3A+DQo8cD7slZ7snLzroZwgPGEgdGFyZ2V0PVxcJnF1b3Q7X2JsYW5rXFwmcXVvdDsgaHJlZj1cXCZxdW90O2h0dHA6Ly93d3cucG9lZGl0Lm5ldC9cXCZxdW90Oz5wb2VkaXQ8L2E+7JmAIOyXsOuPmeydtCDrkJjqsowg7ZWY6rOgLCBtYWtl66W8IO2Gte2VnCDshKTsuZjrpbwg7YyM7J207I2sIGRpc3R1dGlsIO2MqO2CpOyngOulvCDthrXtlbTshJw/IO2BrOuhnOyKpCDtlIzroJvtj7zsl5DshJwg7J6YIOyEpOy5mCDrkJjrj4TroZ0g7IiY7KCV7J20IOuQmOuptCDsoovqsqDsirXri4jri6QuIDopPC9wPiI7czoxMDoicG9zdF90aXRsZSI7czozNDoi7JyI64+E7JeQ7ISc64+EIGtvLXBvLWNoZWNrIO2VmOq4sCI7fX0=";}'
+dsq_thread_id:
+  - 722489648
+aktt_notify_twitter:
+  - no
+categories:
+  - DIY
+  - Programming
+tags:
+  - 번역
+  - 한글
+
+---
+<img loading="lazy" height="222" width="420" class="imageframe imgalignleft" alt="ko_po_check_in_winxp.jpg" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/ko_po_check_in_winxp.jpg" />
+
+[ko-po-check][1]는 류창우님이 만드신, 한글 메세지 파일(ko.po)에서 빈번히 일어나는 실수를 알려주는 프로그램입니다.
+
+유닉스(리눅스) 환경에서 아래와 같이 실행하면 검사를 수행하며,
+
+> $ ko-po-check ko.po
+
+버젼/버전, 생성/만들기 아리송한 번역에의 지침(뒤에 게 맞음), 맞춤법 검사등 유용한 검사를 수행해 줍니다.
+
+<a href="http://l10n.gnome.org/teams/ko" target="_blank" rel="noopener">그놈 한국어 번역팀</a>같이 여러 사람이 번역하는 커다란 프로젝트에도 사용되고, &#8216;이렇게 번역해야 될까요 저렇게 번역해야 될까요?&#8217;라는 질문의 답으로도 많이 언급 됩니다.
+
+하지만 유닉스환경에서만 설치가 가능하게 되어 있어서, 저처럼 윈도와 리눅스를 모두 사용하는 경우- 윈도에서 사용할 수 없는 점이 불편하더군요.
+
+<!--more-->
+
+다행히 파이썬이 크로스 플렛폼을 잘 지원하고, 기존의 ko-po-check의 구조가 잘 짜여 있어서, 쉽게, 조금 수정해서 윈도에서도 돌아가도록 만들었습니다.
+
+<a href="http://kldp.net/frs/?group_id=23&#038;release_id=2448" target="_blank" rel="noopener">ko-po-check의 다운로드 페이지</a>에서 최신 (이 글을 쓰는 시점에서는 0.9) 버젼을 다운 받아 적당한 위치에 압축 푸시고, 압축 푼 디렉토리(README, TODO 등이 있는 디렉토리)에 아래의 첨부파일을 추가하세요.
+
+  * [**ko-po-check.zip**][2]** **
+
+첨부파일은 &#8220;scriptsko-po-check.in&#8221; 파일을 복사하여, @VERSION@과 같은 make가 전처리해서 바꿔주는 부분을 없애고, 윈도에서 사용하지 않는 함수 호출을 막은 게 전부 입니다.
+
+실행 결과는 최 상위의 스크린 샷에서 확인하실 수 있습니다. 유닉스 환경처럼 시스템의 기본 path에 들어가게 설치가 되지는 않지만 큰 불편없이 사용하실 수 있습니다.
+
+앞으로 <a href="http://www.poedit.net/" target="_blank" rel="noopener">poedit</a>와 연동이 되게 하고, make를 통한 설치를 파이썬 distutil 패키지를 통해서? 크로스 플렛폼에서 잘 설치 되도록 수정이 되면 좋겠습니다. 🙂
+
+ [1]: http://kldp.net/projects/ko-po-check
+ [2]: https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/ko-po-check.zip "ko-po-check.zip"

@@ -1,0 +1,47 @@
+---
+title: FeedBurner 등록, 위젯으로 카운터 아이콘 보여주기
+author: suapapa
+type: post
+date: 2008-03-06T08:31:49+00:00
+url: /p=34
+dsq_thread_id:
+  - 732127024
+translations:
+  - 'a:1:{i:0;s:5240:"YToxOntzOjI6ImtvIjthOjM6e3M6MTE6InBvc3RfZXhjZXB0IjtzOjA6IiI7czoxMjoicG9zdF9jb250ZW50IjtzOjM3NjM6IjxwIHN0eWxlPSZxdW90O3RleHQtYWxpZ246IGNlbnRlciZxdW90Oz48c3Ryb25nPiZxdW90O+ydtOyBmOuLpCEg64KY64+EIOyggOqxsCEmcXVvdDs8L3N0cm9uZz4mbmJzcDs8L3A+CjxwIHN0eWxlPSZxdW90O3RleHQtYWxpZ246IGNlbnRlciZxdW90Oz48aW1nIGNsYXNzPSZxdW90O2ltYWdlZnJhbWUgaW1nYWxpZ25jZW50ZXImcXVvdDsgaGVpZ2h0PSZxdW90OzcyJnF1b3Q7IGFsdD0mcXVvdDtmZWVkYnVybmVyLmpwZyZxdW90OyB3aWR0aD0mcXVvdDsyMDgmcXVvdDsgc3JjPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDMvZmVlZGJ1cm5lci5qcGcmcXVvdDsgLz48L3A+CjxwPuuLpOuluCDrtoTrk6TsnZgg67iU66Gc6re466W8IOuPjOyVhOuLpOuLiOuLpCDrs7Tri4gg7JyE7JmAIOqwmeydtCDsg53quLQg7Lm07Jq07YSwIOyVhOydtOy9mOydtCDqt7gg67iU66Gc6re47J2YIFJTU+ulvCDrqocg66qF7J20IOq1rOuPhe2VmOqzoCDsnojripTsp4Ag7JWM66Ck7KO86rOgIOyeiOyXiOyKteuLiOuLpC48L3A+CjwhLS1tb3JlLS0+CjxwPjxzdHJvbmc+MS4gRmVlZEJ1cm5lciDrk7HroZ08L3N0cm9uZz4g7KeA6riI6rmM7KeAIOq3uOuerOuTr+ydtCZuYnNwO+qwhOuLqO2eiCDshKTsuZgg65CgIOqygyDqsJnslYQgPGEgdGFyZ2V0PSZxdW90O19ibGFuayZxdW90OyBocmVmPSZxdW90O2h0dHA6Ly93d3cuZmVlZGJ1cm5lci5jb20mcXVvdDs+RmVlZEJ1cm5lciDsgqzsnbTtirg8L2E+7JeQIOqwgOyEnCDtmozsm5DqsIDsnoXsnYQg7ZWY6rOgIOq4sOyhtOydmCBSU1Pso7zshozrpbwg7J6F66Cl7ZaI642U64uIIOygnCDruJTroZzqt7jsnZggPGEgaHJlZj0mcXVvdDtodHRwOi8vZmVlZHMuZmVlZGJ1cm5lci5jb20vU3VhcGFwYXNCbG9nJnF1b3Q7PkZlZWRCdXJuZXIg7KO87IaMPC9hPuqwgCDsg53qsrzsirXri4jri6QuIOyYpO2YuOudvH4gLeydtOuvuCBSU1Pso7zshozqsIAg7J6I64qU642wIOyZnCDsnbTrn7Dqsowg7IOd6rK864KYIOu0pOuNlOuLiCwg7J207KCcIOygnCDruJTroZzqt7jsnZggUlNT7Yq4656Y7ZS97J2EIEZlZWRCdXJuZXLsl5DshJwg67Cb6rKMIOuQmOuNlOq1sOyalC4g7J20IO2ZiOyEnOuyhOuKlCDqsJzrr7jrmKXqvrjrqY3rp4ztlZwg64yA7Jet7Y+tKOyViOyWkeuwqeyGoSDsvIDsnbTruJQg7KCc7J28IOyLuOq1rOugpCDsg4HtkogpIOydhCDqsIDsp4Qg7J6F7J6l7J206528IOyggeygiO2VnCDshJzruYTsiqTqsIAg7JWE64uQIOyImCDsl4bsl4jsirXri4jri6QuPC9wPgo8YmxvY2txdW90ZT5cJ+q3uOufsOuNsCZuYnNwO+yVhOydtOy9mOydgD9cJzwvYmxvY2txdW90ZT4KPHA+PHN0cm9uZz4yLiDtlIzrn6zqt7jsnbgg7ISk7LmYPC9zdHJvbmc+IOybjOuTnCDtlITroIjsiqTsmqkgPGEgdGFyZ2V0PSZxdW90O19ibGFuayZxdW90OyBocmVmPSZxdW90O2h0dHA6Ly93d3cuZmVlZGJ1cm5lci5jb20vZmIvYS9oZWxwL3dvcmRwcmVzc19xdWlja3N0YXJ0JnF1b3Q7PkZlZWRCdXJuZXIgRmVlZFNtaXRoIO2UjOufrOq3uOyduDwvYT7snbQg7J6I6ri4656YIOyYrO2DgOy/oOuCmCDtlZjqs6Ag7ISk7LmY7ZWY7JiA7Iq164uI64ukLiDshKTsuZjtlbQg67O064uIIOydtCDtlIzrn6zqt7jsnbjsnYAg6riw7KG07J2YIFJTU+yjvOyGjOuhnCDsoJHquIAg7ZWcIOqyveyasCBGZWVkQnVybmVy66GcIOumrOuLpOydtOugieyFmCDtlbQg7KO864qUIOyXre2ZnOydhCDtlZjrjZTqtbDsmpQuIOyasOyZleOFi+q1s+OFizwvcD4KPGJsb2NrcXVvdGU+XCfqt7jrn7DrjbAg7JWE7J207L2Y7J2AP1wnPC9ibG9ja3F1b3RlPgo8cD48c3Ryb25nPjMuIOy5tOyatO2EsCDslYTsnbTsvZg8L3N0cm9uZz4g7LC+7JWE67O064uIIOy5tOyatO2EsCDslYTsnbTsvZjsnYQg7Ja76riwIOychO2VtOyEnOuKlCDslYTrnpjsmYAg6rCZ7J20IEZlZWRDb3VudFNlcnZpY2Xrpbwg7Zmc7ISx7ZmUIO2VtOyVvCDtlanri4jri6QuICZuYnNwOzxpbWcgaGVpZ2h0PSZxdW90OzI4OSZxdW90OyBhbHQ9JnF1b3Q7ZmVlZGJ1cm5lcl9mZWVkY291bnRfc2V0dGluZy5qcGcmcXVvdDsgd2lkdGg9JnF1b3Q7NDUwJnF1b3Q7IGFsaWduPSZxdW90O21pZGRsZSZxdW90OyBib3JkZXI9JnF1b3Q7MCZxdW90OyBzcmM9JnF1b3Q7L3dvcmRwcmVzcy93cC1jb250ZW50L3VwbG9hZHMvMjAwOC8wMy9mZWVkYnVybmVyX2ZlZWRjb3VudF9zZXR0aW5nLmpwZyZxdW90OyAvPiDsubTsmrTthLAg7JWE7J207L2Y7J2YIOyGjOyKpOulvCDso7zrqbAgPHN0cm9uZz7soIHri7ntlZwg6rOzPC9zdHJvbmc+7JeQIOu2meyXrCDrhKPsnLzrnbzqs6Ag7ZWY64Sk7JqULjwvcD4KPGJsb2NrcXVvdGU+XCfsoIHri7ntlZwg6rOz7J20IOyWtOuUlOuDkCEhXCc8L2Jsb2NrcXVvdGU+CjxwPjxzdHJvbmc+NC4g7Lm07Jq07YSwIOyVhOydtOy9mCDsnITsoK8g7IOd7ISxPC9zdHJvbmc+IOyggeuLue2VnCDqs7PsnYQg7LC+64ukIOuztOuLiCDslYTsmIgg7JyE7KCv7Jy866GcIOunjOuTnOuKlCDqsowg7KKL6rKg64ukIOyLtuyWtCDquLDsobTsnZgg7ZSM65+s6re4IOyduOydhCDsooAg7IaQ67Sk7Iq164uI64ukLiZuYnNwOyBGZWVkQnVybmVyX0ZlZWRTbWl0aF9QbHVnaW4ucGhwIO2MjOydvOyXkCA8YSBocmVmPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDMvZmVlZGJ1cm5lcl9mZWVkc21pdGhfcGx1Z2luX2FkZF9mZWVkY291bnRlcndpZGdldF9kaWZmLnppcCZxdW90Oz7snbQg7Yyo7LmYPC9hPuulvCDsoIHsmqntlZjsi5zqsbDrgpgsIDxhIGhyZWY9JnF1b3Q7L3dvcmRwcmVzcy93cC1jb250ZW50L3VwbG9hZHMvMjAwOC8wMy9mZWVkYnVybmVyX2ZlZWRzbWl0aF9wbHVnaW4uemlwJnF1b3Q7PuydtOqxuOuhnDwvYT4g642u7Ja0IOyTsOyEuOyalC4g7J207KCcIO2UjOufrOq3uOyduOyXkCDslYTrnpjsmYAg6rCZ7J20IDTrsogg7ZWt66qp7J20IOyDneq5geuLiOuLpC4g7KCB64u57ZWcIOydtOqzs+yXkCDsnITsl5DshJwg67Cb7J2AIOy5tOyatO2EsCDslYTsnbTsvZgg7IaM7Iqk66W8IOuEo+qzoCDsoIDsnqXtlZjshLjsmpQuIDxpbWcgY2xhc3M9JnF1b3Q7aW1hZ2VmcmFtZSBpbWdhbGlnbmxlZnQmcXVvdDsgaGVpZ2h0PSZxdW90OzQ5MCZxdW90OyBhbHQ9JnF1b3Q7ZmVlZGJ1cm5lcl9wbHVnaW4uanBnJnF1b3Q7IHdpZHRoPSZxdW90OzQ1MCZxdW90OyBzcmM9JnF1b3Q7L3dvcmRwcmVzcy93cC1jb250ZW50L3VwbG9hZHMvMjAwOC8wMy9mZWVkYnVybmVyX3BsdWdpbi5qcGcmcXVvdDsgLz4g7JyE7KCv7Yyo64SQ66GcIOqwgCDrs7TrqbQgRmVlZEJ1cm5lciBDb3VudGVy652864qUIOychOygr+ydtCDstpTqsIDrkJwg6rKD7J2EIO2ZleyduO2VmOyLpCDsiJgg7J6I7Iq164uI64ukLiA8aW1nIGNsYXNzPSZxdW90O2ltYWdlZnJhbWUgaW1nYWxpZ25sZWZ0JnF1b3Q7IGhlaWdodD0mcXVvdDszMzEmcXVvdDsgYWx0PSZxdW90O2ZlZWRidXJuZXJfZmVlZGNvdW50X3dpZGdldC5qcGcmcXVvdDsgd2lkdGg9JnF1b3Q7NDUwJnF1b3Q7IHNyYz0mcXVvdDsvd29yZHByZXNzL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDA4LzAzL2ZlZWRidXJuZXJfZmVlZGNvdW50X3dpZGdldC5qcGcmcXVvdDsgLz4g65Oc65SU7Ja0IOygnCDruJTroZzqt7jrpbwg66qH66qF7J20IOydveuKlOyngCDsmIjsgZwg7JWE7J207L2Y7J2EIO2Gte2VtCDslYwg7IiYIOyeiOqyjCDrkJjsl4jqtbDsmpQuPC9wPgo8YmxvY2txdW90ZT5cJ+yWtOuUlOuztOyekC4uLiAw66qFLiDjhYbjhYJcJzwvYmxvY2txdW90ZT4iO3M6MTA6InBvc3RfdGl0bGUiO3M6NjQ6IkZlZWRCdXJuZXIg65Ox66GdLCDsnITsoK/snLzroZwg7Lm07Jq07YSwIOyVhOydtOy9mCDrs7Tsl6zso7zquLAiO319";}'
+categories:
+  - Wordpress
+tags:
+  - WP-plugin
+
+---
+<p style="text-align: center">
+  <strong>"이쁘다! 나도 저거!"</strong>&nbsp;
+</p>
+
+<p style="text-align: center">
+  <img loading="lazy" class="imageframe imgaligncenter" height="72" alt="feedburner.jpg" width="208" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/feedburner.jpg" />
+</p>
+
+다른 분들의 블로그를 돌아다니다 보니 위와 같이 생긴 카운터 아이콘이 그 블로그의 RSS를 몇 명이 구독하고 있는지 알려주고 있었습니다.
+
+<!--more-->
+
+**1. FeedBurner 등록** 지금까지 그랬듯이&nbsp;간단히 설치 될 것 같아 <a target="_blank" href="http://www.feedburner.com" rel="noopener">FeedBurner 사이트</a>에 가서 회원가입을 하고 기존의 RSS주소를 입력했더니 제 블로그의 [FeedBurner 주소][1]가 생겼습니다. 오호라~ -이미 RSS주소가 있는데 왜 이런게 생겼나 봤더니, 이제 제 블로그의 RSS트래픽을 FeedBurner에서 받게 되더군요. 이 홈서버는 개미똥꾸멍만한 대역폭(안양방송 케이블 제일 싸구려 상품) 을 가진 입장이라 적절한 서비스가 아닐 수 없었습니다.
+
+> &#8216;그런데&nbsp;아이콘은?&#8217;
+
+**2. 플러그인 설치** 워드 프레스용 <a target="_blank" href="http://www.feedburner.com/fb/a/help/wordpress_quickstart" rel="noopener">FeedBurner FeedSmith 플러그인</a>이 있길래 올타쿠나 하고 설치하였습니다. 설치해 보니 이 플러그인은 기존의 RSS주소로 접글 한 경우 FeedBurner로 리다이렉션 해 주는 역활을 하더군요. 우왕ㅋ굳ㅋ
+
+> &#8216;그런데 아이콘은?&#8217;
+
+**3. 카운터 아이콘** 찾아보니 카운터 아이콘을 얻기 위해서는 아래와 같이 FeedCountService를 활성화 해야 합니다. &nbsp;<img loading="lazy" height="289" alt="feedburner_feedcount_setting.jpg" width="450" align="middle" border="0" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/feedburner_feedcount_setting.jpg" /> 카운터 아이콘의 소스를 주며 **적당한 곳**에 붙여 넣으라고 하네요.
+
+> &#8216;적당한 곳이 어디냐!!&#8217;
+
+**4. 카운터 아이콘 위젯 생성** 적당한 곳을 찾다 보니 아예 위젯으로 만드는 게 좋겠다 싶어 기존의 플러그 인을 좀 손봤습니다.&nbsp; FeedBurner\_FeedSmith\_Plugin.php 파일에 [이 패치][2]를 적용하시거나, [이걸로][3] 덮어 쓰세요. 이제 플러그인에 아래와 같이 4번 항목이 생깁니다. 적당한 이곳에 위에서 받은 카운터 아이콘 소스를 넣고 저장하세요.<img loading="lazy" class="imageframe imgalignleft" height="490" alt="feedburner_plugin.jpg" width="450" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/feedburner_plugin.jpg" /> 위젯패널로 가 보면 FeedBurner Counter라는 위젯이 추가된 것을 확인하실 수 있습니다.<img loading="lazy" class="imageframe imgalignleft" height="331" alt="feedburner_feedcount_widget.jpg" width="450" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/feedburner_feedcount_widget.jpg" /> 드디어 제 블로그를 몇명이 읽는지 예쁜 아이콘을 통해 알 수 있게 되었군요.
+
+> &#8216;어디보자&#8230; 0명. ㅆㅂ&#8217;
+
+ [1]: http://feeds.feedburner.com/SuapapasBlog
+ [2]: https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/feedburner_feedsmith_plugin_add_feedcounterwidget_diff.zip
+ [3]: https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/feedburner_feedsmith_plugin.zip

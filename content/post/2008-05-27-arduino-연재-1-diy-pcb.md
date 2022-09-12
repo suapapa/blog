@@ -1,0 +1,97 @@
+---
+title: 'DIY-PCB 1/3 : 토너전사'
+author: suapapa
+type: post
+date: 2008-05-27T14:12:28+00:00
+url: /p=70
+translations:
+  - 'a:1:{i:0;s:7552:"YToxOntzOjI6ImtvIjthOjM6e3M6MTE6InBvc3RfZXhjZXB0IjtzOjA6IiI7czoxMjoicG9zdF9jb250ZW50IjtzOjU1MzU6IuydtOyghCDtj6zsiqTtirjsl5DshJwg7IaM6rCc7ZaI642YIOuMgOuhnCBBcmR1aW5vIOqzteyLnSDsgqzsnbTtirjsl5DshJzripQgSC9XIOyGjOyKpOuTpOydhCBPcGVu7ZWY6rOgIOyngeygkSDrp4zrk6TsiJgg7J6I64qUIOuwqeuyleydhCDsoJzqs7Xtlanri4jri6QuIOyVhOuemOydmCDrp4Htgazsl5DshJwg7ZqM66Gc64+ELCBQQ0Ig7ISk6rOE64+ELCDrqZTribTslrzsnYQg7J6Q7Jyg66Gt6rKMIOuLpOyatOuhnOuTnCDtlaAg7IiYIOyeiOyKteuLiOuLpC4KPHVsPgoJPGxpPjxhIGhyZWY9JnF1b3Q7aHR0cDovL3d3dy5hcmR1aW5vLmNjL2VuL01haW4vQXJkdWlub0JvYXJkU2VyaWFsU2luZ2xlU2lkZWQzJnF1b3Q7PkFyZHVpbm8gU2luZ2xlLVNpZGVkIFNlcmlhbCBCb2FyZCAodmVyc2lvbiAzKTwvYT48L2xpPgo8L3VsPgrsp5Hsl5DshJwgUENC66W8IOunjOuTnOuKlCDqs7zsoJXrtoDthLAg7KeB7KCRIEFyZHVpbm/rpbwg66eM65Ok7Ja0IOuztOqyoOyKteuLiOuLpC4KCuyyq+uyiOynuOuhnCDthqDrhIgg7KCE7IKs67KVKFRvbmVyIFRyYW5zZmVyKeydhCDsgqzsmqntlbQg64+Z7YyQ7JeQIFBDQuyEpOqzhOuPhOulvCDsmK7qsqjslbwg7ZWp64uI64ukLgoKPCEtLW1vcmUtLT48c3BhbiBzdHlsZT0mcXVvdDtmb250LXNpemU6IG1lZGl1bSZxdW90Oz48c3Ryb25nPjAuIEludHJvPC9zdHJvbmc+PC9zcGFuPgoK7KSA67mE66y87J2AIOuLpOydjOqzvCDqsJnsirXri4jri6QuCjx1bD4KCTxsaT48YSBocmVmPSZxdW90O2h0dHA6Ly93d3cuYXJkdWluby5jYy9lbi91cGxvYWRzL01haW4vQXJkdWlub19TM3YzX1IyX0E0XzR4Mi5wbmcmcXVvdDs+UENCIOyEpOqzhOuPhDwvYT4/KOuvuOufrCDsnbTrr7jsp4ApPC9saT4KCTxsaT7ri6jrqbTrj5ntjJAgKDxhIGhyZWY9JnF1b3Q7aHR0cDovL3d3dy5lbGVwYXJ0cy5jby5rci8mcXVvdDs+ZWxlcGFydHM8L2E+IOyXkOyEnCDtjJDrp6QpPyAtIO2UjOudvOyKpO2LsSDtjJDsl5Ag7ZWc7Kq966m066eMIOuPmeunieydtCDrtpnslrQg7J6I7Iq164uI64ukLjwvbGk+Cgk8bGk+66CI7J207KC4IO2UhOumsO2EsDwvbGk+CjwvdWw+Cu2GoOuEiCDsoITsgqzrspXsnbQg7Ja065a76rKMIOuQmOuKlOyngCDsnbTtlbTtlZjquLAg7JyE7ZW0IOugiOydtOyguCDtlITrprDthLDqsIAg7Ja065a76rKMIC3sooXsnbTsl5AtIOyduOyHhOulvCDtlZjripTsp4Ag65CY7Kea7Ja0IOuztOuPhOuhnSDtlZjqsqDsirXri4jri6QuCjxvbD4KCTxsaT7rk5zrn7zsl5Ag7J247IeE7ZWgIOuqqOyWkSjquIDsnpAp64yA66GcIO2GoOuEiOqwgOujqOulvCDrtpnsnoQ8L2xpPgoJPGxpPuyiheydtOyXkCDrk5zrn7zsnYQg7Je0K+yVleugpeycvOuhnCDriIzrn6zso7zrqbQg7Yag64SI6rCAIOuTnOufvC0mZ3Q77KKF7J2066GcIOydtOuPmTwvbGk+Cjwvb2w+CuydtCDstpzroKXrrLwo7JeQIOu2meyWtOyeiOuKlCDthqDrhIjqsIDro6gp7J2EIOuLpOyLnCDrj5ntjJDsl5Ag64yA6rOgIOyXtCvslZXroKXsnYQg7KO866m0IOyiheydtC0mZ3Q764+Z7YyQ7Jy866GcIOydtOuPme2VmOqyjCDrkKnri4jri6QuCgrrj4TsnqXsnYQg7LCN64qUIOqyg+qzvCDqsJnsnLzrr4DroZwgUENC7J2066+47KeA64qUIOqxsOyauOyXkCDrsJjsgqzrkJwg6rKDIOqwmeydtCDsoozsmrDqsIAg67CU64CM7Ja0IOyeiOyWtOyVvCDqsqDsp4DsmpQuIOychCDsnbTrr7jsp4DripQgLey5nOygiO2VmOqyjOuPhC0g7J2066+4IOyijOyasOqwgCDrsJTrgIzslrQg7J6I7Iq164uI64ukLgo8YmxvY2txdW90ZT7roIjsnbTsoLgg7ZSE66aw7YSw6rCAIOyXhuycvOyLoCDrtoTrk6TsnYAg7ZSE66aw7YSw7J2YIOyduOyHhOusvOydhCDrs7XsgqzquLDroZwg67O17IKs7ZWY7Iuc66m0IOuQqeuLiOuLpC4g7KKAIOuyiOqxsOuhreqyoOuEpOyalC48L2Jsb2NrcXVvdGU+CjxzdHJvbmc+PHNwYW4gc3R5bGU9JnF1b3Q7Zm9udC1zaXplOiBtZWRpdW0mcXVvdDs+MS4g7J247IeEPC9zcGFuPjwvc3Ryb25nPgoK7KCB64u57ZWcIOyiheydtOyXkCDsoJXtmZXtlZwg7YGs6riw66GcIOyduOyHhO2VtOyVvCDtlanri4jri6QuCjxibG9ja3F1b3RlPuq1reuCtCBCbG9n65Ok7J2EIOqygOyDie2VtCDrs7gg6rKw6rO8IOudvOuyqOyngCjsiqTti7Dsu6Tsmqnsp4Ap7J2YIC3siqTti7Dsu6Qg66eQ6rOgLSDrsJjsp53rsJjsp53tlZwg67mE64uQ7L2U65Sp65CcIOyiheydtOulvCDsgqzsmqntlZjrnbzripQg64K07Jqp7J20IOyeiOyXiOyngOunjCDtlbQg67O4IOqysOqzvCA8YSBocmVmPSZxdW90Oy93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzLzIwMDgvMDUvaW1ncDAwMDguanBnJnF1b3Q7PuyLpO2MqDwvYT4uCgrrnbzrsqgg7Jqp7KeA64qUIO2GoOuEiOqwgCDrhIjrrLQg7Im96rKMIOuWqOyWtOyguCDrsoTrpqzqs6AsIOy1nOyihSDqsrDqs7zrrLzsnbQg67KI7KeA64qUIO2YhOyDgeydtCDsnojslrQg67O17J6h7ZWcIOuPhOuptOyaqeycvOuhnOuKlCDsgqzsmqntlaAg7IiYIOyXhuyXiOyKteuLiOuLpC48L2Jsb2NrcXVvdGU+CuyggOuKlD88c3Ryb25nPuyeie2BrOygryDsoITsmqnsp4AoR2xvc3N5IFBhcGVyKTwvc3Ryb25nPuulvCDsgqzsmqntlbTshJwg7ISx6rO17ZaI7Iq164uI64ukLiDsnontgazsoK8g7KCE7Jqp7KeA7JeQIOyiheulmOqwgCDrp47qs6AsIOq3uCDspJE/R2xvc3N5IFBhcGVy652866m0IOq0ke2DneyngOyduOuNsCDsoJzqsIAg7IKs7Jqp7ZWcIOyaqeyngOuKlCAxMOuFhOyghCDsl6Hsiqgg7ZSE66aw7YSw7JeQIOuyiOuTpOuhnCDrk6TslrTsnojrjZggLeunpOuBiOunpOuBiO2VmOyngCDslYrqs6AtIOyVhOyjvCDqs6DsmrQg7IKs7Y+s6rCZ7J2AIOyduOyHhOuptOydhCDqsIDsp4Qg7KKF7J207JiA7Iq164uI64ukLiDsooAg642UIOunjuydgCDsmqnsp4DroZwg7YWM7Iqk7Yq466W8IO2VtOyEnCDtmZXsi6TtlZwg6rCA7J2065Oc66W8P+ywvuyVhCDrk5zrpqzsp4Ag66q77ZWY64qU6rKMP+yVhOyJveuEpOyalC4gMTDrsogg7KCV64+EIOyLpO2MqO2VmOqzoCDssqDsiJjshLjrr7jroZwg67CA64qUIOqzvOygleydhCDrsJjrs7XtlojrjZTri4gg7KeI66C464uk64qlLiDsiqTti7Dsu6Tsmqkg7L2U7YyF7KeA66GcIOuwseuCoCDtlbTrj4Q/7JWI65CY64qU6rG0IO2ZleyLpO2VqeuLiOuLpC4g44WO44WOCjxibG9ja3F1b3RlPuuLpOyLnCDsoJXrpqztlZjrqbQsIOyeie2BrOygryDsoITsmqnsp4Drpbwg66CI7J207KC4IO2UhOumsO2EsOyXkOyEnCDsgqzsmqntlbTshJwgUENCIOuPhOuptOydhCDsnbjsh4Ttlanri4jri6QuPC9ibG9ja3F1b3RlPgrsoJXtmZXtlZwg7YGs6riw66GcIOyduOyHhO2VmOq4sCDsnITtlbQg7Lac66ClIOyYteyFmOyXkOyEnCDtlbTsg4Hrj4Trpbwg7KGw7KCIIO2VqeuLiOuLpC4/7JuQ67O47J20IDYwMGRwaeuhnCDrp4zrk6TslrTsoYzsnLzrr4DroZwg6rmA7ZSE7JeQ7ISgIOuLpOydjOqzvCDqsJnsnbQg7Lac66ClIO2VtOyDgeuPhOulvCA2MDDsnLzroZwg7ISk7KCV7ZWp64uI64ukLgoKPGltZyBzcmM9JnF1b3Q7L3dvcmRwcmVzcy93cC1jb250ZW50L3VwbG9hZHMvMjAwOC8wNS82MDBkcGkucG5nJnF1b3Q7IGNsYXNzPSZxdW90O2ltYWdlZnJhbWUmcXVvdDsgYWx0PSZxdW90OzYwMGRwaS5wbmcmcXVvdDsgd2lkdGg9JnF1b3Q7NDIwJnF1b3Q7IGhlaWdodD0mcXVvdDszNTcmcXVvdDsgLz4KCjxzdHJvbmc+PHNwYW4gc3R5bGU9JnF1b3Q7Zm9udC1zaXplOiBtZWRpdW0mcXVvdDs+Mi4g7Yag64SIIOyghOyGoTwvc3Bhbj48L3N0cm9uZz4KCuuPme2MkOydhCDsoIHri7ntlZwg7YGs6riw66GcP+yemOudvCDthqDrhIgg7KCE7Iah7J2EIOykgOu5hO2VqeuLiOuLpC4/7Lm866GcIOyemCDslYgg7J6Y66as64Sk7JqULiDsi6TthrHsnYQg7IKs7Jqp7ZWY7IS47JqUIQoK7J247IeE7ZWcIFBDQuuPhOuptOydhCDsnpjrnbwg7YWM7J207ZSE66GcIOuPme2MkOyXkCDqs6DsoJXsi5ztgqTqs6AsIDxzdHJvbmc+64uk66as66+4PC9zdHJvbmc+66W8IOyCrOyaqe2VtCDsl7Tqs7wg7JWV66Cl7Jy866GcIOyiheydtOyXkCDrtpnsnYAg7Yag64SI66W8IOuPme2MkOycvOuhnCDsmK7quYHri4jri6QuCjx1bD4KCTxsaT7smKjrj4QgOiDstZzrjIAgKOuptCk8L2xpPgoJPGxpPuyVleugpSA6IOuRkOyGkOycvOuhnCDqvrnqvrkg64iM65+s7KSN64uI64ukLiDrqqjshJzrpqzrpbwg7Yq57Z6IIOyLoOqyveyNqOyEnCDriIzrn6zso7zshLjsmpQuPC9saT4KCTxsaT7si5zqsIQgOiA167aEPzwvbGk+CjwvdWw+CuydtCDqs7zsoJXsnYAgLeynhO2WiSDsoJXrj4Trpbwg67O8IOyImCDsl4bquLDrlYzrrLjsl5AtIOqwgOyepSDslrTroLXsirXri4jri6QuIOuqh+uyiOydmCDsi6TtjKjroZwg6rCQ7J2EIOywvuycvOyFlOyVvCDrkKnri4jri6QuIOyghOyGoeydtCDsi6TtjKjtlZwg6rK97JqwIOyyoCDsiJjshLjrr7jrpbwg7IKs7Jqp7ZW0IOuwleuwlSDrrLjsp4jrpbTrqbQg64+Z7YyQ7JeQ7IScIO2GoOuEiOulvCDrspfquLgg7IiYIOyeiOyKteuLiOuLpC4KCjxzdHJvbmc+PHNwYW4gc3R5bGU9JnF1b3Q7Y29sb3I6ICNmZjAwMDAmcXVvdDs+64+Z7YyQ7J20IOunpOyasCDrnKjqsbDsmrDrr4DroZwg6rCB67OE7Z6IIOyjvOydmO2VmOyEuOyalC48L3NwYW4+PC9zdHJvbmc+IOyiheydtCDssYTroZwg64+Z7YyQ7J2EIOywrOusvOyXkCDtkIHri7kg64u06riJ64uI64ukLgoKPHN0cm9uZz48c3BhbiBzdHlsZT0mcXVvdDtmb250LXNpemU6IG1lZGl1bSZxdW90Oz4zLiDrspfquLDquLA8L3NwYW4+PC9zdHJvbmc+CgrsooXsnbTqsIAg64+Z7YyQ7JeQIOywsOyLuSDrtpnslrQg7J6I7Iq164uI64ukLiDrj5ntjJDsnbQg64ukIOyLneyXiOycvOuptCDsnbTsoJwg67aZ7Ja07J6I64qUIOyiheydtOulvCDsoJzqsbDtlanri4jri6QuCgo8aW1nIHNyYz0mcXVvdDsvd29yZHByZXNzL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDA4LzA1L3BjYl9waWxsaW5nLmpwZyZxdW90OyBjbGFzcz0mcXVvdDtpbWFnZWZyYW1lJnF1b3Q7IGFsdD0mcXVvdDtwY2JfcGlsbGluZy5qcGcmcXVvdDsgd2lkdGg9JnF1b3Q7NDIwJnF1b3Q7IGhlaWdodD0mcXVvdDsyODAmcXVvdDsgLz4KCuyiheydtOulvCDsoIHri7ntnogg67aI66as6rOgIOuVjOyImOqxtOydhCDsgqzsmqntlbQg67KX6rKo64OI7Iq164uI64ukLgoKPHN0cm9uZz48c3BhbiBzdHlsZT0mcXVvdDtmb250LXNpemU6IG1lZGl1bSZxdW90Oz40LiDsp5zsnpQhPC9zcGFuPjwvc3Ryb25nPgoKPGltZyBzcmM9JnF1b3Q7L3dvcmRwcmVzcy93cC1jb250ZW50L3VwbG9hZHMvMjAwOC8wNS9wY2JfcmVzdWx0LmpwZyZxdW90OyBjbGFzcz0mcXVvdDtpbWFnZWZyYW1lJnF1b3Q7IGFsdD0mcXVvdDtwY2JfcmVzdWx0LmpwZyZxdW90OyB3aWR0aD0mcXVvdDs0MjAmcXVvdDsgaGVpZ2h0PSZxdW90OzI4MCZxdW90OyAvPgoK7Yag64SI6rCAIOu2meydgCDsnpDrpqzripQg7JWg7LmtIOyekeyXheuVjCDrj5ntjJDsnbQg64Ko7JWE7J6I6rKMIOuQmOuKlCDrtoDrtoTsnoXri4jri6QuCgrsl5Dsua3rtoDthLDripQg64uk7J2MIO2PrOyKpO2KuOyXkC4uLiI7czoxMDoicG9zdF90aXRsZSI7czoyNjoiRElZLVBDQiAxLzMgOiDthqDrhIjsoITsgqwiO319";}'
+dsq_thread_id:
+  - 722490017
+categories:
+  - Arduino
+  - DIY
+tags:
+  - ArduinoS3V3
+  - PCB
+
+---
+이전 포스트에서 소개했던 대로 Arduino 공식 사이트에서는 H/W 소스들을 Open하고 직접 만들수 있는 방법을 제공합니다. 아래의 링크에서 회로도, PCB 설계도, 메뉴얼을 자유롭게 다운로드 할 수 있습니다.
+
+  * [Arduino Single-Sided Serial Board (version 3)][1]
+
+집에서 PCB를 만드는 과정부터 직접 Arduino를 만들어 보겠습니다.
+
+첫번째로 토너 전사법(Toner Transfer)을 사용해 동판에 PCB설계도를 옮겨야 합니다.
+
+<!--more-->
+
+<span style="font-size: medium"><strong>0. Intro</strong></span>
+
+준비물은 다음과 같습니다.
+
+  * [PCB 설계도][2]?(미러 이미지)
+  * 단면동판 ([eleparts][3] 에서 판매)? &#8211; 플라스틱 판에 한쪽면만 동막이 붙어 있습니다.
+  * 레이져 프린터
+
+토너 전사법이 어떻게 되는지 이해하기 위해 레이져 프린터가 어떻게 -종이에- 인쇄를 하는지 되짚어 보도록 하겠습니다.
+
+  1. 드럼에 인쇄할 모양(글자)대로 토너가루를 붙임
+  2. 종이에 드럼을 열+압력으로 눌러주면 토너가 드럼->종이로 이동
+
+이 출력물(에 붙어있는 토너가루)을 다시 동판에 대고 열+압력을 주면 종이->동판으로 이동하게 됩니다.
+
+도장을 찍는 것과 같으므로 PCB이미지는 거울에 반사된 것 같이 좌우가 바뀌어 있어야 겠지요. 위 이미지는 -친절하게도- 이미 좌우가 바뀌어 있습니다.
+
+> 레이져 프린터가 없으신 분들은 프린터의 인쇄물을 복사기로 복사하시면 됩니다. 좀 번거롭겠네요.
+
+**<span style="font-size: medium">1. 인쇄</span>**
+
+적당한 종이에 정확한 크기로 인쇄해야 합니다.
+
+> 국내 Blog들을 검색해 본 결과 라벨지(스티커용지)의 -스티커 말고- 반짝반짝한 비닐코딩된 종이를 사용하라는 내용이 있었지만 해 본 결과 [실패][4].
+> 
+> 라벨 용지는 토너가 너무 쉽게 떨어져 버리고, 최종 결과물이 번지는 현상이 있어 복잡한 도면용으로는 사용할 수 없었습니다.
+
+저는?**잉크젯 전용지(Glossy Paper)**를 사용해서 성공했습니다. 잉크젯 전용지에 종류가 많고, 그 중?Glossy Paper라면 광택지인데 제가 사용한 용지는 10년전 엡슨 프린터에 번들로 들어있던 -매끈매끈하지 않고- 아주 고운 사포같은 인쇄면을 가진 종이였습니다. 좀 더 많은 용지로 테스트를 해서 확실한 가이드를?찾아 드리지 못하는게?아쉽네요. 10번 정도 실패하고 철수세미로 밀는 과정을 반복했더니 질렸다능. 스티커용 코팅지로 백날 해도?안되는건 확실합니다. ㅎㅎ
+
+> 다시 정리하면, 잉크젯 전용지를 레이져 프린터에서 사용해서 PCB 도면을 인쇄합니다.
+
+정확한 크기로 인쇄하기 위해 출력 옵션에서 해상도를 조절 합니다.?원본이 600dpi로 만들어졌으므로 김프에선 다음과 같이 출력 해상도를 600으로 설정합니다.
+
+<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/600dpi.png" class="imageframe" alt="600dpi.png" width="420" height="357" /> 
+
+**<span style="font-size: medium">2. 토너 전송</span>**
+
+동판을 적당한 크기로?잘라 토너 전송을 준비합니다.?칼로 잘 안 잘리네요. 실톱을 사용하세요!
+
+인쇄한 PCB도면을 잘라 테이프로 동판에 고정시키고, **다리미**를 사용해 열과 압력으로 종이에 붙은 토너를 동판으로 옮깁니다.
+
+  * 온도 : 최대 (면)
+  * 압력 : 두손으로 꾹꾹 눌러줍니다. 모서리를 특히 신경써서 눌러주세요.
+  * 시간 : 5분?
+
+이 과정은 -진행 정도를 볼 수 없기때문에- 가장 어렵습니다. 몇번의 실패로 감을 찾으셔야 됩니다. 전송이 실패한 경우 철 수세미를 사용해 박박 문질르면 동판에서 토너를 벗길 수 있습니다.
+
+**<span style="color: #ff0000">동판이 매우 뜨거우므로 각별히 주의하세요.</span>** 종이 채로 동판을 찬물에 퐁당 담급니다.
+
+**<span style="font-size: medium">3. 벗기기</span>**
+
+종이가 동판에 찰싹 붙어 있습니다. 동판이 다 식었으면 이제 붙어있는 종이를 제거합니다.
+
+<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/pcb_pilling.jpg" class="imageframe" alt="pcb_pilling.jpg" width="420" height="280" /> 
+
+종이를 적당히 불리고 때수건을 사용해 벗겨냈습니다.
+
+**<span style="font-size: medium">4. 짜잔!</span>**
+
+<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/pcb_result.jpg" class="imageframe" alt="pcb_result.jpg" width="420" height="280" /> 
+
+토너가 붙은 자리는 애칭 작업때 동판이 남아있게 되는 부분입니다.
+
+에칭부터는 다음 포스트에&#8230;
+
+ [1]: http://www.arduino.cc/en/Main/ArduinoBoardSerialSingleSided3
+ [2]: http://www.arduino.cc/en/uploads/Main/Arduino_S3v3_R2_A4_4x2.png
+ [3]: http://www.eleparts.co.kr/
+ [4]: https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/imgp0008.jpg

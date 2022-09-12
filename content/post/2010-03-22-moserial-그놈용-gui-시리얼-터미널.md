@@ -1,0 +1,33 @@
+---
+title: moserial – 그놈용 GUI 시리얼 터미널
+author: suapapa
+type: post
+date: 2010-03-22T07:59:31+00:00
+url: /p=454
+dsq_thread_id:
+  - 724526110
+aktt_notify_twitter:
+  - no
+translations:
+  - 'a:1:{i:0;s:1952:"YToxOntzOjI6ImtvIjthOjI6e3M6MTA6InBvc3RfdGl0bGUiO3M6NDQ6Im1vc2VyaWFsIC0g6re464aI7JqpIEdVSSDsi5zrpqzslrwg7YSw66+464SQIjtzOjEyOiJwb3N0X2NvbnRlbnQiO3M6MTM0MjoiPHA+bWluaWNvbeydmCDrjIDslYguIOq5lOq/iO2VnCBHVUkg7Iuc66as7Ja8IO2EsOuvuOuEkCBtb3NlcmlhbOydhCDshozqsJztlanri4jri6QuPC9wPg0KPHA+7Iuc66as7Ja8IOuhnOq3uOulvCDsoIDsnqXtlZjqsbDrgpgsIEhFWOqwkuydhCDso7zqs6Ag67Cb7JWE7JW8IO2VoCDrlYwg7Yq57Z6IIOycoOyaqe2VtOyalC4g6rKM64uk6rCAIOq5lOuBlO2VmOqyjCDsmIjsganri4jri6QuPC9wPg0KPHA+PHN0cm9uZz7snqXsoJA6PC9zdHJvbmc+PC9wPg0KPHVsPg0KICAgIDxsaT5BU0NJSSAvIEhFWCDrqqjrk5wg65CY6rWs7JqULuuEkDwvbGk+DQogICAgPGxpPlgsWSxaTU9ERU0g64ukIOuQmOq1rOyalC48L2xpPg0KICAgIDxsaT7tlZzquIDtmZQg6rmM7KeAIOuQmOyXiOyKteuLiOuLpC4gOik8L2xpPg0KPC91bD4NCjxwPjxpbnB1dCB3aWR0aD1cXCZxdW90OzQyMFxcJnF1b3Q7IHR5cGU9XFwmcXVvdDtpbWFnZVxcJnF1b3Q7IGhlaWdodD1cXCZxdW90OzMzMFxcJnF1b3Q7IHNyYz1cXCZxdW90O2h0dHA6Ly93ZWIuc3VhcGFwYS5uZXQ6ODA4MC93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzL2ltYWdlL21vc2VyaWFsLnBuZ1xcJnF1b3Q7IC8+PC9wPg0KPHA+PHN0cm9uZz7ri6jsoJA6PC9zdHJvbmc+PC9wPg0KPHVsPg0KICAgIDxsaT7soITthrXsoIHsnbgg7YSw66+464SQ7J20IOyVhOuLiOudvCBDdHJsK0Mg6rCZ7J2A6rG4IOuztOuCtOuKlOqyjCDrgpzqsJA8L2xpPg0KICAgIDxsaT5cXFxcciDsnYQg7IKs7Jqp7ZWY64qUIOygnOyekOumrOyXkOyEnCDruZnquIDruZnquIAg64+M7JWE6rCA64qUIOqygyDqsJnsnYBBU0NJSSDtirjrpq3snbQg7JWIIOuoue2emC4g64ukIOyDiCDspITroZwg64KY7Ji0LjwvbGk+DQogICAgPGxpPuq4sOuzuCDsoIDsnqXshozsl5Ag7JeG64u5LjwvbGk+DQo8L3VsPg0KPHA+66eO7J20IOyVjOugpOynhCDslrTtlIzsnbQg7JWE64uI65287IScIDxhIGhyZWY9XFwmcXVvdDtodHRwczovL2J1Z3ppbGxhLmdub21lLm9yZy9zaG93X2J1Zy5jZ2k/aWQ9NjAwNDAwXFwmcXVvdDs+67KI7JetIO2MqOy5mDwvYT7qsIAg7KCB7Jqp65CY64qUIOuNsCDquYzsp4AgM+qwnOyblOydtCDrhJjqsowg6rG466C464Sk7JqULjwvcD4NCjxwPuyasOu2hO2IrOyXkOyEnCDtjKjtgqTsp4DroZwg6rCE64uo7Z6IIOyCrOyaqe2VtCDrs7Tsi6Qg67aE7J2AJm5ic3A7PGEgaHJlZj1cXCZxdW90O2h0dHBzOi8vbGF1bmNocGFkLm5ldC9+c3VhcGFwYS8rYXJjaGl2ZS9wcGFcXCZxdW90Oz7soJwgcHBhPC9hPuulvCDstpTqsIAg7ZWY7Iuc6rGw64KYLCDqsJzsnbggcHBhIOuzteyCrO2VmOyXrCDsgqzsmqntlZjshLjsmpQuIDopPC9wPiI7fX0=";}'
+categories:
+  - Application
+  - Arduino
+tags:
+  - 시리얼
+  - 우분투
+
+---
+minicom의 대안
+
+  * ASCII / HEX 모드 되구요.
+  * X,Y,ZMODEM 다 되구요.
+  * 한글화 까지 되었습니다. 🙂
+
+<input width="420" type="image" height="330" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/moserial.png" /> 
+
+제 ppa를 추가 하시거나, 개인 ppa 복사하여 사용하세요. 🙂
+
+ 
+
+https://bugzilla.gnome.org/buglist.cgi?product=moserial&bug\_status=UNCONFIRMED&bug\_status=NEW&bug\_status=ASSIGNED&bug\_status=REOPENED&bug_severity=enhancement

@@ -1,0 +1,60 @@
+---
+title: 'Szekeres Amp rev4 : 전원부 발열 수정'
+author: suapapa
+type: post
+date: 2009-12-12T09:02:45+00:00
+url: /p=456
+translations:
+  - 'a:1:{i:0;s:4044:"YToxOntzOjI6ImtvIjthOjI6e3M6MTA6InBvc3RfdGl0bGUiO3M6NDM6IlN6ZWtlcmVzIEFtcCByZXY0IDog7KCE7JuQ67aAIOuwnOyXtCDsiJjsoJUiO3M6MTI6InBvc3RfY29udGVudCI7czoyOTEyOiI8cD7smpTsppjsnYAg7IOd7JeF7J20IOuEmO2dkCDrsJTru5DshJwg67iU66Gc6re4IO2PrOyKpO2MheydtCDqvaQg65y47ZW07KGM64Sk7JqULjwvcD4NCjxwPjxhIGhyZWY9XFwmcXVvdDtodHRwOi8vd2ViLnN1YXBhcGEubmV0OjgwODAvd29yZHByZXNzLz9wPTEwN1xcJnF1b3Q7PuydvOyghOyXkCDrp4zrk6Tsl4jrjZggU3pla2VyZXMgQW1wLjwvYT4g66W8IOuqqOuRkCDrtoTslpHtlbQg65Oc66Ck7IScIOyggCDsk7DroKTqs6Ag7IOI66GcIOunjOuTpOyWtCDrtKTsirXri4jri6QuPC9wPg0KPHA+Jm5ic3A7PGltZyB3aWR0aD1cXCZxdW90OzQyMFxcJnF1b3Q7IGhlaWdodD1cXCZxdW90OzI4MFxcJnF1b3Q7IHNyYz1cXCZxdW90O2h0dHA6Ly93ZWIuc3VhcGFwYS5uZXQ6ODA4MC93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzL2ltYWdlL1N6ZWtlcmVzUmV2NF90b3AuanBnXFwmcXVvdDsgYWx0PVxcJnF1b3Q7XFwmcXVvdDsgLz48L3A+DQo8cD7quLDsobQg7KCE7JuQ67aAIOyekOumrOyXkCDsu6Tri6TrnpEg7L2U7J287J20IOyekOumrOyeoeydgOqyjCDrs7TsnbTsi5zrgpjsmpQ/PC9wPg0KPHA+PCEtLW1vcmUtLT5TemVrZXJlcyDripQg6riw67O47KCB7Jy866GcIOyXtOydtCDtjoTtjoQg64KY64qUIOyVsO2UhOyduOuNsCwg65GQIO2MjOybjOuqqOyKpO2OqyDsmbjsl5Drj4QgLeq4sOyhtCA5ViDroIjqt6TroIjsnbTthLAtIDc4MDnsl5DshJzrj4QgXFxcJ+ydtOuemOuQmCDrkJjrgpg/XFxcJyZuYnNwOyDsi7bsnYAg7KCV64+E7J2YIOyXtOydtCDrgqnri4jri6QuPC9wPg0KPHA+7ZW07IScIC3tmYjshJzrsoQg7KCE7JuQ67aAIOyaqeycvOuhnCDsgqwg65GULSBMTTI1NzYtMTIg652864qUIOyKpOychOy5rSDroIjqt6TroIjsnbTthLDroZwg7KCE7JuQ67aA66W8IOuwlOq/lCDrtKTsirXri4jri6QuPC9wPg0KPHA+7Iug7KCV7ISt64uY7J2YIHJlZiDsmYAg6rCZ7J2AIDEyViDri6jsoITsm5Ag7IKs7Jqp7ZWY6rKMIOuQmOyXiOyKteuLiOuLpC48L3A+DQo8YmxvY2txdW90ZT4NCjxwPuyKpOychOy5rSDroIjqt6TroIjsnbTthLDsl5Ag64yA7ZW07ISc64qUIOuUsOuhnCDtj6zsiqTtjIXsnYQg7KSA67mE7ZWY6rOgIOyeiOyKteuLiOuLpC4g7Ja47KCg6rCA64qULi4uPC9wPg0KPC9ibG9ja3F1b3RlPg0KPHA+7J20IElD64qUIDNB6riJIOyduOyngOudvCwgU3pla2VyZeydmCDtlYTsmpTsuZjsnbggLTc4eHgg7JeQ6rKM64qUIOu2gOuLtOyKpOufrOyatC0gMUEg66+466eM7J2YIOyghOulmCDqs7XquInsnYAg67Cp7Je07YyQIOyXhuydtOuPhCAzMOuPhCDrr7jrp4zsnZgg66+47Je066eM7Jy866GcIOygnOqzte2VtCDso7zrhKTsmpQuIHNvIGNvb2x+LjwvcD4NCjxwPiZuYnNwOzxpbWcgd2lkdGg9XFwmcXVvdDs0MjBcXCZxdW90OyBoZWlnaHQ9XFwmcXVvdDsyODBcXCZxdW90OyBzcmM9XFwmcXVvdDtodHRwOi8vd2ViLnN1YXBhcGEubmV0OjgwODAvd29yZHByZXNzL3dwLWNvbnRlbnQvdXBsb2Fkcy9pbWFnZS9TemVrZXJlc1JldjRfYnRtLmpwZ1xcJnF1b3Q7IGFsdD1cXCZxdW90O1xcJnF1b3Q7IC8+PC9wPg0KPHA+7Iqk7JyE7LmtIOugiOq3pOugiOydtO2EsOydmCBcXFwn7Iqk7JyE7LmtXFxcJ+ydtOudvOuKlCDsnbTrpoTsl5DshJwg7JWMIOyImCDsnojrk6/snbQg6ruP64uk7Lyw64uk66W8IOuwmOuzte2VmOyXrCDsoITslZXsnYQg7JeFL+uLpOyatCDtlZjquLAg65WM66y47JeQLDwvcD4NCjxwPuq3gOyXkCDrk6TrpqzripQg7KO87YyM7IiY6rCAIOuCqOyVhOyeiOyngCDslYrsnYTquYwg652864qUIOyasOugpOqwgCDsnojsl4jripTrjbAsIOyYpOuenCDsi5zqsIQg7IKs7Jqp65CcKOqygOymneuQnD8pIElD64u16rKMIOygleyghOyVlSDslYTri7XthLDrpbwg7IKs7Jqp7ZWY7KeAIOyViuyVmOyWtOuPhCgxOVYg66y77KeA66eIIOyVhOuLte2EsCkg7KCE7JuQ67aAIOuFuOydtOymiOuKlCDsl4bsl4jsirXri4jri6QhIDopPC9wPg0KPHA+PGltZyB3aWR0aD1cXCZxdW90OzQyMFxcJnF1b3Q7IGhlaWdodD1cXCZxdW90OzI3NFxcJnF1b3Q7IHNyYz1cXCZxdW90O2h0dHA6Ly93ZWIuc3VhcGFwYS5uZXQ6ODA4MC93b3JkcHJlc3Mvd3AtY29udGVudC91cGxvYWRzL2ltYWdlL1N6ZWtlcmVzUmV2NF9icmQucG5nXFwmcXVvdDsgYWx0PVxcJnF1b3Q7XFwmcXVvdDsgLz48L3A+DQo8cD7rgqjripQgMzlvaG0g7KCA7ZWt7J20IOyeiOyWtCwg67OR66Cs66GcIOyXsOqysCgxOG9obSntlZjsl6wsIDIwb2htIOyLnOupmO2KuCDsoIDtla0g64yA7IugIOyCrOyaqe2VmOyYgOq1rOyalC4gSEFT7Iug7KCV7ISt64uY7J2YIHJlZuyXkOyEnCDsgqzsmqntlZwgMTcwS29obSjslYjtjJTrjZTqtbDsmpQp64yA7IugIDE4MEtvaG3snLzroZwg66eM65Ok7Ja0IOu0pOyKteuLiOuLpC48L3A+DQo8cD7soITsm5DsnYQg7Jis66awIOqygywg7KGw6riI7JSpIOuLpOuluCDrtoDtkojrk6TsnYQg7IKs7Jqp7ZWcIOqyg+ydtCDrjIDtlZwg7J2M7KeI7J2YIOywqOydtOuKlC4uLiDsoJwg6reA66Gc64qUIOuquyDripDrgbzqsqDrhKTsmpQuIOyXreyLnCDrqoXrtojtl4jsoIQgU3pla2VyZXPsnbjsp4Drnbwg6re464OlIOyii+yVhOyalC4gOik8L3A+DQo8cD4mbmJzcDs8L3A+DQo8cD7snbTsoIQgU1ZO7KCA7J6l7IaM7JeQ7IScIOuyhOyghCDsl4Ug65CcIGJyZCwgc2NoIOulvCDtmZXsnbjtlZjsi6Qg7IiYIOyeiOyKteuLiOuLpC48L3A+DQo8cD4mbmJzcDs8L3A+DQo8dWw+DQogICAgPGxpPjxhIGhyZWY9XFwmcXVvdDtodHRwOi8vd2ViLnN1YXBhcGEubmV0OjgwODAvc3ZuL0hXL1N6ZWtlcmVzQW1wXFwmcXVvdDsgdGFyZ2V0PVxcJnF1b3Q7X2JsYW5rXFwmcXVvdDs+7ZqM66Gc64+ELCDslYTtirjsm40g64uk7Jq066Gc65OcKFN2biBSZXBvKSA8L2E+LUVhZ2xlQ2FkIO2MjOydvDwvbGk+DQo8L3VsPiI7fX0=";}'
+aktt_notify_twitter:
+  - no
+dsq_thread_id:
+  - 722490869
+categories:
+  - DIY
+  - Music
+  - MyProject
+tags:
+  - EagleCad
+  - 헤드폰엠프
+
+---
+요즘은 생업이 넘흐 바뻐서 블로그 포스팅이 꽤 뜸해졌네요.
+
+[일전에 만들었던 Szekeres Amp.][1] 를 모두 분양해 드려서 저 쓰려고 새로 만들어 봤습니다.
+
+ <img loading="lazy" width="420" height="280" alt="" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/SzekeresRev4_top.jpg" />
+
+기존 전원부 자리에 커다랑 코일이 자리잡은게 보이시나요?
+
+<!--more-->Szekeres 는 기본적으로 열이 펄펄 나는 앰프인데, 두 파워모스펫 외에도 -기존 9V 레귤레이터- 7809에서도 &#8216;이래되 되나?&#8217;  싶은 정도의 열이 납니다.
+
+해서 -홈서버 전원부 용으로 사 둔- LM2576-12 라는 스위칭 레귤레이터로 전원부를 바꿔 봤습니다.
+
+신정섭님의 ref 와 같은 12V 단전원 사용하게 되었습니다.
+
+> 스위칭 레귤레이터에 대해서는 따로 포스팅을 준비하고 있습니다. 언젠가는&#8230;
+
+이 IC는 3A급 인지라, Szekere의 필요치인 -78xx 에게는 부담스러운- 1A 미만의 전류 공급은 방열판 없이도 30도 미만의 미열만으로 제공해 주네요. so cool~.
+
+ <img loading="lazy" width="420" height="280" alt="" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/SzekeresRev4_btm.jpg" />
+
+스위칭 레귤레이터의 &#8216;스위칭&#8217;이라는 이름에서 알 수 있듯이 껏다켰다를 반복하여 전압을 업/다운 하기 때문에,
+
+귀에 들리는 주파수가 남아있지 않을까 라는 우려가 있었는데, 오랜 시간 사용된(검증된?) IC답게 정전압 아답터를 사용하지 않았어도(19V 묻지마 아답터) 전원부 노이즈는 없었습니다! 🙂
+
+<img loading="lazy" width="420" height="274" alt="" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/SzekeresRev4_brd.png" /> 
+
+남는 39ohm 저항이 있어, 병렬로 연결하여,20ohm 시멘트 저항 대신 사용하였구요. HAS신정섭님의 ref에서 사용한 170ohm(안팔더군요)대신 180ohm으로 만들어 봤습니다.
+
+전원을 올린 것, 조금씩 다른 부품들을 사용한 것이 대한 음질의 차이는&#8230; 제 귀로는 못 느끼겠네요. 역시 명불허전 Szekeres인지라 그냥 좋아요. 🙂
+
+ 
+
+이전 SVN저장소에서 버전 업 된 brd, sch 를 확인하실 수 있습니다.
+
+ 
+
+  * <a target="_blank" href="https://homin.dev/svn/HW/SzekeresAmp" rel="noopener">회로도, 아트웍 다운로드(Svn Repo) </a>-EagleCad 파일
+
+ [1]: https://homin.dev/wp/?p=107

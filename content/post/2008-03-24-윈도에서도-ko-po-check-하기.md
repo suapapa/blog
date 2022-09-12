@@ -18,7 +18,7 @@ tags:
   - 한글
 
 ---
-<img loading="lazy" height="222" width="420" class="imageframe imgalignleft" alt="ko_po_check_in_winxp.jpg" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/ko_po_check_in_winxp.jpg" />
+<img loading="lazy" height="222" width="420" class="imageframe imgalignleft" alt="ko_po_check_in_winxp.jpg" src="https://homin.dev/asset/blog/2008/03/ko_po_check_in_winxp.jpg" />
 
 [ko-po-check][1]는 류창우님이 만드신, 한글 메세지 파일(ko.po)에서 빈번히 일어나는 실수를 알려주는 프로그램입니다.
 
@@ -47,4 +47,4 @@ tags:
 앞으로 <a href="http://www.poedit.net/" target="_blank" rel="noopener">poedit</a>와 연동이 되게 하고, make를 통한 설치를 파이썬 distutil 패키지를 통해서? 크로스 플렛폼에서 잘 설치 되도록 수정이 되면 좋겠습니다. 🙂
 
  [1]: http://kldp.net/projects/ko-po-check
- [2]: https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/03/ko-po-check.zip "ko-po-check.zip"
+ [2]: https://homin.dev/asset/blog/2008/03/ko-po-check.zip "ko-po-check.zip"

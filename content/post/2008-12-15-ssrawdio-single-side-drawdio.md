@@ -19,7 +19,7 @@ tags:
 ---
 단면 에칭 기판으로 [Dawdio][1]를 만들었습니다.
 
-<img loading="lazy" height="280" width="420" alt="" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/ssrawdio_inaction.jpg" /> 
+<img loading="lazy" height="280" width="420" alt="" src="https://homin.dev/asset/blog/image/ssrawdio_inaction.jpg" /> 
 
 drawdio는 555 IC를 사용한 발진 회로를 사용해 연필(등의 전도체)로 그림을 그리면 소리가 나는 장난감 입니다.
 
@@ -35,13 +35,13 @@ drawdio는 555 IC를 사용한 발진 회로를 사용해 연필(등의 전도�
 
 국내에서 구할 수 있는 가장 낮은 동작전압의 555는 [TLC555CP][4] 로 2V 이상에서 동작합니다. AA건전지 하나로 이 칩을 울릴수 없으므로 코인 배터리 CR2032(3V)를 사용해 단면 기판용 회로를 만들었습니다. 다음 아트웍 이미지를 클릭하면 sch, brd 파일을 받으실 수 있습니다.
 
-[<img loading="lazy" height="101" width="420" alt="" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/SSrawdio.png" />][5]
+[<img loading="lazy" height="101" width="420" alt="" src="https://homin.dev/asset/blog/image/SSrawdio.png" />][5]
 
 PCB에칭에 대해서는 여러 차례 다루었으므로 건너뛰고 조립부분에 대해 설명하겠습니다.
 
 **부품들**:
 
-<img loading="lazy" height="280" width="420" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/ssrawdio_parts.jpg" alt="" /> 
+<img loading="lazy" height="280" width="420" src="https://homin.dev/asset/blog/image/ssrawdio_parts.jpg" alt="" /> 
 
   * 스피커
   * 소켓
@@ -59,17 +59,17 @@ PCB에칭에 대해서는 여러 차례 다루었으므로 건너뛰고 조립�
 
 **조립하기**:
 
-<img loading="lazy" height="280" width="420" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/ssrawdio_assembled.jpg" alt="" /> 
+<img loading="lazy" height="280" width="420" src="https://homin.dev/asset/blog/image/ssrawdio_assembled.jpg" alt="" /> 
 
 단면기판이기 때문에 부품들의 위치를 정렬하면서 크기를 작게 하는데 제약이 있어 1&#215;4 핀헤더 두개를 사용해 저항들을 555 IC밑으로 숨겼습니다.
 
-<img loading="lazy" height="280" width="420" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/ssrawdio_up.jpg" alt="" /> 
+<img loading="lazy" height="280" width="420" src="https://homin.dev/asset/blog/image/ssrawdio_up.jpg" alt="" /> 
 
 앞정을 연필심에 닫게 꼳고, SSrawdio의 중간 부분에 구리테입을 감아 연결합니다. 전도성 테입의 경우 접착면에도 전기가 흐르지만, 제 회로에 있는 작은 접착면에서는 전기가 흐르지 않길래 추가로 납땜하여 연결하였습니다.
 
 > 조립시 멀티미터로 각 단계가 제대로 연결되었는지 확인하세요!
 
-<img loading="lazy" height="420" width="280" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/ssrawdio_down.jpg" alt="" /> 
+<img loading="lazy" height="420" width="280" src="https://homin.dev/asset/blog/image/ssrawdio_down.jpg" alt="" /> 
 
 보드의 아래쪽 접지면도 같은 방법으로 연결한 후 손에 닫도록 연필 몸통에 빙글빙글 감아 붙입니다.
 

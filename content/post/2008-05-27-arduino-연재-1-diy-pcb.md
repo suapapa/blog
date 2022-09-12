@@ -59,7 +59,7 @@ tags:
 
 정확한 크기로 인쇄하기 위해 출력 옵션에서 해상도를 조절 합니다.?원본이 600dpi로 만들어졌으므로 김프에선 다음과 같이 출력 해상도를 600으로 설정합니다.
 
-<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/600dpi.png" class="imageframe" alt="600dpi.png" width="420" height="357" /> 
+<img loading="lazy" src="https://homin.dev/asset/blog/2008/05/600dpi.png" class="imageframe" alt="600dpi.png" width="420" height="357" /> 
 
 **<span style="font-size: medium">2. 토너 전송</span>**
 
@@ -79,13 +79,13 @@ tags:
 
 종이가 동판에 찰싹 붙어 있습니다. 동판이 다 식었으면 이제 붙어있는 종이를 제거합니다.
 
-<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/pcb_pilling.jpg" class="imageframe" alt="pcb_pilling.jpg" width="420" height="280" /> 
+<img loading="lazy" src="https://homin.dev/asset/blog/2008/05/pcb_pilling.jpg" class="imageframe" alt="pcb_pilling.jpg" width="420" height="280" /> 
 
 종이를 적당히 불리고 때수건을 사용해 벗겨냈습니다.
 
 **<span style="font-size: medium">4. 짜잔!</span>**
 
-<img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/pcb_result.jpg" class="imageframe" alt="pcb_result.jpg" width="420" height="280" /> 
+<img loading="lazy" src="https://homin.dev/asset/blog/2008/05/pcb_result.jpg" class="imageframe" alt="pcb_result.jpg" width="420" height="280" /> 
 
 토너가 붙은 자리는 애칭 작업때 동판이 남아있게 되는 부분입니다.
 
@@ -94,4 +94,4 @@ tags:
  [1]: http://www.arduino.cc/en/Main/ArduinoBoardSerialSingleSided3
  [2]: http://www.arduino.cc/en/uploads/Main/Arduino_S3v3_R2_A4_4x2.png
  [3]: http://www.eleparts.co.kr/
- [4]: https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/05/imgp0008.jpg
+ [4]: https://homin.dev/asset/blog/2008/05/imgp0008.jpg

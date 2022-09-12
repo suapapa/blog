@@ -44,7 +44,7 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 
 \## 하드웨어 준비:
 
-![](https://homin.dev/asset/suapapa-blog/wp-content\_uploads/2008/08/ht1380\_parts.jpg)
+![](https://homin.dev/asset/blog/2008/08/ht1380\_parts.jpg)
 
 &#8211; \[Serial Time Keeper IC (HT1380)\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=10689&keyword=&u_n=25560&page=1)  
 &#8211; \[Tuning Fork -32.768KHz\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=7537&keyword=&u_n=25560&page=1)  
@@ -55,7 +55,7 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 
 \## 휘리릭 뿅!:
 
-![](https://homin.dev/asset/suapapa-blog/wp-content\_uploads/2008/08/ht1380\_module.jpg)
+![](https://homin.dev/asset/blog/2008/08/ht1380\_module.jpg)
 
 아두이노의 5V전원을 연결하고 \`_REST\`, \`SCLK\`, \`I/O\`,? 핀을 각각 아두이노  
 7, 6, 5번 소켓에 연결하였습니다.  
@@ -83,7 +83,7 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 예제는 HT1380에 시간을 설정하고 매 초 시리얼 모니터를 통해 현재 시간을 보여 줍니다.  
 아래는 실행 화면.
 
-![](https://homin.dev/asset/suapapa-blog/wp-content\_uploads/2008/08/arduino\_ht1380_example.jpg)
+![](https://homin.dev/asset/blog/2008/08/arduino\_ht1380_example.jpg)
 
 \## 응용:
 

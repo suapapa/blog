@@ -27,7 +27,7 @@ Ken Rockwell의 홈페이지와 그의 &#8220;훌륭한 사진을 찍는 방법&
 
 <!--more-->
 
-<a href="http://kenrockwell.com/" target="_blank" rel="noopener"><img loading="lazy" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/2008/04/kenrockwell_site.jpg" alt="kenrockwell_site.jpg" class="imageframe" height="324" width="420" /></a>
+<a href="http://kenrockwell.com/" target="_blank" rel="noopener"><img loading="lazy" src="https://homin.dev/asset/blog/2008/04/kenrockwell_site.jpg" alt="kenrockwell_site.jpg" class="imageframe" height="324" width="420" /></a>
 
 > 플레쉬나 AJAX가 없이도 멋진 -그리고 유쾌한!- 구도를 가진 홈페이지 입니다. 위의 사진을 클릭하면 그의 홈페이지로 이동 합니다.
 

@@ -24,7 +24,7 @@ minicom의 대안
   * X,Y,ZMODEM 다 되구요.
   * 한글화 까지 되었습니다. 🙂
 
-<input width="420" type="image" height="330" src="https://homin.dev/asset/suapapa-blog/wp-content_uploads/image/moserial.png" /> 
+<input width="420" type="image" height="330" src="https://homin.dev/asset/blog/image/moserial.png" /> 
 
 제 ppa를 추가 하시거나, 개인 ppa 복사하여 사용하세요. 🙂
 

@@ -1,6 +1,7 @@
 baseurl = "http://suapapa.github.io/blog/"
 relativeURLs = true
 canonifyURLs = true
+copyright = "Homin Lee &lt;ff4500@gmail.com&gt;; All rights reserved"
 
 languageCode = "en-us"
 title = "Homin Lee's blog"
@@ -10,6 +11,7 @@ theme = "ananke"
   tag = "tags"
 
 [params]
+  author = "Homin Lee"
   description = "Arbitrary hacking logs"
   google_analytics = "UA-65909718-2"
   disqusShortname = "hominleesblog"

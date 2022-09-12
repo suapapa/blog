@@ -1,6 +1,11 @@
 ---
 title: MQTT를 활용한 실시간 방명록 출력 시스템 
 date: 2022-09-10T12:58:50+09:00
+tags:
+- golang
+- k8s
+- rpi
+- mqtt
 ---
 
 {{< youtube kJGh1Xtq8RE >}}

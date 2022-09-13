@@ -17,7 +17,7 @@ tags:
   - 헤드폰앰프
 
 ---
-<img src="https://homin.dev/asset/blog/2008/10/szekeresamp.jpg" alt="szekeresamp.jpg" class="imageframe" width="420" height="280" />
+![](https://homin.dev/asset/blog/2008/10/szekeresamp.jpg)
 
 에칭에 대한 정보를 찾다가 <a href="http://www.headphoneamp.co.kr/" target="_blank" rel="noopener">HAS : 헤드폰 앰프 스테이션</a>(이하 하스)라는 헤드폰 앰프 사이트를 알게 되었습니다.
 
@@ -47,13 +47,13 @@ Szekeres 앰프를 선택한 이유는 다음 게시물에서의 극찬과 적�
 
 담배각 보다 약간 큰 크기로, 9V 전압에 맞게 만들었고, Line In 단자를 뒤쪽에 배치하였습니다.
 
-<img src="https://homin.dev/asset/blog/2008/10/szekeresamp_pcb.jpg" alt="szekeresamp_pcb.jpg" class="imageframe" width="420" height="280" /> 
+![](https://homin.dev/asset/blog/2008/10/szekeresamp_pcb.jpg)
 
 여기까지 만들어 놓고 나니 뿌듯하긴 한데, 부웅~ 하는 잡음이 들리네요.
 
 **악! 잡음!!!** 다행이 하스의 QNA에 같은 문제가 여러 차례 올라와 있었습니다.
 
-<img src="https://homin.dev/asset/blog/2008/10/szekeres_7809.jpg" alt="szekeres_7809.jpg" class="imageframe" width="420" height="280" /> 
+![](https://homin.dev/asset/blog/2008/10/szekeres_7809.jpg)
 
 원인은 9V 아답터가 정전압이 아니기 때문이며, 7809 IC로 정전압 회로를 만들어 추가하고 12V 아답터를 사용해 깨끗하게 맑게 자신있게 수정되었습니다.
 
@@ -64,7 +64,7 @@ Szekeres 앰프를 선택한 이유는 다음 게시물에서의 극찬과 적�
   * 주인공인 MOSFET들이 잘 안 보인다.
   * 세라믹 콘덴서들은 좀 안 보였으면 좋겠다.
 
-<a href="https://homin.dev/svn/HW/SzekeresAmp/SkekeresAmp_ALL.png" target="_blank" rel="noopener"><img src="https://homin.dev/asset/blog/2008/10/skekeresamp_all.jpg" alt="skekeresamp_all.jpg" class="imageframe" width="420" height="277" /></a>  
+<a href="https://homin.dev/svn/HW/SzekeresAmp/SkekeresAmp_ALL.png" target="_blank" rel="noopener">![](https://homin.dev/asset/blog/2008/10/skekeresamp_all.jpg)</a>  
 아쉬운 부분들을 수정 해 봤습니다. 회로도와 PCB 파일이 필요하신 분은 아래의 링크에서 받아가세요.
 
   * <a href="https://homin.dev/svn/HW/SzekeresAmp" target="_blank" rel="noopener">회로도, 아트웍 다운로드(Svn Repo) </a>-EagleCad 파일

@@ -15,7 +15,7 @@ categories:
   - Noti
 
 ---
-[<img width="420" height="402" alt="" src="https://homin.dev/asset/blog/image/sua_in_adafruit.png" />][1] 
+[![](https://homin.dev/asset/blog/image/sua_in_adafruit.png)][1] 
 
 ada
 

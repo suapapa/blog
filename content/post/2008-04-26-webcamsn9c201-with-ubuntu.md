@@ -21,7 +21,7 @@ tags:
 > 즉! 뽑기!!
 
 네&#8230; 뽑기에 소질이없어서&#8230; 또 꽝 뽑아습니다. -_-;;  
-<img vspace="5" align="middle" width="200" src="https://homin.dev/asset/blog/2008/04/sn9c201onubuntu.jpg" hspace="5" alt="sn9c201onubuntu.jpg" height="267" /> 
+![](https://homin.dev/asset/blog/2008/04/sn9c201onubuntu.jpg" hspace="5)
 
 <!--more-->
 
@@ -49,6 +49,6 @@ tags:
 
 camorama 를 설치하고 실행 해 봅니다. 짜잔~!!
 
-<img width="315" src="https://homin.dev/asset/blog/2008/04/sn9c201_in_action.jpg" alt="sn9c201_in_action.jpg" height="420" class="imageframe" />
+![](https://homin.dev/asset/blog/2008/04/sn9c201_in_action.jpg)
 
  [1]: http://www.ubuntu.or.kr/viewtopic.php?f=9&t=118

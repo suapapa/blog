@@ -46,11 +46,11 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 
 ![](https://homin.dev/asset/blog/2008/08/ht1380_parts.jpg)
 
-&#8211; \[Serial Time Keeper IC (HT1380)\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=10689&keyword=&u_n=25560&page=1)  
-&#8211; \[Tuning Fork -32.768KHz\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=7537&keyword=&u_n=25560&page=1)  
+&#8211; \[Serial Time Keeper IC (HT1380)\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=10689&keyword=&u_n=25560&page=1)
+&#8211; \[Tuning Fork -32.768KHz\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=7537&keyword=&u_n=25560&page=1)
 &#8211; \[Ceramic 5pF, 50V\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=856&keyword=&u_n=25560&page=1)
 
-\[데이터시트\](http://www.alldatasheet.co.kr/datasheet-pdf/pdf_kor/64412/HOLTEK/HT1380.html)  
+\[데이터시트\](http://www.alldatasheet.co.kr/datasheet-pdf/pdf_kor/64412/HOLTEK/HT1380.html)
 의 회로도를 참고하여 조립.
 
 \## 휘리릭 뿅!:

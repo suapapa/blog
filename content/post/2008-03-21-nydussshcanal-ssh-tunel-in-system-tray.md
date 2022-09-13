@@ -27,7 +27,7 @@ tags:
 
 그 시작으로 **NydusSshCanal**을 소개합니다.
 
-<img src="https://homin.dev/asset/blog/2008/03/nyduscanal.png" alt="nyduscanal.png" class="imageframe imgalignleft" width="70" height="70" /> 
+![](https://homin.dev/asset/blog/2008/03/nyduscanal.png)
 
 <!--more-->
 
@@ -80,7 +80,7 @@ NydusSshCanal은 외부 설정 파일이 없기 때문에 직접 NydusSshCanal.p
 
 아래는 우분투에서의 스크린 샷 입니다.
 
-<img src="https://homin.dev/asset/blog/2008/03/screenshot.png" alt="screenshot.png" class="imageframe imgalignleft" width="400" height="165" /> 
+![](https://homin.dev/asset/blog/2008/03/screenshot.png)
 
 이제 빅브라더 몰래 <strike>저그링떼를..</strike> 미지의 세상으로 나갈 준비가 완료되었습니다. ㄱㄱㅅ~
 

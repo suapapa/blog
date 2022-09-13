@@ -45,7 +45,7 @@ HDR이 무엇인지 궁금하신 분은 우선 <a href="http://stuckincustoms.co
 
 즉! UFRaw와 enfuse를 사용해 HDR이미지를 만들 수 있는데, 저는 이 작업을 더 간단히 하기 위한 스트립트(**raw2hdr.py**)를 작성했습니다.
 
-<img src="https://homin.dev/asset/blog/2008/04/imgp9117_enfuse.jpg" alt="imgp9117_enfuse.jpg" class="imageframe imgalignleft" height="280" width="420" /> 
+![](https://homin.dev/asset/blog/2008/04/imgp9117_enfuse.jpg)
 
 **raw2hdr.py**를 ****이용해 하나의 raw이미지로 부터 뽑아낸 아래의 (-3, -2, -1, 0, 1, 2, 3)EV의 7장의 이미지로 부터 만들어낸 사진입니다.
 

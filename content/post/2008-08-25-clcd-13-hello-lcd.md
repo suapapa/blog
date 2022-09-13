@@ -30,8 +30,8 @@ tags:
 **1. 연결 준비**  
 CLCD가 8 혹은 4비트 데이타 버스를 가진다고는 알고 있었는데, 전원/제어 선까지 합치니 14pin이네요.
 
-HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케이블을 재료로 선을 준비했습니다. (핀 헤더가 1열로 된 녀석이 작업하기 좀 더 편할 것 같습니다.)  
-<img src="https://homin.dev/asset/blog/2008/08/hy1602_pin.jpg" alt="hy1602_pin.jpg" class="imageframe" width="420" height="280" /> 
+HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케이블을 재료로 선을 준비했습니다. (핀 헤더가 1열로 된 녀석이 작업하기 좀 더 편할 것 같습니다.)
+![](https://homin.dev/asset/blog/2008/08/hy1602_pin.jpg)
 
 > 핀헤더가 바싹 붙어 있어 검은 표시한 1번 선의 위치가 반대가 되었습니다. -,.-;
 > 
@@ -40,7 +40,7 @@ HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케�
 > **5V/GND, 컨트라스트,? RS/RW/EN, 데이타 8bit**
 
 **2. 전원/백라이트 연결**  
-<img src="https://homin.dev/asset/blog/2008/08/hy1602_pwron.jpg" alt="hy1602_pwron.jpg" class="imageframe" width="420" height="280" /> 
+![](https://homin.dev/asset/blog/2008/08/hy1602_pwron.jpg)
 
 전원/콘트라스트/백라이트를 5V/GND에 연결해 보았습니다. **<font color="#ff0000">몇 가지 문제가 있네요!!</font>**
 
@@ -48,7 +48,7 @@ HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케�
   * 사진 처럼 백라이트에 5V를 바로 넣어면 레귤레이터(7805)가 급격히 뜨거워 집니다. 이 이유와 해결 방법은 따로 포스팅 하겠습니다. 일단 사진찍고 빼 두었습니다. 주간에는 백라이트 없이도 글자가 보입니다.
 
 **3. 아두이노에 연결!**  
-<img src="https://homin.dev/asset/blog/2008/08/hy1602_helloworld.jpg" alt="hy1602_helloworld.jpg" class="imageframe" width="420" height="280" /> 
+![](https://homin.dev/asset/blog/2008/08/hy1602_helloworld.jpg)
 
 다행히 CLCD용 아두이노 라이브러는 이미 있었습니다. <a href="http://www.arduino.cc/en/Tutorial/LCDLibrary" target="_blank" rel="noopener">Arduino &#8211; LCDLibrary </a>
 

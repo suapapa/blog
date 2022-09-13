@@ -18,7 +18,7 @@ tags:
   - 한글
 
 ---
-<img height="222" width="420" class="imageframe imgalignleft" alt="ko_po_check_in_winxp.jpg" src="https://homin.dev/asset/blog/2008/03/ko_po_check_in_winxp.jpg" />
+![](https://homin.dev/asset/blog/2008/03/ko_po_check_in_winxp.jpg)
 
 [ko-po-check][1]는 류창우님이 만드신, 한글 메세지 파일(ko.po)에서 빈번히 일어나는 실수를 알려주는 프로그램입니다.
 

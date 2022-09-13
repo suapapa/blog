@@ -22,7 +22,7 @@ Arduino는 시리얼 포트(혹은 USB)를 통해 -ISP가 없이- 프로그램�
 
 <!--more-->
 
-<img loading="lazy" src="https://homin.dev/asset/blog/2008/06/nt-isp_with_arduinos3v3.jpg" alt="nt-isp_with_arduinos3v3.jpg" class="imageframe" width="420" height="280" /> 
+<img src="https://homin.dev/asset/blog/2008/06/nt-isp_with_arduinos3v3.jpg" alt="nt-isp_with_arduinos3v3.jpg" class="imageframe" width="420" height="280" /> 
 
 ISCP 포트에 1번 핀 위치에 주의하여 위와 같이 연결합니다.
 
@@ -91,7 +91,7 @@ Lock Bits set to 0xcf</pre>
 
 이제 ISP 케이블을 제거하고 Reset 버튼을 누르면 LED 13 (사진의 노란색 LED)가 파라라락! 점멸하며 부트로더가 잘 심어졌음을 알립니다.
 
-<img loading="lazy" src="https://homin.dev/asset/blog/2008/06/arduinos3v3_bootloader_on.jpg" alt="arduinos3v3_bootloader_on.jpg" class="imageframe" width="420" height="280" /> 
+<img src="https://homin.dev/asset/blog/2008/06/arduinos3v3_bootloader_on.jpg" alt="arduinos3v3_bootloader_on.jpg" class="imageframe" width="420" height="280" /> 
 
 **?한줄요약 NT-ISP = STK-200**
 

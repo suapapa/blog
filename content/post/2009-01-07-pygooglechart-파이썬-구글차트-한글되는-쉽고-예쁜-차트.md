@@ -63,7 +63,7 @@ chart.set_title('소녀시계 출연횟수')
 <pre lang="python">chart.download('~/GirlsInClock.png')
 </pre>
 
-<img loading="lazy" height="200" width="430" src="https://homin.dev/asset/blog/image/GirlsInClock.png" alt="" /> 
+<img height="200" width="430" src="https://homin.dev/asset/blog/image/GirlsInClock.png" alt="" /> 
 
 짜잔!  &#8220;너무 빤짝빤짝 눈이 부신&#8221; 그래프가 뚝딱하고 나왔어요.
 

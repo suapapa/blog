@@ -19,7 +19,7 @@ tags:
 </p>
 
 <p style="text-align: center">
-  <img loading="lazy" class="imageframe imgaligncenter" height="72" alt="feedburner.jpg" width="208" src="https://homin.dev/asset/blog/2008/03/feedburner.jpg" />
+  <img class="imageframe imgaligncenter" height="72" alt="feedburner.jpg" width="208" src="https://homin.dev/asset/blog/2008/03/feedburner.jpg" />
 </p>
 
 다른 분들의 블로그를 돌아다니다 보니 위와 같이 생긴 카운터 아이콘이 그 블로그의 RSS를 몇 명이 구독하고 있는지 알려주고 있었습니다.
@@ -34,11 +34,11 @@ tags:
 
 > &#8216;그런데 아이콘은?&#8217;
 
-**3. 카운터 아이콘** 찾아보니 카운터 아이콘을 얻기 위해서는 아래와 같이 FeedCountService를 활성화 해야 합니다. &nbsp;<img loading="lazy" height="289" alt="feedburner_feedcount_setting.jpg" width="450" align="middle" border="0" src="https://homin.dev/asset/blog/2008/03/feedburner_feedcount_setting.jpg" /> 카운터 아이콘의 소스를 주며 **적당한 곳**에 붙여 넣으라고 하네요.
+**3. 카운터 아이콘** 찾아보니 카운터 아이콘을 얻기 위해서는 아래와 같이 FeedCountService를 활성화 해야 합니다. &nbsp;<img height="289" alt="feedburner_feedcount_setting.jpg" width="450" align="middle" border="0" src="https://homin.dev/asset/blog/2008/03/feedburner_feedcount_setting.jpg" /> 카운터 아이콘의 소스를 주며 **적당한 곳**에 붙여 넣으라고 하네요.
 
 > &#8216;적당한 곳이 어디냐!!&#8217;
 
-**4. 카운터 아이콘 위젯 생성** 적당한 곳을 찾다 보니 아예 위젯으로 만드는 게 좋겠다 싶어 기존의 플러그 인을 좀 손봤습니다.&nbsp; FeedBurner\_FeedSmith\_Plugin.php 파일에 [이 패치][2]를 적용하시거나, [이걸로][3] 덮어 쓰세요. 이제 플러그인에 아래와 같이 4번 항목이 생깁니다. 적당한 이곳에 위에서 받은 카운터 아이콘 소스를 넣고 저장하세요.<img loading="lazy" class="imageframe imgalignleft" height="490" alt="feedburner_plugin.jpg" width="450" src="https://homin.dev/asset/blog/2008/03/feedburner_plugin.jpg" /> 위젯패널로 가 보면 FeedBurner Counter라는 위젯이 추가된 것을 확인하실 수 있습니다.<img loading="lazy" class="imageframe imgalignleft" height="331" alt="feedburner_feedcount_widget.jpg" width="450" src="https://homin.dev/asset/blog/2008/03/feedburner_feedcount_widget.jpg" /> 드디어 제 블로그를 몇명이 읽는지 예쁜 아이콘을 통해 알 수 있게 되었군요.
+**4. 카운터 아이콘 위젯 생성** 적당한 곳을 찾다 보니 아예 위젯으로 만드는 게 좋겠다 싶어 기존의 플러그 인을 좀 손봤습니다.&nbsp; FeedBurner_FeedSmith_Plugin.php 파일에 [이 패치][2]를 적용하시거나, [이걸로][3] 덮어 쓰세요. 이제 플러그인에 아래와 같이 4번 항목이 생깁니다. 적당한 이곳에 위에서 받은 카운터 아이콘 소스를 넣고 저장하세요.<img class="imageframe imgalignleft" height="490" alt="feedburner_plugin.jpg" width="450" src="https://homin.dev/asset/blog/2008/03/feedburner_plugin.jpg" /> 위젯패널로 가 보면 FeedBurner Counter라는 위젯이 추가된 것을 확인하실 수 있습니다.<img class="imageframe imgalignleft" height="331" alt="feedburner_feedcount_widget.jpg" width="450" src="https://homin.dev/asset/blog/2008/03/feedburner_feedcount_widget.jpg" /> 드디어 제 블로그를 몇명이 읽는지 예쁜 아이콘을 통해 알 수 있게 되었군요.
 
 > &#8216;어디보자&#8230; 0명. ㅆㅂ&#8217;
 

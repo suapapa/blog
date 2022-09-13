@@ -42,7 +42,7 @@ CoffeeTime은 cappuccino의 커맨드 라인 버젼 입니다. 뭐하는 녀석�
 > 저장소 안의 윈도용 polygen은 <a href="http://www.polygen.org/gs/dist/" target="_blank" rel="noopener">이곳</a>에서 가져왔습니다. 우분투/데비안 사용자는 따로 받으실 필요 없이 apt-get install polygen으로 간단히 설치하시면 됩니다.
 
 **실행화면:**  
-<img loading="lazy" src="https://homin.dev/asset/blog/2008/08/coffeetime_in_windows.jpg" alt="coffeetime_in_windows.jpg" class="imageframe" width="420" height="438" /> 
+<img src="https://homin.dev/asset/blog/2008/08/coffeetime_in_windows.jpg" alt="coffeetime_in_windows.jpg" class="imageframe" width="420" height="438" /> 
 
 **자! 이제 커피 타임~** 😀
 

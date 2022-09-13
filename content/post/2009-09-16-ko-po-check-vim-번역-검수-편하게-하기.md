@@ -63,7 +63,7 @@ ko-po-check는 위 과정의 3번과 4번 사이에 잘못된 번역이 없는�
 > 
 > ko.po:578: 디렉토리: 그놈 데스크탑에서 &#8220;directory&#8221;은(는) &#8220;디렉터리&#8221;(이)라고 번역  
 > ko.po:1294: 지우기: 그놈 데스크탑에서 &#8220;delete&#8221;은(는) &#8220;삭제&#8221;(이)라고 번역  
-> ko.po:1294: 지우기(\_D): 다음과 같이 번역해야 합니다: &#8220;삭제(\_D)&#8221;  
+> ko.po:1294: 지우기(_D): 다음과 같이 번역해야 합니다: &#8220;삭제(_D)&#8221;  
 > &#8230;
 > 
 >  
@@ -90,7 +90,7 @@ ko-po-check는 위 과정의 3번과 4번 사이에 잘못된 번역이 없는�
 
 > [**:help quickfix**][4] 하셔서 **:cope** 등의 명령어도 찾아 보세요.
 
-<img loading="lazy" width="420" height="415" src="https://homin.dev/asset/blog/image/kpc_quickfix.png" alt="" /> 
+<img width="420" height="415" src="https://homin.dev/asset/blog/image/kpc_quickfix.png" alt="" /> 
 
 많이 편해 졌지만, 아직도 ko-po-check을 실행하기 위해 vim을 들락날락 해야하는 단순반복작업이 남아있죠.
 

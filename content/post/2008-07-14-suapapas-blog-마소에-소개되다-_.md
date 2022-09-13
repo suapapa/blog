@@ -26,9 +26,9 @@ MicroSoftware 7월호의 안윤호님의 기사 &#8220;Arduino 시스템 만들�
 
 <!--more-->
 
-<img loading="lazy" src="https://homin.dev/asset/blog/2008/07/suapapablog_in_maso_01.jpg" class="imageframe" alt="suapapablog_in_maso_01.jpg" width="420" height="280" /> 
+<img src="https://homin.dev/asset/blog/2008/07/suapapablog_in_maso_01.jpg" class="imageframe" alt="suapapablog_in_maso_01.jpg" width="420" height="280" /> 
 
-<img loading="lazy" src="https://homin.dev/asset/blog/2008/07/suapapablog_in_maso_02.jpg" class="imageframe" alt="suapapablog_in_maso_02.jpg" width="420" height="213" /> 
+<img src="https://homin.dev/asset/blog/2008/07/suapapablog_in_maso_02.jpg" class="imageframe" alt="suapapablog_in_maso_02.jpg" width="420" height="213" /> 
 
 > suapa가 아니라 suapapa 입니다만.
 

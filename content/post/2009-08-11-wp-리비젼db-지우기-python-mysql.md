@@ -53,7 +53,7 @@ tags:
 <pre lang="sql">DELETE FROM wp_posts WHERE post_type = "revision";
 </pre>
 
-> post\_type이 revision인 것들을 wp\_posts 테이블에서 지워.
+> post_type이 revision인 것들을 wp_posts 테이블에서 지워.
 
 이 정도에서 된다면 좋겠지만 [ERD][2]를 살펴보면 포스트 아이디를 참조하는 테이블이 두개 더 있습니다. 이 두 테이블도 정리해야죠.
 

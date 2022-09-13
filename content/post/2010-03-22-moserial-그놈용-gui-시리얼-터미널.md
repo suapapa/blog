@@ -30,4 +30,4 @@ minicom의 대안
 
  
 
-https://bugzilla.gnome.org/buglist.cgi?product=moserial&bug\_status=UNCONFIRMED&bug\_status=NEW&bug\_status=ASSIGNED&bug\_status=REOPENED&bug_severity=enhancement
+https://bugzilla.gnome.org/buglist.cgi?product=moserial&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=enhancement

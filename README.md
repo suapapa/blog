@@ -3,7 +3,7 @@ Live > [here](http://suapapa.github.io/blog/) <
 # Cheat sheet
 
 ```bash
-alias hugo "docker run --rm -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest"
+alias hugo="docker run --rm -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest"
 ```
 
 Create new post:

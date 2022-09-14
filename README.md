@@ -1,4 +1,4 @@
-Live > [here](http://suapapa.github.io/blog/) <
+Live > [here](http://homin.dev/blog) <
 
 # Cheat sheet
 

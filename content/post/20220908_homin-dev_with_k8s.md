@@ -26,7 +26,7 @@ https://suapapa.github.io 페이지에 대문 역활을 하는 페이지를 만�
 도메인이 너무 길고 외우기 힘들어 `suapapa.net` 도메인을 사고,
 DNSEver 서비스의 리다이렉션 서비스(유로)로 GH-Pages들로 이동하게 쓰고 있었습니다.
 
-> 예를들어 `suapapa.net/blog` -> `suapapa.github.io/blog` 로 이동하게 DNSEver에 등록.
+> 예를들어 `blog.suapapa.net` -> `suapapa.github.io/blog` 로 이동하게 DNSEver에 등록.
 
 저는 여전히 GH-Pages를 잘 쓰고 있지만,
 동적사이트를 만들고 싶은 욕심 + CKAD 자격증따면서 배운 거 써보기!

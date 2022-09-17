@@ -1,7 +1,11 @@
 ---
 title: "Suapapa's blog (2008~2012) 복구! 그 여정의 기록"
 date: 2022-09-16T07:27:13Z
-tags: []
+tags:
+- wordpress
+- php
+- gke
+- hugo
 featured_image: ""
 description: ""
 ---

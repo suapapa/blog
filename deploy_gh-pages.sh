@@ -1,7 +1,7 @@
 #!/bin/bash
 #hugo
 rm -rf public
-docker run --rm -v `pwd`:/src  klakegg/hugo:latest build
+cp index.html public/
 cd public
 git init . && git add . && git commit -m "update at `date`"
 git push -f \

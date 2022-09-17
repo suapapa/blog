@@ -99,7 +99,7 @@ Dockerhub (Github의 도커 판) 에 올려 둡니다.
 한 번에 하나의 프로젝트만을 다룰 수 있습니다. GCP콘솔에서 아래 그림을 참조해
 `PROJECT_ID`를 설정 합니다.
 
-![pid_in_gcp_console](/img/suapapa_blog_gcp_console.jpg)
+![pid_in_gcp_console](https://homin.dev/asset/blog/img/suapapa_blog_gcp_console.jpg)
 
     $ gcloud config set project suapapablog-149712
     $ gcloud config set compute/zone us-central1-b
@@ -123,7 +123,7 @@ Dockerhub (Github의 도커 판) 에 올려 둡니다.
 시간이 좀 걸리며 생성중에 `gcp console`을 보면 아래 이미지 처럼 생성됨을
 볼 수 있습니다.
 
-![gcp_cluster](/img/gcp_container_cluster_1024.jpg)
+![gcp_cluster](https://homin.dev/asset/blog/img/gcp_container_cluster_1024.jpg)
 
 ## 2. pod 생성
 

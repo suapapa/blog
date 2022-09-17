@@ -9,7 +9,7 @@ featured_image: ""
 description: ""
 ---
 
-![suapapa_wiki](/img/suapapa_wiki.png)
+![suapapa_wiki](https://homin.dev/asset/blog/img/suapapa_wiki.png)
 
 ## 배경
 

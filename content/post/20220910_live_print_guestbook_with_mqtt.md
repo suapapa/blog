@@ -45,7 +45,7 @@ Ingress 프로그램에서 그 노드로, TCP-TLS(인터넷 접근) to TCP(클�
 
 그래서 다음과 같이 퍼블릭 MQTT 브로커가 생겼습니다.
 
-![personal_public_mqtt_broker](/img/personal_public_mqtt_broker.jpg)
+![personal_public_mqtt_broker](https://homin.dev/asset/blog/img/personal_public_mqtt_broker.jpg)
 
 > 한참동안 브로커에 접근이 안되서 씨름했는데, 알고보니 해당포트를 방화벽에서 통과하게 등록해 줘야 하더라구요.
 > GCP에서, 여긴, UX가, 왠만하면 건들지 마라! 라고 하는 것 처럼 생겼는데... 잘 찾아서 뚫어줬습니다.
@@ -122,7 +122,7 @@ docker run \
 
 지금까지 설명한 걸 모두 그려보면 다음과 같습니다:
 
-![live-gb-print-system](/img/live-gb-print-system.jpg)
+![live-gb-print-system](https://homin.dev/asset/blog/img/live-gb-print-system.jpg)
 
 ---
 

@@ -62,10 +62,12 @@ paramiko를 제외한 다른 프로그램들은 구글링을 통해 윈도 바�
 
 NydusSshCanal은 외부 설정 파일이 없기 때문에 직접 NydusSshCanal.py파일을 열어 터널링을 할 ssh주소와 계정, 로컬 포트를 설정 하셔야 합니다.
 
-<pre lang="python">_sshFowardList = [\
+```python
+_sshFowardList = [\
 #(srcPort, sshHost, destPort, sshUser, sshPort),
 (5001, 'suapapa.net', 8080, 'admin', 22)
-]</pre>
+]
+```
 
 위의 설정은 suapapa.net:8080 위치와 127.0.0.1:5001을 suapapa라는 ssh계정을 통해 연결하는 설정 입니다. 가지고 계신 ssh 계정과 주소, 연결할 로컬 포트로 바꿔서 저장하세요.
 

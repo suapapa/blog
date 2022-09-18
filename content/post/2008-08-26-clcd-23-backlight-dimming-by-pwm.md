@@ -58,13 +58,15 @@ PWM에 대해서는 아래의 링크한 기사 중**디지털 제어**부분에 
 
 [CLCD Library](https://homin.dev/svn/ArduinoLibraries/CLCD/)에 추가한 예제 **BackLight**에 위 회로를 테스트 하는 코드가 있습니다.
 
-<pre lang="c">uint8_t pinAnalogIn = 3;
+```c
+uint8_t pinAnalogIn = 3;
 uint8_t pinPWM = 10;
 ...
 void loop(void){
 ? val = analogRead(pinAnalogIn);
 ? analogWrite(pinPWM, val/4);
-}</pre>
+}
+```
 
 > analogRead의 범위는 1024, analogWrite의 범위는 256 이기에 /4 를 해 주었습니다.
 

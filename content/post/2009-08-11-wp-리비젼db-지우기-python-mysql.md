@@ -26,8 +26,10 @@ tags:
 
 일단, **wp-config.php**에 아래의 설정을 추가하여:
 
-<pre lang="php">define("WP_POST_REVISIONS", false);
-</pre>
+```php
+define("WP_POST_REVISIONS", false);
+
+```
 
 리비젼 기능을 끄면, 앞으로는 리비젼을 쌓아두지 않게 됩니다.
 
@@ -41,8 +43,10 @@ tags:
 
 간단한 sql 문은 거의 자연어 같이 그대로 읽을 수 있습니다. 간단한 예제:
 
-<pre lang="sql">SELECT id FROM wp_posts;
-</pre>
+```sql
+SELECT id FROM wp_posts;
+
+```
 
 > wp_posts 테이블에서 id 필드들을 선택해(서 보여줘).
 
@@ -50,8 +54,10 @@ tags:
 
 조금 어려워 졌지만, 역시 그럭저럭 읽을 수 있습니다:
 
-<pre lang="sql">DELETE FROM wp_posts WHERE post_type = "revision";
-</pre>
+```sql
+DELETE FROM wp_posts WHERE post_type = "revision";
+
+```
 
 > post_type이 revision인 것들을 wp_posts 테이블에서 지워.
 
@@ -63,18 +69,21 @@ tags:
 
 역시 자연스럽게 읽을&#8230;:
 
-<pre lang="sql">DELETE a,b,c
+```sql
+DELETE a,b,c
 FROM wp_posts a
 LEFT JOIN wp_term_relationships b ON (a.ID = b.object_id)
 LEFT JOIN wp_postmeta c ON (a.ID = c.post_id)
 WHERE a.post_type = 'revision'
-</pre>
+
+```
 
 > 이건 도저히 못 읽겠다!! ㅁ니ㅓ리나ㅓ리
 
 해서, 이해할 수 있는 sql문들을 가지고 파이썬으로 재 구성 해 봅니다.
 
-<pre lang="python">#!/usr/bin/python
+```python
+#!/usr/bin/python
 #-*- coding: utf-8 -*-
 import MySQLdb
 
@@ -105,7 +114,8 @@ for oid in l_terms:
         c.execute('DELETE FROM wp_term_relationships WHERE object_id=%d'%oid)
 
 db.close()
-</pre>
+
+```
 
 이쪽이 훨씬 이해하기 좋네요. 조금 길어졌지만&#8230;
 

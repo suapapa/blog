@@ -106,7 +106,8 @@ scan된 AP들이 : 를 구분자로 나열 됩니다. 위 예제는 두 AP, SUAP
 
 test.suapapa.net에는 파이썬-twisted으로 작성한 아래의 간단한 서버가 사용되었습니다.
 
-<pre lang="python">from twisted.internet.protocol import Protocol, Factory
+```python
+from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor
 
 class Echo(Protocol):
@@ -121,7 +122,8 @@ TEST_PORT = 8005
 print "simple ECHO server start! on port:", TEST_PORT
 reactor.listenTCP(TEST_PORT, factory)
 reactor.run()
-</pre>
+
+```
 
 처음에는 시리얼로 설정하는 과정이 생소했지만 다행히도! 설정 내용을 기억하고 있기 때문에 한 번 설정하면 바로 아두이노에 연결해 일반적인 시리얼 포트 사용하 듯 쓸 수 있습니다.
 

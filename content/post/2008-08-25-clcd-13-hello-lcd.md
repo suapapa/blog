@@ -62,7 +62,8 @@ HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케�
 
 아래는 이 라이브러리를 사용한 예제 입니다. 1초 단위로 "Hello!\nWorld!!"를 깜박입니다.
 
-<pre lang="c">#include &lt;clcd.h>
+```c
+#include &lt;clcd.h>
 CLCD lcd = CLCD();
 char string1[] = "Hello!\nWorld!!";
 
@@ -75,6 +76,7 @@ void loop(void){
    lcd.putStr(string1); //send the string to the LCD
    delay(1000); //delay 1000 ms to view change
 } //repeat forever
-</pre>
+
+```
 
 참 쉽죠? =33

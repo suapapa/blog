@@ -26,9 +26,11 @@ NautilusSvn은 그놈-노틸러스 환경에서 사용할 수 있는, 윈도용 
 
 8.04로 넘어오면서 노틸러스 확장 디렉토리가 바뀌어 실행이 안되는데 아래와 같이 심볼링 링크를 겁니다.
 
-<pre lang="bash">$ sudo ln -s /usr/lib/nautilus/extensions-1.0/python/NautilusSvn.py \
+```bash
+$ sudo ln -s /usr/lib/nautilus/extensions-1.0/python/NautilusSvn.py \
 /usr/lib/nautilus/extensions-2.0/python/NautilusSvn.py
-</pre>
+
+```
 
 이제 그놈을 재시작. (혹은 재부팅) 합니다.
 

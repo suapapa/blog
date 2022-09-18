@@ -35,33 +35,43 @@ pygooglechart로 쉽고, 한글이 잘 나오며, 꽤 예쁜 차트를 OS에 무
 
 저도, [차트로 그려보고 싶었던 포스팅][7]의 데이터들을 준비해 봤습니다.
 
-<pre lang="python">girls = ["티파니", "윤아", "태연", "제시카", "수영", "효연", "유리", "써니", "서현", "핸드폰"]
+```python
+girls = ["티파니", "윤아", "태연", "제시카", "수영", "효연", "유리", "써니", "서현", "핸드폰"]
 shownTimes = [92874, 92880, 71280, 56880, 53280, 53280, 24480, 24480, 24480, 24480]
-</pre>
+
+```
 
 파이차트를 만들어 봅니다.
 
-<pre lang="python">from pygooglechart import PieChart3D
+```python
+from pygooglechart import PieChart3D
 chart = PieChart3D(430, 200) #크기
 chart.set_colours(['FF4500']) #색상
-</pre>
+
+```
 
 데이타를 넣고 레이블과 제목을 붙여 줍니다.
 
-<pre lang="python">chart.add_data(shownTimes)
+```python
+chart.add_data(shownTimes)
 chart.set_pie_labels(girls)
 chart.set_title('소녀시계 출연횟수')
-</pre>
+
+```
 
 준비완료! 다음 멤버 함수로 이 차트에 해당하는 URL을 받을 수도 있고, (네, pygooglechart는 구글차트에 전달할 쿼리를 생성하는 라이브러리 입니다)
 
-<pre lang="python">chart.get_url()
-</pre>
+```python
+chart.get_url()
+
+```
 
 바로 이미지 파일로 다운로드 할 수도 있습니다.
 
-<pre lang="python">chart.download('~/GirlsInClock.png')
-</pre>
+```python
+chart.download('~/GirlsInClock.png')
+
+```
 
 ![](https://homin.dev/asset/blog/image/GirlsInClock.png)
 

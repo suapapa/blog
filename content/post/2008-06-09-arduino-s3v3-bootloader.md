@@ -46,18 +46,21 @@ ISP를 새로 사야 하나? 걱정되었지만 결국 이 녀석으로 부트�
 
 프로그래머(dprog) 옵션을 잘못준다고 망가지지 않습니다. 🙂
 
-<pre lang="bash">#!/bin/bash
+```bash
+#!/bin/bash
 uisp -dpart=ATmega8 -dprog=stk200 -dlpt=0x378 --wr_lock=0xFF
 sleep 1
 uisp -dpart=ATmega8 -dprog=stk200 -dlpt=0x378 --wr_fuse_l=0xdf --wr_fuse_h=0xca
 sleep 1
 uisp -dpart=ATmega8 -dprog=stk200 -dlpt=0x378 --erase --upload --verify if=$1 -v=2
 sleep 1
-uisp -dpart=ATmega8 -dprog=stk200 -dlpt=0x378 --wr_lock=0xCF</pre>
+uisp -dpart=ATmega8 -dprog=stk200 -dlpt=0x378 --wr_lock=0xCF
+```
 
 이제 다음과 같이 실행 합니다. 패러럴 포트에 직접 접근하기 위해 root 권한이 필요합니다.
 
-<pre lang="bash">/arduino-0011/hardware$ sudo ./burn bootloaders/atmega8/ATmegaBOOT.hex
+```bash
+/arduino-0011/hardware$ sudo ./burn bootloaders/atmega8/ATmegaBOOT.hex
 Atmel AVR ATmega8 is found.
 Writing lock bits ...
 Reinitializing device
@@ -87,7 +90,8 @@ Writing lock bits ...
 Reinitializing device
 Atmel AVR ATmega8 is found.
 
-Lock Bits set to 0xcf</pre>
+Lock Bits set to 0xcf
+```
 
 이제 ISP 케이블을 제거하고 Reset 버튼을 누르면 LED 13 (사진의 노란색 LED)가 파라라락! 점멸하며 부트로더가 잘 심어졌음을 알립니다.
 

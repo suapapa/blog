@@ -48,17 +48,21 @@ tags:
 
 게다가, 허무하게 간단합니다:
 
-<pre lang="python">import xmlrpclib
+```python
+import xmlrpclib
 def getCommentCnt(wpURL, username, password):
     wpSvr = xmlrpclib.Server(wpURL+"/xmlrpc.php")
     return wpSvr.geek.getCommentModerationCount(username,password)
-</pre>
+
+```
 
 이제 블로그의 주소와 관리자 아이디, 패스워드를 전달하여 위 함수를 실행 합니다.
 
-<pre lang="python">getCommentCnt('https://homin.dev/wp', 'admin', 'password')
+```python
+getCommentCnt('https://homin.dev/wp', 'admin', 'password')
 0
-</pre>
+
+```
 
 잘 동작 합니다. 이제, 웹브라우져를 띄우지 않고도 헛탕 칠 수 있게 되었습니다. 푸하하!
 

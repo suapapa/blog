@@ -100,19 +100,27 @@ HDR 사진들을 더 보고 넘어가겠습니다. 작은 이미지를 클릭하
 
   * -help 옵션으로 도움말을 확인할 수 있습니다.
 
-<pre lang="bash">raw2hdr.py --help</pre>
+```bash
+raw2hdr.py --help
+```
 
   * 옵션없이 사용하면 -3,-2,-1,0,+1,+2,+3EV의 7장의 이미지로 부터 합친 HDR이미지를 IMGP9117_enfuse.tiff로 저장합니다.
 
-<pre lang="bash">raw2hdr.py IMGP9117.PEF</pre>
+```bash
+raw2hdr.py IMGP9117.PEF
+```
 
   * UFRaw ID파일, IMGP9210.ufraw로 부터 추출한 +2, +2.5 +3EV의 3장의 이미지로 부터 HDR이미지 IMFP9210_enfuse.jpg를 만듭니다. 이 경우 UFRaw를 사용해 설정한 화이트벨런스와 크롭등을 적용해 HDR이미지를 만들 수 있습니다.
 
-<pre lang="bash">raw2hdr.py -oIMFP9210_enfuse.jpg -m2 -M3 -s0.5 IMGP9210.ufraw</pre>
+```bash
+raw2hdr.py -oIMFP9210_enfuse.jpg -m2 -M3 -s0.5 IMGP9210.ufraw
+```
 
   * 환경변수 PATH에 설정되지 않은 외부 프로그램의 경로를 아래와 같이 직접 지정하여 실행할 수 있습니다.
 
-<pre lang="bash">raw2hdr.py --enfuse="c:appsenblend-3.1enfuse.exe" -m2 -M3 -s0.5 IMGP9210.PEF</pre>
+```bash
+raw2hdr.py --enfuse="c:appsenblend-3.1enfuse.exe" -m2 -M3 -s0.5 IMGP9210.PEF
+```
 
 ### 3. 문제 해결
 

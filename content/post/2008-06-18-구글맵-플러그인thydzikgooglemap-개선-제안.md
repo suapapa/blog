@@ -23,14 +23,18 @@ tags:
 
 해서 스크립트를 열어 다음과 같이 헤더에 스크립트를 붙이는 부분을 주석 처리하고,
 
-<pre lang="php">//add_action('wp_head', 'thydzikGoogleMapHeader');
-</pre>
+```php
+//add_action('wp_head', 'thydzikGoogleMapHeader');
+
+```
 
 다음과 같이 thydzikFindGoogleMap 함수에서 구글맵 태그 직전에 이 스크립트를 붙이도록 수정했습니다.
 
-<pre lang="php">global $thydzikGoogleMap_googleMapKey;
+```php
+global $thydzikGoogleMap_googleMapKey;
 $temp3 = chr(13).''.chr(13).''.chr(13).$temp3;
-</pre>
+
+```
 
 그 결과 꽤 쾌적하게 바뀌었네요. 든 자리는 몰라도 난 자리는 틔가 나는 법이랄까요? ㅎㅎ
 

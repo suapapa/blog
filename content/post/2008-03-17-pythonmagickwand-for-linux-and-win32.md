@@ -72,13 +72,15 @@ tags:
   아직 [MagickWand API](http://www.imagemagick.org/script/magick-wand.php)를 자세히 보지 못하여 파이썬 2.5에서 아래와 같이 간단한 리사이즈 기능을 테스트 해 보았습니다.
 </p>
 
-<pre lang="python">
+```python
+
 from PythonMagickWand import *
 MagickWandGenesis()
 wand = NewMagickWand()
 MagickReadImage(wand,”sample.jpg”)
 MagickScaleImage(wand,200,200)
-MagickWriteImage(wand,”out.png”)</pre>
+MagickWriteImage(wand,”out.png”)
+```
 
 <p>
   윈도XP와 데비안 리눅스에?모두 잘 되네요. 🙂

@@ -3,7 +3,7 @@ relativeURLs = true
 canonifyURLs = true
 copyright = "Homin Lee &lt;ff4500@gmail.com&gt;; All rights reserved"
 
-languageCode = "en-us"
+languageCode = "ko"
 title = "Homin Lee's blog"
 theme = "ananke"
 

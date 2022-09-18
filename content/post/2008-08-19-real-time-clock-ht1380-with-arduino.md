@@ -40,20 +40,20 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 
 > 버릴수는 없잖아요.
 
-<!--more-->
 
-\## 하드웨어 준비:
+
+## 하드웨어 준비:
 
 ![](https://homin.dev/asset/blog/2008/08/ht1380_parts.jpg)
 
-&#8211; [Serial Time Keeper IC (HT1380)](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=10689&keyword=&u_n=25560&page=1)
-&#8211; [Tuning Fork -32.768KHz](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=7537&keyword=&u_n=25560&page=1)
-&#8211; [Ceramic 5pF, 50V](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=856&keyword=&u_n=25560&page=1)
+- [Serial Time Keeper IC (HT1380)](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=10689&keyword=&u_n=25560&page=1)
+- [Tuning Fork -32.768KHz](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=7537&keyword=&u_n=25560&page=1)
+- [Ceramic 5pF, 50V](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=856&keyword=&u_n=25560&page=1)
 
 [데이터시트](http://www.alldatasheet.co.kr/datasheet-pdf/pdf_kor/64412/HOLTEK/HT1380.html)
 의 회로도를 참고하여 조립.
 
-\## 휘리릭 뿅!:
+## 휘리릭 뿅!:
 
 ![](https://homin.dev/asset/blog/2008/08/ht1380_module.jpg)
 
@@ -61,10 +61,10 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 7, 6, 5번 소켓에 연결하였습니다.  
 핀 할당은 라이브러리를 불러올 때 원하는 대로 바꿀 수 있습니다.
 
-\## 소프트웨어 준비:
+## 소프트웨어 준비:
 
 웹에서 HT1380의 C 코드 예제를 찾을 수가 없었습니다. -이 RTC 칩 꽤 대중적인 것 같던데.  
-이게 말이 되나요? 어흑 &#8211; 맨땅에서, 데이타 시트만을 토대로 아두이노 라이브러리로 만들었습니다.
+이게 말이 되나요? 어흑 - 맨땅에서, 데이타 시트만을 토대로 아두이노 라이브러리로 만들었습니다.
 
 > 아두이노 라이브러리들은 관례적으로 cpp을 사용하더군요! 진짜 OOP!! +_+
 
@@ -75,7 +75,7 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 오브젝트(HT1380.o)를 만들어 둡니다. 라이브러리에 문제가 있다면  
 이 단계에서 확인할 수 있습니다.
 
-\## 실행:
+## 실행:
 
 라이브러리를 설치하면 예제도 함께 설치 됩니다.  
 \`Menu->Sketchbook->Examples->Library-HT1380\`으로 들어가 예제를 불러옵니다.
@@ -85,7 +85,7 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 
 ![](https://homin.dev/asset/blog/2008/08/arduino_ht1380_example.jpg)
 
-\## 응용:
+## 응용:
 
 RTC의 전원을 -건전지로- 분리해 두면 아두이노가 꺼졌을 때도 시간을 유지할 수 있습니다.
 

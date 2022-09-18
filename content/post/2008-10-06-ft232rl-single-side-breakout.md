@@ -21,7 +21,7 @@ USB 시리얼 변환 보드를 만들었습니다.? 저는 USB to Serial 케이�
 
 ![](https://homin.dev/asset/blog/2008/10/ft232rl_singleside_breakout.png)
 
-<!--more-->
+
 
 ![](https://homin.dev/asset/blog/2008/10/ft232rl_singleside_breakout_sch.jpg)
 

@@ -26,9 +26,9 @@ tags:
 
 > 관련글 검색을 하다 Retro-Boy&#8217;s Old School 블로그에 같은 내용이 더 잘 번역되어 있는 것을 발견했습니다. [여기!][2]
 
-<!--more-->
 
-<!--more-->
+
+
 
 원문 : [Trivia for Tenacious D in The Pick of Destiny][3]
 
@@ -37,7 +37,7 @@ tags:
     [<font color="#003399">BJ Porter</font>](https://homin.dev/name/nm0692040/)는 2000년 초에 초안을 작성했지만 결국 거절 당했었다.
   </li>
   <li>
-    이 영화가 참조한 두개의 노래가 있다. &#8220;Sasquatch&#8221;와 &#8220;Tribute&#8221;로 잭은 TV에 출연해서 새스퀴치(역자 주: 영화 중반쯤 등장하는 스타워즈의 츄바카같은 녀석)를 찾은 것을 언급한 적이 있다. KG의 집에서와 Sasquatch의 첫 가사는 다음과 같다. &#8220;In search of Sasquatch &#8211; That was a kick ass In search of&#8230;” Tribute는 영화의 끝에서 JB와?KG가 그들이 막 불렀던 곡을 기억하지 못하는 데서 참조된다. 그래서 그 노래에 대한 헌정곡으로 헌정곡(&#8220;Tridute&#8221;)를 만든다.
+    이 영화가 참조한 두개의 노래가 있다. "Sasquatch"와 "Tribute"로 잭은 TV에 출연해서 새스퀴치(역자 주: 영화 중반쯤 등장하는 스타워즈의 츄바카같은 녀석)를 찾은 것을 언급한 적이 있다. KG의 집에서와 Sasquatch의 첫 가사는 다음과 같다. "In search of Sasquatch - That was a kick ass In search of&#8230;” Tribute는 영화의 끝에서 JB와?KG가 그들이 막 불렀던 곡을 기억하지 못하는 데서 참조된다. 그래서 그 노래에 대한 헌정곡으로 헌정곡("Tridute")를 만든다.
   </li>
   <li>
     영화 초반에 카일이 비디오게임으로 하던 자동차 추격은 영화 속의 실제 자동차 추격신이 끝난?거리와?같은 곳에서 끝난다.
@@ -46,28 +46,28 @@ tags:
     크래딧이 끝난 뒤에 추가 장면을 볼 수 있다. 이것은 [<font color="#003399">오랜지 카운티</font>](https://homin.dev/title/tt0273923/) (2002)에서 행크의 캐릭터는 사교 파티에 가서 실망하게 된다. 이 필름에서는 KG의 캐릭터가 사교파티에 가서 행크스가 연기한 남학생에게 조롱 당한다.
   </li>
   <li>
-    영화 시작점의?&#8221;The Audience is Baking&#8221; &#8220;광고&#8221;는?THX 서라운드 사운드의 &#8220;The Audience is Listening&#8221; 광고 캠패인의 패러디 이다.
+    영화 시작점의?"The Audience is Baking" "광고"는?THX 서라운드 사운드의 "The Audience is Listening" 광고 캠패인의 패러디 이다.
   </li>
   <li>
     &#8216;운명의 피크&#8217;를 찾기 위에 악기점에 들어설때 KG([<font color="#003399">카일 개스</font>](https://homin.dev/name/nm0309307/))가?&#8217;Trainwreck&#8217;? 티셔츠를 입고 있는 것을 볼 수 있다. Trainwreck는 개스가(Klip Calhounf라는 가명으로)?보컬과 기타를 맡고 있는 그룹이다. 그는 또한 그룹의 2004년 라이브 엘범을 프로듀스 하기도 했다.
   </li>
   <li>
-    영화 끝에서 JB와 KG가 그들이 어쩌다 악마를 물리친 노래를 잊게 되었는지에 대해 나누는 대화는 [<font color="#003399">Tenacious D</font>](https://homin.dev/name/nm1627732/)의?그룹명과 동일한 이름의,?데뷰 엘범의 노래 &#8220;Tribute&#8221;를 참조한다.
+    영화 끝에서 JB와 KG가 그들이 어쩌다 악마를 물리친 노래를 잊게 되었는지에 대해 나누는 대화는 [<font color="#003399">Tenacious D</font>](https://homin.dev/name/nm1627732/)의?그룹명과 동일한 이름의,?데뷰 엘범의 노래 "Tribute"를 참조한다.
   </li>
   <li>
     KG와 JB가 open mic night 에 처음 갔을 때 [<font color="#003399">Neil Hamburger</font>](https://homin.dev/name/nm0877203/)가 그들을 소개한다. 그는 지금 그들의?사운드 트랙 콘서트 투어에서 오프닝을 맡고 있다.
   </li>
   <li>
-    JB와 KG가 클럽 밖에서 오픈 파이크 호스트(&#8216;Paul F. Tompkins (I)&#8217; )와 이야기 하는 장면에서 뒤쪽에 &#8220;매춘 세탁소&#8221;라고 쓰여진 포스터를 볼 수 있다. 이것은 감독 &#8216;Liam Lynch&#8217;의?[<font color="#003399">&#8220;The Sifl & Olly Show&#8221;</font>](https://homin.dev/title/tt0189308/) (1998)에 대한 참조로?그 영화에서 같은 제목의 노래가 사용되었다.
+    JB와 KG가 클럽 밖에서 오픈 파이크 호스트(&#8216;Paul F. Tompkins (I)&#8217; )와 이야기 하는 장면에서 뒤쪽에 "매춘 세탁소"라고 쓰여진 포스터를 볼 수 있다. 이것은 감독 &#8216;Liam Lynch&#8217;의?[<font color="#003399">"The Sifl & Olly Show"</font>](https://homin.dev/title/tt0189308/) (1998)에 대한 참조로?그 영화에서 같은 제목의 노래가 사용되었다.
   </li>
   <li>
     록 박물관의 홀에서?커다란 [<font color="#003399">David Grohl</font>](https://homin.dev/name/nm0342970/)는?영화에서 사탄 역을 했다.
   </li>
   <li>
-    오크닝 시퀀스의 카드 이미지중 하나는 Rider-Waite 타로 카드 중 하나인 &#8220;The Hermit&#8221;이다. 이 카드는 또한?[<font color="#003399">레드 재플린</font>](https://homin.dev/name/nm0496389/)의?이름 없는?네번째 엘범의 뒷 표지로 사용되었었다.
+    오크닝 시퀀스의 카드 이미지중 하나는 Rider-Waite 타로 카드 중 하나인 "The Hermit"이다. 이 카드는 또한?[<font color="#003399">레드 재플린</font>](https://homin.dev/name/nm0496389/)의?이름 없는?네번째 엘범의 뒷 표지로 사용되었었다.
   </li>
   <li>
-    록 앤 롤 역사 박물관의 경보음은 [<font color="#003399">&#8220;스타 트랙&#8221;</font>](https://homin.dev/title/tt0060028/) (1966) 에서의 USS 엔터프라이즈 호의 경보음과 같다.
+    록 앤 롤 역사 박물관의 경보음은 [<font color="#003399">"스타 트랙"</font>](https://homin.dev/title/tt0060028/) (1966) 에서의 USS 엔터프라이즈 호의 경보음과 같다.
   </li>
   <li>
     영화의 시작점에서 ([<font color="#003399">Meat Loaf</font>](https://homin.dev/name/nm0001533/)가 연기한) JB의 아버지는?포스터들을 찢어 버린다.?그는 또한?Bat Out Of Hell 표지에서 작은 동상을 찢어 낸다.
@@ -98,7 +98,7 @@ tags:
 see also :
 
   * [Tenacious D 엘범 소개][4]?(네이버)
-  * 아래는 영화에서 참조 된 그 노래 -역사상 가장 훌륭한 노래!!&#8230; 에 대한 &#8220;헌정곡&#8221;(tribute)입니다.
+  * 아래는 영화에서 참조 된 그 노래 -역사상 가장 훌륭한 노래!!&#8230; 에 대한 "헌정곡"(tribute)입니다.
 
 <embed src="http://flvs.daum.net/flvPlayer.swf?vid=MXn9_sMi9uA$" allowfullscreen="true" allowscriptaccess="always" type="application/x-shockwave-flash" bgcolor="#000000" width="502" height="399">
 </embed>

@@ -25,7 +25,7 @@ tags:
 > 
 > 포터블 음향기(mp3, cdp, etc&#8230;)에 내장된 헤드폰 앰프는 소형화가 필수 조건 이므로 상대적으로 성능(소리)은 개허접 하다고 합니다. 그래서, 대신 좋은 외장 헤드폰 앰프를 사용해 듣자는 것!!
 
-<!--more--> 생각해 보면 -외장 앰프는 휴대성은 떨어지니까- 집에서 인터넷 쓰겠다고 T-Login 모뎀을 사는 것 같은 멍청한 짓 입니다만&#8230;
+ 생각해 보면 -외장 앰프는 휴대성은 떨어지니까- 집에서 인터넷 쓰겠다고 T-Login 모뎀을 사는 것 같은 멍청한 짓 입니다만&#8230;
 
 천상의 소리가 들린다기에, 싸고(만원 미만)!!, 또 -아두이노 한다고- 이미 사 둔 부품들도 있고 해서 만들어 보았습니다.
 
@@ -39,7 +39,7 @@ tags:
 
 Szekeres 앰프를 선택한 이유는 다음 게시물에서의 극찬과 적절한 뽀대, 적절한 난이도 때문이었습니다.
 
-  * [Szekeres Amp 제작법 &#8211; 신정섭 님](http://www.headphoneamp.co.kr/bbs/zboard.php?id=diy_sijosae&page=1&sn1=&divpage=1&sn=off&ss=on&sc=on&keyword=Szekeres%20Amp&select_arrange=headnum&desc=asc&no=107)
+  * [Szekeres Amp 제작법 - 신정섭 님](http://www.headphoneamp.co.kr/bbs/zboard.php?id=diy_sijosae&page=1&sn1=&divpage=1&sn=off&ss=on&sc=on&keyword=Szekeres%20Amp&select_arrange=headnum&desc=asc&no=107)
 
 위 게시물에서 회로도가 반쪽 뿐이고, 만능기판에 만들어 졌던 것을, Eagle CAD를 사용해 두 채널 모두의 회로도를 그리고 에칭 떠서 프로토 타입을 만들어 보았습니다.
 

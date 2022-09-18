@@ -23,7 +23,7 @@ tags:
 네&#8230; 뽑기에 소질이없어서&#8230; 또 꽝 뽑아습니다. -_-;;  
 ![](https://homin.dev/asset/blog/2008/04/sn9c201onubuntu.jpg" hspace="5)
 
-<!--more-->
+
 
 저 멋지구리한 브라켓과 카본 무늬 그리고 -사진엔 빠진- 망원 렌즈 포함!!의 화려한 구성에 가격도 저렴해 구입하게 된 이 녀석은 **Microdia SN9C201**칩셋을 사용한 중국산 웹캠입니다.
 
@@ -43,7 +43,7 @@ tags:
 
 > _**&#8230;you can keep waiting, hoping, praying by your bedside that someone will add support for your webcam,**_
 > 
-> _**we simply offer you the choice of the &#8220;RED PILL&#8221;**_
+> _**we simply offer you the choice of the "RED PILL"**_
 
 네 이곳에선 <strike>메트릭스를 벗어나는 방법</strike> SN9C201을 위한 -작업중인- 드라이버를 제공하고 있습니다. 이 드라이버의 설치 방법은 제 위키에도 다시 정리해 두었습니다. [여기](https://homin.dev/wiki/WebCam)
 

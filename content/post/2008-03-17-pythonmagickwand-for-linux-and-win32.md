@@ -20,7 +20,7 @@ tags:
 >   <strong>ImageMagick</strong> : 데비안에서는 imagemagick 패키지설치 윈도에서는 [이걸](http://www.imagemagick.org/download/binaries/ImageMagick-6.3.9-8-Q16-windows-dll.exe) 받아서 설치. MagickWand 라이브러리도 같이?설치됩니다.
 > </p>
 
-<!--more-->
+
 
 게다가 ImageMagick의 이미지 처리 과정을 C언어에서 사용할 수 있는 [MagickWand][1]?라는 라이브러리가 있고,?파이썬용 바인딩도 이미 존재하네요.
 
@@ -36,11 +36,11 @@ tags:
 
 <blockquote>
   <p>
-    <strong><font color="#ff0000">apply above patch to &#8220;PythonMagickWand.py&#8221;</font></strong>
+    <strong><font color="#ff0000">apply above patch to "PythonMagickWand.py"</font></strong>
   </p>
   
   <p>
-    <strong><font color="#ff0000">&#8220;PythonMagickWand.py&#8221;에 위의 패치를 적용하세요.</font></strong>
+    <strong><font color="#ff0000">"PythonMagickWand.py"에 위의 패치를 적용하세요.</font></strong>
   </p>
 </blockquote>
 
@@ -54,13 +54,13 @@ tags:
 
 <ul>
   <li>
-    Win : &#8220;C:\Program Files\ImageMagick-6.3.9-Q16\CORE_RL_wand_.dll&#8221;
+    Win : "C:\Program Files\ImageMagick-6.3.9-Q16\CORE_RL_wand_.dll"
   </li>
   <li>
-    Linux : &#8220;/usr/lib/libWand.so.9&#8221;
+    Linux : "/usr/lib/libWand.so.9"
   </li>
   <li>
-    Mac : &#8220;/opt/local/lib/libWand.dylib&#8221;
+    Mac : "/opt/local/lib/libWand.dylib"
   </li>
 </ul>
 
@@ -72,7 +72,7 @@ tags:
   아직 [MagickWand API](http://www.imagemagick.org/script/magick-wand.php)를 자세히 보지 못하여 파이썬 2.5에서 아래와 같이 간단한 리사이즈 기능을 테스트 해 보았습니다.
 </p>
 
-<pre lang="Python">
+<pre lang="python">
 from PythonMagickWand import *
 MagickWandGenesis()
 wand = NewMagickWand()

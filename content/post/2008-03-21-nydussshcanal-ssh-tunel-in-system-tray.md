@@ -29,9 +29,9 @@ tags:
 
 ![](https://homin.dev/asset/blog/2008/03/nyduscanal.png)
 
-<!--more-->
 
-### **NydusSshCanal &#8211; 시스템 트레에 ssh 터널링을!  
+
+### **NydusSshCanal - 시스템 트레에 ssh 터널링을!  
 ** 
 
 **1. ssh 터널링?**
@@ -62,7 +62,7 @@ paramiko를 제외한 다른 프로그램들은 구글링을 통해 윈도 바�
 
 NydusSshCanal은 외부 설정 파일이 없기 때문에 직접 NydusSshCanal.py파일을 열어 터널링을 할 ssh주소와 계정, 로컬 포트를 설정 하셔야 합니다.
 
-<pre lang="Python">_sshFowardList = [\
+<pre lang="python">_sshFowardList = [\
 #(srcPort, sshHost, destPort, sshUser, sshPort),
 (5001, 'suapapa.net', 8080, 'admin', 22)
 ]</pre>
@@ -90,7 +90,7 @@ NydusSshCanal은 외부 설정 파일이 없기 때문에 직접 NydusSshCanal.p
 
   * 트레이 메뉴를 통해 연결 설정 추가/삭제
   * 연결이 안 된경우 아이콘 버로우
-  * 리눅스-그놈환경에서 &#8220;키 모음 관리자&#8221;로 ssh키 접근
+  * 리눅스-그놈환경에서 "키 모음 관리자"로 ssh키 접근
 
 하지만, 다행히도/불행히도 저는 빅브라더의 삼엄한 감시가 없는 환경이라 Todo의 적용은 요원합니다. ㅋ
 

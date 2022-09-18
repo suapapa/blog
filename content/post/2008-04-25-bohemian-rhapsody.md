@@ -15,9 +15,9 @@ categories:
 ---
 {{<youtube irp8CNj9qBI>}}
 
-<!--more-->보헤미안 랩소디가 땡겨서 포스팅.. 전산 공돌이는 아래의 링크들과 함께 보세요.
+보헤미안 랩소디가 땡겨서 포스팅.. 전산 공돌이는 아래의 링크들과 함께 보세요.
 
-  * [보헤미안 랩소디 &#8211; 플로우 차트](http://www.kontraband.com/show/show.asp?ID=10845&genre=0&page=1)&nbsp;(2:50)
-  * [보해미안 랩소디 &#8211; 객체 지향](http://www.thehumorarchives.com/joke/Bohemian_Rhapsody_Object_Oriented)
+  * [보헤미안 랩소디 - 플로우 차트](http://www.kontraband.com/show/show.asp?ID=10845&genre=0&page=1)&nbsp;(2:50)
+  * [보해미안 랩소디 - 객체 지향](http://www.thehumorarchives.com/joke/Bohemian_Rhapsody_Object_Oriented)
 
 Anyway the wind blows&#8230;

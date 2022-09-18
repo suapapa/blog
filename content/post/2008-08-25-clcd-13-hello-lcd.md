@@ -25,7 +25,7 @@ tags:
 
   * <font>[<font class="Blink">HY-1602H-205</font>](http://www.devicemart.co.kr/mart7/mall.php?cat=003012001&query=view&no=9601)<font class="Blink"> (디바이스마트 판매 페이지 링크)</font></font>
 
-<!--more-->
+
 
 **1. 연결 준비**  
 CLCD가 8 혹은 4비트 데이타 버스를 가진다고는 알고 있었는데, 전원/제어 선까지 합치니 14pin이네요.
@@ -50,7 +50,7 @@ HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케�
 **3. 아두이노에 연결!**  
 ![](https://homin.dev/asset/blog/2008/08/hy1602_helloworld.jpg)
 
-다행히 CLCD용 아두이노 라이브러는 이미 있었습니다. [Arduino &#8211; LCDLibrary ](http://www.arduino.cc/en/Tutorial/LCDLibrary)
+다행히 CLCD용 아두이노 라이브러는 이미 있었습니다. [Arduino - LCDLibrary ](http://www.arduino.cc/en/Tutorial/LCDLibrary)
 
 > 오~ 라이브러리~
 
@@ -60,7 +60,7 @@ HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케�
 
 이것 저것 명령어들이 많지만 싹 지우고 다시 써도 눈에 띌 만큼 느리지 않기 때문에, 라이브러리에서 clear, putStr 함수만 사용하면 CLCD를 다룰 수 있었습니다.
 
-아래는 이 라이브러리를 사용한 예제 입니다. 1초 단위로 &#8220;Hello!\nWorld!!&#8221;를 깜박입니다.
+아래는 이 라이브러리를 사용한 예제 입니다. 1초 단위로 "Hello!\nWorld!!"를 깜박입니다.
 
 <pre lang="c">#include &lt;clcd.h>
 CLCD lcd = CLCD();

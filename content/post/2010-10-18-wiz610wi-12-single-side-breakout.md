@@ -24,7 +24,7 @@ WIZ610w은 wiznet에서 만든 시리얼2Wifi 모듈 입니다. 아두이노와 
 
 > 이 포스트는 블로그 이전 중 날아간 내용을 기억에 의해 복원한 것입니다. 내용이 부실한 점 이해해 주세요. 🙂
 
-<!--more-->
+
 
 ![](https://homin.dev/asset/blog/image/wiz610_parts.jpg)
 

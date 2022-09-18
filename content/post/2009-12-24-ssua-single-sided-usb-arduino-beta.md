@@ -26,7 +26,7 @@ tags:
 
 단면기판으로 만든 USB!! 아두이노 입니다.
 
-<!--more-->
+
 
 ![](https://homin.dev/asset/blog/image/SSUA_btm.jpg)
 

@@ -21,7 +21,7 @@ Arduino를 사용한 Physical Computing의 한줄기 빛 같은 책 입니다.
 
 자세한 책 소개는&nbsp;[UNPLUGGED 블로그의 책 소개글 링크][1]로 대체.
 
-<!--more-->
+
 
 위의 책 그림을&nbsp;클릭하면 인터넷 서점 알라딘의&nbsp;제품 페이지로 이동합니다.
 

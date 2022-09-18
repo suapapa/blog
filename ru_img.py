@@ -1,16 +1,7 @@
 #!/usr/bin/env python3
 
-from PIL import Image
-import os, sys, shutil
+import os, sys
 import argparse
-
-def resize(path, size):
-    f, e = os.path.splitext(path)
-    out_path = os.path.basename(f) + f'_{size}.jpg'
-    shutil.copy(path, out_path)
-    im = Image.open(out_path)
-    imResize = im.thumbnail([size, size], Image.Resampling.LANCZOS)
-    return out_path
 
 if __name__ == '__main__':
     psr = argparse.ArgumentParser(description='resize and upload')
@@ -23,7 +14,9 @@ if __name__ == '__main__':
 
     r = ""
     if args.resize_size > 0:
-        r = resize(args.file, args.resize_size)
+        f, e = os.path.splitext(args.file)
+        r = os.path.basename(f) + f'_{args.resize_size}.jpg'
+        os.system(f'convert {args.file} -resize {args.resize_size} {r}')
         print(f'made {r}')
 
     if args.upload:

@@ -20,7 +20,7 @@ tags:
 WIZ610w은 wiznet에서 만든 시리얼2Wifi 모듈 입니다. 아두이노와 함께 사용할 수 있도록, 브레이크아웃 보드를 만들어 보았습니다.  
 사진의 왼쪽이 WIZ610w 브레이크아웃 보드이고, 오른쪽은 바로 PC와 연결해 테스트 하기 위한 USB2시리얼 모듈 입니다.
 
-회로도와 아트워크는 여기서 다운 받으세요 -> \[WIZ610w breakout in eaglecad\](https://homin.dev/svn/HW/breakout/wiz610/)
+회로도와 아트워크는 여기서 다운 받으세요 -> [WIZ610w breakout in eaglecad](https://homin.dev/svn/HW/breakout/wiz610/)
 
 > 이 포스트는 블로그 이전 중 날아간 내용을 기억에 의해 복원한 것입니다. 내용이 부실한 점 이해해 주세요. 🙂
 

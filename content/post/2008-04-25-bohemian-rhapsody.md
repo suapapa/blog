@@ -13,7 +13,7 @@ categories:
   - Programming
 
 ---
-[youtube:http://www.youtube.com/watch?v=irp8CNj9qBI]
+{{<youtube irp8CNj9qBI>}}
 
 <!--more-->보헤미안 랩소디가 땡겨서 포스팅.. 전산 공돌이는 아래의 링크들과 함께 보세요.
 

@@ -49,7 +49,7 @@ wiz610wi는 세 가지 무선 모드 AP, Gateway, Client 를 지원합니다. (�
 확대 기능을 썼는데도 글자들이 잘 안보이네요. HD(720p)모드와 전체화면으로 시청해 주세요.
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-[youtube:http://www.youtube.com/watch?v=Nq7ckirA1yE] </meta> 
+{{<youtube Nq7ckirA1yE>}} </meta> 
 
 다음은 데모에서 사용한 명령어들로, User manual과 비교하여 확인해 보세요.
 

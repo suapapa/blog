@@ -27,7 +27,7 @@ tags:
 이제, 아두이노에 주변장치를 달아 보겠습니다.
 
 임베디드 세상의 Hello world격 어플리케이션은 I2C로 통신하는  
-\[RTC\](http://www.terms.co.kr/RTC.htm)를 연결하는 것 입니다.  
+[RTC](http://www.terms.co.kr/RTC.htm)를 연결하는 것 입니다.  
 I2C프로토콜은 널리 사용되는 표준 중 하나로, 알아두면 두고두고  
 유용하며, RTC는 싸고 간단한 장치이므로 배우기에 좋습니다.
 
@@ -46,11 +46,11 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 
 ![](https://homin.dev/asset/blog/2008/08/ht1380_parts.jpg)
 
-&#8211; \[Serial Time Keeper IC (HT1380)\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=10689&keyword=&u_n=25560&page=1)
-&#8211; \[Tuning Fork -32.768KHz\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=7537&keyword=&u_n=25560&page=1)
-&#8211; \[Ceramic 5pF, 50V\](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=856&keyword=&u_n=25560&page=1)
+&#8211; [Serial Time Keeper IC (HT1380)](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=10689&keyword=&u_n=25560&page=1)
+&#8211; [Tuning Fork -32.768KHz](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=7537&keyword=&u_n=25560&page=1)
+&#8211; [Ceramic 5pF, 50V](https://www.eleparts.co.kr/view.php?cate1=&cate2=&cate3=&cate4=&item=856&keyword=&u_n=25560&page=1)
 
-\[데이터시트\](http://www.alldatasheet.co.kr/datasheet-pdf/pdf_kor/64412/HOLTEK/HT1380.html)
+[데이터시트](http://www.alldatasheet.co.kr/datasheet-pdf/pdf_kor/64412/HOLTEK/HT1380.html)
 의 회로도를 참고하여 조립.
 
 \## 휘리릭 뿅!:
@@ -68,7 +68,7 @@ I2C 프로토콜로 통신을 하지 않더군요. 🙁
 
 > 아두이노 라이브러리들은 관례적으로 cpp을 사용하더군요! 진짜 OOP!! +_+
 
-\[HT1380 아두이노 라이브러리\](https://github.com/suapapa/arduino_library_ht1380)를 받아,  
+[HT1380 아두이노 라이브러리](https://github.com/suapapa/arduino_library_ht1380)를 받아,  
 아두이노 SW 폴더 밑의 \`hardware/libraries/HT1380\`에 설치(복사)합니다.
 
 아두이노 소프트웨어(IDE)를 실행할 때 설치된 라이브러리를 컴파일하여  

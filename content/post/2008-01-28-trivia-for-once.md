@@ -18,7 +18,7 @@ tags:
 ---
 영화 [Once][1] 의 뒷 이야기 들 입니다.
 
-[youtube:http://www.youtube.com/watch?v=0oyQPGJ5848]
+{{<youtube 0oyQPGJ5848>}}
 
 이하 번역 (<a href="https://homin.dev/wp/wp-admin/<param%20value=" name="wmode" title="wmode">원문</a>)
 

@@ -19,9 +19,9 @@ tags:
 ---
 [지난 포스팅][1]으로 부터 이어 갑니다.
 
-<a href="https://homin.dev/svn/HW/SzekeresAmp" target="_blank" rel="noopener">![](https://homin.dev/asset/blog/2008/11/szekeresamp_all.png)</a>
+[![](https://homin.dev/asset/blog/2008/11/szekeresamp_all.png)](https://homin.dev/svn/HW/SzekeresAmp)
 
-<a href="http://www.headphoneamp.co.kr/bbs/zboard.php?id=diy_member_new&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;select_arrange=headnum&#038;desc=asc&#038;no=2234" target="_blank" rel="noopener">하스에 소개</a>하기 위해, 성에 차지 않는 부분을 모두 수정 했습니다.
+[하스에 소개](http://www.headphoneamp.co.kr/bbs/zboard.php?id=diy_member_new&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;select_arrange=headnum&#038;desc=asc&#038;no=2234)하기 위해, 성에 차지 않는 부분을 모두 수정 했습니다.
 
   * 7809를 사용한 정전원 회로 추가
   * 스위치 추가

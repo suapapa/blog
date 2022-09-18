@@ -38,7 +38,7 @@ Arduino S3V3에도 아래의 그림과 같이 표시되어 있습니다.
 
 PWM에 대해서는 아래의 링크한 기사 중**디지털 제어**부분에 그림과 함께 쉽게 설명되어 있습니다.
 
-  * <a href="http://network.hanb.co.kr/view.php?bi_id=1087" target="_blank" rel="noopener">PWM에 대하여</a> &#8211; 한빛미디어 번역 기사
+  * [PWM에 대하여](http://network.hanb.co.kr/view.php?bi_id=1087) &#8211; 한빛미디어 번역 기사
 
 > 그럼, 행운을 빌어요~
 
@@ -56,7 +56,7 @@ PWM에 대해서는 아래의 링크한 기사 중**디지털 제어**부분에 
 
 > 팡판에 테스트
 
-<a href="https://homin.dev/svn/ArduinoLibraries/CLCD/" target="_blank" rel="noopener">CLCD Library</a>에 추가한 예제 **BackLight**에 위 회로를 테스트 하는 코드가 있습니다.
+[CLCD Library](https://homin.dev/svn/ArduinoLibraries/CLCD/)에 추가한 예제 **BackLight**에 위 회로를 테스트 하는 코드가 있습니다.
 
 <pre lang="c">uint8_t pinAnalogIn = 3;
 uint8_t pinPWM = 10;

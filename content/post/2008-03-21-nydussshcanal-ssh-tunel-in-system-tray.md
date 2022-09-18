@@ -55,7 +55,7 @@ wxPython을 사용한 시스템 트레이 아이콘 예제와, paramiko패키지
 아래의 환경을 먼저 설치하셔야 합니다.
 
   * 파이썬 (버젼 2.4이상에서 동작 확인)
-  * 파이썬 라이브러리 wxPython, <a href="https://homin.dev/wiki/Paramiko" target="_blank" rel="noopener">paramiko</a>
+  * 파이썬 라이브러리 wxPython, [paramiko](https://homin.dev/wiki/Paramiko)
   * putty
 
 paramiko를 제외한 다른 프로그램들은 구글링을 통해 윈도 바이너리를 쉽게 받으실 수 있고, paramiko는 위의 링크에 바이너리 빌드 방법을 정리 해 두었습니다.
@@ -100,6 +100,6 @@ NydusSshCanal은 GPL 라이센스를 따릅니다.
 
 같이 첨부된 license.txt 파일에 자세한 내용이 있는데, 요약하면, 빅브라더한테 걸려서 회사에 짤려도 댁 사정 이라고 되어 있습니다. -_-;
 
-좋은 용도에 재밌게 사용하시고, 코드에 대한 문의나 제안이 있으면 <a href="https://homin.dev/wp/?page_id=2" target="_blank" rel="noopener">알려주시기</a> 바랍니다. 🙂
+좋은 용도에 재밌게 사용하시고, 코드에 대한 문의나 제안이 있으면 [알려주시기](https://homin.dev/wp/?page_id=2) 바랍니다. 🙂
 
  [1]: https://homin.dev/svn/NydusSshCanal/

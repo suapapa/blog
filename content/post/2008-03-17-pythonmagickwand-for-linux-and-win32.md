@@ -14,17 +14,17 @@ tags:
   - 파이썬
 
 ---
-언샾에 대해 알아보다 보니, 국내에서는 포토웍스가 영어권에서는 -포토샾 다음으로?-<a target="_blank" href="http://www.imagemagick.org/" rel="noopener">ImageMagick</a>이라는 프로그램이 많이 사용 되더군요. 커맨드 라인 유틸리티(GUI 없습니다)로 윈도, 리눅스, 맥등의 플렛폼에서 돌아가며 소스까지 open되어 있습니다.
+언샾에 대해 알아보다 보니, 국내에서는 포토웍스가 영어권에서는 -포토샾 다음으로?-[ImageMagick](http://www.imagemagick.org/)이라는 프로그램이 많이 사용 되더군요. 커맨드 라인 유틸리티(GUI 없습니다)로 윈도, 리눅스, 맥등의 플렛폼에서 돌아가며 소스까지 open되어 있습니다.
 
 > <p align="left">
->   <strong>ImageMagick</strong> : 데비안에서는 imagemagick 패키지설치 윈도에서는 <a target="_blank" href="http://www.imagemagick.org/download/binaries/ImageMagick-6.3.9-8-Q16-windows-dll.exe" rel="noopener">이걸</a> 받아서 설치. MagickWand 라이브러리도 같이?설치됩니다.
+>   <strong>ImageMagick</strong> : 데비안에서는 imagemagick 패키지설치 윈도에서는 [이걸](http://www.imagemagick.org/download/binaries/ImageMagick-6.3.9-8-Q16-windows-dll.exe) 받아서 설치. MagickWand 라이브러리도 같이?설치됩니다.
 > </p>
 
 <!--more-->
 
 게다가 ImageMagick의 이미지 처리 과정을 C언어에서 사용할 수 있는 [MagickWand][1]?라는 라이브러리가 있고,?파이썬용 바인딩도 이미 존재하네요.
 
-> <a target="_blank" href="http://www.procoders.net/?p=39" rel="noopener"><strong>PythonMagickWand</strong></a>?: ctypes based wrapper for ImageMagick
+> [<strong>PythonMagickWand</strong>](http://www.procoders.net/?p=39)?: ctypes based wrapper for ImageMagick
 
 안 그래도 파이썬의 PIL의 모자란 점들(unsharp?없음, 속도 느림)때문에 이미지 처리를 위한 다른 파이썬 라이브러리가 없나 찾아 보고 있었기에 얼른 테스트 해 보았습니다.
 
@@ -69,7 +69,7 @@ tags:
 </p>
 
 <p>
-  아직 <a href="http://www.imagemagick.org/script/magick-wand.php">MagickWand API</a>를 자세히 보지 못하여 파이썬 2.5에서 아래와 같이 간단한 리사이즈 기능을 테스트 해 보았습니다.
+  아직 [MagickWand API](http://www.imagemagick.org/script/magick-wand.php)를 자세히 보지 못하여 파이썬 2.5에서 아래와 같이 간단한 리사이즈 기능을 테스트 해 보았습니다.
 </p>
 
 <pre lang="Python">
@@ -85,7 +85,7 @@ MagickWriteImage(wand,”out.png”)</pre>
 </p>
 
 <p>
-  ?see also : <a href="http://www.assembla.com/wiki/show/pythonmagickwand">another Python bindings for ImageMagick&#8217;s MagickWand API</a>
+  ?see also : [another Python bindings for ImageMagick&#8217;s MagickWand API](http://www.assembla.com/wiki/show/pythonmagickwand)
 </p>
 
  [1]: http://www.imagemagick.org/script/magick-wand.php

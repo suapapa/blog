@@ -55,6 +55,6 @@ tags:
 
  
 
-  * <a target="_blank" href="https://homin.dev/svn/HW/SzekeresAmp" rel="noopener">회로도, 아트웍 다운로드(Svn Repo) </a>-EagleCad 파일
+  * [회로도, 아트웍 다운로드(Svn Repo) ](https://homin.dev/svn/HW/SzekeresAmp)-EagleCad 파일
 
  [1]: https://homin.dev/wp/?p=107

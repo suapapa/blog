@@ -35,17 +35,17 @@ tags:
 
 1년이면 우분투 LTS도 변한다고, 다시 검색한 결과&#8230;
 
-<strike><a target="_blank" href="http://www.linux-projects.org/modules/mydownloads/viewcat.php?cid=7" rel="noopener">이 링크</a>에서 우분투용 드라이버를 패키지로 제공하는 것을 발견했습니다.</strike>
+<strike>[이 링크](http://www.linux-projects.org/modules/mydownloads/viewcat.php?cid=7)에서 우분투용 드라이버를 패키지로 제공하는 것을 발견했습니다.</strike>
 
 <strike>다만 7.04용 드라이버는 공짜, 7.10 드라이버는 $7를 내야 무제한으로 사용 가능. 소스는 제공하지 않는다고 하네요. 이런.. 꼬롬한 쉐끼. 캠을 새로 사도 $7 면 되겠다!!</strike>
 
-같은 문제를 해결하기 위해 모인 <a target="_blank" href="https://groups.google.com/group/microdia" rel="noopener">구글 그룹 Microdia</a> 을 찾았습니다. 그곳의 소개글 중 일부를 떼 왔습니다.
+같은 문제를 해결하기 위해 모인 [구글 그룹 Microdia](https://groups.google.com/group/microdia) 을 찾았습니다. 그곳의 소개글 중 일부를 떼 왔습니다.
 
 > _**&#8230;you can keep waiting, hoping, praying by your bedside that someone will add support for your webcam,**_
 > 
 > _**we simply offer you the choice of the &#8220;RED PILL&#8221;**_
 
-네 이곳에선 <strike>메트릭스를 벗어나는 방법</strike> SN9C201을 위한 -작업중인- 드라이버를 제공하고 있습니다. 이 드라이버의 설치 방법은 제 위키에도 다시 정리해 두었습니다. <a target="_blank" href="https://homin.dev/wiki/WebCam" rel="noopener">여기</a>
+네 이곳에선 <strike>메트릭스를 벗어나는 방법</strike> SN9C201을 위한 -작업중인- 드라이버를 제공하고 있습니다. 이 드라이버의 설치 방법은 제 위키에도 다시 정리해 두었습니다. [여기](https://homin.dev/wiki/WebCam)
 
 camorama 를 설치하고 실행 해 봅니다. 짜잔~!!
 

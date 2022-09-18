@@ -36,6 +36,6 @@ MicroSoftware 7월호의 안윤호님의 기사 &#8220;Arduino 시스템 만들�
 
 see also : [Arduino 관련 포스팅 모두 보기][1]
 
-추가(7/21): 마소 사이트에 해당 기사 전문이 공개 되었네요. <a href="http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=32297" target="_blank" rel="noopener">여기</a>
+추가(7/21): 마소 사이트에 해당 기사 전문이 공개 되었네요. [여기](http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=32297)
 
  [1]: https://homin.dev/wp/?cat=91

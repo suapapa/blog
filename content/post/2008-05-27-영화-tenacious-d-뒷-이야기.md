@@ -34,7 +34,7 @@ tags:
 
 <ul class="trivia">
   <li>
-    <a href="https://homin.dev/name/nm0042006/"><font color="#003399">Scott Aukerman</font></a>과 <a href="https://homin.dev/name/nm0692040/"><font color="#003399">BJ Porter</font></a>는 2000년 초에 초안을 작성했지만 결국 거절 당했었다.
+    [<font color="#003399">BJ Porter</font>](https://homin.dev/name/nm0692040/)는 2000년 초에 초안을 작성했지만 결국 거절 당했었다.
   </li>
   <li>
     이 영화가 참조한 두개의 노래가 있다. &#8220;Sasquatch&#8221;와 &#8220;Tribute&#8221;로 잭은 TV에 출연해서 새스퀴치(역자 주: 영화 중반쯤 등장하는 스타워즈의 츄바카같은 녀석)를 찾은 것을 언급한 적이 있다. KG의 집에서와 Sasquatch의 첫 가사는 다음과 같다. &#8220;In search of Sasquatch &#8211; That was a kick ass In search of&#8230;” Tribute는 영화의 끝에서 JB와?KG가 그들이 막 불렀던 곡을 기억하지 못하는 데서 참조된다. 그래서 그 노래에 대한 헌정곡으로 헌정곡(&#8220;Tridute&#8221;)를 만든다.
@@ -43,49 +43,49 @@ tags:
     영화 초반에 카일이 비디오게임으로 하던 자동차 추격은 영화 속의 실제 자동차 추격신이 끝난?거리와?같은 곳에서 끝난다.
   </li>
   <li>
-    크래딧이 끝난 뒤에 추가 장면을 볼 수 있다. 이것은 <a href="https://homin.dev/name/nm0085312/"><font color="#003399">잭 블랙</font></a>과 <a href="https://homin.dev/name/nm0004988/"><font color="#003399">콜린 행크스</font></a>이 동시에 등장하는 세번째 필름이다?(<a href="https://homin.dev/title/tt0360717/"><font color="#003399">킹콩</font></a> (2005)이 두번째). 그들이 처음 같이 등장한?<a href="https://homin.dev/title/tt0273923/"><font color="#003399">오랜지 카운티</font></a> (2002)에서 행크의 캐릭터는 사교 파티에 가서 실망하게 된다. 이 필름에서는 KG의 캐릭터가 사교파티에 가서 행크스가 연기한 남학생에게 조롱 당한다.
+    크래딧이 끝난 뒤에 추가 장면을 볼 수 있다. 이것은 [<font color="#003399">오랜지 카운티</font>](https://homin.dev/title/tt0273923/) (2002)에서 행크의 캐릭터는 사교 파티에 가서 실망하게 된다. 이 필름에서는 KG의 캐릭터가 사교파티에 가서 행크스가 연기한 남학생에게 조롱 당한다.
   </li>
   <li>
     영화 시작점의?&#8221;The Audience is Baking&#8221; &#8220;광고&#8221;는?THX 서라운드 사운드의 &#8220;The Audience is Listening&#8221; 광고 캠패인의 패러디 이다.
   </li>
   <li>
-    &#8216;운명의 피크&#8217;를 찾기 위에 악기점에 들어설때 KG(<a href="https://homin.dev/name/nm0309307/"><font color="#003399">카일 개스</font></a>)가?&#8217;Trainwreck&#8217;? 티셔츠를 입고 있는 것을 볼 수 있다. Trainwreck는 개스가(Klip Calhounf라는 가명으로)?보컬과 기타를 맡고 있는 그룹이다. 그는 또한 그룹의 2004년 라이브 엘범을 프로듀스 하기도 했다.
+    &#8216;운명의 피크&#8217;를 찾기 위에 악기점에 들어설때 KG([<font color="#003399">카일 개스</font>](https://homin.dev/name/nm0309307/))가?&#8217;Trainwreck&#8217;? 티셔츠를 입고 있는 것을 볼 수 있다. Trainwreck는 개스가(Klip Calhounf라는 가명으로)?보컬과 기타를 맡고 있는 그룹이다. 그는 또한 그룹의 2004년 라이브 엘범을 프로듀스 하기도 했다.
   </li>
   <li>
-    영화 끝에서 JB와 KG가 그들이 어쩌다 악마를 물리친 노래를 잊게 되었는지에 대해 나누는 대화는 <a href="https://homin.dev/name/nm1627732/"><font color="#003399">Tenacious D</font></a>의?그룹명과 동일한 이름의,?데뷰 엘범의 노래 &#8220;Tribute&#8221;를 참조한다.
+    영화 끝에서 JB와 KG가 그들이 어쩌다 악마를 물리친 노래를 잊게 되었는지에 대해 나누는 대화는 [<font color="#003399">Tenacious D</font>](https://homin.dev/name/nm1627732/)의?그룹명과 동일한 이름의,?데뷰 엘범의 노래 &#8220;Tribute&#8221;를 참조한다.
   </li>
   <li>
-    KG와 JB가 open mic night 에 처음 갔을 때 <a href="https://homin.dev/name/nm0877203/"><font color="#003399">Neil Hamburger</font></a>가 그들을 소개한다. 그는 지금 그들의?사운드 트랙 콘서트 투어에서 오프닝을 맡고 있다.
+    KG와 JB가 open mic night 에 처음 갔을 때 [<font color="#003399">Neil Hamburger</font>](https://homin.dev/name/nm0877203/)가 그들을 소개한다. 그는 지금 그들의?사운드 트랙 콘서트 투어에서 오프닝을 맡고 있다.
   </li>
   <li>
-    JB와 KG가 클럽 밖에서 오픈 파이크 호스트(&#8216;Paul F. Tompkins (I)&#8217; )와 이야기 하는 장면에서 뒤쪽에 &#8220;매춘 세탁소&#8221;라고 쓰여진 포스터를 볼 수 있다. 이것은 감독 &#8216;Liam Lynch&#8217;의?<a href="https://homin.dev/title/tt0189308/"><font color="#003399">&#8220;The Sifl & Olly Show&#8221;</font></a> (1998)에 대한 참조로?그 영화에서 같은 제목의 노래가 사용되었다.
+    JB와 KG가 클럽 밖에서 오픈 파이크 호스트(&#8216;Paul F. Tompkins (I)&#8217; )와 이야기 하는 장면에서 뒤쪽에 &#8220;매춘 세탁소&#8221;라고 쓰여진 포스터를 볼 수 있다. 이것은 감독 &#8216;Liam Lynch&#8217;의?[<font color="#003399">&#8220;The Sifl & Olly Show&#8221;</font>](https://homin.dev/title/tt0189308/) (1998)에 대한 참조로?그 영화에서 같은 제목의 노래가 사용되었다.
   </li>
   <li>
-    록 박물관의 홀에서?커다란 <a href="https://homin.dev/name/nm1454411/"><font color="#003399">푸 파이터즈</font></a>의 사인을 볼 수 있다.? <a href="https://homin.dev/name/nm1454411/"><font color="#003399">푸 파이터즈</font></a>의?<a href="https://homin.dev/name/nm0342970/"><font color="#003399">David Grohl</font></a>는?영화에서 사탄 역을 했다.
+    록 박물관의 홀에서?커다란 [<font color="#003399">David Grohl</font>](https://homin.dev/name/nm0342970/)는?영화에서 사탄 역을 했다.
   </li>
   <li>
-    오크닝 시퀀스의 카드 이미지중 하나는 Rider-Waite 타로 카드 중 하나인 &#8220;The Hermit&#8221;이다. 이 카드는 또한?<a href="https://homin.dev/name/nm0496389/"><font color="#003399">레드 재플린</font></a>의?이름 없는?네번째 엘범의 뒷 표지로 사용되었었다.
+    오크닝 시퀀스의 카드 이미지중 하나는 Rider-Waite 타로 카드 중 하나인 &#8220;The Hermit&#8221;이다. 이 카드는 또한?[<font color="#003399">레드 재플린</font>](https://homin.dev/name/nm0496389/)의?이름 없는?네번째 엘범의 뒷 표지로 사용되었었다.
   </li>
   <li>
-    록 앤 롤 역사 박물관의 경보음은 <a href="https://homin.dev/title/tt0060028/"><font color="#003399">&#8220;스타 트랙&#8221;</font></a> (1966) 에서의 USS 엔터프라이즈 호의 경보음과 같다.
+    록 앤 롤 역사 박물관의 경보음은 [<font color="#003399">&#8220;스타 트랙&#8221;</font>](https://homin.dev/title/tt0060028/) (1966) 에서의 USS 엔터프라이즈 호의 경보음과 같다.
   </li>
   <li>
-    영화의 시작점에서 (<a href="https://homin.dev/name/nm0001533/"><font color="#003399">Meat Loaf</font></a>가 연기한) JB의 아버지는?포스터들을 찢어 버린다.?그는 또한?Bat Out Of Hell 표지에서 작은 동상을 찢어 낸다.
+    영화의 시작점에서 ([<font color="#003399">Meat Loaf</font>](https://homin.dev/name/nm0001533/)가 연기한) JB의 아버지는?포스터들을 찢어 버린다.?그는 또한?Bat Out Of Hell 표지에서 작은 동상을 찢어 낸다.
   </li>
   <li>
-    영화 초반분에서의 갱들이 JB를 때리는 장면은 <a href="https://homin.dev/name/nm0000040/"><font color="#003399">스탠리 큐브릭</font></a>의 영화 <a href="https://homin.dev/title/tt0066921/"><font color="#003399">A Clockwork Orange</font></a> (1971)를 참조했다.?그들은 알랙스 역의 <a href="https://homin.dev/name/nm0000532/"><font color="#003399">말콤 맥도웰</font></a>이 리드하는 갱처럼 차려 입었다.
+    영화 초반분에서의 갱들이 JB를 때리는 장면은 [<font color="#003399">말콤 맥도웰</font>](https://homin.dev/name/nm0000532/)이 리드하는 갱처럼 차려 입었다.
   </li>
   <li>
-    사탄으로 등장한 <a href="https://homin.dev/name/nm0342970/"><font color="#003399">David Grohl</font></a>는 영화에서 참조된 <a href="https://homin.dev/name/nm1627732/"><font color="#003399">Tenacious D</font></a>의 노래?&#8221;Tribute&#8221;의 뮤직 비디오에서도?사탄을 연기했다. Grohl는?또한 <a href="https://homin.dev/name/nm1627732/"><font color="#003399">Tenacious D</font></a>의 같은 이름의 CD에서,?여러 곡에 그의 재능을 빌려 주기도 했다.
+    사탄으로 등장한 [<font color="#003399">Tenacious D</font>](https://homin.dev/name/nm1627732/)의 같은 이름의 CD에서,?여러 곡에 그의 재능을 빌려 주기도 했다.
   </li>
   <li>
-    자동차 추격전은 켈리포니아의 다운타운 롱 비치 주변에서 촬영되었다. 주요 장면은 해안 도로와 퀸스웨이 다리에서 촬영되었는데 이곳은 영화 <a href="https://homin.dev/title/tt0373469/"><font color="#003399">Kiss Kiss Bang Bang</font></a> (2005)의 마지막 쇼케이스가 이루어진 장소이다.
+    자동차 추격전은 켈리포니아의 다운타운 롱 비치 주변에서 촬영되었다. 주요 장면은 해안 도로와 퀸스웨이 다리에서 촬영되었는데 이곳은 영화 [<font color="#003399">Kiss Kiss Bang Bang</font>](https://homin.dev/title/tt0373469/) (2005)의 마지막 쇼케이스가 이루어진 장소이다.
   </li>
   <li>
-    The car chase ends in front of Uncle Al&#8217;s Seafood at the corner of First and Elm streets in Long Beach, CA. 이 곳은 Riggs와 Murtanugh가 <a href="https://homin.dev/title/tt0122151/"><font color="#003399">리셀 웨폰 4</font></a> (1998)에서 주유소를 날려 버린 곳과 같은 곳이다.
+    The car chase ends in front of Uncle Al&#8217;s Seafood at the corner of First and Elm streets in Long Beach, CA. 이 곳은 Riggs와 Murtanugh가 [<font color="#003399">리셀 웨폰 4</font>](https://homin.dev/title/tt0122151/) (1998)에서 주유소를 날려 버린 곳과 같은 곳이다.
   </li>
   <li>
-    이 필름에 이르기 까지 <a href="https://homin.dev/name/nm0001533/"><font color="#003399">Meat Loaf</font></a>는??<a href="https://homin.dev/title/tt0073629/"><font color="#003399">록키 호러 픽쳐 쇼</font></a> (1975) 이래로 영화에서 노래한 적이 없다. 그 이유는 그가 업계에서 진지한 배우로 받아들여지기를 원하기 때문이다.
+    이 필름에 이르기 까지 [<font color="#003399">록키 호러 픽쳐 쇼</font>](https://homin.dev/title/tt0073629/) (1975) 이래로 영화에서 노래한 적이 없다. 그 이유는 그가 업계에서 진지한 배우로 받아들여지기를 원하기 때문이다.
   </li>
   <li>
     카일과 JB가 운명의 피크를 찾은 박물관의 기타의 신 구역에서, 그 피크는 깁슨 앵거스 영이 사인한?깁슨 기타와 같이 놓여 있었다.

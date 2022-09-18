@@ -23,7 +23,7 @@ tags:
 
 가장 저렴한 녀석으로 구입했습니다. -,.-;
 
-  * <font><a href="http://www.devicemart.co.kr/mart7/mall.php?cat=003012001&query=view&no=9601" target="_blank" rel="noopener"><font class="Blink">HY-1602H-205</font></a><font class="Blink"> (디바이스마트 판매 페이지 링크)</font></font>
+  * <font>[<font class="Blink">HY-1602H-205</font>](http://www.devicemart.co.kr/mart7/mall.php?cat=003012001&query=view&no=9601)<font class="Blink"> (디바이스마트 판매 페이지 링크)</font></font>
 
 <!--more-->
 
@@ -50,13 +50,13 @@ HY-1602H-205의 경우 핀헤더가 2열이라 2&#215;7 소켓과 남는 IDE케�
 **3. 아두이노에 연결!**  
 ![](https://homin.dev/asset/blog/2008/08/hy1602_helloworld.jpg)
 
-다행히 CLCD용 아두이노 라이브러는 이미 있었습니다. <a href="http://www.arduino.cc/en/Tutorial/LCDLibrary" target="_blank" rel="noopener">Arduino &#8211; LCDLibrary </a>
+다행히 CLCD용 아두이노 라이브러는 이미 있었습니다. [Arduino &#8211; LCDLibrary ](http://www.arduino.cc/en/Tutorial/LCDLibrary)
 
 > 오~ 라이브러리~
 
 그런데, 한 줄 밖에 표시 안되는 문제와 작명 센스가 맘에 안들고, 지저분 한 데다가, 불필요한 것들을 이것 저것 인클루드 해서 덩치를 키워 뒀길래, 입맛에 맞게 리팩토링 했습니다. -,.-;;
 
-  * **<a href="https://homin.dev/svn/ArduinoLibraries/CLCD/" target="_blank" rel="noopener"><strong>CLCD Library for Arduino (SVN)</strong></a>**
+  * **[<strong>CLCD Library for Arduino (SVN)</strong>](https://homin.dev/svn/ArduinoLibraries/CLCD/)**
 
 이것 저것 명령어들이 많지만 싹 지우고 다시 써도 눈에 띌 만큼 느리지 않기 때문에, 라이브러리에서 clear, putStr 함수만 사용하면 CLCD를 다룰 수 있었습니다.
 

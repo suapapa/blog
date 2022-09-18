@@ -27,7 +27,7 @@ USB 시리얼 변환 보드를 만들었습니다.? 저는 USB to Serial 케이�
 
   * **[download sch&brd (이글캐드)][1]**
 
-<a href="http://www.sparkfun.com/commerce/tutorial_info.php?tutorials_id=108" target="_blank" rel="noopener">Sparkfun&#8217;s EagleCad tutorial</a>에 소개된 회로도를 기반으로 작성했으며 아래의 기능들이 추가 되었습니다.
+[Sparkfun&#8217;s EagleCad tutorial](http://www.sparkfun.com/commerce/tutorial_info.php?tutorials_id=108)에 소개된 회로도를 기반으로 작성했으며 아래의 기능들이 추가 되었습니다.
 
   * RX/TX LED
   * pinheader for 3.3V out
@@ -47,7 +47,7 @@ USB 시리얼 변환 보드를 만들었습니다.? 저는 USB to Serial 케이�
 
 > 단면 기판이므로 FT232RL은 밑 부분에 있습니다.
 
-윈도에서 사용하려면 <a href="http://www.ftdichip.com/FTDrivers.htm" target="_blank" rel="noopener">FTDI 윈도용 드라이버</a>를 설치 하시면 되고, 우분투에서는, 드라이버 따로 설치할 것 없이, 그냥 잡힙니다. 척! 하고 잡히는 모습을 보니 믿음이 무럭무럭 생기네요.
+윈도에서 사용하려면 [FTDI 윈도용 드라이버](http://www.ftdichip.com/FTDrivers.htm)를 설치 하시면 되고, 우분투에서는, 드라이버 따로 설치할 것 없이, 그냥 잡힙니다. 척! 하고 잡히는 모습을 보니 믿음이 무럭무럭 생기네요.
 
 Arduino S/W에서 Tools->Serial Port 메뉴를 선택해 보면 추가된 포트가 보이고 시리얼 포트와 똑같이 동작합니다.
 

@@ -33,15 +33,15 @@ tags:
 
 ### 0. HDR 소개
 
-HDR이 무엇인지 궁금하신 분은 우선 <a href="http://stuckincustoms.com/2006/06/06/548/" target="_blank" rel="noopener">Trey Ratcliff의 HDR Tutorial</a>의 사진들을 살펴 보세요. 일반적인 사진의 계조를 뛰어넘는 사진들을 보실 수 있습니다.
+HDR이 무엇인지 궁금하신 분은 우선 [Trey Ratcliff의 HDR Tutorial](http://stuckincustoms.com/2006/06/06/548/)의 사진들을 살펴 보세요. 일반적인 사진의 계조를 뛰어넘는 사진들을 보실 수 있습니다.
 
 어떻게 HDR이미지가 만들어 보는지 간단히 설명하면, (관심없으신 분은 **1. raw2hdr 설치하기**로 점프) 같은 장면에서 노출을 달리한 여러장의 사진을 찍어 &#8216;적당히&#8217; 합쳐서 만듭니다.
 
 > **이제 여러번 사진을 찍을 필요가 없습니다!** raw이미지는 +-3스톱만큼의 관용도를 가지고 있기 때문에 UFRaw를 사용해 하나의 raw 이미지로 부터 다중 노출한 소스들을 뽑아내면 됩니다.
 
-삼포의 <a href="http://www.ssdslr.com/bbs/zboard.php?id=blecture&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;keyword=HDR&#038;select_arrange=headnum&#038;desc=asc&#038;no=431" target="_blank" rel="noopener">신대우님의 포토샵 레이어 블랜등을 사용한 HDR 강좌</a>에서 적당히 합치는 과정을 소개하고 있습니다. 네.. 항상 &#8216;적당히&#8217;라는게 어려운 부분이죠. 전 이 글을 보고 잠시 HDR의 꿈을 접었었습니다. -_-;
+삼포의 [신대우님의 포토샵 레이어 블랜등을 사용한 HDR 강좌](http://www.ssdslr.com/bbs/zboard.php?id=blecture&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;keyword=HDR&#038;select_arrange=headnum&#038;desc=asc&#038;no=431)에서 적당히 합치는 과정을 소개하고 있습니다. 네.. 항상 &#8216;적당히&#8217;라는게 어려운 부분이죠. 전 이 글을 보고 잠시 HDR의 꿈을 접었었습니다. -_-;
 
-> **이제 수작업으로 합칠 필요가 없습니다!** enfuse가 알아서 &#8216;적당히&#8217; 합쳐 줍니다. enfuse에 대해 더 알고 싶으신 분은 <a href="http://wiki.panotools.org/Enfuse" target="_blank" rel="noopener">이 링크</a>를 찾아가 보세요.
+> **이제 수작업으로 합칠 필요가 없습니다!** enfuse가 알아서 &#8216;적당히&#8217; 합쳐 줍니다. enfuse에 대해 더 알고 싶으신 분은 [이 링크](http://wiki.panotools.org/Enfuse)를 찾아가 보세요.
 
 즉! UFRaw와 enfuse를 사용해 HDR이미지를 만들 수 있는데, 저는 이 작업을 더 간단히 하기 위한 스트립트(**raw2hdr.py**)를 작성했습니다.
 
@@ -65,16 +65,16 @@ HDR이 무엇인지 궁금하신 분은 우선 <a href="http://stuckincustoms.co
 
   * **ufraw-batch**는 UFRaw와 함께 설치됩니다. 
       * 윈도 : [윈도에서 UFRaw 설치하기][2]
-      * 우분투: <a href="https://homin.dev/wp/?p=174" target="_blank" rel="noopener">UFRaw 컴파일로 최적화 하여 설치하기</a>
+      * 우분투: [UFRaw 컴파일로 최적화 하여 설치하기](https://homin.dev/wp/?p=174)
   * **enfuse**는 enblend 3.1에 포함되어 있습니다. 
-      * 윈도: <a href="http://hugin.panotools.org/testing/enblend/enblend-3.1_win32_pre1.zip" target="_blank" rel="noopener">이걸</a> 다운받아서 적당한 위치에 압축 풀면 됩니다.
-      * 우분투: <a href="http://wiki.panotools.org/Hugin_Compiling_Ubuntu#Building_Enblend" target="_blank" rel="noopener">여길</a> 참조해서 소스로 부터 컴파일 하셔야 합니다.
+      * 윈도: [이걸](http://hugin.panotools.org/testing/enblend/enblend-3.1_win32_pre1.zip) 다운받아서 적당한 위치에 압축 풀면 됩니다.
+      * 우분투: [여길](http://wiki.panotools.org/Hugin_Compiling_Ubuntu#Building_Enblend) 참조해서 소스로 부터 컴파일 하셔야 합니다.
   * **exiftool**을 사용해 결과물로 Exif를 옮깁니다. 
-      * 윈도: <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool-7.24.zip" target="_blank" rel="noopener">이걸</a> 다운받아 적당한 위치에 압축 풉니다.
+      * 윈도: [이걸](http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool-7.24.zip) 다운받아 적당한 위치에 압축 풉니다.
       * 우분투: 소스리스트로 부터 libimage-exiftool-perl 패키지를 설치합니다.
 
 <p align="left">
-  raw2hdr.py는 <a href="http://ubuntuforums.org/showthread.php?t=741161" target="_blank" rel="noopener">이 게시물</a>의 쉘 스크립틀 참조해 만들어 졌고. 원래의 쉘 스크립트에 비해 아래의 기능들이 추가되었습니다.
+  raw2hdr.py는 [이 게시물](http://ubuntuforums.org/showthread.php?t=741161)의 쉘 스크립틀 참조해 만들어 졌고. 원래의 쉘 스크립트에 비해 아래의 기능들이 추가되었습니다.
 </p>
 
   * UFRaw ID파일을 입력으로 사용할 수 있습니다.
@@ -116,7 +116,7 @@ HDR 사진들을 더 보고 넘어가겠습니다. 작은 이미지를 클릭하
 
 ### 3. 문제 해결
 
-<a href="http://www.pentaxclub.co.kr/bbs/zboard.php?id=Used&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;select_arrange=headnum&#038;desc=asc&#038;no=2920" target="_blank" rel="noopener">펜클의 올린 게시물</a>에서 같은 문제가 있는지 살펴보세요.
+[펜클의 올린 게시물](http://www.pentaxclub.co.kr/bbs/zboard.php?id=Used&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;select_arrange=headnum&#038;desc=asc&#038;no=2920)에서 같은 문제가 있는지 살펴보세요.
 
  [1]: https://homin.dev/svn/OneFiler/raw2hdr.py
  [2]: https://homin.dev/wp/?p=164

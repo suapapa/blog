@@ -27,13 +27,13 @@ Ken Rockwell의 홈페이지와 그의 &#8220;훌륭한 사진을 찍는 방법&
 
 <!--more-->
 
-<a href="http://kenrockwell.com/" target="_blank" rel="noopener">![](https://homin.dev/asset/blog/2008/04/kenrockwell_site.jpg)</a>
+[![](https://homin.dev/asset/blog/2008/04/kenrockwell_site.jpg)](http://kenrockwell.com/)
 
 > 플레쉬나 AJAX가 없이도 멋진 -그리고 유쾌한!- 구도를 가진 홈페이지 입니다. 위의 사진을 클릭하면 그의 홈페이지로 이동 합니다.
 
 홈페이지의 우 상단에 있는 Everything I Know About Making Picture에 있는 강좌들을 살펴 보세요. 일부 글들은 한글로도 번역 되어 있습니다. 그 중 가장 유명한 글의 링크를 떼 왔습니다. 꼭 한번 읽어보세요.
 
-  * <a href="http://kenrockwell.com/tech/howtok.html" target="_blank" rel="noopener"><strong>훌륭한 사진을 찍는 방법(한글)</strong></a>
+  * [<strong>훌륭한 사진을 찍는 방법(한글)</strong>](http://kenrockwell.com/tech/howtok.html)
 
 그는 **&#8220;아직 아무것도 사지 마십시오&#8221;** 라는 말로 강좌를 시작합니다. 아래에 그가 하고자 하는 말을 더 명확히한 문구를 인용하겠습니다.
 
@@ -61,7 +61,7 @@ Ken Rockwell의 홈페이지와 그의 &#8220;훌륭한 사진을 찍는 방법&
 
 이제 그의 홈페이지에 찾아가서 나머지 강좌들과 그의 사진들을 살펴 보세요. 저는 특히 아빠당인 Ken Rockwell이 찍은 아기 사진들(과 사진 제목들)을 좋아합니다.
 
-  * <a href="http://kenrockwell.com/ryan/index.htm" target="_blank" rel="noopener">Baby Ryan Rockwell</a>
+  * [Baby Ryan Rockwell](http://kenrockwell.com/ryan/index.htm)
 
 ps. 그의 최근 아기 사진들은 니콘 D3 with 85.4 =3
 

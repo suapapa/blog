@@ -26,11 +26,11 @@ tags:
 
 <!--more-->
 
-**1. FeedBurner 등록** 지금까지 그랬듯이&nbsp;간단히 설치 될 것 같아 <a target="_blank" href="http://www.feedburner.com" rel="noopener">FeedBurner 사이트</a>에 가서 회원가입을 하고 기존의 RSS주소를 입력했더니 제 블로그의 [FeedBurner 주소][1]가 생겼습니다. 오호라~ -이미 RSS주소가 있는데 왜 이런게 생겼나 봤더니, 이제 제 블로그의 RSS트래픽을 FeedBurner에서 받게 되더군요. 이 홈서버는 개미똥꾸멍만한 대역폭(안양방송 케이블 제일 싸구려 상품) 을 가진 입장이라 적절한 서비스가 아닐 수 없었습니다.
+**1. FeedBurner 등록** 지금까지 그랬듯이&nbsp;간단히 설치 될 것 같아 [FeedBurner 사이트](http://www.feedburner.com)에 가서 회원가입을 하고 기존의 RSS주소를 입력했더니 제 블로그의 [FeedBurner 주소][1]가 생겼습니다. 오호라~ -이미 RSS주소가 있는데 왜 이런게 생겼나 봤더니, 이제 제 블로그의 RSS트래픽을 FeedBurner에서 받게 되더군요. 이 홈서버는 개미똥꾸멍만한 대역폭(안양방송 케이블 제일 싸구려 상품) 을 가진 입장이라 적절한 서비스가 아닐 수 없었습니다.
 
 > &#8216;그런데&nbsp;아이콘은?&#8217;
 
-**2. 플러그인 설치** 워드 프레스용 <a target="_blank" href="http://www.feedburner.com/fb/a/help/wordpress_quickstart" rel="noopener">FeedBurner FeedSmith 플러그인</a>이 있길래 올타쿠나 하고 설치하였습니다. 설치해 보니 이 플러그인은 기존의 RSS주소로 접글 한 경우 FeedBurner로 리다이렉션 해 주는 역활을 하더군요. 우왕ㅋ굳ㅋ
+**2. 플러그인 설치** 워드 프레스용 [FeedBurner FeedSmith 플러그인](http://www.feedburner.com/fb/a/help/wordpress_quickstart)이 있길래 올타쿠나 하고 설치하였습니다. 설치해 보니 이 플러그인은 기존의 RSS주소로 접글 한 경우 FeedBurner로 리다이렉션 해 주는 역활을 하더군요. 우왕ㅋ굳ㅋ
 
 > &#8216;그런데 아이콘은?&#8217;
 

@@ -43,13 +43,13 @@ wiz610wi는 세 가지 무선 모드 AP, Gateway, Client 를 지원합니다. (�
   
 
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-데모에서 모듈은 앞선 페이지의 사진에서 보여진 Serial2USB 모듈을 통해 PC에 연결되어 있습니다. </meta> 
+
+데모에서 모듈은 앞선 페이지의 사진에서 보여진 Serial2USB 모듈을 통해 PC에 연결되어 있습니다.
 
 확대 기능을 썼는데도 글자들이 잘 안보이네요. HD(720p)모드와 전체화면으로 시청해 주세요.
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-{{<youtube Nq7ckirA1yE>}} </meta> 
+
+{{<youtube Nq7ckirA1yE>}}
 
 다음은 데모에서 사용한 명령어들로, User manual과 비교하여 확인해 보세요.
 
@@ -63,8 +63,8 @@ wiz610wi는 세 가지 무선 모드 AP, Gateway, Client 를 지원합니다. (�
 
 다음은 <di> 명령어로 받은 데이터의 예제;</di>
 
-> <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-> Ssuapapa_001884191f9a_2_57_WPA2-PSK:ajt__system_00089f0c7e28_8_59_WPA1-PSK/WPA2-PSK:&#8230; </meta> 
+> 
+> Ssuapapa_001884191f9a_2_57_WPA2-PSK:ajt__system_00089f0c7e28_8_59_WPA1-PSK/WPA2-PSK:&#8230;
 
 scan된 AP들이 : 를 구분자로 나열 됩니다. 위 예제는 두 AP, SUAPAPA 와 ajt_system 이 검색된 예 입니다. "_"를 AP 정보를 구분하기 위해 사용하기 때문에 AP의 이름(SSID)에 "_"가 있는 경우 "__"로 표시되지만 사용할 때는 원래대로 "_"을 사용하면 됩니다.
 
@@ -129,9 +129,9 @@ reactor.run()
 
 또한, 아리송한 부분을 WIZnet에 질문하면 훌륭한 답변을 받을 수 있었습니다.
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-wiz610wi는 아이폰에서 -BT대용으로- 핑크탱크같은걸 조종하거나, 대중화 된 무선 공유기와 연결해 홈 오토메이션에 유용하게 사용할 수 있을 것 같습니다. 🙂</meta> 
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+wiz610wi는 아이폰에서 -BT대용으로- 핑크탱크같은걸 조종하거나, 대중화 된 무선 공유기와 연결해 홈 오토메이션에 유용하게 사용할 수 있을 것 같습니다. 🙂 
+
+
 
  [1]: http://www.wiznettechnology.com/Sub_Modules/en/product/Product_Detail.asp?cate1=&cate2=&cate3=&pid=1020

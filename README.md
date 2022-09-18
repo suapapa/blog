@@ -15,15 +15,7 @@ hugo new post/new_topic_title.md
 Test run:
 
 ```bash
-hugo serve \
-    --buildDrafts \
-    --watch
-```
-
-Deploy to gh-pages:
-
-```
-./deploy_gh-pages.sh
+hugo serve --buildDrafts --watch
 ```
 
 # Reference

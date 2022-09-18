@@ -6,6 +6,7 @@ tags:
 - php
 - gke
 - hugo
+- github
 featured_image: ""
 description: ""
 ---
@@ -87,6 +88,8 @@ replace github.com/gokyle/filecache => github.com/suapapa/filecache v0.0.2
 > 노트! 포크한 저장소의 버전이 올라간다고 `go get -u`로 자동으로 올라가지 않습니다.
 > 이 때는 `go.mod` 파일에서 수동으로 올려줘야 해요.
 
+---
+
 여기까지의 내용은 클라우드 스토리지를 캐쉬로 사용하는 경우 범용으로 쓰일 수 있을 것 같아
 깃헙에 따로 저장소를 만들었습니다.
 
@@ -106,7 +109,7 @@ VSCode에서 제공하는 찾아서 한꺼번에 고치는 기능으로 수정�
 
 몇 번 시도하다가 때려쳤습니다.
 
-## Wordpress를 컨테이너로 복원해서 k8s 클러스터에 올릴까? -> 포기
+## Wordpress를 컨테이너로 복원해서 k8s 클러스터에 올릴까? -> 관둠
 
 Wordpress php로 된 사이트 생성 엔진으로,
 글은 Mysql같은 RDBMS에 담고, 사진 등의 리소스는 파일시스템에 담습니다.

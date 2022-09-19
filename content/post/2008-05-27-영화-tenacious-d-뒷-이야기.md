@@ -55,8 +55,7 @@ see also :
   * [Tenacious D 엘범 소개][4]?(네이버)
   * 아래는 영화에서 참조 된 그 노래 -역사상 가장 훌륭한 노래!!&#8230; 에 대한 "헌정곡"(tribute)입니다.
 
-<embed src="http://flvs.daum.net/flvPlayer.swf?vid=MXn9_sMi9uA$" allowfullscreen="true" allowscriptaccess="always" type="application/x-shockwave-flash" bgcolor="#000000" width="502" height="399">
-</embed>
+{{< youtube _lK4cX5xGiQ >}}
 
 >  롹! 아~ 아~ 아아아~ 아아아~
 

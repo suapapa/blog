@@ -7,6 +7,7 @@ tags:
 - k8s
 featured_image: ""
 description: ""
+toc: true
 ---
 
 ![suapapa_wiki](https://homin.dev/asset/blog/img/suapapa_wiki.png)

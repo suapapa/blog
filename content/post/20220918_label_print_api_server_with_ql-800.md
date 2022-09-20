@@ -8,6 +8,7 @@ tags:
 - github
 featured_image: ""
 description: ""
+toc: true
 ---
 
 라즈베리파이에서 사용할 목적으로 라벨 프린터를 샀습니다.

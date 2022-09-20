@@ -138,6 +138,6 @@ gin을 사용해 `POST`로 `/v1/order` EP 에 JSON 형태로 다음과 같이 �
 
 깃헙 저장소는 다음 위치에 있습니다:
 
-- [suapapa/pr_ord_addr_label](https://github.com/suapapa/pr_ord_addr_label)
+- [suapapa/pr_label](https://github.com/suapapa/pr_label)
 
 그럼, 이걸 사용해 정말 뭔가를 팔아보는 그 날 다시 뵙겠습니다. :)

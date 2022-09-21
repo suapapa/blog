@@ -13,7 +13,7 @@ theme = "ananke"
 [params]
   author = "Homin Lee"
   description = "Arbitrary hacking logs"
-  google_analytics = ""
+  google_analytics = "G-K14T8YFTE0"
   enableRobotsTXT = true
   disqusShortname = "hominleesblog"
 

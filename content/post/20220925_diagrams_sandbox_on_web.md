@@ -11,6 +11,7 @@ tags:
 - gke
 featured_image: ""
 description: ""
+toc: true
 ---
 
 > 요즘 누가 다이어그램 손으로 그리나요? [#그게나야](https://homin.dev/asset/blog/img/homin-dev_k8s.jpg)
@@ -93,7 +94,8 @@ stdin 으로 코드가 들어가면 이미지를 base64encode 한 뒤 간단히 
 
 프록시가 파이썬 코드를 받아서 파이썬으로 던져 실행하기 직전에
 diagrams 외의 패키지의 import 시도가 있는지를 검사해 발견되면 코드를 실행하지 않게 하였습니다.
-그런데, Go 같은 경우는 import는 코드의 위에서만 가능한 반면, Python은 lazy import 가 가능하더라구요;;
+그런데, Go 같은 경우는 import는 코드의 위에서만 가능한 반면 
+Python은, 스트립트 언어라 당연히, lazy import 가 가능하더라구요;;
 
 그래서 아래의 Anchor 커맨트를 import 부분과 실행 부분의 중간에 넣도록 강제하였습니다.
 
@@ -115,7 +117,7 @@ diagrams 외의 패키지의 import 시도가 있는지를 검사해 발견되�
 > 저 원래 남의 말 잘 안들어요. <- 오토바이탐
 
 그래서 Sandbox 라는 이름은 기만이 되었지만,
-이걸로 부자되면 별로 노드를 꾸려 gVisor 로 운영하도록 하겠습니다. ㅎㅎ.
+이걸로 부자되면 별도로 노드를 꾸려 gVisor 로 운영하도록 하겠습니다. ㅎㅎ.
 
 
 
@@ -141,6 +143,7 @@ API서버(BE)의 주소도 퍼블릭에서 바로 접근할 수 있지만 불허
 
 {{< youtube 0vA7qRAcvBE >}}
 
+> 이미 아셨겠지만 이 페이지에 사용된 다이어그램들은 모두 Diagrams Sandbox 를 사용해 그렸습니다.
 
 마지막으로, 첫 다이어그램에 사용된 Diagrams 코드를 참고로 남깁니다.
 
@@ -162,9 +165,9 @@ with Diagram("Diagrams Sandbox", show=False, graph_attr={"pad": "0.2"}):
       with Cluster("Pod: dsb-api*"):
         be = Go("backend")
     with Cluster("Container: diagrams"):
-      dg_wrapper = Go("proxy")
+      pr = Go("proxy")
       dg = Python("diagrams")
-      dg_wrapper >> dg
-  fe >> be >> dg_wrapper
+      pr >> dg
+  fe >> be >> pr
   be >> sock
 ```

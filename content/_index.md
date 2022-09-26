@@ -7,4 +7,3 @@ description: "Arbitrary Hacking Logs"
 cascade:
   featured_image: 'https://homin.dev/asset/blog/img/blog_front.jpg'
 ---
-“Neo, sooner or later you’re going to realize, just as I did, that there’s a difference between knowing the path and walking the path.” ― Morpheus

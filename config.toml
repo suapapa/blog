@@ -7,8 +7,6 @@ languageCode = "ko"
 title = "Homin Lee's blog"
 theme = "ananke"
 
-google_analytics = "G-K14T8YFTE0"
-
 [taxonomies]
   tag = "tags"
 

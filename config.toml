@@ -5,7 +5,7 @@ copyright = "Homin Lee &lt;ff4500@gmail.com&gt;; All rights reserved"
 
 languageCode = "ko"
 title = "Homin Lee's blog"
-theme = "ananke"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
 [taxonomies]
   tag = "tags"

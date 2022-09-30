@@ -1,9 +1,14 @@
-FROM klakegg/hugo:ext as builder
+FROM golang:latest as builder
+
+RUN go install github.com/gohugoio/hugo@latest
 
 ENV HUGO_ENV=production
 
-COPY . /src
-RUN hugo build
+WORKDIR /src
+COPY . .
+RUN hugo --minify
+
+# ---
 
 FROM halverneus/static-file-server:latest
 COPY --from=builder /src/public/ /public/

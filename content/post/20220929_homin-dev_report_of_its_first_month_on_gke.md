@@ -35,8 +35,8 @@ GKE에 k8s 클러스터를 꾸리고 [개인사이트](https://homin.dev/blog/po
 > 예: homin.dev/yt -> 내 유튜브 채널, homin.dev/fb -> 내 페이스북 페이지
 
 ingress-proxy에서 http redirection 으로 할 수 있는데, 그 포드는 kubeip를 통해 고정아이피를 받아야 되기 때문에,
-1 replica 만 가능하더라구요. 그리고 머신도 e2-micro로 제일 후진?걸 쓰고 있어서 거기서 대문페이지를 서버사이드
-서버 사이드렌더링하고 있자니 느낌상 좀 굼뜬기분이라 분리했습니다.
+1 replica 만 가능하더라구요. 그리고 머신도 e2-micro로 제일 후진?걸 쓰고 있어서 거기서 대문페이지를
+서버사이드렌더링하고 있자니 느낌상 좀 굼뜬기분이라 분리했습니다.
 
 ingress node는 이제 외부 서비스로 이동하기 위한 http redirection, work 노드내의 내 서비스들로 이동하기 위한
 http reverse proxy 만을 제공합니다.

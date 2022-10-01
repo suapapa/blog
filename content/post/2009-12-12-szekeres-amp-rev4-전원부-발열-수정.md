@@ -57,4 +57,4 @@ Szekeres 는 기본적으로 열이 펄펄 나는 앰프인데, 두 파워모스
 
   * [회로도, 아트웍 다운로드(Svn Repo) ](https://homin.dev/svn/HW/SzekeresAmp)-EagleCad 파일
 
- [1]: https://homin.dev/wp/?p=107
+ [1]: https://homin.dev/blog/p=107

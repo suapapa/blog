@@ -110,5 +110,5 @@ ko-po-check는 위 과정의 3번과 4번 사이에 잘못된 번역이 없는�
 
  [1]: http://ko-po-check.kldp.net/
  [2]: http://mr-dust.pe.kr/search/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%ED%95%9C%EA%B8%80%ED%99%94%ED%95%98%EA%B8%B0
- [3]: https://homin.dev/wp/?p=41
+ [3]: https://homin.dev/blog/p=41
  [4]: http://www.vim.org/htmldoc/quickfix.html

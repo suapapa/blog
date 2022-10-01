@@ -85,4 +85,4 @@ chart.download('~/GirlsInClock.png')
  [4]: http://code.google.com/intl/ko-KR/apis/chart/
  [5]: http://leegh.com/2694185
  [6]: http://pygooglechart.slowchop.com/
- [7]: https://homin.dev/wp/?p=87
+ [7]: https://homin.dev/blog/p=87

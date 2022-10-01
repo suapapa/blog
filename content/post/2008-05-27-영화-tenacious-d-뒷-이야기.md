@@ -59,7 +59,7 @@ see also :
 
 >  롹! 아~ 아~ 아아아~ 아아아~
 
- [1]: https://homin.dev/wp/?p=27
+ [1]: https://homin.dev/blog/p=27
  [2]: http://blog.naver.com/mepuldera?Redirect=Log&logNo=90022574605
  [3]: http://www.imdb.com/title/tt0365830/trivia
  [4]: http://music-oi.naver.com/album_view/album_detail.asp?no=02031370002

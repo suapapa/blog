@@ -65,7 +65,7 @@ HDR이 무엇인지 궁금하신 분은 우선 [Trey Ratcliff의 HDR Tutorial](h
 
   * **ufraw-batch**는 UFRaw와 함께 설치됩니다. 
       * 윈도 : [윈도에서 UFRaw 설치하기][2]
-      * 우분투: [UFRaw 컴파일로 최적화 하여 설치하기](https://homin.dev/wp/?p=174)
+      * 우분투: [UFRaw 컴파일로 최적화 하여 설치하기](https://homin.dev/blog/p=174)
   * **enfuse**는 enblend 3.1에 포함되어 있습니다. 
       * 윈도: [이걸](http://hugin.panotools.org/testing/enblend/enblend-3.1_win32_pre1.zip) 다운받아서 적당한 위치에 압축 풀면 됩니다.
       * 우분투: [여길](http://wiki.panotools.org/Hugin_Compiling_Ubuntu#Building_Enblend) 참조해서 소스로 부터 컴파일 하셔야 합니다.
@@ -127,4 +127,4 @@ raw2hdr.py --enfuse="c:appsenblend-3.1enfuse.exe" -m2 -M3 -s0.5 IMGP9210.PEF
 [펜클의 올린 게시물](http://www.pentaxclub.co.kr/bbs/zboard.php?id=Used&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;select_arrange=headnum&#038;desc=asc&#038;no=2920)에서 같은 문제가 있는지 살펴보세요.
 
  [1]: https://homin.dev/svn/OneFiler/raw2hdr.py
- [2]: https://homin.dev/wp/?p=164
+ [2]: https://homin.dev/blog/p=164

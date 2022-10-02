@@ -76,7 +76,7 @@ tags:
 
 ![](https://homin.dev/asset/blog/2008/11/szekeres_rear.jpg)
 
- [1]: https://homin.dev/wp/?p=107&language=ko
+ [1]: https://homin.dev/blog/p=107&language=ko
  [2]: http://www.headphoneamp.co.kr/bbs/zboard.php?id=diy_member_new&page=1&sn1=&divpage=1&sn=off&ss=on&sc=on&select_arrange=headnum&desc=asc&no=2234
  [3]: http://www.ic114.com/AJAXWWW/SITE/SC/00V0.ASPX?ID_P=P0035435
  [4]: http://www.ic114.com/AJAXWWW/SITE/SC/00V0.ASPX?ID_P=P0039405

@@ -20,7 +20,7 @@ tags:
 
 {{<youtube 0oyQPGJ5848>}}
 
-이하 번역 ([원문](https://homin.dev/wp/wp-admin/<param%20value=))
+이하 번역 ([원문](https://www.imdb.com/title/tt0907657/trivia))
 
 
 

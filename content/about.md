@@ -11,9 +11,10 @@ menu: main
 ![AKA suapap](https://homin.dev/asset/blog/image/suapapa.png)
 
 - 소프트웨어 개발을 업으로 삼고 있습니다.
+- [20+년 차 리눅서](https://homin.dev/blog/post/20221003_my_linux_story_since_20years_ago/) 입니다.
 - 인터넷에 올리는 내용은 취미들로, 오토바이, 3D프린팅, 전자공작 등을 포함합니다.
 - 2008년 부터, 개인 도메인, `suapapa.net` 을 운영했었습니다.
 - 2022년 부터, 개인 도메인, [homin.dev](https://homin.dev) 을 운영하고 있습니다.
-- 사이트의 글과 사진의 저작권은 모두 제게 있습니다.
 
+> 사이트의 글과 사진의 저작권은 모두 제게 있습니다.
 > 개인적인 연락이 필요하신 분은 사이트 밑의 카피라이트에 있는 [메일](mailto:ff4500@gmail.com)로 연락주시면 됩니다.

@@ -13,10 +13,10 @@ params:
   description: Arbitrary hacking logs
   enableRobotsTXT: true
   disqusShortname: hominleesblog
-  ananke_socials:
-    - name: facebook
-      label: Facebook
-    - name: twitter
-      label: Twitter
-    - name: linkedin
-      label: LinkedIn
+  # ananke_socials:
+  #   - name: facebook
+  #     label: Facebook
+  #   - name: twitter
+  #     label: Twitter
+  #   - name: linkedin
+  #     label: LinkedIn

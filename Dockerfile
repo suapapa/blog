@@ -1,7 +1,7 @@
-FROM golang:1.19 AS builder
+FROM hugomods/hugo:exts AS builder
 
-RUN git clone https://github.com/gohugoio/hugo.git
-RUN cd hugo && go install --tags extended
+# RUN git clone https://github.com/gohugoio/hugo.git
+# RUN cd hugo && go install --tags extended
 
 WORKDIR /src
 ENV HUGO_ENV=production

@@ -10,7 +10,7 @@ RUN hugo --minify
 
 # ---
 
-FROM halverneus/static-file-server:latest
+FROM halverneus/static-file-server:v1.8.10
 COPY --from=builder /src/public/ /public/
 
 ENV URL_PREFIX=/blog

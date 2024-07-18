@@ -1,4 +1,10 @@
+github.com/adityatelange/hugo-PaperMod v0.0.0-20240621184713-9ea3bb0e1f3a h1:y7opcJjy8jMqSUsbV4pIaQOhn4PhzfWn7p9VdMnpKT0=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20240621184713-9ea3bb0e1f3a/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/canhtran/maverick v0.0.0-20240716170409-d668f6f882e6 h1:xT/GV2sAYq3C88kjgPBojnjVOkYiorWfvohsBB0QQb4=
+github.com/canhtran/maverick v0.0.0-20240716170409-d668f6f882e6/go.mod h1:YuK6DnnmF0p8Cf5oZ4IWxZ463PtAfOlUy90d1tfCAKU=
 github.com/suapapa/gohugo-theme-ananke v0.0.0-20220929082647-253b8561563d/go.mod h1:yY14BLqqh5G61rO81YcJKMHY1rClY5iIiUK+K2JKSUM=
 github.com/suapapa/gohugo-theme-ananke v0.0.1/go.mod h1:yY14BLqqh5G61rO81YcJKMHY1rClY5iIiUK+K2JKSUM=
 github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220907123632-5a8b531a7ce2 h1:ovsK3aHUdOOMCTibGDzH9NiwcTjHGs8jAYflHk4z/Ao=
 github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220907123632-5a8b531a7ce2/go.mod h1:yY14BLqqh5G61rO81YcJKMHY1rClY5iIiUK+K2JKSUM=
+github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20240624151252-1b48ef6630f9 h1:oIDCBJY8s8H16iCsuYzP0CiUgwEp4LdtMRYOSaAZl7M=
+github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20240624151252-1b48ef6630f9/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=

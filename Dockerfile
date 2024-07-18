@@ -10,10 +10,9 @@ RUN hugo --minify
 
 # ---
 
-FROM halverneus/static-file-server:v1.8.10
-COPY --from=builder /src/public/ /public/
+FROM nginx:1.25-alpine
 
-ENV URL_PREFIX=/blog
-ENV FOLDER=/public
+WORKDIR /usr/share/nginx/html
+COPY --from=builder /src/public .
 
-EXPOSE 8080
+EXPOSE 8080/tcp

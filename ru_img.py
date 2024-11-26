@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import os, sys
+import os
 import argparse
 
 if __name__ == '__main__':
@@ -13,6 +13,7 @@ if __name__ == '__main__':
     args, arg_files = psr.parse_known_args()
 
     for f in arg_files:
+        print(f'processing {f}')
         r = ""
         if args.resize_size > 0:
             n, e = os.path.splitext(f)
@@ -25,7 +26,7 @@ if __name__ == '__main__':
             if r:
                 u, b = r, r
             else:
-                u, b = args.file, os.path.basename(f)
+                u, b = f, os.path.basename(f)
             
             os.system(f'gsutil cp {u} gs://homin-dev_asset/blog/img/{b}')
             print(f'use ![{b}](https://homin.dev/asset/blog/img/{b})')

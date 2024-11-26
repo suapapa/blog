@@ -2,7 +2,7 @@
 title: LG TV 사운드 출력 변환 한 버튼으로 하기
 date: 2023-02-28T17:33:25+09:00
 tags:
-- lgtv
+- tv
 - webos
 - ir
 - python

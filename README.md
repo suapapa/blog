@@ -6,15 +6,18 @@ Live > [here](http://homin.dev/blog) <
 alias hugo="docker run --rm -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest"
 ```
 
-Create new post:
+Upload image to bucket:
+```sh
+./ru_img.py -u=true -r=800 tv_recording_system.jpeg
+```
 
-```bash
+Create new post:
+```sh
 hugo new post/new_topic_title.md
 ```
 
 Test run:
-
-```bash
+```sh
 hugo serve --buildDrafts --watch
 ```
 

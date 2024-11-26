@@ -9,6 +9,8 @@ description: ""
 집의 공청 안테나 단자로 지상파 일부 채널이 나오지 않는 문제가 있어
 외장 튜너와 실내용 TV 안테나를 사용해 보기로 했습니다.
 
+![20241226_tv_antena_800.jpg](https://homin.dev/asset/blog/img/20241226_tv_antena_800.jpg)
+
 예전에는 PC의 PCI 슬롯에 꼳아 사용하는 TV튜너 제품들이 있었는데
 PC를 잘 켜지도 않고 로컬 네트워크의 아무 장치에서나 방송을 볼 수 없었죠.
 
@@ -19,12 +21,12 @@ PC가 필요없는, 독립 장치인 튜너로 전용앱을 사용해 TV를 시�
 
 안테나를 잘 맞추니 전용앱으로 핸드폰과 랩탑에서 TV를 볼 수 있기는 했는데
 [EPG](https://namu.wiki/w/%EC%A0%84%EC%9E%90%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%95%88%EB%82%B4)가 현재 방송과 다른 엉뚱한게 나오더라고요.
-불편해서 찾아보니 [TVheadend](https://tvheadend.org/)라는 서버를 사용하면 한국의 EPG를 적용할 수 있고
+불편해서 찾아보니 [Tvheadend](https://tvheadend.org/)라는 서버를 사용하면 한국의 EPG를 적용할 수 있고
 덤으로 방송 녹화도 가능하다는 것을 알게 되었습니다.
 
 ![tv_recording_system_800.jpg](https://homin.dev/asset/blog/img/tv_recording_system_800.jpg)
 
-OpenMediaVault로 운영중인 NAS에 TVHeadend 를 설치하고 OTA EPG를 받아봤는데 뭔가 제대로 한국 EPG를 받아오는 것 같지만
+OpenMediaVault로 운영중인 NAS에 Tvheadend 를 설치하고 OTA EPG를 받아봤는데 뭔가 제대로 한국 EPG를 받아오는 것 같지만
 갱신 속도가 굉장히 느리고, 튜너가 자꾸만 lock에 걸려 풀리지 않는 문제가 있었습니다.
 
 HDHomerun에는 XMVTV 형식의 EPG을 불러오는 기능이 있었고, 한국의 웹 EPG 제공업체들에서 정보를 가져와 이 형식에 바꿔 주는 프로젝트,
@@ -33,7 +35,7 @@ HDHomerun에는 XMVTV 형식의 EPG을 불러오는 기능이 있었고, 한국�
 > README 를 따라서 설정파일을 수동으로 편집해 실행해 보면서 `xmltv.xml` 를 생성하려면 `Channels.json` 에서 `epg2xml.json` 으로 
 > 채널 목록을 선택해서 수동으로 복사/붙여넣기를 해야 합니다.
 
-TVHeadend에 이 프로그램을 포함해 빌드한 **이치로님 이미지**라고 불리우는 도커이미지 [wiserain/tvheadend](https://hub.docker.com/r/wiserain/tvheadend)
+Tvheadend에 이 프로그램을 포함해 빌드한 **이치로님 이미지**라고 불리우는 도커이미지 [wiserain/tvheadend](https://hub.docker.com/r/wiserain/tvheadend)
 를 많이들 사용하시더라고요.
 
 > 이치로님 이미지의 설명에는 한국어로 Tvheadend의 자세한 설정 노하우가 있기 때문에 도움이 많이 되었습니다.
@@ -66,7 +68,7 @@ ko-epggrab -pc NAVER:지상파 -nf KBS,MBC,SBC
 
 생성된 `xmltv.xml` 는 마운트한 디렉터리인 `./epg2xml_conf` 아래에서 확인해 볼 수 있습니다.
 
-TVheadend에 생성한 `xmltv.xml` 을 unix domain socket 으로 쏴 주는 역활도 합니다.
+Tvheadend에 생성한 `xmltv.xml` 을 unix domain socket 으로 쏴 주는 역활도 합니다.
 자세한 내용은 [README](https://github.com/suapapa/ko-epggrab/blob/main/README.md)를 참조.
 
 ----

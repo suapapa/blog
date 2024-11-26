@@ -12,10 +12,3 @@ params:
   author: Homin Lee
   description: Arbitrary hacking logs
   enableRobotsTXT: true
-  # ananke_socials:
-  #   - name: facebook
-  #     label: Facebook
-  #   - name: twitter
-  #     label: Twitter
-  #   - name: linkedin
-  #     label: LinkedIn

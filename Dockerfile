@@ -1,4 +1,4 @@
-FROM hugomods/hugo:exts AS builder
+FROM razonyang/hugo:latest AS builder
 
 # RUN git clone https://github.com/gohugoio/hugo.git
 # RUN cd hugo && go install --tags extended

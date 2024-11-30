@@ -58,7 +58,7 @@ epg2xml이 생성하는 `Channels.json` 을 EPG 프로바이더와 카테고리 
 
 ```sh
 docker pull suapapa/ko-epggrab:latest
-alias ko-epggrab="docker run -it --rm -v $(pwd)/epg2xml_conf:/conf ko-epggrab:latest"
+alias ko-epggrab="docker run -it --rm -v $(pwd)/epg2xml_conf:/conf -v $(pwd)/epggrab:/epggrab  ko-epggrab:latest"
 ko-epggrab -fc
 ```
 
@@ -67,7 +67,8 @@ ko-epggrab -fc
 ko-epggrab -pc NAVER:지상파 -nf KBS,MBC,SBC
 ```
 
-생성된 `xmltv.xml` 는 마운트한 디렉터리인 `./epg2xml_conf` 아래에서 확인해 볼 수 있습니다.
+epg2xml 이 생성한 설정파일들은 마운트한 디렉터리, `./epg2xml` 에서,
+최종 생성된 `xmltv.xml` 는 마운트한 디렉터리인 `./epggrab` 아래에서 확인해 볼 수 있습니다.
 
 Tvheadend에 생성한 `xmltv.xml` 을 unix domain socket 으로 쏴 주는 역활도 합니다.
 자세한 내용은 [README](https://github.com/suapapa/ko-epggrab/blob/main/README.md)를 참조.

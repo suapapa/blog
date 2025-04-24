@@ -5,10 +5,13 @@ copyright: Homin Lee &lt;ff4500@gmail.com&gt;; All rights reserved
 languageCode: ko
 title: Homin Lee's blog
 theme:
-  - github.com/theNewDynamic/gohugo-theme-ananke
+  - PaperMod
+  # - github.com/theNewDynamic/gohugo-theme-ananke
 taxonomies:
   tag: tags
 params:
   author: Homin Lee
   description: Arbitrary hacking logs
   enableRobotsTXT: true
+ignoreLogs:
+  - warning-goldmark-raw-html

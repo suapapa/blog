@@ -1,4 +1,4 @@
-FROM razonyang/hugo:latest AS builder
+FROM hugomods/hugo:0.146.7 AS builder
 
 # RUN git clone https://github.com/gohugoio/hugo.git
 # RUN cd hugo && go install --tags extended
@@ -6,11 +6,13 @@ FROM razonyang/hugo:latest AS builder
 WORKDIR /src
 ENV HUGO_ENV=production
 COPY . .
-RUN hugo --minify
+# RUN hugo --minify
+RUN hugo
 
 # ---
 
-FROM halverneus/static-file-server:v1.8.10
+# FROM halverneus/static-file-server:v1.8.10
+FROM halverneus/static-file-server:latest
 COPY --from=builder /src/public/ /public/
 
 ENV URL_PREFIX=/blog

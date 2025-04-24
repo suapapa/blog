@@ -13,7 +13,7 @@ Upload image to bucket:
 
 Create new post:
 ```sh
-hugo new post/new_topic_title.md
+hugo new post/20250425_genai_lotto_tg_bot.md
 ```
 
 Test run:

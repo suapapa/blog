@@ -13,5 +13,10 @@ params:
   author: Homin Lee
   description: Arbitrary hacking logs
   enableRobotsTXT: true
+  assets:
+    favicon: https://homin.dev/asset/favicon/favicon.ico
+    favicon16x16: https://homin.dev/asset/favicon/favicon-16x16.png
+    favicon32x32: https://homin.dev/asset/favicon/favicon-32x32.png
+    apple_touch_icon: https://homin.dev/asset/favicon/apple-touch-icon.png
 ignoreLogs:
   - warning-goldmark-raw-html

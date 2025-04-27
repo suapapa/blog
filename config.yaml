@@ -7,16 +7,55 @@ title: Homin Lee's blog
 theme:
   - PaperMod
   # - github.com/theNewDynamic/gohugo-theme-ananke
+
+# pagenation:
+#   paperSize: 5
+
 taxonomies:
   tag: tags
+
+# minify:
+#   disableXML: true
+#   minifyOutput: true
+
 params:
   author: Homin Lee
+  title: Homin Lee's blog
   description: Arbitrary hacking logs
   enableRobotsTXT: true
+  showtoc: true
+  tocopen: false  
+  # UseHugoToc: true
   assets:
     favicon: https://homin.dev/asset/favicon/favicon.ico
     favicon16x16: https://homin.dev/asset/favicon/favicon-16x16.png
     favicon32x32: https://homin.dev/asset/favicon/favicon-32x32.png
     apple_touch_icon: https://homin.dev/asset/favicon/apple-touch-icon.png
-ignoreLogs:
-  - warning-goldmark-raw-html
+  analytics:
+    google:
+      SiteVerificationTag: "GTM-TDBD9KS9"
+  # socialIcons:
+  #   - name: x
+  #     url: "https://x.com/"
+  #   - name: stackoverflow
+  #     url: "https://stackoverflow.com"
+  #   - name: github
+  #     url: "https://github.com/"
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: homin.dev
+      name: homin.dev
+      url: https://homin.dev
+      weight: 30
+
+# ignoreLogs:
+#   - warning-goldmark-raw-html

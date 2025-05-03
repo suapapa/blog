@@ -1,8 +1,8 @@
-+++
-date = "2017-06-01T19:30:35+09:00"
-title = "mosquitto로 MQTT 맛 보기"
+---
+date:  "2017-06-01T19:30:35+09:00"
+title:  "mosquitto로 MQTT 맛 보기"
 
-+++
+---
 
 [Mosquitto](https://mosquitto.org/)를 이용해 `MQTT` 프로토콜을
 사용해 보겠습니다. 우분투 기준으로 다음의 두 패키지를 설치 합니다.

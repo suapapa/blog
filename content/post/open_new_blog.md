@@ -1,8 +1,8 @@
-+++
-date = "2015-12-08T21:30:15+09:00"
-title = "New blog with HUGO"
+---
+date:  "2015-12-08T21:30:15+09:00"
+title:  "New blog with HUGO"
 
-+++
+---
 
 블로그 다시 시작 합니다.
 

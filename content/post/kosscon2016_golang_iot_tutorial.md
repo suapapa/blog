@@ -1,8 +1,8 @@
-+++
-date = "2016-11-10T13:20:18+09:00"
-title = "KOSSCON2016: Go IoT programming"
+---
+date:  "2016-11-10T13:20:18+09:00"
+title:  "KOSSCON2016: Go IoT programming"
 
-+++
+---
 
 ## Goal
 

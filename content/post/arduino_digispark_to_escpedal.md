@@ -1,8 +1,8 @@
-+++
-date = "2017-04-06T15:17:30+09:00"
-title = "Digispark 보드로 ESC 페달 만들기"
+---
+date:  "2017-04-06T15:17:30+09:00"
+title:  "Digispark 보드로 ESC 페달 만들기"
 
-+++
+---
 
 'Digispark USB Development Board'는 Attiny85칩을 기반으로 한
 아두이노 호환 보드 입니다. 

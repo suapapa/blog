@@ -1,9 +1,9 @@
-+++
-date = "2016-01-04T20:31:56+09:00"
-title = "라즈베리파이에서 전자잉크 패널 사용하기 (part 2)"
-draft = true
+---
+date:  "2016-01-04T20:31:56+09:00"
+title:  "라즈베리파이에서 전자잉크 패널 사용하기 (part 2)"
+draft:  true
 
-+++
+---
 
 https://www.crowdsupply.com/soniktech/e-paper-shield-kit
 

@@ -67,7 +67,17 @@ LLM 서비스에는 NLP 의 임베딩이라는 기술이 사용됩니다.
 사용자의 웹브라우져와 이 로컬 PC를 연동하기 위해서 이 사이트를 호스팅 하고 있는 k8s 클러스터에
 메시지를 상호 전달하는 릴리이를 하나 두었습니다.
 
-![img-03](https://homin.dev/asset/blog/img/markmind_dataflow.jpeg.webp)
+![img-03](https://homin.dev/asset/blog/img/blgumbot_dataflow.jpeg.webp)
+
+0. 로컬서버가 웹소켓으로 클라우드의 relay에 접속해 둠
+1. 사용자 채팅 입력
+2. 로컬서버로 채팅 전달
+3. 사용자가 뭘 원하는지 LLM으로 발굴
+4. 발굴된 키워드의 임베딩으로 벡터스토어 검색
+5. 인덱싱 된 블로그 포스팅 정보 획득
+6. 채팅의 응답을 틀라우드의 relay에 반환
+7. 사용자에게 응답
+
 
 > 돈이 부족하면 머리가 고생한다.
 

@@ -22,7 +22,7 @@ tags:
 
 HW흐름제어는 시리얼 포트의 RTS/CTS 를 추가로 사용하여 흐름제어를 한다는 것으로, 그러고 보니 FT232RL에도 이 이름의 두 핀이 있었지만 연결되지 않은 상태였죠. 비싼 FT232RL을 다시 사느니 이 기회에 MAX232칩을 써 보고 싶어 MAX232 breakout을 만들어 봤습니다.
 
-![](https://homin.dev/asset/blog/image/MAX232CSE_breakout_t.jpg)
+![](https://asset.homin.dev/blog/image/MAX232CSE_breakout_t.jpg)
 
   * [**회로도 & 아트워크 (EagleCad) 다운로드**][1]
 
@@ -38,7 +38,7 @@ MAX232에는 입력 전위변환 2채널 출력 전위변환 2채널이 있고, 
 
 여기서 사용한 MAX232cse는 1uF의 캐패시터들이 사용되며 smd 패키징입니다.
 
-![](https://homin.dev/asset/blog/image/MAX232CSE_breakout_b.jpg)
+![](https://asset.homin.dev/blog/image/MAX232CSE_breakout_b.jpg)
 
 이렇게 뒷면에 들어갔습니다. SMD패키징이지만 다리의 사이가 좁지 않아 SMD를 처음 접하는 용도로도 유용합니다.
 
@@ -54,7 +54,7 @@ PuTTY는 윈도용 표준 SSH 클라이언트 입니다. 자유소프트웨어 �
 
 PuTTY에서 시리얼 하드웨어 흐름제어를 설정하려면 다음 이미지 처럼 "RTS/CTS"를 선택하면 됩니다.
 
-![](https://homin.dev/asset/blog/image/putty_serial_HW_flow_control.png)
+![](https://asset.homin.dev/blog/image/putty_serial_HW_flow_control.png)
 
 > **자~ 여기까지 모두 훼이크고!!!!  
 >** 
@@ -66,5 +66,5 @@ PuTTY에서 시리얼 하드웨어 흐름제어를 설정하려면 다음 이미
 그럼, 방법은 다음 포스트에서&#8230;
 
  [1]: https://homin.dev/svn/HW/breakout/max232_breakout
- [2]: https://homin.dev/asset/blog/2008/07/arduinobk_sketch_loading.jpg
+ [2]: https://asset.homin.dev/blog/2008/07/arduinobk_sketch_loading.jpg
  [3]: http://www.chiark.greenend.org.uk/~sgtatham/putty/

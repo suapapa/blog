@@ -81,7 +81,7 @@ description: ""
 
 > 이만용 님이 SF에서 얻어오신 고퍼 인형 중 한 마리는 저희 집에 잘 있습니다.
 
-![gopher_figure.jpg](https://homin.dev/asset/blog/img/gopher_figure.jpg)
+![gopher_figure.jpg](https://asset.homin.dev/blog/img/gopher_figure.jpg)
 
 그러다 보니, 모임의 공동 운영을 제안받아서, 또 합류하신 김재훈 님과 같이 세 명이 같이 운영했습니다.
 처음에는 개업 발이 있어서 사람들이 제법 모였었는데 금방 언어에 익숙해지고 (Go 언어는 정말 쉬워요),
@@ -109,7 +109,7 @@ Go 언어를 쓸 수 있는 직장을 사방팔방 알아봤는데, 당시에는
 
 갈증이 심해져, 2016년 사비 털어서 덴버에서 열렸던 고퍼콘에 갔습니다.
 
-![2016_gophercon_denver.jpg](https://homin.dev/asset/blog/img/2016_gophercon_denver.jpg)
+![2016_gophercon_denver.jpg](https://asset.homin.dev/blog/img/2016_gophercon_denver.jpg)
 
 가 보니까, 사비 털어서 해외 콘퍼런스에 온 미친놈은 저밖에 없는 것 같더군요,
 다른 사람들은 모두 Go 가 직업이라, 혹은 직업에 연관되어, 회사 지원으로 왔더군요. 부러웠습니다.

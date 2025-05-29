@@ -6,7 +6,7 @@ featured_image: ""
 description: ""
 # draft: true
 ---
-![img-00](https://homin.dev/asset/blog/img/gopher_prey_4_lotto.webp)
+![img-00](https://asset.homin.dev/blog/img/gopher_prey_4_lotto.webp)
 
 > 프리미엄하게 로또 번호를 예측한다는 게 무엇일까요?
 
@@ -34,7 +34,7 @@ sort.Ints(numbers) // 보기 좋게 순서대로 정렬
 
 메신져로 예측 번호를 보낼 수 있게 텔레그램 봇 기능도 추가하였습니다.
 
-![img-01](https://homin.dev/asset/blog/img/kimjumji_bot_rc.webp)
+![img-01](https://asset.homin.dev/blog/img/kimjumji_bot_rc.webp)
 
 당첨을 바라는 간절한 마음에 비해 싱겁게 구현이 되어 버리네요.
 이렇게 성의없이 당첨이 될까요?
@@ -90,10 +90,10 @@ user: |
 
 여러분도 텔레그램에서 자유롭게 김점지 봇과 대화해 볼 수 있습니다.
 
-![img-01](https://homin.dev/asset/blog/img/kimjumji_bot_id.webp)
+![img-01](https://asset.homin.dev/blog/img/kimjumji_bot_id.webp)
 
 ## 그래서 사요?
-![img-02](https://homin.dev/asset/blog/img/lotto645_manual_choice.HEIC.webp)
+![img-02](https://asset.homin.dev/blog/img/lotto645_manual_choice.HEIC.webp)
 
 꿍짝짝, 꿍짝짝:
 &nbsp;
@@ -102,7 +102,7 @@ user: |
 
 &nbsp;
 
-![img-03](https://homin.dev/asset/blog/img/IMG_4112.HEIC.webp)
+![img-03](https://asset.homin.dev/blog/img/IMG_4112.HEIC.webp)
 
 > “I guess I think of lotteries as a tax on the mathematically challenged.”
 >

@@ -32,7 +32,7 @@ description: ""
 당시 RPM 패키지는 의존성을 수동으로 설치해야 하던 반면에, 데비안의 경우 인터넷에서 의존성 패키지를 가져와
 설치되는 편리함에 매료되어 곧 데비안 리눅스로 정착했습니다.
 
-![debian_kr.jpg](https://homin.dev/asset/blog/img/debian_kr.jpg)
+![debian_kr.jpg](https://asset.homin.dev/blog/img/debian_kr.jpg)
 
 
 한동안은 윈도와 리눅스 멀티 부팅으로 사용하다가 (주로, 게임하러, 윈도를 썼다는 이야기),
@@ -72,7 +72,7 @@ PC에서 윈도우를 완전히 삭제했습니다.
 
 마침 데비안 패키지 (DEB)를 기반으로 "Ubuntu Linux" 가 나와서 그걸 쓰기 시작했습니다.
 
-![ubuntu_disto_cd.jpg](https://homin.dev/asset/blog/img/ubuntu_disto_cd.jpg)
+![ubuntu_disto_cd.jpg](https://asset.homin.dev/blog/img/ubuntu_disto_cd.jpg)
 
 직장에서 개발용 OS로는 윈도를 쓸 수 밖에 없었는데
 개발자용 OS의 정수인 리눅스를 사용해 본 입장에서 많이 불편했어요.

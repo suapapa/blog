@@ -10,7 +10,7 @@ tag: [golang,llm,rag,genkit,webchat]
 이 포스팅에서는 최소한의 비용으로 사이트의 오른쪽 밑에 보이는 웹쳇 위젯에 검색기능을 붙인 내용을 소개합니다.
 (사이트 내의 모든 페이지, 이 포스팅의 우 하단에도, 에서 바로 사용해 볼 수 있습니다.)
 
-![img-00](https://homin.dev/asset/blog/img/blgumbot_in_action.png.webp)
+![img-00](https://asset.homin.dev/blog/img/blgumbot_in_action.png.webp)
 
 
 ## LLM의 한계
@@ -18,11 +18,11 @@ tag: [golang,llm,rag,genkit,webchat]
 LLM은 "인터넷 전체"를 암기하고 있는 똑똑이 같습니다. 하지만 인터넷에서 쉽게 찾을 수 없는 질문을 물어보면
 똑똑하게 거짓말을 하기 시작합니다. 아래 예제에서는 SLM인 Gemma3 를 사용했지만 메이져 회사들의 최신 LLM에서도 마찬가지 입니다.
 
-![img-01](https://homin.dev/asset/blog/img/llm_is_stupid.png.webp)
+![img-01](https://asset.homin.dev/blog/img/llm_is_stupid.png.webp)
 
 사실 희동이는 고길동의 조카입니다. 그걸 알려주면 LLM은 다시 똑똑해 질 수 있습니다.
 
-![img-02](https://homin.dev/asset/blog/img/teach_llm.png.webp)
+![img-02](https://asset.homin.dev/blog/img/teach_llm.png.webp)
 
 
 ## Retrieval-Augmented Generation (RAG) 를 사용한 블검봇의 동작 원리
@@ -67,7 +67,7 @@ LLM 서비스에는 NLP 의 임베딩이라는 기술이 사용됩니다.
 사용자의 웹브라우져와 이 로컬 PC를 연동하기 위해서 이 사이트를 호스팅 하고 있는 k8s 클러스터에
 메시지를 상호 전달하는 릴리이를 하나 두었습니다.
 
-![img-03](https://homin.dev/asset/blog/img/blgumbot_dataflow.jpeg.webp)
+![img-03](https://asset.homin.dev/blog/img/blgumbot_dataflow.jpeg.webp)
 
 0. 로컬서버가 웹소켓으로 클라우드의 relay에 접속해 둠
 1. 사용자 채팅 입력

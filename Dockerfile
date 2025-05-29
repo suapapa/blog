@@ -6,6 +6,7 @@ FROM hugomods/hugo:0.146.7 AS builder
 WORKDIR /src
 ENV HUGO_ENV=production
 COPY . .
+RUN rm -rf public
 # RUN hugo --minify
 RUN hugo
 

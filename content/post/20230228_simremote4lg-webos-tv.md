@@ -37,7 +37,7 @@ TV내장 OTT앱들에서 5.1ch로 소리가 나간다는 것 입니다.
 
 그러다가... 모니터 하나를 박살내면서 거기에 딸려있던 막리모컨+IR수신부품을 얻게 되었습니다.
 
-![arduino-ir_receiver_800.jpg](https://homin.dev/asset/blog/img/arduino-ir_receiver_800.jpg)
+![arduino-ir_receiver_800.jpg](https://asset.homin.dev/blog/img/arduino-ir_receiver_800.jpg)
 
 [Arduino-IRRemote](https://github.com/Arduino-IRremote/Arduino-IRremote) 라이브러리가 꽤 좋아서,
 백만년동안 짱방혀 있던, 아두이노에서 리모컨키들을 수신할 수 있게 되었습니다.
@@ -45,7 +45,7 @@ TV내장 OTT앱들에서 5.1ch로 소리가 나간다는 것 입니다.
 
 다음과 같이 까먹기 전에 컨셉드로잉을 했습니다.
 
-![simremote_concept_800.jpg](https://homin.dev/asset/blog/img/simremote_concept_800.jpg)
+![simremote_concept_800.jpg](https://asset.homin.dev/blog/img/simremote_concept_800.jpg)
 
 ---
 

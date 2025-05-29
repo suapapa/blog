@@ -18,7 +18,7 @@ toc: true
 매년, '한글시계 완성해야지!', '어? 한글날 지났네? 내년에 해야지!'을 반복하다 보니 11년이 넘어 버렸어요.
 하지만 올해에는 완성했습니다. 뚜 둥 탁!
 
-![hangulclock_2022.jpg](https://homin.dev/asset/blog/img/hangulclock_2022.jpg)
+![hangulclock_2022.jpg](https://asset.homin.dev/blog/img/hangulclock_2022.jpg)
 
 ## 무엇이 문제였나?
 
@@ -47,7 +47,7 @@ toc: true
 5V TTL을 사용하는 아두이노와 달리 최근의 SBC 들은 3V3 CMOS로 통신하므로, LED 매트릭스 드라이버인 MAX7219를
 바로 연결하면 안 됩니다. I/O 레벨 컨버터 모듈을 중간에 끼워 전선을 연결했습니다. 다음과 같이 준비했습니다:
 
-![hangulclock_connect_with_opi.jpg](https://homin.dev/asset/blog/img/hangulclock_connect_with_opi.jpg)
+![hangulclock_connect_with_opi.jpg](https://asset.homin.dev/blog/img/hangulclock_connect_with_opi.jpg)
 
 ## 프로그래밍
 

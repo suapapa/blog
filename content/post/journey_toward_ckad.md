@@ -6,7 +6,7 @@ title:  "CKAD, 쿠버네티스 어플리케이션 개발자 자격증 합격 후
 
 2020년 12월 23일에 본 시험을 보고 -산타할아버지가 준 선물 처럼- 크리스마스 새벽에 합격 통지를 받았습니다.
 
-![](https://homin.dev/asset/blog/img/ckad_hominlee.png)
+![](https://asset.homin.dev/blog/img/ckad_hominlee.png)
 * [CKAD: Certified Kubernetes Application Developer](https://www.youracclaim.com/badges/27add032-b7d4-4a93-93f4-ee5d5b0b4985/public_url)
 
 ----

@@ -24,9 +24,9 @@ MicroSoftware 7월호의 안윤호님의 기사 "Arduino 시스템 만들기"에
 
 
 
-![](https://homin.dev/asset/blog/2008/07/suapapablog_in_maso_01.jpg")
+![](https://asset.homin.dev/blog/2008/07/suapapablog_in_maso_01.jpg")
 
-![](https://homin.dev/asset/blog/2008/07/suapapablog_in_maso_02.jpg")
+![](https://asset.homin.dev/blog/2008/07/suapapablog_in_maso_02.jpg")
 
 > suapa가 아니라 suapapa 입니다만.
 

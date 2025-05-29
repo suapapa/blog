@@ -32,4 +32,4 @@ webalizer를 실행해 보면 문구들이 한글로 잘 나오는게 보입니�
 우왕ㅋ굳ㅋ
 
  [1]: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=461176
- [2]: https://homin.dev/asset/blog/2008/01/webalizer.zip "webalizer.zip"
+ [2]: https://asset.homin.dev/blog/2008/01/webalizer.zip "webalizer.zip"

@@ -27,10 +27,10 @@ params:
   tocopen: false  
   # UseHugoToc: true
   assets:
-    favicon: https://homin.dev/asset/favicon/favicon.ico
-    favicon16x16: https://homin.dev/asset/favicon/favicon-16x16.png
-    favicon32x32: https://homin.dev/asset/favicon/favicon-32x32.png
-    apple_touch_icon: https://homin.dev/asset/favicon/apple-touch-icon.png
+    favicon: https://asset.homin.dev/favicon/favicon.ico
+    favicon16x16: https://asset.homin.dev/favicon/favicon-16x16.png
+    favicon32x32: https://asset.homin.dev/favicon/favicon-32x32.png
+    apple_touch_icon: https://asset.homin.dev/favicon/apple-touch-icon.png
   analytics:
     google:
       SiteVerificationTag: "GTM-TDBD9KS9"

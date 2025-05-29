@@ -32,7 +32,7 @@ PWM을 사용하면 전압/전류의 조정 없이 끄고 켜는 주기를 조�
 
 Arduino S3V3에도 아래의 그림과 같이 표시되어 있습니다.
 
-![](https://homin.dev/asset/blog/2008/08/arduino_pwm_pin.png)
+![](https://asset.homin.dev/blog/2008/08/arduino_pwm_pin.png)
 
 PWM에 대해서는 아래의 링크한 기사 중**디지털 제어**부분에 그림과 함께 쉽게 설명되어 있습니다.
 
@@ -46,11 +46,11 @@ PWM에 대해서는 아래의 링크한 기사 중**디지털 제어**부분에 
   백라이트를 깜박이기 위해 아래와 회로도와 같이 스위칭 회로(위)와 적절한 PWM 입력 값을 알아내기 위해 가변 저항(아래)를 추가합니다.
 </p>
 
-![](https://homin.dev/asset/blog/2008/08/clcd_backlight_pwm.png)
+![](https://asset.homin.dev/blog/2008/08/clcd_backlight_pwm.png)
 
 > 스위칭 회로에 사용한 부품들은 모두 Arduino S3V3 조립 후 남은 것 입니다 🙂
 
-![](https://homin.dev/asset/blog/2008/08/hy1602_blight_pwm_ctrl.jpg)
+![](https://asset.homin.dev/blog/2008/08/hy1602_blight_pwm_ctrl.jpg)
 
 > 팡판에 테스트
 

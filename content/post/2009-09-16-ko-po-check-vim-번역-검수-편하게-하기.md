@@ -88,7 +88,7 @@ ko-po-check는 위 과정의 3번과 4번 사이에 잘못된 번역이 없는�
 
 > [**:help quickfix**][4] 하셔서 **:cope** 등의 명령어도 찾아 보세요.
 
-![](https://homin.dev/asset/blog/image/kpc_quickfix.png)
+![](https://asset.homin.dev/blog/image/kpc_quickfix.png)
 
 많이 편해 졌지만, 아직도 ko-po-check을 실행하기 위해 vim을 들락날락 해야하는 단순반복작업이 남아있죠.
 

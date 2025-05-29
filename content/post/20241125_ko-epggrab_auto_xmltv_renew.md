@@ -9,7 +9,7 @@ description: ""
 집의 공청 안테나 단자로 지상파 일부 채널이 나오지 않는 문제가 있어
 외장 튜너와 실내용 TV 안테나를 사용해 보기로 했습니다.
 
-![20241226_tv_antena_800.jpg](https://homin.dev/asset/blog/img/20241226_tv_antena_800.jpg)
+![20241226_tv_antena_800.jpg](https://asset.homin.dev/blog/img/20241226_tv_antena_800.jpg)
 
 예전에는 PC의 PCI 슬롯에 꼳아 사용하는 TV튜너 제품들이 있었는데
 PC를 잘 켜지도 않고 로컬 네트워크의 아무 장치에서나 방송을 볼 수 없었죠.
@@ -25,7 +25,7 @@ PC가 필요없는, 독립 장치인 튜너로 전용앱을 사용해 TV를 시�
 불편해서 찾아보니 [Tvheadend](https://tvheadend.org/)라는 서버를 사용하면 한국의 EPG를 적용할 수 있고
 덤으로 방송 녹화도 가능하다는 것을 알게 되었습니다.
 
-![tv_recording_system_800.jpg](https://homin.dev/asset/blog/img/tv_recording_system_800.jpg)
+![tv_recording_system_800.jpg](https://asset.homin.dev/blog/img/tv_recording_system_800.jpg)
 
 OpenMediaVault로 운영중인 NAS에 Tvheadend 를 설치하고 OTA EPG를 받아봤는데 뭔가 제대로 한국 EPG를 받아오는 것 같지만
 갱신 속도가 굉장히 느리고, 튜너가 자꾸만 lock에 걸려 풀리지 않는 문제가 있었습니다.
@@ -117,6 +117,6 @@ services:
 
 결과:
 
-![20241126_tvheadend_ko_epg.png](https://homin.dev/asset/blog/img/20241126_tvheadend_ko_epg.png)
+![20241126_tvheadend_ko_epg.png](https://asset.homin.dev/blog/img/20241126_tvheadend_ko_epg.png)
 
 편안~

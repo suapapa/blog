@@ -25,7 +25,7 @@ tags:
 
 그 시작으로 **NydusSshCanal**을 소개합니다.
 
-![](https://homin.dev/asset/blog/2008/03/nyduscanal.png)
+![](https://asset.homin.dev/blog/2008/03/nyduscanal.png)
 
 
 
@@ -80,7 +80,7 @@ _sshFowardList = [\
 
 아래는 우분투에서의 스크린 샷 입니다.
 
-![](https://homin.dev/asset/blog/2008/03/screenshot.png)
+![](https://asset.homin.dev/blog/2008/03/screenshot.png)
 
 이제 빅브라더 몰래 <strike>저그링떼를..</strike> 미지의 세상으로 나갈 준비가 완료되었습니다. ㄱㄱㅅ~
 

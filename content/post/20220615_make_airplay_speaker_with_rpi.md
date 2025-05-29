@@ -14,7 +14,7 @@ tags:
 
 Google Chromecast는 다음과 같이 동작:
 
-![IMG_EA6D74043585-1.jpeg](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/IMG_EA6D74043585-1.jpeg)
+![IMG_EA6D74043585-1.jpeg](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/IMG_EA6D74043585-1.jpeg)
 
 1. 단말에서 스트리밍 서비스의 재생할 노래 선택
 2. 크롬캐스트로 재생 정보 (스트리밍 주소 포함) 전달
@@ -24,7 +24,7 @@ Google Chromecast는 다음과 같이 동작:
 
 Airplay는 다음과 같이 동작:
 
-![IMG_FFC9C034692F-1.jpeg](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/IMG_FFC9C034692F-1.jpeg)
+![IMG_FFC9C034692F-1.jpeg](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/IMG_FFC9C034692F-1.jpeg)
 
 1. 단말에서 스트리밍 서비스의 재생할 노래 선택
 2. 단말로 미디어 스트리밍
@@ -52,7 +52,7 @@ SBC(RPi 등)으로 Airplay 스피커를 만드는 방법을 검색하면 프로�
 - 운영체제 → Raspberry Pi OS (other) → Raspberry Pi OS Lite (32-bit)
 - 우하단 톱니바퀴에서 아래 설정 참고하여 설정
 
-![스크린샷 2022-05-31 오후 10.44.28.png](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/20220531-104428.png)
+![스크린샷 2022-05-31 오후 10.44.28.png](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/20220531-104428.png)
 
 다른 SBC는 Armbian 설치 권장.
 
@@ -62,7 +62,7 @@ SBC(RPi 등)으로 Airplay 스피커를 만드는 방법을 검색하면 프로�
 
 - 설정→네트워크→고급→DNS→도메인 검색→`.local` 추가
 
-![스크린샷 2022-05-31 오후 10.28.41.png](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/20220531-102841.png)
+![스크린샷 2022-05-31 오후 10.28.41.png](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/20220531-102841.png)
 
 다음과 같이 접속 가능
 
@@ -136,17 +136,17 @@ $ docker run \
 
 ## 데모
 
-![IMG_3CF213B9E4DE-1.jpeg](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/IMG_3CF213B9E4DE-1.jpeg)
+![IMG_3CF213B9E4DE-1.jpeg](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/IMG_3CF213B9E4DE-1.jpeg)
 
 ## 참고
 
 SBC + DAC 제품 예 (RPi 4 + DAC Hat + Case)
 
-![스크린샷 2022-06-03 오전 8.34.49.png](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/20220603-083449.png)
+![스크린샷 2022-06-03 오전 8.34.49.png](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/20220603-083449.png)
 
 설치 예 (USB-DAC 사용)
 
-![wiring.jpg](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/wiring.jpg)
+![wiring.jpg](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/wiring.jpg)
 
 Shirport Sync 유사 프로젝트들:
 
@@ -161,6 +161,6 @@ Shirport Sync 유사 프로젝트들:
 
 대안인 크롬캐스트 오디오 2022년 6월 현재 가격
 
-![스크린샷 2022-06-03 오전 8.41.02.png](https://homin.dev/asset/blog/img/20220615_make_airplay_speaker_with_rpi/20220603-084102.png)
+![스크린샷 2022-06-03 오전 8.41.02.png](https://asset.homin.dev/blog/img/20220615_make_airplay_speaker_with_rpi/20220603-084102.png)
 
 이거 사자.

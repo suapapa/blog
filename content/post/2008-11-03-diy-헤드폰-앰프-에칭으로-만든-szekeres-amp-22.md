@@ -17,7 +17,7 @@ tags:
 ---
 [지난 포스팅][1]으로 부터 이어 갑니다.
 
-[![](https://homin.dev/asset/blog/2008/11/szekeresamp_all.png)](https://homin.dev/svn/HW/SzekeresAmp)
+[![](https://asset.homin.dev/blog/2008/11/szekeresamp_all.png)](https://homin.dev/svn/HW/SzekeresAmp)
 
 [하스에 소개](http://www.headphoneamp.co.kr/bbs/zboard.php?id=diy_member_new&#038;page=1&#038;sn1=&#038;divpage=1&#038;sn=off&#038;ss=on&#038;sc=on&#038;select_arrange=headnum&#038;desc=asc&#038;no=2234)하기 위해, 성에 차지 않는 부분을 모두 수정 했습니다.
 
@@ -70,9 +70,9 @@ tags:
 
 **제작 이미지:**
 
-![](https://homin.dev/asset/blog/2008/11/szekeres_front.jpg)
+![](https://asset.homin.dev/blog/2008/11/szekeres_front.jpg)
 
-![](https://homin.dev/asset/blog/2008/11/szekeres_rear.jpg)
+![](https://asset.homin.dev/blog/2008/11/szekeres_rear.jpg)
 
  [1]: https://homin.dev/blog/p=107&language=ko
  [2]: http://www.headphoneamp.co.kr/bbs/zboard.php?id=diy_member_new&page=1&sn1=&divpage=1&sn=off&ss=on&sc=on&select_arrange=headnum&desc=asc&no=2234

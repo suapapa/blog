@@ -71,7 +71,7 @@ chart.download('~/GirlsInClock.png')
 
 ```
 
-![](https://homin.dev/asset/blog/image/GirlsInClock.png)
+![](https://asset.homin.dev/blog/image/GirlsInClock.png)
 
 짜잔!  "너무 빤짝빤짝 눈이 부신" 그래프가 뚝딱하고 나왔어요.
 

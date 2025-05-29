@@ -89,4 +89,4 @@ MagickWriteImage(wand,”out.png”)
 </p>
 
  [1]: http://www.imagemagick.org/script/magick-wand.php
- [2]: https://homin.dev/asset/blog/2008/03/os_free.zip "os_free.zip"
+ [2]: https://asset.homin.dev/blog/2008/03/os_free.zip "os_free.zip"

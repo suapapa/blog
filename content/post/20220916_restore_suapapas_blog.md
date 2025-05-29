@@ -34,7 +34,7 @@ Suapapa's blog의 모든 내용(댓글 제외)는 지금 보고 계신 Homin Lee
 
 Blogger로 찾아가 보니 이 꼬라지더군요.
 
-![suapapas-blog_broken](https://homin.dev/asset/blog/img/suapapas-blog_broken.png)
+![suapapas-blog_broken](https://asset.homin.dev/blog/img/suapapas-blog_broken.png)
 
 > 구글이 무료 스토리지 정책을 철회하면서 이렇게 모든 사진이 깨졌던 것 같습니다.
 > 공짜가 다 그렇죠 뭐.
@@ -60,7 +60,7 @@ GCP에서는 [클라우드스토리지](https://cloud.google.com/storage)를 제
 2. 랜덤엑세스가 느리다 -> 사진이 팡팡 안 뜸.
 3. 클라우드 스토리지에서도 그 옵션을 켜는 걸 권하지 않음.
 
-그렇기 때문에, 해당 버킷에 접근하기 위한 API서버를 만들어서 `https://homin.dev/asset/*`
+그렇기 때문에, 해당 버킷에 접근하기 위한 API서버를 만들어서 `https://asset.homin.dev/*`
 로 접근하기로 했습니다.
 
 이걸 하기 위해서는 해당 앱의 컨테이너 내부에서 클라우드 스토리지를 마운트해야하는데,
@@ -99,7 +99,7 @@ replace github.com/gokyle/filecache => github.com/suapapa/filecache v0.0.2
 이 걸 사용해 457개의 사진 및 리소스를 이렇게 다시 온라인 성공 했습니다. 예)
 
 - 구 링크(404): http://www.suapapa.net/wordpress/wp-content/uploads/image/suapapa.jpg
-- 새 링크: https://homin.dev/asset/blog/image/suapapa.jpg
+- 새 링크: https://asset.homin.dev/blog/image/suapapa.jpg
 
 ## Blogger 링크 수정 시도 -> 실패
 
@@ -138,7 +138,7 @@ docker compose up
 
 Wordpress 가져오기로 가져와 보니... 짜잔! 살아났습니다! 댓글까지 다 살아있더라구요!!
 
-![suapapas-blog_wp_restore](https://homin.dev/asset/blog/img/suapapas-blog_wp_restore.png)
+![suapapas-blog_wp_restore](https://asset.homin.dev/blog/img/suapapas-blog_wp_restore.png)
 
 옛 추억을 떠 올리면서 테마도 바꿔보고, 사용하던 플러그인도 설치해 보고...
 그런데 `docker compose down` -> `up`을 해 보면 플러그인과 테마가 초기화 되네요?

@@ -29,5 +29,5 @@ if __name__ == '__main__':
                 u, b = f, os.path.basename(f)
             
             os.system(f'gsutil cp {u} gs://homin-dev_asset/blog/img/{b}')
-            print(f'use ![{b}](https://homin.dev/asset/blog/img/{b})')
+            print(f'use ![{b}](https://asset.homin.dev/blog/img/{b})')
     

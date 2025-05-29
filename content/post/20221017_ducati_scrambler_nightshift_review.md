@@ -7,7 +7,7 @@ tags:
 - review
 ---
 
-![nightshift_800.jpg](https://homin.dev/asset/blog/img/nightshift_800.jpg)
+![nightshift_800.jpg](https://asset.homin.dev/blog/img/nightshift_800.jpg)
 
 제가 두 번째 오토바이(이하 바이크)를 구매한 지 1년이 넘었고,
 운행 거리 또한 적산 5,000km를  넘겨 후기를 남깁니다.
@@ -30,7 +30,7 @@ tags:
 그럼 요목조목 살펴보며 팔불출처럼 자랑해 보겠습니다.
 
 ## 헤드램프
-![nightshift_light_800.jpg](https://homin.dev/asset/blog/img/nightshift_light_800.jpg)
+![nightshift_light_800.jpg](https://asset.homin.dev/blog/img/nightshift_light_800.jpg)
 
 평상시에는 LED로 은은하게, 밤에는 램프로 광량 좋게 들어옵니다.
 자동차처럼 밝기에 따라 자동으로 켜지는 게 신기해요.
@@ -38,14 +38,14 @@ tags:
 좌우 턴 시그널도 신통방통하게 자동으로 꺼집니다. (오토바이는 이게 기본이 아님)
 
 ## 시동 스위치 뭉치
-![nightshift_engine_switch_800.jpg](https://homin.dev/asset/blog/img/nightshift_engine_switch_800.jpg)
+![nightshift_engine_switch_800.jpg](https://asset.homin.dev/blog/img/nightshift_engine_switch_800.jpg)
 
 시동 버튼이 엔진 킬 스위치에 하나로 합쳐 있어서 밑으로 내리면 시동이 걸립니다.
 긴 신호대기 중에 엔진을 껐다가 다시 켤 때 (스크램블러는 공랭이라 뜨거워요) 이곳저곳의
 버튼을 조작하지 않고 하나의 스위치로 껏/켯을 할 수 있어 편해요.
 
 ## 속도계
-![nightshift_odo_cluster_800.jpg](https://homin.dev/asset/blog/img/nightshift_odo_cluster_800.jpg)
+![nightshift_odo_cluster_800.jpg](https://asset.homin.dev/blog/img/nightshift_odo_cluster_800.jpg)
 
 아나로그 속도계처럼 동그랗게 생긴 속도계는 사실 디지털로 많은 정보를 표시합니다.
 - 속도
@@ -64,7 +64,7 @@ tags:
 왜 더 큰 디스플레이를 쓰지 않을까요? 왜냐면, 이게 더 예쁘니까요.
 
 ## 번호판
-![nightshift_number_plate_800.jpg](https://homin.dev/asset/blog/img/nightshift_number_plate_800.jpg)
+![nightshift_number_plate_800.jpg](https://asset.homin.dev/blog/img/nightshift_number_plate_800.jpg)
 
 번호판이 뒷 바퀴쪽으로 내려와 있어서, 예뻐요.
 
@@ -74,27 +74,27 @@ tags:
 > 합리적인 선택을 하는 사람이라면 애초에 바이크 따위는 타지 않았겠죠.
 
 ## 핸들&사이드미러
-![nightshift_barend_mirror_800.jpg](https://homin.dev/asset/blog/img/nightshift_barend_mirror_800.jpg)
+![nightshift_barend_mirror_800.jpg](https://asset.homin.dev/blog/img/nightshift_barend_mirror_800.jpg)
 
 핸들은 기본 스크램블러보다 조금 낮은 일자형 바 형태입니다.
 
 사이드 미러도 다른 스크램블러와 달리 바엔드 미러로 기본 제공됩니다. 그래서 예뻐요.
 
 ## 안장
-![nightshift_led_turn_signal_800.jpg](https://homin.dev/asset/blog/img/nightshift_led_turn_signal_800.jpg)
+![nightshift_led_turn_signal_800.jpg](https://asset.homin.dev/blog/img/nightshift_led_turn_signal_800.jpg)
 
 최고의 튜닝인 텐덤을 편하게 제공하게 2인석까지 널찍하게 안장이 있습니다.
 그래서 짐을 올려서 싣기도 좋아요. [동영상](https://youtu.be/V7erhrvWyNE)
 
 ## 좌측면
-![nightshift_side_numplate_left_800.jpg](https://homin.dev/asset/blog/img/nightshift_side_numplate_left_800.jpg)
+![nightshift_side_numplate_left_800.jpg](https://asset.homin.dev/blog/img/nightshift_side_numplate_left_800.jpg)
 
 비어있는 옆면 번호판이 좌우에 있고 (위의 번호는 제가 스티커를 주문해 붙인 것), 
 좌측은 싱글 리어쇽을 위해 형상이 조금 달라요...
 짝짝이라 예뻐요.
 
 ## 우측면
-![nightshift_side_numplate_left_800.jpg](https://homin.dev/asset/blog/img/nightshift_side_numplate_right_800.jpg)
+![nightshift_side_numplate_left_800.jpg](https://asset.homin.dev/blog/img/nightshift_side_numplate_right_800.jpg)
 
 2기통 엔진이기 때문에, 쌍발 머플러가 달려 있습니다.
 
@@ -105,7 +105,7 @@ tags:
 도시락통은 잘 안 보이게 디자인되어있고, 듀얼 머플러라서 예뻐요.
 
 ## 로고
-![nightshift_scrambler_logo_800.jpg](https://homin.dev/asset/blog/img/nightshift_scrambler_logo_800.jpg)
+![nightshift_scrambler_logo_800.jpg](https://asset.homin.dev/blog/img/nightshift_scrambler_logo_800.jpg)
 
 스크램블러는 같은 베이스를 여러 변형으로 우려먹고 있는 모델입니다.
 오랫동안 이어져 왔기 때문에 완성도가 높고, 정비용 부품도 계속 나올 것 같은데...
@@ -115,7 +115,7 @@ tags:
 이건 실물로 보면 더 예뻐요.
 
 ## 브레이크
-![nightshift_break_800.jpg](https://homin.dev/asset/blog/img/nightshift_break_800.jpg)
+![nightshift_break_800.jpg](https://asset.homin.dev/blog/img/nightshift_break_800.jpg)
 
 브레이크의 명가 브렘보 브레이크가 기본으로 달려 있습니다.
 그들만의 리그라는 거 알지만 비싸다고 하고 예뻐요.

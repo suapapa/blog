@@ -83,7 +83,7 @@ brother_ql \
     label.png # 인쇄할 이미지 파일 
 ```
 
-![ql-800.jpg](https://homin.dev/asset/blog/img/ql-800.jpg)
+![ql-800.jpg](https://asset.homin.dev/blog/img/ql-800.jpg)
 
 > 넓이가 696px이 아닌경우 알아서 resize하는건 좋은데, 파이썬은 느리므로, 왠만하면
 > 넓이를 맞춰 이미지를 준비하세요.
@@ -125,7 +125,7 @@ gin을 사용해 `POST`로 `/v1/order` EP 에 JSON 형태로 다음과 같이 �
 출력하게 하였고, 큰 출력물을 뽑으면 속도가 매우 느려지므로 최대한 공간을 효율적으로
 쓰게 주소줄을, WordWrap 하면서, 재배치 하게 했습니다.
 
-![ql-800_address_label.jpg](https://homin.dev/asset/blog/img/ql-800_address_label.jpg)
+![ql-800_address_label.jpg](https://asset.homin.dev/blog/img/ql-800_address_label.jpg)
 
 > 라벨의 접착력이 정말 좋습니다. 빨간색은 전 필요 없어서,
 > 62mm 검정 라벨을 좀 더 사야 될 것 같네요.

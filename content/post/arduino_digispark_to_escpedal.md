@@ -21,7 +21,7 @@ OSHW 이기 때문에 Aliexpress에서 호환 보드를 쉽고 싸게 구할 수
 
 입력 핀 테스트 결과 내장 pull-up 따위는 없나 보더군요.
 
-![esc_pedal_1](https://homin.dev/asset/blog/img/digispark_esc_sch.jpg)
+![esc_pedal_1](https://asset.homin.dev/blog/img/digispark_esc_sch.jpg)
 
 10k ohm 으로 달아 줍니다. 회로도에서 P1은 P0와 바뀌었습니다.
 
@@ -50,7 +50,7 @@ digispark의 예제를 참조해 작성된 스케치 코드는 다음과 같습�
 공업용 미싱 페달 (옥션에서 구입) 을 5mm 잭으로 연결했습니다.
 케이스는 압정통을 사용해 만들어 줬습니다.
 
-![esc_pedal_2](https://homin.dev/asset/blog/img/digispark_esc_pedal.jpg)
+![esc_pedal_2](https://asset.homin.dev/blog/img/digispark_esc_pedal.jpg)
 
 vi/vim 을 사용하시는 분들 ESC 페달 정말 편해요.
 하나씩 마련하세요!

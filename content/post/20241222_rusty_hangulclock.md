@@ -10,7 +10,7 @@ featured_image: ""
 description: ""
 ---
 
-![rusty_hangulclock_00_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_00_1024.jpg)
+![rusty_hangulclock_00_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_00_1024.jpg)
 
 [지난 번에 완성한 한글시계](https://homin.dev/blog/post/20221009_hangulclock_is_re-written_in_golang/) 에 몇가지 아쉬운 점이 있어
 처음부터 새로 만들어 봤습니다. 바뀐 점은 다음과 같습니다.
@@ -32,43 +32,43 @@ description: ""
 
 우선 패널의 패딩을 포함하여 전체 크기를 예측해 보았습니다.
 
-![rusty_hangulclock_01_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_01_1024.jpg)
+![rusty_hangulclock_01_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_01_1024.jpg)
 
 크리스 마스 트리 장식에 사용하려고 구매한 5M 150ea LED 스트립의 LED 간격을 재 보니
 33mm 로 5x5의 한글시계를 만들었을 패널 크기가 165mmx165mm 로 적당했습니다.
 
-![rusty_hangulclock_02_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_02_1024.jpg)
+![rusty_hangulclock_02_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_02_1024.jpg)
 
 3D 프린터가 감당할 수 있는 크기입니다.
 
-![rusty_hangulclock_03_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_03_1024.jpg)
+![rusty_hangulclock_03_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_03_1024.jpg)
 
 모든 3D 디자인은 OpenScad를 사용해 서포트 없이 출력할수 있게 했습니다.
 
-![rusty_hangulclock_04_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_04_1024.jpg)
+![rusty_hangulclock_04_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_04_1024.jpg)
 
 PETG가 반투명이라 빛 샘 현상을 막기 위해 내부를 은색으로 도색했습니다.
 
-![rusty_hangulclock_05_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_05_1024.jpg)
+![rusty_hangulclock_05_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_05_1024.jpg)
 
 LED 스트립은 그림과 같이 지그재그로 연결했습니다. 4선의 Dotstar 말고 3선의 NeoPixel 스트랩을 샀으면 납땜을 덜 할 수 있어서 좋았을 걸 했습니다.
 
-![rusty_hangulclock_06_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_06_1024.jpg)
+![rusty_hangulclock_06_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_06_1024.jpg)
 
 LED 패널의 뒷면에는 OLED와 ESP32S2 보드를 장착했습니다. RaspberryPi 같은 SBC는 아무것도 안해도 5V 2A 를 사용하는데 ESP32S2는 MCU라 조명 다 키고 OLED 까지 켜져 있어도 5V 100mA 도 채 사용하지 않더라구요. 허허
 
 부팅도 SBC와 달리 똑딱 되서 역시 간단한 어플리케이션에는 MCU가 답이구나 했습니다.
 SBC가격만 몇 만원 하던 것에서 MCU를 사용하면 몇 천원으로 비용도 대폭 절감됩니다.
 
-![rusty_hangulclock_07_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_07_1024.jpg)
+![rusty_hangulclock_07_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_07_1024.jpg)
 
 안 터지나 테스트 해 보고,
 
-![rusty_hangulclock_08_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_08_1024.jpg)
+![rusty_hangulclock_08_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_08_1024.jpg)
 
 전면 패널은 2mm 투명 아크릴판 두 장 사이에 OHP 필름으로 인쇄한 한글시계의 5x5 배결을 두 장 (한 장만 사용하니 빛이 새더라고요), 빈 A4용지 하나를 겹쳐 저렴하면서도 완성도를 높일 수 있었습니다. 
 
-![rusty_hangulclock_09_1024.jpg](https://homin.dev/asset/blog/img/rusty_hangulclock_09_1024.jpg)
+![rusty_hangulclock_09_1024.jpg](https://asset.homin.dev/blog/img/rusty_hangulclock_09_1024.jpg)
 
 완성된 모습. 편안~
 

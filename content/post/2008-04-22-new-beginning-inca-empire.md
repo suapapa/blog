@@ -17,13 +17,13 @@ tags:
 ---
 작년 이맘때 용산역에서?만난 Inca Empire?입니다.?
 
-![](https://asset.homin.dev/blog/2008/04/imgp8142.jpg)
+![](https://asset.homin.dev/blog/2008/04/imgp8142.webp)
 
 
 
 저는 음악CD를 거의 사지 않는 편이지만, 길거리 음악가를 만나면 -그리고 CD를 팔면- 홀린 듯이 사게 됩니다. -_-;
 
-![](https://asset.homin.dev/blog/2008/04/imgp9397.jpg)
+![](https://asset.homin.dev/blog/2008/04/imgp9397.webp)
 
 이 엘범을 들어보신 분 계신가요? 레어라능. 오덕오덕.
 

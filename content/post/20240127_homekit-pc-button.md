@@ -43,7 +43,7 @@ ESP32는 모듈을 아두이노 보드와 같은 형태로 다양한 업체에�
 PC의 전원버튼은 일종의 푸쉬버튼으로 메인보드의 두 핀을 일시적으로 연결해 주는 역활을 합니다.
 해서 다음과 같이 쓱싹쓱싹 컨셉을 그려봤습니다.
 
-![homekit-pc-button_concept_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_concept_800.jpg)
+![homekit-pc-button_concept_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_concept_800.webp)
 
 뭐가 많이 있지만 ESP32에서 나오는 출력은 릴레이로 가는 선 뿐이며, ESP32보드가 제어하는 릴레이가 발 대신
 메인보드의 전원핀을 연결해 줍니다.
@@ -57,12 +57,12 @@ PC의 전원버튼은 일종의 푸쉬버튼으로 메인보드의 두 핀을 �
 전자공작에는 작은 부품들이 많이 사용되기 때문에 종류별로 모아놓았던 통에서
 꺼내어 작은 박스같은곳에 이 프로젝트를 위한 부품들을 모아두면 관리하기 좋습니다.
 
-![homekit-pc-button_components_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_components_800.jpg)
+![homekit-pc-button_components_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_components_800.webp)
 
 오른쪽의 3핀 모듈을 3V3 레귤레이터인데 다 만들고 생각해보니 ESP 개발보드가 5V입력을 받아도
 자체적으로 3V3으로 낮추며, 마이컴 외에 전류가 추가로 들어갈 곳도 딱히 없어서 불필요 했었네요.
 
-![homekit-pc-button_assembly_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_assembly_800.jpg)
+![homekit-pc-button_assembly_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_assembly_800.webp)
 
 자주 하면 예쁘게 만들 수 있겠지만, 저는 와이어링을 배운적이 없으므로 되는 대로 합니다.
 
@@ -76,7 +76,7 @@ PC가 꺼져있는 상태에서 본체 내부에서 5V 전원을 얻는 방법�
 구글링한 결과 전선을 탈피하지 않고 연결할 수 있는 T자형 클립이 있다는 걸 알게 되어,
 ATX 파워의 5VSB(StandBy) 전원을 사용할 수 있었습니다.
 
-![homekit-pc-button_5vsb_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_5vsb_800.jpg)
+![homekit-pc-button_5vsb_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_5vsb_800.webp)
 
 요즘 파워는 미관상의 이유인지 전선의 종류를 더이상 색으로 구분하지 않고 죄다 검은색이라,
 제 위치를 확인 또 확인하느라 애를 먹었습니다.
@@ -86,14 +86,14 @@ ATX 파워의 5VSB(StandBy) 전원을 사용할 수 있었습니다.
 
 먼저 전원을 넣고, 뭔가 타지 않는지 테스트 해 봅니다.
 
-![homekit-pc-button_test_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_test_800.jpg)
+![homekit-pc-button_test_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_test_800.webp)
 
 잘 되네요.
 
 폼보드에 글루건으로 고정하고, 케이스에는 듀얼락이라는 벨크로 스티커(잘 고정되고 서로 떼기도 쉽습니다)를
 사용해 자리잡아 줬습니다.
 
-![homekit-pc-button_install_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_install_800.jpg)
+![homekit-pc-button_install_800.jpg](https://asset.homin.dev/blog/img/homekit-pc-button_install_800.webp)
 
 그럼, 동작하는것 보시죠. 편안~
 

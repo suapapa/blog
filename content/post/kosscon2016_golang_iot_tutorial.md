@@ -123,12 +123,12 @@ Run it from target:
 
 ## Blinking LEDs
 
-![Rpi Pinout](https://asset.homin.dev/blog/img/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png)
+![Rpi Pinout](https://asset.homin.dev/blog/img/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.webp)
 
 Wiring a LED to pin 13 and GND
 
-![grnled_01](https://asset.homin.dev/blog/img/grnled_01.jpg)
-![grnled_02](https://asset.homin.dev/blog/img/grnled_02.jpg)
+![grnled_01](https://asset.homin.dev/blog/img/grnled_01.webp)
+![grnled_02](https://asset.homin.dev/blog/img/grnled_02.webp)
 
 ### Write a program to blink a LED
 
@@ -207,8 +207,8 @@ select `9 Advanced Options -> A7 I2C -> YES`
     CLK  - SCL
     RES  - 3V3
 
-![oled_01](https://asset.homin.dev/blog/img/oled_01.jpg)
-![oled_02](https://asset.homin.dev/blog/img/oled_02.jpg)
+![oled_01](https://asset.homin.dev/blog/img/oled_01.webp)
+![oled_02](https://asset.homin.dev/blog/img/oled_02.webp)
 
 Check the connection
 
@@ -229,7 +229,7 @@ Check the connection
     70: -- -- -- -- -- -- -- --
 
 ### Write a program to display a Gopher on the Display
-![oled_03](https://asset.homin.dev/blog/img/oled_03.jpg)
+![oled_03](https://asset.homin.dev/blog/img/oled_03.webp)
 
 Install depecdency packages:
 

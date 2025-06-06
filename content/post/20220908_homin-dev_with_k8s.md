@@ -8,7 +8,7 @@ tags:
 toc: true
 ---
 
-![homin-dev](https://asset.homin.dev/blog/img/homin-dev.png)
+![homin-dev](https://asset.homin.dev/blog/img/homin-dev.webp)
 
 ## 배경
 
@@ -51,7 +51,7 @@ DNSEver 서비스의 리다이렉션 서비스(유로)로 GH-Pages들로 이동�
 
 거기서는 GKE를 기준 매달 약 $18를 예상했고, 제가, 조금 더 허리띠를 졸라 뽑아본 예상은 다음과 같습니다.
 
-![homin-dev_gke_price_estimation](https://asset.homin.dev/blog/img/homin_dev_gke_price_estimation.png)
+![homin-dev_gke_price_estimation](https://asset.homin.dev/blog/img/homin_dev_gke_price_estimation.webp)
 
 월 만원이 안된다고? 솔깃해서 해보기로 했습니다.
 
@@ -113,7 +113,7 @@ http리다이렉션, http리버스프록시, TCP-TLS-to-TCP 포트 포워딩 등
 
 자체 대문 페이지와 404페이지도 있고요.
 
-![homin-dev_k8s](https://asset.homin.dev/blog/img/homin-dev_k8s.jpg)
+![homin-dev_k8s](https://asset.homin.dev/blog/img/homin-dev_k8s.webp)
 
 이 사이트를 위해 작성한 코드는 다음 위치에 있습니다.
 

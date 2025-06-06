@@ -17,11 +17,11 @@ tags:
 ---
 USB 시리얼 변환 보드를 만들었습니다.? 저는 USB to Serial 케이블에 데인 적이 있어서 시리얼 포트가 있으면 그걸 사용하는 편인데, USB Arduino에 사용된 FT232RL칩의 -잘 된다는- 명성에 혹해 USB 시리얼에 발을 들여 놓게 되었습니다.
 
-![](https://asset.homin.dev/blog/2008/10/ft232rl_singleside_breakout.png)
+![](https://asset.homin.dev/blog/2008/10/ft232rl_singleside_breakout.webp)
 
 
 
-![](https://asset.homin.dev/blog/2008/10/ft232rl_singleside_breakout_sch.jpg)
+![](https://asset.homin.dev/blog/2008/10/ft232rl_singleside_breakout_sch.webp)
 
   * **[download sch&brd (이글캐드)][1]**
 
@@ -33,15 +33,15 @@ USB 시리얼 변환 보드를 만들었습니다.? 저는 USB to Serial 케이�
   * single side (and no jumping wire!)
 
 네! 물론 다림질 에칭 PCB용으로 만든 것 입니다. 완성품의 사진을 보시죠.  
-![](https://asset.homin.dev/blog/2008/09/imgp4743.jpg)
+![](https://asset.homin.dev/blog/2008/09/imgp4743.webp)
 
 > 무턱대고 만들었던 시리얼 변환 보드(왼쪽)에 비해 크기도 작고 부품도 예쁘게 배치 되었습니다.
 
-![](https://asset.homin.dev/blog/2008/09/imgp4748.jpg)
+![](https://asset.homin.dev/blog/2008/09/imgp4748.webp)
 
 > 5V, GND, RX, TX 케이블은 구형 PC케이스에서 떼어넨 USB? 케이블을 사용했습니다. 딱이야!
 
-![](https://asset.homin.dev/blog/2008/09/imgp4749.jpg)
+![](https://asset.homin.dev/blog/2008/09/imgp4749.webp)
 
 > 단면 기판이므로 FT232RL은 밑 부분에 있습니다.
 

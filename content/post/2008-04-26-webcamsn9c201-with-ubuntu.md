@@ -47,6 +47,6 @@ tags:
 
 camorama 를 설치하고 실행 해 봅니다. 짜잔~!!
 
-![](https://asset.homin.dev/blog/2008/04/sn9c201_in_action.jpg)
+![](https://asset.homin.dev/blog/2008/04/sn9c201_in_action.webp)
 
  [1]: http://www.ubuntu.or.kr/viewtopic.php?f=9&t=118

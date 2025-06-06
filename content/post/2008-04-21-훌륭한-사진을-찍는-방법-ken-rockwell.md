@@ -25,7 +25,7 @@ Ken Rockwell의 홈페이지와 그의 "훌륭한 사진을 찍는 방법"을 �
 
 
 
-[![](https://asset.homin.dev/blog/2008/04/kenrockwell_site.jpg)](http://kenrockwell.com/)
+[![](https://asset.homin.dev/blog/2008/04/kenrockwell_site.webp)](http://kenrockwell.com/)
 
 > 플레쉬나 AJAX가 없이도 멋진 -그리고 유쾌한!- 구도를 가진 홈페이지 입니다. 위의 사진을 클릭하면 그의 홈페이지로 이동 합니다.
 

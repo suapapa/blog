@@ -34,7 +34,7 @@ Suapapa's blog의 모든 내용(댓글 제외)는 지금 보고 계신 Homin Lee
 
 Blogger로 찾아가 보니 이 꼬라지더군요.
 
-![suapapas-blog_broken](https://asset.homin.dev/blog/img/suapapas-blog_broken.png)
+![suapapas-blog_broken](https://asset.homin.dev/blog/img/suapapas-blog_broken.webp)
 
 > 구글이 무료 스토리지 정책을 철회하면서 이렇게 모든 사진이 깨졌던 것 같습니다.
 > 공짜가 다 그렇죠 뭐.
@@ -138,7 +138,7 @@ docker compose up
 
 Wordpress 가져오기로 가져와 보니... 짜잔! 살아났습니다! 댓글까지 다 살아있더라구요!!
 
-![suapapas-blog_wp_restore](https://asset.homin.dev/blog/img/suapapas-blog_wp_restore.png)
+![suapapas-blog_wp_restore](https://asset.homin.dev/blog/img/suapapas-blog_wp_restore.webp)
 
 옛 추억을 떠 올리면서 테마도 바꿔보고, 사용하던 플러그인도 설치해 보고...
 그런데 `docker compose down` -> `up`을 해 보면 플러그인과 테마가 초기화 되네요?

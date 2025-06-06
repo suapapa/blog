@@ -10,7 +10,7 @@ description: ""
 toc: true
 ---
 
-![suapapa_wiki](https://asset.homin.dev/blog/img/suapapa_wiki.png)
+![suapapa_wiki](https://asset.homin.dev/blog/img/suapapa_wiki.webp)
 
 ## 배경
 

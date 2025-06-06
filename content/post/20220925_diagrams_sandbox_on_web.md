@@ -18,7 +18,7 @@ toc: true
 
 코드로 인프라 다이어그램을 웹에서 그려볼 수 있게 꾸려봤습니다.
 
-![dsb_screenshot.png](https://asset.homin.dev/blog/img/dsb_screenshot.png)
+![dsb_screenshot.png](https://asset.homin.dev/blog/img/dsb_screenshot.webp)
 
 - 바로 [해보러가기](https://homin.dev/dsb/)
 
@@ -61,7 +61,7 @@ GCP에서는 노드에 이 기능을 켤 수 있기 때문에 바로 사용...
 - https://github.com/suapapa/diagrams_be
 - https://github.com/suapapa/diagrams_fe
 
-![dsb.png](https://asset.homin.dev/blog/img/dsb.png)
+![dsb.png](https://asset.homin.dev/blog/img/dsb.webp)
 
 위 저장소의 순서대로 설명하면;
 
@@ -125,7 +125,7 @@ Python은, 스트립트 언어라 당연히, lazy import 가 가능하더라구�
 
 Diagrams Sandbox 는 다음과 같이 구성되어 클러스터에 올라가 있습니다.
 
-![dsb_on_cloud.png](https://asset.homin.dev/blog/img/dsb_on_cloud.png)
+![dsb_on_cloud.png](https://asset.homin.dev/blog/img/dsb_on_cloud.webp)
 
 API서버(BE)의 주소도 퍼블릭에서 바로 접근할 수 있지만 불허합니다.
 

@@ -13,7 +13,7 @@ categories:
   - Noti
 
 ---
-[![](https://asset.homin.dev/blog/image/sua_in_adafruit.png)][1] 
+[![](https://asset.homin.dev/blog/image/sua_in_adafruit.webp)][1] 
 
 ada
 

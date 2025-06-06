@@ -18,7 +18,7 @@ tags:
 ---
 메리크리스마스~ 🙂
 
-![](https://asset.homin.dev/blog/image/SSUA_in_tin.jpg)
+![](https://asset.homin.dev/blog/image/SSUA_in_tin.webp)
 
 > 짜잔~
 
@@ -26,7 +26,7 @@ tags:
 
 
 
-![](https://asset.homin.dev/blog/image/SSUA_btm.jpg)
+![](https://asset.homin.dev/blog/image/SSUA_btm.webp)
 
 Serial2USB 칩으로는 (FT232RL대신) FT232BL을 사용했습니다. BL이 외부 부품이 더 많이 필요하지만
 
@@ -34,7 +34,7 @@ Serial2USB 칩으로는 (FT232RL대신) FT232BL을 사용했습니다. BL이 외
 
 > 우분투 리눅스에서는  이 칩도 드라이버 추가 설치 없이 착! 하고 인식되네요.
 
-![](https://asset.homin.dev/blog/image/SSUA_top.jpg)
+![](https://asset.homin.dev/blog/image/SSUA_top.webp)
 
 단면기판으로 작게 만들다보니까 외장 전원을 위한 부품들은 제외되었습니다. 해서, 일단은 Beta 상태로, 짬 되는 대로  정리하여 보도록 하겠습니다. 🙂
 

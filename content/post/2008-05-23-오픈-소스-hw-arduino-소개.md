@@ -42,11 +42,11 @@ PCB를 직접 만들 수 있다는 걸 알고 있었기에 궁금해서 해보�
 
 > 레이져 프린터로 PCB도면을 1:1로 뽑아 동판에 두고, 다리미로 눌러 줍니다.
 
-![](https://asset.homin.dev/blog/2008/05/imgp0004.jpg)
+![](https://asset.homin.dev/blog/2008/05/imgp0004.webp)
 
 > 실패 -_-;
 
-![](https://asset.homin.dev/blog/2008/05/imgp0008.jpg)
+![](https://asset.homin.dev/blog/2008/05/imgp0008.webp)
 
 ㅎㅎ. 처음 해보는 거라 잘 안되네요. 이미 어려운 길로 가려고 부품도 다 준비해 뒀으므로 여기부터는 -성공하면- 따로 포스팅해 보도록 하겠습니다. 🙂
 

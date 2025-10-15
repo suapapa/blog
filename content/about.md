@@ -8,7 +8,7 @@ type: page
 
 ---
 
-![AKA suapap](https://asset.homin.dev/blog/image/suapapa.png)
+![AKA suapap](https://asset.homin.dev/blog/image/suapapa.webp)
 
 이 블로그에는 취미로 하는 개발, 오토바이, 3D프린팅, 전자공작 등 업무와는 무관한 다양한 주제를 다루고 있습니다.
 - 업무 관련 내용은 [이력서](https://homin.dev/resume)를 통해 확인하실 수 있습니다.

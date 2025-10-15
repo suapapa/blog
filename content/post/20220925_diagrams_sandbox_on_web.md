@@ -14,7 +14,7 @@ description: ""
 toc: true
 ---
 
-> 요즘 누가 다이어그램 손으로 그리나요? [#그게나야](https://asset.homin.dev/blog/img/homin-dev_k8s.jpg)
+> 요즘 누가 다이어그램 손으로 그리나요? [#그게나야](https://asset.homin.dev/blog/img/homin-dev_k8s.webp)
 
 코드로 인프라 다이어그램을 웹에서 그려볼 수 있게 꾸려봤습니다.
 

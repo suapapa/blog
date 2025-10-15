@@ -10,7 +10,7 @@ description: ""
 toc: true
 ---
 
-[도메인을 와장창 구매](https://asset.homin.dev/blog/img/20220903_homin-dev_domain_godday.png)하고,
+[도메인을 와장창 구매](https://asset.homin.dev/blog/img/20220903_homin-dev_domain_godday.webp)하고,
 GKE에 k8s 클러스터를 꾸리고 [개인사이트](https://homin.dev/blog/post/20220908_homin-dev_with_k8s/)를 만들기
 시작한 지 한 달이 지나가고 있습니다.
 
@@ -74,7 +74,7 @@ Go 언어의 template 패키지를 사용한 서버 사이드 렌더링입니다
 지인 총동원해도 답이 없던 차에, 참고하려고 블로그의 HTML을 보다가 [Tachyons](http://tachyons.io/)을 알게 되었습니다.
 간단히 설명하면 태그의 class에 미리 정한 특성들을 나열해 코드로 웹을 디자인하는 프로젝트입니다.
 
-뚝딱! 반나절 만에 [현재의 모습](https://asset.homin.dev/blog/img/20220930_homin-dev_ingress.png)이 완성되었습니다.
+뚝딱! 반나절 만에 [현재의 모습](https://asset.homin.dev/blog/img/20220930_homin-dev_ingress.webp)이 완성되었습니다.
 
 > CSS는 결국 1도 손대지 않았습니다.
 
@@ -111,7 +111,7 @@ k delete pods --field-selector status.phase=Failed -A
 ## GKE 월 비용 대 공개!
 
 각설하고 비용 공개합니다.
-[만원이 안 될 거라는 예상](https://asset.homin.dev/blog/img/homin_dev_gke_price_estimation.png)은 빗나갔습니다.
+[만원이 안 될 거라는 예상](https://asset.homin.dev/blog/img/homin_dev_gke_price_estimation.webp)은 빗나갔습니다.
 
 ### 일 평균 비용
 

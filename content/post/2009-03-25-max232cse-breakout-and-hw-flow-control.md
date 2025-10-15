@@ -66,5 +66,5 @@ PuTTY에서 시리얼 하드웨어 흐름제어를 설정하려면 다음 이미
 그럼, 방법은 다음 포스트에서&#8230;
 
  [1]: https://homin.dev/svn/HW/breakout/max232_breakout
- [2]: https://asset.homin.dev/blog/2008/07/arduinobk_sketch_loading.jpg
+ [2]: https://asset.homin.dev/blog/2008/07/arduinobk_sketch_loading.webp
  [3]: http://www.chiark.greenend.org.uk/~sgtatham/putty/

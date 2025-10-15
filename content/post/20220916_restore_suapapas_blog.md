@@ -99,7 +99,7 @@ replace github.com/gokyle/filecache => github.com/suapapa/filecache v0.0.2
 이 걸 사용해 457개의 사진 및 리소스를 이렇게 다시 온라인 성공 했습니다. 예)
 
 - 구 링크(404): http://www.suapapa.net/wordpress/wp-content/uploads/image/suapapa.jpg
-- 새 링크: https://asset.homin.dev/blog/image/suapapa.jpg
+- 새 링크: https://asset.homin.dev/blog/image/suapapa.webp
 
 ## Blogger 링크 수정 시도 -> 실패
 

@@ -19,7 +19,7 @@ tags:
 > 즉! 뽑기!!
 
 네&#8230; 뽑기에 소질이없어서&#8230; 또 꽝 뽑아습니다. -_-;;  
-![](https://asset.homin.dev/blog/2008/04/sn9c201onubuntu.jpg" hspace="5)
+![](https://asset.homin.dev/blog/2008/04/sn9c201onubuntu.webp" hspace="5)
 
 
 

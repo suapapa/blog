@@ -62,7 +62,7 @@ Szekeres 앰프를 선택한 이유는 다음 게시물에서의 극찬과 적�
   * 주인공인 MOSFET들이 잘 안 보인다.
   * 세라믹 콘덴서들은 좀 안 보였으면 좋겠다.
 
-[![](https://asset.homin.dev/blog/2008/10/skekeresamp_all.webp)](https://homin.dev/svn/HW/SzekeresAmp/SkekeresAmp_ALL.png)  
+[![](https://asset.homin.dev/blog/2008/10/skekeresamp_all.webp)](https://homin.dev/svn/HW/SzekeresAmp/SkekeresAmp_ALL.webp)  
 아쉬운 부분들을 수정 해 봤습니다. 회로도와 PCB 파일이 필요하신 분은 아래의 링크에서 받아가세요.
 
   * [회로도, 아트웍 다운로드(Svn Repo) ](https://homin.dev/svn/HW/SzekeresAmp)-EagleCad 파일

@@ -6,9 +6,8 @@ FROM ghcr.io/gohugoio/hugo:v0.152.2 AS builder
 
 WORKDIR /src
 ENV HUGO_ENV=production
-WORKDIR /src/
 COPY . .
-RUN rm -rf public
+# RUN rm -rf public
 # RUN hugo --minify
 RUN /usr/bin/hugo build
 

@@ -1,14 +1,16 @@
-FROM hugomods/hugo:0.146.7 AS builder
+# FROM hugomods/hugo:0.146.7 AS builder
+FROM ghcr.io/gohugoio/hugo:v0.152.2 AS builder
 
 # RUN git clone https://github.com/gohugoio/hugo.git
 # RUN cd hugo && go install --tags extended
 
 WORKDIR /src
 ENV HUGO_ENV=production
+WORKDIR /src/
 COPY . .
 RUN rm -rf public
 # RUN hugo --minify
-RUN hugo
+RUN /usr/bin/hugo build
 
 # ---
 

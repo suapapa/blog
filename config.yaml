@@ -1,7 +1,7 @@
 # baseurl: homin.dev
 relativeURLs: true
 canonifyURLs: true
-copyright: Homin Lee &lt;ff4500@gmail.com&gt;; All rights reserved
+copyright: Homin Lee &lt;homin.crc@gmail.com&gt;; All rights reserved
 languageCode: ko
 title: Homin Lee's blog
 theme:

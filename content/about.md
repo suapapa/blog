@@ -1,11 +1,10 @@
 ---
 title: About Me
-featured_image: ''
-# omit_header_text: true
-# description: We'd love to hear from you
+description: "Homin Lee(suapapa) 소개 - 개발, 오토바이, 3D프린팅, 전자공작 등 취미 해킹과 일상을 다루는 개인 블로그"
+featured_image: 'https://asset.homin.dev/blog/image/suapapa.webp'
+cover:
+  image: 'https://asset.homin.dev/blog/image/suapapa.webp'
 type: page
-# menu: main
-
 ---
 
 ![AKA suapap](https://asset.homin.dev/blog/image/suapapa.webp)
@@ -15,4 +14,4 @@ type: page
 
 2008년부터 개인 사이트 `suapapa.net`을 운영해 왔으며, 2022년에 현재의 도메인으로 이전하였습니다.
 
-이 사이트에 게시된 모든 글과 사진의 저작권은 저에게 있으며, 개인적인 문의는 사이트 하단의 저작권 정보에 기재된 [메일](mailto:homin.crc+contact@gmail.com)로 연락 주시기 바랍니다.
+이 사이트에 게시된 모든 글과 사진의 저작권은 저에게 있으며, 개인적인 문의는 사이트 하단의 저작권 정보에 기재된 [메일](mailto:i@homin.dev)로 연락 주시기 바랍니다.

@@ -1,28 +1,59 @@
-# baseurl: homin.dev
-relativeURLs: true
-canonifyURLs: true
-copyright: Homin Lee &lt;homin.crc@gmail.com&gt;; All rights reserved
-languageCode: ko
-title: Homin Lee's blog
+baseURL: "https://homin.dev/blog/"
+relativeURLs: false
+canonifyURLs: false
+enableRobotsTXT: true
+copyright: "Homin Lee <i@homin.dev>; All rights reserved"
+defaultContentLanguage: ko
+languageCode: ko-kr
+locale: ko
+title: "Homin Lee's blog"
 theme:
   - PaperMod
-  # - github.com/theNewDynamic/gohugo-theme-ananke
-
-# pagenation:
-#   paperSize: 5
 
 taxonomies:
   tag: tags
 
-# minify:
-#   disableXML: true
-#   minifyOutput: true
+outputFormats:
+  llms:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+    notAlternative: true
+  llmsFull:
+    mediaType: text/plain
+    baseName: llms-full
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - llms
+    - llmsFull
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
+  env: production
   author: Homin Lee
-  title: Homin Lee's blog
-  description: Arbitrary hacking logs
-  enableRobotsTXT: true
+  title: "Homin Lee's blog"
+  description: "Homin Lee(suapapa)의 기술 블로그 - 개발, 인공지능(AI/LLM), Go, Python, 임베디드, 3D 프린팅 등 다양한 취미 해킹 기록"
+  keywords:
+    - 개발
+    - 소프트웨어
+    - AI
+    - LLM
+    - Golang
+    - Python
+    - 3D프린팅
+    - 전자공작
+    - 임베디드
+    - Homin Lee
+    - suapapa
   showtoc: true
   tocopen: false  
   # UseHugoToc: true
@@ -34,13 +65,24 @@ params:
   analytics:
     google:
       SiteVerificationTag: "GTM-TDBD9KS9"
-  # socialIcons:
-  #   - name: x
-  #     url: "https://x.com/"
-  #   - name: stackoverflow
-  #     url: "https://stackoverflow.com"
-  #   - name: github
-  #     url: "https://github.com/"
+    naver:
+      SiteVerificationTag: ""
+    bing:
+      SiteVerificationTag: ""
+  schema:
+    publisherType: Person
+    sameAs:
+      - https://homin.dev
+      - https://homin.dev/resume
+      - https://github.com/suapapa
+      - mailto:i@homin.dev
+  socialIcons:
+    - name: github
+      url: "https://github.com/suapapa"
+    - name: email
+      url: "mailto:i@homin.dev"
+    - name: rss
+      url: "https://homin.dev/blog/index.xml"
 
 menu:
   main:
@@ -56,6 +98,3 @@ menu:
       name: homin.dev
       url: https://homin.dev
       weight: 30
-
-# ignoreLogs:
-#   - warning-goldmark-raw-html

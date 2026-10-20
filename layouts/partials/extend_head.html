@@ -1,0 +1,15 @@
+{{- /* GEO / AI Agent context link */ -}}
+<link rel="alternate" type="text/plain" href="{{ "llms.txt" | absURL }}" title="LLMs.txt">
+<link rel="alternate" type="text/plain" href="{{ "llms-full.txt" | absURL }}" title="LLMs-full.txt">
+<link rel="help" type="text/plain" href="{{ "llms.txt" | absURL }}" title="LLMs Context">
+
+{{- /* Enhanced Rich Snippets Directive for Search & AI Engines */ -}}
+<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+{{- /* Fallback Open Graph & Twitter Card Image if page has no cover/in-text images */ -}}
+{{- $hasCover := .Params.cover.image -}}
+{{- $hasInTextImg := partial "templates/_funcs/get-page-images" . -}}
+{{- if and (not $hasCover) (not $hasInTextImg) -}}
+<meta property="og:image" content="https://asset.homin.dev/blog/img/blog_front_2_1024.webp">
+<meta name="twitter:image" content="https://asset.homin.dev/blog/img/blog_front_2_1024.webp">
+{{- end -}}

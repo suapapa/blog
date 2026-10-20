@@ -1,0 +1,23 @@
+# {{ site.Title }} - Full Archive
+
+> {{ site.Params.description }}
+
+- Author: {{ site.Params.author }} (suapapa)
+- Site: {{ site.BaseURL }}
+- About: {{ "about/" | absURL }}
+- Resume: https://homin.dev/resume
+- GitHub: https://github.com/suapapa
+- RSS: {{ "index.xml" | absURL }}
+
+## Blog Overview
+Homin Lee (suapapa)의 개인 기술 블로그 전체 글 색인입니다. 2008년부터 작성된 소프트웨어, 오픈소스, AI, 임베디드, 메이커 활동 아카이브를 제공합니다.
+
+## Complete Posts Archive
+{{ range (where site.RegularPages "Type" "post") -}}
+### [{{ .Title }}]({{ .Permalink }})
+- Date: {{ .Date.Format "2006-01-02" }}
+- URL: {{ .Permalink }}
+{{ with .Params.tags }}- Tags: {{ delimit . ", " }}{{ end }}
+- Summary: {{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}
+
+{{ end }}

@@ -1,0 +1,23 @@
+# {{ site.Title }}
+
+> {{ site.Params.description }}
+
+- Author: {{ site.Params.author }} (suapapa)
+- Site: {{ site.BaseURL }}
+- About: {{ "about/" | absURL }}
+- Resume: https://homin.dev/resume
+- GitHub: https://github.com/suapapa
+- RSS: {{ "index.xml" | absURL }}
+
+## About
+Homin Lee (suapapa)의 개인 기술 블로그입니다. 2008년부터 현재까지의 소프트웨어 개발(Go, Python, AI/LLM, Web), 임베디드 시스템, 3D 프린팅, 전자공작, 오토바이 라이딩 및 DIY 등 다양한 취미 해킹 기록을 다룹니다.
+
+## Key Sections & Topics
+- [All Posts]({{ "post/" | absURL }}): 전체 블로그 포스팅 아카이브
+- [Tags]({{ "tags/" | absURL }}): 주제별 태그 모음 (AI, LLM, Golang, Python, DIY 등)
+- [About Me]({{ "about/" | absURL }}): 저자 소개 및 사이트 소개
+
+## Recent Posts
+{{ range first 60 (where site.RegularPages "Type" "post") -}}
+- [{{ .Title }}]({{ .Permalink }}): {{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }} ({{ .Date.Format "2006-01-02" }})
+{{ end }}

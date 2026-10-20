@@ -1,0 +1,52 @@
+# Search Engine & Web Crawlers
+User-agent: *
+Disallow:
+
+# AI Search & Large Language Model Crawlers (GEO / CEO Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+# Major Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DaumOA
+Allow: /
+
+# Sitemaps & AI Context
+Sitemap: {{ "sitemap.xml" | absURL }}
+# LLMs context: {{ "llms.txt" | absURL }}
+# LLMs full archive: {{ "llms-full.txt" | absURL }}

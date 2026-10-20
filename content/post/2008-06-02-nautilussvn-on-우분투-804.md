@@ -9,7 +9,7 @@ dsq_thread_id:
 categories:
   - Linux
 tags:
-  - SVN
+  - svn
 
 ---
 NautilusSvn은 그놈-노틸러스 환경에서 사용할 수 있는, 윈도용 GUI SVN 클라이언트인 [TortoiseSvn][1]의 클론입니다.

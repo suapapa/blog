@@ -10,8 +10,8 @@ categories:
   - Programming
   - Wordpress
 tags:
-  - WP-plugin
-  - XML-RPC
+  - wp-plugin
+  - xml-rpc
   - 파이썬
 
 ---

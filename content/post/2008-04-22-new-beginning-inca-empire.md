@@ -12,7 +12,7 @@ categories:
   - Music
   - Wordpress
 tags:
-  - WP-plugin
+  - wp-plugin
 
 ---
 작년 이맘때 용산역에서?만난 Inca Empire?입니다.?

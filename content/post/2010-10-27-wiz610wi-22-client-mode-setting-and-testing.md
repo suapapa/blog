@@ -12,7 +12,7 @@ categories:
   - Arduino
 tags:
   - wifi
-  - WIZnet
+  - wiznet
   - 아두이노
   - 파이썬
 

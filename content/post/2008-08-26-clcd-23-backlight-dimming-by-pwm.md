@@ -9,8 +9,8 @@ dsq_thread_id:
 categories:
   - Arduino
 tags:
-  - CLCD
-  - PWM
+  - clcd
+  - pwm
   - 전자회로
 
 ---

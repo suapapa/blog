@@ -10,8 +10,8 @@ categories:
   - Arduino
   - DIY
 tags:
-  - ArduinoS3V3
-  - PCB
+  - arduinos3v3
+  - pcb
 
 ---
 이전 포스트에서 소개했던 대로 Arduino 공식 사이트에서는 H/W 소스들을 Open하고 직접 만들수 있는 방법을 제공합니다. 아래의 링크에서 회로도, PCB 설계도, 메뉴얼을 자유롭게 다운로드 할 수 있습니다.

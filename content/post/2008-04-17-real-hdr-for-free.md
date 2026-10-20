@@ -12,8 +12,8 @@ categories:
   - Camera
   - Programming
 tags:
-  - HDR
-  - UFRaw
+  - hdr
+  - ufraw
   - 파이썬
 
 ---

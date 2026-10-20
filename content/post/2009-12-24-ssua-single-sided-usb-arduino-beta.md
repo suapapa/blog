@@ -13,7 +13,7 @@ categories:
   - DIY
   - MyProject
 tags:
-  - EagleCad
+  - eaglecad
 
 ---
 메리크리스마스~ 🙂

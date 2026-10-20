@@ -9,10 +9,10 @@ dsq_thread_id:
 categories:
   - MyProject
 tags:
-  - EagleCad
+  - eaglecad
   - max232
-  - NEMO10
-  - PuTTY
+  - nemo10
+  - putty
   - 뻥이야
   - 시리얼
   - 전자회로

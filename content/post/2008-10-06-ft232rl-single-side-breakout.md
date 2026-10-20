@@ -10,8 +10,8 @@ categories:
   - Arduino
   - MyProject
 tags:
-  - EagelCad
-  - PCB
+  - eaglecad
+  - pcb
   - 전자회로
 
 ---

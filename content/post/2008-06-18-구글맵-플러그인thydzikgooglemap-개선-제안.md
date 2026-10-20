@@ -9,8 +9,8 @@ dsq_thread_id:
 categories:
   - Wordpress
 tags:
-  - GPS
-  - WP-plugin
+  - gps
+  - wp-plugin
 
 ---
 언제부터인가 제 블로그의 로딩이 눈에 띄게 느려졌었습니다. 원인을 찾아보니 구글맵을 붙이기 위해 설치한 [thydzikGoogleMap][1] 워드프레스 플러그인이 구글로 부터 필요한 스크립트를 가져오는 시간이 걸리더군요.

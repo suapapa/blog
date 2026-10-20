@@ -9,7 +9,7 @@ dsq_thread_id:
 categories:
   - Wordpress
 tags:
-  - WP-plugin
+  - wp-plugin
 
 ---
 <p style="text-align: center">

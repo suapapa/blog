@@ -9,7 +9,7 @@ dsq_thread_id:
 categories:
   - Arduino
 tags:
-  - ArduinoS3V3
+  - arduinos3v3
 
 ---
 Arduino는 시리얼 포트(혹은 USB)를 통해 -ISP가 없이- 프로그램을 심을 수 있습니다. 단 이걸 가능하게 하기 위해 최초 한번 ISP로 AVR에 부트로더를 심어야 합니다. 기 조립된 Arduino를 구입하셨다면 이미 부트로더가 심어져 있으므로 이 과정이 필요 없습니다.

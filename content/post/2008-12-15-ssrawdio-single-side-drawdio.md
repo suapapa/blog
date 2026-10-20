@@ -10,7 +10,7 @@ categories:
   - DIY
   - Music
 tags:
-  - EagleCad
+  - eaglecad
   - 악기
   - 전자회로
 

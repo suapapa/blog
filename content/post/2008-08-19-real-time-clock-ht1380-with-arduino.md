@@ -12,7 +12,7 @@ categories:
   - Arduino
   - MyProject
 tags:
-  - ArduinoLibrary
+  - arduinolibrary
 
 ---
 사실, 아두이노가 저렴한 이유는 주변장치들이 없기 때문입니다.  

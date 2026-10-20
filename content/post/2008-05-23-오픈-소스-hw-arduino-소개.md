@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Arduino
 tags:
-  - PCB
+  - pcb
 
 ---
 최근 파고 있는 Arduino(아르두이노)에 대해 포스팅 합니다. 무엇에 쓰는 물건!인지 궁금하신 분들을 위해 [공식 사이트][1]의 설명을 번역해 보면 다음과 같습니다.

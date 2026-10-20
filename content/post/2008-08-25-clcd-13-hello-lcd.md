@@ -10,8 +10,8 @@ categories:
   - Arduino
   - MyProject
 tags:
-  - ArduinoLibrary
-  - CLCD
+  - arduinolibrary
+  - clcd
 
 ---
 아두이노에 -폭탄 간지- 캐릭터LCD(이하 CLCD)를 붙여 보았습니다.

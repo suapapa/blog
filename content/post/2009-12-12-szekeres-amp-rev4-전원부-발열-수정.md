@@ -13,7 +13,7 @@ categories:
   - Music
   - MyProject
 tags:
-  - EagleCad
+  - eaglecad
   - 헤드폰엠프
 
 ---

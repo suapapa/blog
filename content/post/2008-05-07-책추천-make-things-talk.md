@@ -10,7 +10,7 @@ categories:
   - Arduino
   - Book
 tags:
-  - WP-plugin
+  - wp-plugin
 
 ---
 [genie 9780596510510]

@@ -2,3 +2,5 @@
 public/
 gh-pages/
 resources
+.hugo_build.lock
+*.bak
